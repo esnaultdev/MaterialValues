@@ -14,6 +14,15 @@
   ~ See the License for the specific language governing permissions and
   ~ limitations under the License.
   -->
+
 <resources>
+
+    <!-- Dark icons -->
+    <color name="material_icon_color_dark_active">#8A000000</color>   <!-- 54% opacity -->
+    <color name="material_icon_color_dark_inactive">#42000000</color> <!-- 26% opacity -->
+
+    <!-- Light icons -->
+    <color name="material_icon_color_light_active">@color/material_color_white</color>
+    <color name="material_icon_color_light_inactive">#4DFFFFFF</color> <!-- 30% opacity -->
 
 </resources>
