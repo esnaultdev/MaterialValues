@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright 2016 Ao (Matthieu Esnault)
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~     http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<resources>
+
+    <!-- Font and color -->
+    <dimen name="material_bottom_sheet_title_text_size">@dimen/material_typography_regular_subheading_text_size</dimen>
+    <dimen name="material_bottom_sheet_contents_text_size">@dimen/material_typography_regular_subheading_text_size</dimen>
+    <color name="material_bottom_sheet_title_text_color">@color/material_typography_black_low_contrast</color>
+    <color name="material_bottom_sheet_contents_text_color">@color/material_typography_black_high_contrast</color>
+    <color name="material_bottom_sheet_background_fill">@color/material_color_white</color>
+    <color name="material_bottom_sheet_transparent_overlay_fill">#33000000</color> <!-- 20% black -->
+
+
+    <!-- List style -->
+    <dimen name="material_bottom_sheet_list_padding_horizontal">16dp</dimen>
+    <dimen name="material_bottom_sheet_list_headerless_padding_top">8dp</dimen>
+    <dimen name="material_bottom_sheet_list_padding_bottom">8dp</dimen>
+
+    <dimen name="material_bottom_sheet_list_item_height">48dp</dimen>
+    <dimen name="material_bottom_sheet_list_item_icon_size">24dp</dimen>
+    <dimen name="material_bottom_sheet_list_item_label_left_padding">32dp</dimen>
+
+    <dimen name="material_bottom_sheet_list_header_height">56dp</dimen>
+    <dimen name="material_bottom_sheet_list_divider_height">1dp</dimen>
+    <dimen name="material_bottom_sheet_list_divider_margin_top">7dp</dimen>
+    <dimen name="material_bottom_sheet_list_divider_margin_bottom">8dp</dimen>
+
+
+    <!-- Grid style -->
+    <dimen name="material_bottom_sheet_grid_padding_horizontal">24dp</dimen>
+    <dimen name="material_bottom_sheet_grid_padding_bottom">24dp</dimen>
+
+    <dimen name="material_bottom_sheet_grid_line_padding_top">16dp</dimen>
+    <dimen name="material_bottom_sheet_grid_line_height">80dp</dimen> <!-- Unspecified but extrapolated -->
+
+    <dimen name="material_bottom_sheet_grid_item_icon_size">48dp</dimen>
+    <dimen name="material_bottom_sheet_grid_item_label_height">16dp</dimen>
+    <dimen name="material_bottom_sheet_grid_item_label_text_size">@dimen/material_typography_regular_caption_text_size</dimen> <!-- Unspecified but extrapolated -->
+
+
+    <!-- Bottom sheet width (Tablet only) -->
+    <integer name="material_bottom_sheet_margin_horizontal_minimum_increment">0</integer>
+    <integer name="material_bottom_sheet_width_minimum_increment">0</integer>
+
+</resources>
