@@ -215,4 +215,19 @@
         <item name="android:textStyle">bold</item>
     </style>
 
+
+    <!-- Locale scripts styles -->
+    <style name="MaterialTypography.Locale" />
+    <style name="MaterialTypography.Locale.Display4"   parent="@style/MaterialTypography.Regular.Display4" />
+    <style name="MaterialTypography.Locale.Display3"   parent="@style/MaterialTypography.Regular.Display3" />
+    <style name="MaterialTypography.Locale.Display2"   parent="@style/MaterialTypography.Regular.Display2" />
+    <style name="MaterialTypography.Locale.Display1"   parent="@style/MaterialTypography.Regular.Display1" />
+    <style name="MaterialTypography.Locale.Headline"   parent="@style/MaterialTypography.Regular.Headline" />
+    <style name="MaterialTypography.Locale.Title"      parent="@style/MaterialTypography.Regular.Title" />
+    <style name="MaterialTypography.Locale.Subheading" parent="@style/MaterialTypography.Regular.Subheading" />
+    <style name="MaterialTypography.Locale.Body2"      parent="@style/MaterialTypography.Regular.Body2" />
+    <style name="MaterialTypography.Locale.Body1"      parent="@style/MaterialTypography.Regular.Body1" />
+    <style name="MaterialTypography.Locale.Caption"    parent="@style/MaterialTypography.Regular.Caption" />
+    <style name="MaterialTypography.Locale.Button"     parent="@style/MaterialTypography.Regular.Button" />
+
 </resources>

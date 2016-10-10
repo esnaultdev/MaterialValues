@@ -29,5 +29,18 @@
     <dimen name="material_typography_locale_body_1_text_size">@dimen/material_typography_tall_body_1_text_size</dimen>
     <dimen name="material_typography_locale_caption_text_size">@dimen/material_typography_tall_caption_text_size</dimen>
     <dimen name="material_typography_locale_button_text_size">@dimen/material_typography_tall_button_text_size</dimen>
+
+    <!-- Locale scripts styles -->
+    <style name="MaterialTypography.Locale.Display4"   parent="@style/MaterialTypography.Tall.Display4" />
+    <style name="MaterialTypography.Locale.Display3"   parent="@style/MaterialTypography.Tall.Display3" />
+    <style name="MaterialTypography.Locale.Display2"   parent="@style/MaterialTypography.Tall.Display2" />
+    <style name="MaterialTypography.Locale.Display1"   parent="@style/MaterialTypography.Tall.Display1" />
+    <style name="MaterialTypography.Locale.Headline"   parent="@style/MaterialTypography.Tall.Headline" />
+    <style name="MaterialTypography.Locale.Title"      parent="@style/MaterialTypography.Tall.Title" />
+    <style name="MaterialTypography.Locale.Subheading" parent="@style/MaterialTypography.Tall.Subheading" />
+    <style name="MaterialTypography.Locale.Body2"      parent="@style/MaterialTypography.Tall.Body2" />
+    <style name="MaterialTypography.Locale.Body1"      parent="@style/MaterialTypography.Tall.Body1" />
+    <style name="MaterialTypography.Locale.Caption"    parent="@style/MaterialTypography.Tall.Caption" />
+    <style name="MaterialTypography.Locale.Button"     parent="@style/MaterialTypography.Tall.Button" />
     
 </resources>
