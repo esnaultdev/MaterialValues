@@ -86,11 +86,18 @@
     <dimen name="material_typography_locale_button_text_size">@dimen/material_typography_regular_button_text_size</dimen>
 
 
-    <!-- Regular scripts styles -->
-    <style name="MaterialTypography"/>
-    <style name="MaterialTypography.Regular">
+    <!-- Base script styles -->
+
+    <style name="MaterialTypography">
         <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">?android:textColorPrimary</item>
     </style>
+
+
+    <!-- Regular scripts styles -->
+
+    <style name="MaterialTypography.Regular"/>
     <style name="MaterialTypography.Regular.Display4">
         <item name="android:textSize">@dimen/material_typography_regular_display_4_text_size</item>
         <item name="android:fontFamily">sans-serif-light</item>
@@ -123,6 +130,7 @@
     </style>
     <style name="MaterialTypography.Regular.Caption">
         <item name="android:textSize">@dimen/material_typography_regular_caption_text_size</item>
+        <item name="android:textColor">?android:textColorSecondary</item>
     </style>
     <style name="MaterialTypography.Regular.Button">
         <item name="android:textSize">@dimen/material_typography_regular_button_text_size</item>
@@ -132,9 +140,7 @@
 
     
     <!-- Dense scripts styles -->
-    <style name="MaterialTypography.Dense">
-        <item name="android:fontFamily">sans-serif</item>
-    </style>
+    <style name="MaterialTypography.Dense"/>
     <style name="MaterialTypography.Dense.Display4">
         <item name="android:textSize">@dimen/material_typography_dense_display_4_text_size</item>
         <item name="android:fontFamily">sans-serif-light</item>
@@ -167,6 +173,7 @@
     </style>
     <style name="MaterialTypography.Dense.Caption">
         <item name="android:textSize">@dimen/material_typography_dense_caption_text_size</item>
+        <item name="android:textColor">?android:textColorSecondary</item>
     </style>
     <style name="MaterialTypography.Dense.Button">
         <item name="android:textSize">@dimen/material_typography_dense_button_text_size</item>
@@ -175,9 +182,7 @@
 
 
     <!-- Tall scripts styles -->
-    <style name="MaterialTypography.Tall">
-        <item name="android:textStyle">normal</item>
-    </style>
+    <style name="MaterialTypography.Tall"/>
     <style name="MaterialTypography.Tall.Display4">
         <item name="android:textSize">@dimen/material_typography_tall_display_4_text_size</item>
     </style>
@@ -209,6 +214,7 @@
     </style>
     <style name="MaterialTypography.Tall.Caption">
         <item name="android:textSize">@dimen/material_typography_tall_caption_text_size</item>
+        <item name="android:textColor">?android:textColorSecondary</item>
     </style>
     <style name="MaterialTypography.Tall.Button">
         <item name="android:textSize">@dimen/material_typography_tall_button_text_size</item>
@@ -229,5 +235,7 @@
     <style name="MaterialTypography.Locale.Body1"      parent="@style/MaterialTypography.Regular.Body1" />
     <style name="MaterialTypography.Locale.Caption"    parent="@style/MaterialTypography.Regular.Caption" />
     <style name="MaterialTypography.Locale.Button"     parent="@style/MaterialTypography.Regular.Button" />
+
+    <!-- TODO Add line height values with leading -->
 
 </resources>
