@@ -66,18 +66,24 @@
     <dimen name="material_typography_tall_button_text_size">15sp</dimen>
 
 
-    <!-- Default scripts dimensions -->
-    <dimen name="material_typography_display_4_text_size">@dimen/material_typography_regular_display_4_text_size</dimen>
-    <dimen name="material_typography_display_3_text_size">@dimen/material_typography_regular_display_3_text_size</dimen>
-    <dimen name="material_typography_display_2_text_size">@dimen/material_typography_regular_display_2_text_size</dimen>
-    <dimen name="material_typography_display_1_text_size">@dimen/material_typography_regular_display_1_text_size</dimen>
-    <dimen name="material_typography_headline_text_size">@dimen/material_typography_regular_headline_text_size</dimen>
-    <dimen name="material_typography_title_text_size">@dimen/material_typography_regular_title_text_size</dimen>
-    <dimen name="material_typography_subheading_text_size">@dimen/material_typography_regular_subheading_text_size</dimen>
-    <dimen name="material_typography_body_2_text_size">@dimen/material_typography_regular_body_2_text_size</dimen>
-    <dimen name="material_typography_body_1_text_size">@dimen/material_typography_regular_body_1_text_size</dimen>
-    <dimen name="material_typography_caption_text_size">@dimen/material_typography_regular_caption_text_size</dimen>
-    <dimen name="material_typography_button_text_size">@dimen/material_typography_regular_button_text_size</dimen>
+    <!--
+      ~ Locale scripts dimensions
+      ~ These script dimensions match the regular, dense or tall
+      ~ ones depending on the device locale.
+      ~ Note that this process will occur even if no localized
+      ~ strings have been provided for the locale.
+      -->
+    <dimen name="material_typography_locale_display_4_text_size">@dimen/material_typography_regular_display_4_text_size</dimen>
+    <dimen name="material_typography_locale_display_3_text_size">@dimen/material_typography_regular_display_3_text_size</dimen>
+    <dimen name="material_typography_locale_display_2_text_size">@dimen/material_typography_regular_display_2_text_size</dimen>
+    <dimen name="material_typography_locale_display_1_text_size">@dimen/material_typography_regular_display_1_text_size</dimen>
+    <dimen name="material_typography_locale_headline_text_size">@dimen/material_typography_regular_headline_text_size</dimen>
+    <dimen name="material_typography_locale_title_text_size">@dimen/material_typography_regular_title_text_size</dimen>
+    <dimen name="material_typography_locale_subheading_text_size">@dimen/material_typography_regular_subheading_text_size</dimen>
+    <dimen name="material_typography_locale_body_2_text_size">@dimen/material_typography_regular_body_2_text_size</dimen>
+    <dimen name="material_typography_locale_body_1_text_size">@dimen/material_typography_regular_body_1_text_size</dimen>
+    <dimen name="material_typography_locale_caption_text_size">@dimen/material_typography_regular_caption_text_size</dimen>
+    <dimen name="material_typography_locale_button_text_size">@dimen/material_typography_regular_button_text_size</dimen>
 
 
     <!-- Regular scripts styles -->

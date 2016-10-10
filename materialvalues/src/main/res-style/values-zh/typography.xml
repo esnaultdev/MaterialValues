@@ -17,17 +17,17 @@
 
 <resources>
 
-    <!-- Default scripts dimensions -->
-    <dimen name="material_typography_display_4_text_size">@dimen/material_typography_dense_display_4_text_size</dimen>
-    <dimen name="material_typography_display_3_text_size">@dimen/material_typography_dense_display_3_text_size</dimen>
-    <dimen name="material_typography_display_2_text_size">@dimen/material_typography_dense_display_2_text_size</dimen>
-    <dimen name="material_typography_display_1_text_size">@dimen/material_typography_dense_display_1_text_size</dimen>
-    <dimen name="material_typography_headline_text_size">@dimen/material_typography_dense_headline_text_size</dimen>
-    <dimen name="material_typography_title_text_size">@dimen/material_typography_dense_title_text_size</dimen>
-    <dimen name="material_typography_subheading_text_size">@dimen/material_typography_dense_subheading_text_size</dimen>
-    <dimen name="material_typography_body_2_text_size">@dimen/material_typography_dense_body_2_text_size</dimen>
-    <dimen name="material_typography_body_1_text_size">@dimen/material_typography_dense_body_1_text_size</dimen>
-    <dimen name="material_typography_caption_text_size">@dimen/material_typography_dense_caption_text_size</dimen>
-    <dimen name="material_typography_button_text_size">@dimen/material_typography_dense_button_text_size</dimen>
+    <!-- Locale scripts dimensions -->
+    <dimen name="material_typography_locale_display_4_text_size">@dimen/material_typography_dense_display_4_text_size</dimen>
+    <dimen name="material_typography_locale_display_3_text_size">@dimen/material_typography_dense_display_3_text_size</dimen>
+    <dimen name="material_typography_locale_display_2_text_size">@dimen/material_typography_dense_display_2_text_size</dimen>
+    <dimen name="material_typography_locale_display_1_text_size">@dimen/material_typography_dense_display_1_text_size</dimen>
+    <dimen name="material_typography_locale_headline_text_size">@dimen/material_typography_dense_headline_text_size</dimen>
+    <dimen name="material_typography_locale_title_text_size">@dimen/material_typography_dense_title_text_size</dimen>
+    <dimen name="material_typography_locale_subheading_text_size">@dimen/material_typography_dense_subheading_text_size</dimen>
+    <dimen name="material_typography_locale_body_2_text_size">@dimen/material_typography_dense_body_2_text_size</dimen>
+    <dimen name="material_typography_locale_body_1_text_size">@dimen/material_typography_dense_body_1_text_size</dimen>
+    <dimen name="material_typography_locale_caption_text_size">@dimen/material_typography_dense_caption_text_size</dimen>
+    <dimen name="material_typography_locale_button_text_size">@dimen/material_typography_dense_button_text_size</dimen>
 
 </resources>
