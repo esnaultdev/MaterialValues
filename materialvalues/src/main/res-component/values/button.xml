@@ -29,7 +29,7 @@
     <dimen name="material_button_persistent_footer_height">48dp</dimen>
 
 
-    <!-- Flat buttons -->
+    <!-- Flat button -->
     <dimen name="material_button_flat_elevation">0dp</dimen>
     <color name="material_button_flat_light_background_color_pressed">#66999999</color> <!-- 40% opacity -->
     <color name="material_button_flat_dark_background_color_pressed">#3FCCCCCC</color>  <!-- 25% opacity -->
@@ -38,7 +38,7 @@
     <!-- Focus background color = button text color with 12% #000000 shade -->
 
 
-    <!-- Raised buttons -->
+    <!-- Raised button -->
     <dimen name="material_button_raised_elevation">2dp</dimen>
     <dimen name="material_button_raised_corner_radius">2dp</dimen>
     <color name="material_button_raised_light_background_color_disabled">#1F000000</color> <!-- 12% opacity -->
@@ -50,10 +50,18 @@
     <!-- Focus background color = button color with 12% #000000 shade -->
 
 
-    <!-- Toggle buttons -->
+    <!-- Toggle button -->
     <color name="material_button_icon_light_theme_light_icon_ripple_color">#4DFFFFFF</color> <!-- 30% opacity -->
     <color name="material_button_icon_light_theme_dark_icon_ripple_color">#1F000000</color>  <!-- 12% opacity -->
     <color name="material_button_icon_dark_theme_light_icon_ripple_color">#33FFFFFF</color>  <!-- 20% opacity -->
     <!-- (light or dark theme) Color icon ripple color = color with 26% opacity -->
+
+
+    <!-- Floating action button -->
+    <dimen name="material_button_fab_size">56dp</dimen>
+    <dimen name="material_button_fab_icon_size">24dp</dimen>
+    <dimen name="material_button_fab_mini_size">40dp</dimen>
+    <dimen name="material_button_fab_mini_icon_size">@dimen/material_button_fab_icon_size</dimen>
+    <dimen name="material_button_fab_margin">16dp</dimen> <!-- Unspecified -->
 
 </resources>
