@@ -36,8 +36,8 @@
     <dimen name="material_bottom_sheet_list_item_label_left_padding">@dimen/material_baseline_grid_4x</dimen>
 
     <dimen name="material_bottom_sheet_list_header_height">@dimen/material_baseline_grid_7x</dimen>
-    <dimen name="material_bottom_sheet_list_divider_height">1dp</dimen>
-    <dimen name="material_bottom_sheet_list_divider_margin_top">7dp</dimen>
+    <!-- Divider height is defined in divider.xml -->
+    <dimen name="material_bottom_sheet_list_divider_margin_top">7dp</dimen> <!-- baseline_grid_1x - divider_height -->
     <dimen name="material_bottom_sheet_list_divider_margin_bottom">@dimen/material_baseline_grid_1x</dimen>
 
 
