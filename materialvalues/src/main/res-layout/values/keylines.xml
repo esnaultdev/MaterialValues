@@ -39,12 +39,15 @@
     <dimen name="material_baseline_grid_19x">152dp</dimen>
     <dimen name="material_baseline_grid_20x">160dp</dimen>
     <dimen name="material_baseline_grid_21x">168dp</dimen>
+    <dimen name="material_baseline_grid_30x">240dp</dimen>
+
 
 
     <!-- Baseline grid, half increments
       ~ Only use these values to center elements. Prefer
       ~ the whole increments when possible.
       -->
+    <dimen name="material_baseline_grid_0.5x">4dp</dimen>
     <dimen name="material_baseline_grid_1.5x">12dp</dimen>
     <dimen name="material_baseline_grid_2.5x">20dp</dimen>
     <dimen name="material_baseline_grid_3.5x">28dp</dimen>
