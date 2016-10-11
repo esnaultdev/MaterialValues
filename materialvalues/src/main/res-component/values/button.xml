@@ -18,15 +18,15 @@
 <resources>
 
     <!-- Common values -->
-    <dimen name="material_button_minimum_height">36dp</dimen>
-    <dimen name="material_button_touch_target_minimum_height">48dp</dimen>
+    <dimen name="material_button_minimum_height">@dimen/material_baseline_grid_4.5x</dimen>
+    <dimen name="material_button_touch_target_minimum_height">@dimen/material_baseline_grid_6x</dimen>
     <!-- Dense button values are omitted as they are for desktop (?) -->
-    <dimen name="material_button_minimum_width">88dp</dimen>
-    <dimen name="material_button_padding_horizontal_internal">8dp</dimen>
-    <dimen name="material_button_padding_horizontal_external">8dp</dimen>
+    <dimen name="material_button_minimum_width">@dimen/material_baseline_grid_11x</dimen>
+    <dimen name="material_button_padding_horizontal_internal">@dimen/material_baseline_grid_1x</dimen>
+    <dimen name="material_button_padding_horizontal_external">@dimen/material_baseline_grid_1x</dimen>
     <color name="material_button_light_text_color_disabled">#42000000</color> <!-- 26% opacity -->
     <color name="material_button_dark_text_color_disabled">#4DFFFFFF</color>  <!-- 30% opacity -->
-    <dimen name="material_button_persistent_footer_height">48dp</dimen>
+    <dimen name="material_button_persistent_footer_height">@dimen/material_baseline_grid_6x</dimen>
 
 
     <!-- Flat button -->
@@ -58,10 +58,10 @@
 
 
     <!-- Floating action button -->
-    <dimen name="material_button_fab_size">56dp</dimen>
-    <dimen name="material_button_fab_icon_size">24dp</dimen>
-    <dimen name="material_button_fab_mini_size">40dp</dimen>
+    <dimen name="material_button_fab_size">@dimen/material_baseline_grid_7x</dimen>
+    <dimen name="material_button_fab_icon_size">@dimen/material_baseline_grid_3x</dimen>
+    <dimen name="material_button_fab_mini_size">@dimen/material_baseline_grid_5x</dimen>
     <dimen name="material_button_fab_mini_icon_size">@dimen/material_button_fab_icon_size</dimen>
-    <dimen name="material_button_fab_margin">16dp</dimen> <!-- Unspecified -->
+    <dimen name="material_button_fab_margin">@dimen/material_baseline_grid_2x</dimen> <!-- Unspecified -->
 
 </resources>

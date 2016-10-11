@@ -18,34 +18,34 @@
 <resources>
 
     <!-- Common values of the fixed and shifting navigation bar -->
-    <dimen name="material_bottom_nav_bar_height">80dp</dimen>
     <dimen name="material_bottom_nav_bar_elevation">8dp</dimen>
-    <dimen name="material_bottom_nav_bar_icon_size">24dp</dimen>
-    <dimen name="material_bottom_nav_bar_action_padding_horizontal">12dp</dimen>
+    <dimen name="material_bottom_nav_bar_height">@dimen/material_baseline_grid_7x</dimen>
+    <dimen name="material_bottom_nav_bar_icon_size">@dimen/material_baseline_grid_3x</dimen>
+    <dimen name="material_bottom_nav_bar_action_padding_horizontal">@dimen/material_baseline_grid_1.5x</dimen>
 
     <dimen name="material_bottom_nav_bar_label_padding_bottom">10dp</dimen>
     <dimen name="material_bottom_nav_bar_active_label_text_size">14sp</dimen>
 
 
     <!-- Fixed navigation bar values -->
-    <dimen name="material_bottom_nav_bar_fixed_action_maximum_width">168dp</dimen>
-    <dimen name="material_bottom_nav_bar_fixed_action_minimum_width">80dp</dimen>
+    <dimen name="material_bottom_nav_bar_fixed_action_maximum_width">@dimen/material_baseline_grid_21x</dimen>
+    <dimen name="material_bottom_nav_bar_fixed_action_minimum_width">@dimen/material_baseline_grid_10x</dimen>
 
     <dimen name="material_bottom_nav_bar_fixed_active_icon_padding_top">6dp</dimen>
-    <dimen name="material_bottom_nav_bar_fixed_inactive_icon_padding_top">8dp</dimen>
+    <dimen name="material_bottom_nav_bar_fixed_inactive_icon_padding_top">@dimen/material_baseline_grid_1x</dimen>
 
     <dimen name="material_bottom_nav_bar_fixed_active_label_text_size">@dimen/material_bottom_nav_bar_active_label_text_size</dimen>
     <dimen name="material_bottom_nav_bar_fixed_inactive_label_text_size">12sp</dimen>
 
 
     <!-- Shifting navigation bar values -->
-    <dimen name="material_bottom_nav_bar_shifting_active_action_maximum_width">168dp</dimen>
-    <dimen name="material_bottom_nav_bar_shifting_active_action_minimum_width">96dp</dimen>
-    <dimen name="material_bottom_nav_bar_shifting_inactive_action_maximum_width">96dp</dimen>
-    <dimen name="material_bottom_nav_bar_shifting_inactive_action_minimum_width">56dp</dimen>
+    <dimen name="material_bottom_nav_bar_shifting_active_action_maximum_width">@dimen/material_baseline_grid_21x</dimen>
+    <dimen name="material_bottom_nav_bar_shifting_active_action_minimum_width">@dimen/material_baseline_grid_12x</dimen>
+    <dimen name="material_bottom_nav_bar_shifting_inactive_action_maximum_width">@dimen/material_baseline_grid_12x</dimen>
+    <dimen name="material_bottom_nav_bar_shifting_inactive_action_minimum_width">@dimen/material_baseline_grid_7x</dimen>
 
     <dimen name="material_bottom_nav_bar_shifting_active_icon_padding_top">6dp</dimen>
-    <dimen name="material_bottom_nav_bar_shifting_active_icon_padding_vertical">16dp</dimen>
+    <dimen name="material_bottom_nav_bar_shifting_active_icon_padding_vertical">@dimen/material_baseline_grid_2x</dimen>
 
     <dimen name="material_bottom_nav_bar_shifting_active_label_text_size">@dimen/material_bottom_nav_bar_active_label_text_size</dimen>
 
