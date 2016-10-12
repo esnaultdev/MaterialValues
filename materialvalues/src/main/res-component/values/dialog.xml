@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright 2016 Ao (Matthieu Esnault)
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~     http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<resources>
+
+    <!-- Dialog unit (not the same as increments) -->
+    <dimen name="material_dialog_unit">@dimen/material_baseline_grid_7x</dimen>
+    <integer name="material_dialog_minimum_width_unit">5</integer>
+
+
+    <!-- Base values -->
+    <dimen name="material_dialog_elevation">24dp</dimen>
+    <dimen name="material_dialog_screen_edge_margin_horizontal">@dimen/material_baseline_grid_5x</dimen>
+    <dimen name="material_dialog_screen_edge_margin_vertical">@dimen/material_baseline_grid_3x</dimen>
+
+
+    <!-- Content area -->
+    <dimen name="material_dialog_content_area_padding_vertical">@dimen/material_baseline_grid_3x</dimen>
+    <dimen name="material_dialog_content_area_padding_horizontal">@dimen/material_baseline_grid_3x</dimen>
+    <dimen name="material_dialog_content_area_space_between_title_and_text">@dimen/material_baseline_grid_2.5x</dimen>
+    <dimen name="material_dialog_content_area_avatar_size">@dimen/material_baseline_grid_5x</dimen>
+    <dimen name="material_dialog_content_area_avatar_space_between_edge_and_text">@dimen/material_baseline_grid_10x</dimen>
+
+
+    <!-- Action area (side by side) -->
+    <dimen name="material_dialog_actions_side_by_side_height">6.5x</dimen>
+    <dimen name="material_dialog_actions_side_by_side_button_height">@dimen/material_button_minimum_height</dimen>
+    <!-- Button values are the flat button ones, defined in button.xml -->
+    <dimen name="material_dialog_actions_side_by_side_padding_vertical">@dimen/material_baseline_grid_1x</dimen>
+    <dimen name="material_dialog_actions_side_by_side_padding_vertical_with_divider">7dp</dimen> <!-- baseline_grid_1x - divider_height -->
+    <dimen name="material_dialog_actions_side_by_side_padding_horizontal">@dimen/material_baseline_grid_1x</dimen>
+    <dimen name="material_dialog_actions_side_by_side_button_spacing">@dimen/material_baseline_grid_1x</dimen>
+
+
+    <!-- Action area (stacked) -->
+    <dimen name="material_dialog_actions_stacked_button_height">@dimen/material_baseline_grid_6x</dimen>
+    <dimen name="material_dialog_actions_stacked_padding_bottom">@dimen/material_baseline_grid_1x</dimen>
+    <dimen name="material_dialog_actions_stacked_padding_top">0dp</dimen> <!-- Only the content area bottom padding is used -->
+    <dimen name="material_dialog_actions_stacked_button_padding_right">@dimen/material_baseline_grid_2x</dimen>
+
+
+    <!-- Full-screen dialog title -->
+    <dimen name="material_dialog_fullscreen_title_height_single_line">@dimen/material_baseline_grid_7x</dimen>
+    <dimen name="material_dialog_fullscreen_title_height_two_lines">@dimen/material_baseline_grid_10x</dimen>
+    <dimen name="material_dialog_fullscreen_title_title_text_size">@dimen/material_typography_regular_title_text_size</dimen>
+    <dimen name="material_dialog_fullscreen_title_affirmative_action_text_size">@dimen/material_typography_regular_button_text_size</dimen>
+    <dimen name="material_dialog_fullscreen_title_space_between_edge_and_title">@dimen/material_baseline_grid_9x</dimen>
+    <dimen name="material_dialog_fullscreen_title_dismissive_action_padding_start">@dimen/material_baseline_grid_2x</dimen>
+    <dimen name="material_dialog_fullscreen_title_affirmative_action_text_padding_horizontal">@dimen/material_baseline_grid_2x</dimen>
+
+</resources>
