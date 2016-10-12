@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright 2016 Ao (Matthieu Esnault)
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~     http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<resources>
+
+    <!-- Common values -->
+    <dimen name="material_chip_height">@dimen/material_baseline_grid_4x</dimen>
+    <color name="material_chip_label_color">@color/material_typography_black_high_contrast</color>
+
+
+    <!-- Simple chip (As opposed to a contact one) -->
+    <dimen name="material_chip_simple_elevation">0dp</dimen>
+    <dimen name="material_chip_simple_label_horizontal_padding">@dimen/material_baseline_grid_1.5x</dimen>
+    <dimen name="material_chip_simple_label_text_size">13sp</dimen> <!-- Not the same as contact chips (error ?) -->
+
+    <dimen name="material_chip_simple_remove_icon_size">@dimen/material_baseline_grid_3x</dimen>
+    <color name="material_chip_simple_remove_icon_color">@color/material_icon_color_dark_active</color>
+    <dimen name="material_chip_simple_remove_icon_margin">@dimen/material_baseline_grid_0.5x</dimen>
+
+
+    <!-- Contact chip (closed) -->
+    <dimen name="material_chip_contact_closed_elevation">@dimen/material_chip_simple_elevation</dimen>
+    <dimen name="material_chip_contact_closed_elevation_focus">2dp</dimen>
+    <dimen name="material_chip_contact_closed_label_padding_start">@dimen/material_baseline_grid_1x</dimen>
+    <dimen name="material_chip_contact_closed_label_padding_end">@dimen/material_baseline_grid_1.5x</dimen>
+    <dimen name="material_chip_contact_closed_label_padding_vertical">@dimen/material_baseline_grid_1x</dimen>
+    <dimen name="material_chip_contact_closed_label_text_size">@dimen/material_typography_regular_body_1_text_size</dimen>
+
+    <!-- Contact chip (open) -->
+    <dimen name="material_chip_contact_open_elevation">8</dimen>
+    <dimen name="material_chip_contact_open_name_text_size">@dimen/material_typography_regular_subheading_text_size</dimen>
+    <dimen name="material_chip_contact_open_address_text_size">@dimen/material_typography_regular_body_1_text_size</dimen>
+    <dimen name="material_chip_contact_open_avatar_size">@dimen/material_baseline_grid_5x</dimen>
+    <dimen name="material_chip_contact_open_padding_horizontal">@dimen/material_baseline_grid_1.5x</dimen>
+
+    <dimen name="material_chip_contact_open_focused_height">@dimen/material_baseline_grid_9x</dimen>
+    <dimen name="material_chip_contact_open_unfocused_height">@dimen/material_baseline_grid_7x</dimen>
+    <dimen name="material_chip_contact_open_focused_padding_vertical">@dimen/material_baseline_grid_2x</dimen>
+    
+</resources>
