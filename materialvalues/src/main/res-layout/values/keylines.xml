@@ -44,10 +44,9 @@
     <dimen name="material_baseline_grid_35x">280dp</dimen>
 
 
-
-    <!-- Baseline grid, half increments
-      ~ Only use these values to center elements. Prefer
-      ~ the whole increments when possible.
+    <!--
+      ~ Baseline grid, half increments.
+      ~ Prefer the whole increments when possible.
       -->
     <dimen name="material_baseline_grid_0.5x">4dp</dimen>
     <dimen name="material_baseline_grid_1.5x">12dp</dimen>
@@ -61,8 +60,21 @@
     <dimen name="material_baseline_grid_9.5x">76dp</dimen>
 
 
-    <!-- Toolbar iconography baseline grid -->
+    <!-- Baseline grid for toolbar iconography -->
     <dimen name="material_baseline_grid_toolbar_icon">4dp</dimen>
+
+
+    <!-- Increment -->
+    <dimen name="material_increment_1x">56dp</dimen>
+    <dimen name="material_increment_2x">112dp</dimen>
+    <dimen name="material_increment_3x">168dp</dimen>
+    <dimen name="material_increment_4x">224dp</dimen>
+    <dimen name="material_increment_5x">280dp</dimen>
+    <dimen name="material_increment_6x">336dp</dimen>
+    <dimen name="material_increment_7x">392dp</dimen>
+    <dimen name="material_increment_8x">448dp</dimen>
+    <dimen name="material_increment_9x">504dp</dimen>
+    <dimen name="material_increment_10x">560dp</dimen>
 
 
     <!-- TODO finish adding the values from Layout/Metrics & keylines -->
