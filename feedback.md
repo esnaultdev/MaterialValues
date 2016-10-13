@@ -47,3 +47,8 @@ Minor fixes:
 Should the position of the text in the simple menu items be specified by a bottom padding?
 With tall scripts and scaled text using sp, the text will expand vertically.
 Why not centering the text vertically in the item, to match the cascading menu layout?
+
+Progress & activity
+-------------------
+
+Last video doesn't load: `error Media "components-progressactivity-behavior_Loading_SwipeDown_noload_xhdpi_005.mp4" not found`
