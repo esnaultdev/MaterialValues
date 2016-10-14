@@ -43,7 +43,6 @@ Remaining tasks
 ---------------
 
 - Add missing values in layout
-- Clean up the colors defined in components
 - Clean ressource name (consistent naming order)
 - Add missing values for tablets
 - Publish a v1 on JCenter

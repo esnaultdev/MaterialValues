@@ -238,14 +238,11 @@
 
 
     <!-- Text color -->
-    <color name="material_typography_black_high_contrast">#DE000000</color> <!-- 87% opacity black -->
-    <color name="material_typography_black_low_contrast">#8A000000</color>  <!-- 54% opacity black -->
-    <!-- Not directly specified
-      ~ Computed to have the same contrast ratios as the black ones.
-      ~ The background color used for the contrast computation is #262626.
-      -->
-    <color name="material_typography_white_high_contrast">#FFFFFFFF</color> <!-- 100% opacity white -->
-    <color name="material_typography_white_low_contrast">#7BFFFFFF</color>  <!-- 48% opacity white -->
+    <color name="material_typography_black_high_contrast">@color/material_color_black_87_percent</color>
+    <color name="material_typography_black_low_contrast">@color/material_color_black_54_percent</color>
+
+    <color name="material_typography_white_high_contrast">@color/material_color_white</color> <!-- Unspecified -->
+    <color name="material_typography_white_low_contrast">@color/material_color_white_48_percent</color> <!-- Unspecified -->
 
 
     <!-- TODO Add line height values with leading -->

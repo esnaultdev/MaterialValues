@@ -23,7 +23,7 @@
     <color name="material_bottom_sheet_title_text_color">@color/material_typography_black_low_contrast</color>
     <color name="material_bottom_sheet_contents_text_color">@color/material_typography_black_high_contrast</color>
     <color name="material_bottom_sheet_background_fill">@color/material_color_white</color>
-    <color name="material_bottom_sheet_transparent_overlay_fill">#33000000</color> <!-- 20% black -->
+    <color name="material_bottom_sheet_transparent_overlay_fill">@color/material_color_black_20_percent</color>
 
 
     <!-- List style -->

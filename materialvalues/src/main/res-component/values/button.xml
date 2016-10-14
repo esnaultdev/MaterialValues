@@ -23,30 +23,24 @@
     <dimen name="material_button_minimum_width">@dimen/material_baseline_grid_11x</dimen>
     <dimen name="material_button_padding_horizontal_internal">@dimen/material_baseline_grid_1x</dimen>
     <dimen name="material_button_padding_horizontal_external">@dimen/material_baseline_grid_1x</dimen>
-    <color name="material_button_light_text_color_disabled">#42000000</color> <!-- 26% opacity -->
-    <color name="material_button_dark_text_color_disabled">#4DFFFFFF</color>  <!-- 30% opacity -->
+    <color name="material_button_light_theme_text_color_disabled">@color/material_color_black_26_percent</color>
+    <color name="material_button_dark_theme_text_color_disabled">@color/material_color_white_30_percent</color>
     <dimen name="material_button_persistent_footer_height">@dimen/material_baseline_grid_6x</dimen>
 
 
     <!-- Flat button -->
     <dimen name="material_button_flat_elevation">0dp</dimen>
-    <color name="material_button_flat_light_background_color_pressed">#66999999</color> <!-- 40% opacity -->
-    <color name="material_button_flat_dark_background_color_pressed">#3FCCCCCC</color>  <!-- 25% opacity -->
-    <color name="material_button_flat_light_text_color_disabled">@color/material_button_light_text_color_disabled</color>
-    <color name="material_button_flat_dark_text_color_disabled">@color/material_button_dark_text_color_disabled</color>
-    <!-- Focus background color = button text color with 12% #000000 shade -->
+    <color name="material_button_flat_light_theme_background_color_pressed">@color/material_button_specific_color_medium_grey_40_percent</color>
+    <color name="material_button_flat_dark_theme_background_color_pressed">@color/material_button_specific_color_light_grey_25_percent</color>
 
 
     <!-- Raised button -->
     <dimen name="material_button_raised_elevation">2dp</dimen>
     <dimen name="material_button_raised_corner_radius">2dp</dimen>
-    <color name="material_button_raised_light_background_color_disabled">#1F000000</color> <!-- 12% opacity -->
-    <color name="material_button_raised_dark_background_color_disabled">#1FFFFFFF</color>  <!-- 12% opacity -->
-    <color name="material_button_raised_light_text_color_disabled">@color/material_button_light_text_color_disabled</color>
-    <color name="material_button_raised_dark_text_color_disabled">@color/material_button_dark_text_color_disabled</color>
-    <!-- Dark normal background color = 500 -->
-    <!-- Dark pressed background color = 700 -->
-    <!-- Focus background color = button color with 12% #000000 shade -->
+    <color name="material_button_raised_light_theme_background_color_disabled">@color/material_color_black_12_percent</color>
+    <color name="material_button_raised_dark_theme_background_color_disabled">@color/material_color_white_12_percent</color>
+    <!-- Dark normal background color = 500 swatch -->
+    <!-- Dark pressed background color = 700 swatch -->
 
 
     <!-- Toggle button -->
@@ -62,5 +56,11 @@
     <dimen name="material_button_fab_mini_size">@dimen/material_baseline_grid_5x</dimen>
     <dimen name="material_button_fab_mini_icon_size">@dimen/material_button_fab_icon_size</dimen>
     <dimen name="material_button_fab_margin">@dimen/material_baseline_grid_2x</dimen> <!-- TODO split into edge margin horizontal -->
+
+
+    <!-- Button specific colors -->
+    <!-- As these values are not common, they are only defined here -->
+    <color name="material_button_specific_color_medium_grey_40_percent">#66999999</color>
+    <color name="material_button_specific_color_light_grey_25_percent">#3FCCCCCC</color>
 
 </resources>

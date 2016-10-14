@@ -22,7 +22,7 @@
 
 
     <!-- Divider colors -->
-    <color name="material_divider_color_light_theme">#1F000000</color> <!-- 12% black -->
-    <color name="material_divider_color_dark_theme">#1FFFFFFF</color>  <!-- 12% white -->
+    <color name="material_divider_color_light_theme">@color/material_color_black_12_percent</color>
+    <color name="material_divider_color_dark_theme">@color/material_color_white_12_percent</color>
 
 </resources>

@@ -18,11 +18,11 @@
 <resources>
 
     <!-- Dark icons -->
-    <color name="material_icon_color_dark_active">#8A000000</color>   <!-- 54% opacity -->
-    <color name="material_icon_color_dark_inactive">#42000000</color> <!-- 26% opacity -->
+    <color name="material_icon_color_dark_theme_active">@color/material_color_black_54_percent</color>
+    <color name="material_icon_color_dark_theme_inactive">@color/material_color_black_26_percent</color>
 
     <!-- Light icons -->
-    <color name="material_icon_color_light_active">@color/material_color_white</color>
-    <color name="material_icon_color_light_inactive">#4DFFFFFF</color> <!-- 30% opacity -->
+    <color name="material_icon_color_light_theme_active">@color/material_color_white</color>
+    <color name="material_icon_color_light_theme_inactive">@color/material_color_white_30_percent</color>
 
 </resources>

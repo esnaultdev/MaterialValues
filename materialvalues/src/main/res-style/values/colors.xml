@@ -453,6 +453,16 @@
 
     <!-- Basic colors -->
     <color name="material_color_black">#000000</color>
+    <color name="material_color_black_87_percent">#DE000000</color>
+    <color name="material_color_black_54_percent">#8A000000</color>
+    <color name="material_color_black_38_percent">#61000000</color>
+    <color name="material_color_black_26_percent">#42000000</color>
+    <color name="material_color_black_20_percent">#33000000</color>
+    <color name="material_color_black_12_percent">#1F000000</color>
+
     <color name="material_color_white">#FFFFFF</color>
+    <color name="material_color_white_48_percent">#7BFFFFFF</color>
+    <color name="material_color_white_30_percent">#4DFFFFFF</color>
+    <color name="material_color_white_12_percent">#1FFFFFFF</color>
 
 </resources>

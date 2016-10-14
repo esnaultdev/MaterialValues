@@ -33,7 +33,7 @@
         <color name="material_stepper_step_active_title_text_color">@color/material_typography_black_high_contrast</color>
 
         <!-- Inactive -->
-        <color name="material_stepper_step_inactive_circle_inactive_color">#61000000</color> <!-- black 38% -->
+        <color name="material_stepper_step_inactive_circle_inactive_color">@color/material_color_black_38_percent</color>
         <color name="material_stepper_step_inactive_title_text_color">@color/material_stepper_step_inactive_circle_inactive_color</color>
 
 
