@@ -27,13 +27,12 @@
     <!-- Header/footer text size
       ~ Two styles exist for headers and footers.
       ~ In the material design guidelines, they are referred to as the 14/14 and 16/12 styles.
-      ~ In the following values, the 14/14 style is called "compact" and the 16/12 "classic".
-      ~ FIXME find a better name for those styles (?)
+      ~ In the following values, the 14/14 style is called "alternative" and the 16/12 "standard".
     -->
-    <dimen name="material_grid_list_header_footer_title_text_size_classic">16sp</dimen>
-    <dimen name="material_grid_list_header_footer_subtitle_text_size_classic">12sp</dimen>
-    <dimen name="material_grid_list_header_footer_title_text_size_compact">14sp</dimen>
-    <dimen name="material_grid_list_header_footer_subtitle_text_size_compact">14sp</dimen>
+    <dimen name="material_grid_list_header_footer_title_text_size_standard">16sp</dimen>
+    <dimen name="material_grid_list_header_footer_subtitle_text_size_standard">12sp</dimen>
+    <dimen name="material_grid_list_header_footer_title_text_size_alternative">14sp</dimen>
+    <dimen name="material_grid_list_header_footer_subtitle_text_size_alternative">14sp</dimen>
 
 
     <!-- Footer/header text area -->
