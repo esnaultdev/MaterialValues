@@ -77,6 +77,8 @@
     <dimen name="material_increment_10x">560dp</dimen>
 
 
-    <!-- TODO finish adding the values from Layout/Metrics & keylines -->
+    <!-- Content -->
+    <dimen name="material_content_edge_margin_horizontal">@dimen/material_responsive_gutter</dimen>
+    <dimen name="material_content_secondary_edge_margin_start">@dimen/material_responsive_gutter_plus_baseline_grid_7x</dimen>
 
 </resources>
