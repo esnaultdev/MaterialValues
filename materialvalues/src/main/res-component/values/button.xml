@@ -21,8 +21,8 @@
     <dimen name="material_button_minimum_height">@dimen/material_baseline_grid_4.5x</dimen>
     <dimen name="material_button_touch_target_minimum_height">@dimen/material_baseline_grid_6x</dimen>
     <dimen name="material_button_minimum_width">@dimen/material_baseline_grid_11x</dimen>
-    <dimen name="material_button_padding_horizontal_internal">@dimen/material_baseline_grid_1x</dimen>
-    <dimen name="material_button_padding_horizontal_external">@dimen/material_baseline_grid_1x</dimen>
+    <dimen name="material_button_padding_horizontal">@dimen/material_baseline_grid_1x</dimen>
+    <dimen name="material_button_gutter_horizontal">@dimen/material_baseline_grid_1x</dimen>
     <color name="material_button_light_theme_text_color_disabled">@color/material_color_black_26_percent</color>
     <color name="material_button_dark_theme_text_color_disabled">@color/material_color_white_30_percent</color>
     <dimen name="material_button_persistent_footer_height">@dimen/material_baseline_grid_6x</dimen>
@@ -55,7 +55,8 @@
     <dimen name="material_button_fab_icon_size">@dimen/material_baseline_grid_3x</dimen>
     <dimen name="material_button_fab_mini_size">@dimen/material_baseline_grid_5x</dimen>
     <dimen name="material_button_fab_mini_icon_size">@dimen/material_button_fab_icon_size</dimen>
-    <dimen name="material_button_fab_margin">@dimen/material_baseline_grid_2x</dimen> <!-- TODO split into edge margin horizontal -->
+    <dimen name="material_button_fab_edge_margin_horizontal">@dimen/material_content_edge_margin_horizontal</dimen>
+    <dimen name="material_button_fab_edge_margin_vertical">@dimen/material_baseline_grid_2x</dimen>
 
 
     <!-- Button specific colors -->

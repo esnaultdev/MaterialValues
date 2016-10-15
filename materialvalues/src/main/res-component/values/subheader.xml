@@ -26,6 +26,6 @@
     <!-- Size & alignment -->
     <dimen name="material_subheader_height">@dimen/material_baseline_grid_6x</dimen>
     <!-- For lists: Use the same alignment values as the list item text -->
-    <dimen name="material_subheader_padding_start">@dimen/material_baseline_grid_2x</dimen>
+    <dimen name="material_subheader_padding_start">@dimen/material_content_edge_margin_horizontal</dimen>
 
 </resources>

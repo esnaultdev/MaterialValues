@@ -22,16 +22,13 @@
     <dimen name="material_menu_simple_minimum_width">@dimen/material_increment_2x</dimen>
     <dimen name="material_menu_simple_maximum_width">@dimen/material_increment_5x</dimen>
 
-    <dimen name="material_menu_simple_minimum_edge_margin_horizontal">@dimen/material_baseline_grid_2x</dimen>
+    <dimen name="material_menu_simple_minimum_edge_margin_horizontal">@dimen/material_content_edge_margin_horizontal</dimen>
     <dimen name="material_menu_simple_item_height">@dimen/material_baseline_grid_6x</dimen>
-    <dimen name="material_menu_simple_item_padding_horizontal">@dimen/material_baseline_grid_2x</dimen>
+    <dimen name="material_menu_simple_item_padding_horizontal">@dimen/material_content_edge_margin_horizontal</dimen>
     <dimen name="material_menu_simple_text_padding_bottom">@dimen/material_baseline_grid_2.5x</dimen>
 
     <!-- Divider height is defined in divider.xml -->
     <dimen name="material_menu_simple_divider_margin_top">7dp</dimen> <!-- baseline_grid_1x - divider_height -->
     <dimen name="material_menu_simple_divider_margin_bottom">@dimen/material_baseline_grid_1x</dimen>
-
-
-    <!-- TODO Add tablet values -->
 
 </resources>
