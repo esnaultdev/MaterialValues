@@ -56,5 +56,7 @@
     <!-- Bottom sheet width (Tablet only) -->
     <integer name="material_bottom_sheet_margin_horizontal_minimum_increment">0</integer>
     <integer name="material_bottom_sheet_width_minimum_increment">0</integer>
+    <dimen name="material_bottom_sheet_margin_horizontal_minimum">0</dimen>
+    <dimen name="material_bottom_sheet_width_minimum">0</dimen>
 
 </resources>

@@ -20,5 +20,7 @@
     <!-- Bottom sheet width -->
     <integer name="material_bottom_sheet_margin_horizontal_minimum_increment">3</integer>
     <integer name="material_bottom_sheet_width_minimum_increment">9</integer>
+    <dimen name="material_bottom_sheet_margin_horizontal_minimum">@dimen/material_increment_3x</dimen>
+    <dimen name="material_bottom_sheet_width_minimum">@dimen/material_increment_9x</dimen>
 
 </resources>
