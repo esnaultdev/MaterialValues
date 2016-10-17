@@ -34,7 +34,7 @@
 
 
     <!-- Action area (side by side) -->
-    <dimen name="material_dialog_actions_side_by_side_height">6.5x</dimen>
+    <dimen name="material_dialog_actions_side_by_side_height">@dimen/material_baseline_grid_6.5x</dimen>
     <dimen name="material_dialog_actions_side_by_side_button_height">@dimen/material_button_minimum_height</dimen>
     <!-- Button values are the flat button ones, defined in button.xml -->
     <dimen name="material_dialog_actions_side_by_side_padding_vertical">@dimen/material_baseline_grid_1x</dimen>

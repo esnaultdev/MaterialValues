@@ -13,9 +13,9 @@ Available values
 - [Typography](https://github.com/Aohayou/MaterialValues/blob/master/materialvalues/src/main/res-style/values/typography.xml)
 
 [Layout](https://github.com/Aohayou/MaterialValues/tree/master/materialvalues/src/main/res-layout/values)
-- [Metrics & keylines](https://github.com/Aohayou/MaterialValues/blob/master/materialvalues/src/main/res-layout/values/keylines.xml) (partially available)
-- Structure (not yet available)
+- [Metrics & keylines](https://github.com/Aohayou/MaterialValues/blob/master/materialvalues/src/main/res-layout/values/keylines.xml)
 - [Responsive UI](https://github.com/Aohayou/MaterialValues/blob/master/materialvalues/src/main/res-layout/values/responsive.xml)
+- [Elevation](https://github.com/Aohayou/MaterialValues/blob/master/materialvalues/src/main/res-layout/values/elevation.xml)
 
 [Components](https://github.com/Aohayou/MaterialValues/tree/master/materialvalues/src/main/res-component/values)
 - [Bottom navigation](https://github.com/Aohayou/MaterialValues/blob/master/materialvalues/src/main/res-component/values/bottom_navigation.xml)
@@ -42,8 +42,8 @@ Note that the values for the following components are not available as they are 
 Remaining tasks
 ---------------
 
-- Add missing values in layout
-- Add missing values in patterns
+- Add missing values in Layout (Structure)
+- Add missing values in Patterns (Navigation drawer, Scrolling techniques)
 - Clean resource names (consistent naming order)
 - Publish a v1 on JCenter
 
