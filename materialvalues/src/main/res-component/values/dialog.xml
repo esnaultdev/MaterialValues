@@ -18,7 +18,7 @@
 <resources>
 
     <!-- Base values -->
-    <dimen name="material_dialog_elevation">24dp</dimen>
+    <dimen name="material_dialog_elevation">@dimen/material_elevation_dialog</dimen>
     <dimen name="material_dialog_screen_edge_margin_minimum_horizontal">@dimen/material_baseline_grid_5x</dimen>
     <dimen name="material_dialog_screen_edge_margin_minimum_vertical">@dimen/material_baseline_grid_3x</dimen>
     <integer name="material_dialog_minimum_width_increment">5</integer>

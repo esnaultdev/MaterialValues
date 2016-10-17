@@ -18,8 +18,8 @@
 <resources>
 
     <!-- Card values -->
-    <dimen name="material_card_elevation_resting">2dp</dimen>
-    <dimen name="material_card_elevation_raised">8dp</dimen>
+    <dimen name="material_card_elevation_resting">@dimen/material_elevation_card_resting</dimen>
+    <dimen name="material_card_elevation_raised">@dimen/material_elevation_card_raised</dimen>
     <dimen name="material_card_screen_edge_margin">@dimen/material_baseline_grid_1x</dimen>
     <dimen name="material_card_gutter">@dimen/material_baseline_grid_1x</dimen>
 

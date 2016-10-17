@@ -43,7 +43,6 @@ Remaining tasks
 ---------------
 
 - Add missing values in layout
-- Add missing elevation values
 - Add missing values in patterns
 - Clean resource names (consistent naming order)
 - Publish a v1 on JCenter

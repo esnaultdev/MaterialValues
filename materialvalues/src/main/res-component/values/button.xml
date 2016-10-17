@@ -29,13 +29,14 @@
 
 
     <!-- Flat button -->
-    <dimen name="material_button_flat_elevation">0dp</dimen>
+    <dimen name="material_button_flat_elevation">@dimen/material_elevation_flat_button</dimen>
     <color name="material_button_flat_light_theme_background_color_pressed">@color/material_button_specific_color_medium_grey_40_percent</color>
     <color name="material_button_flat_dark_theme_background_color_pressed">@color/material_button_specific_color_light_grey_25_percent</color>
 
 
     <!-- Raised button -->
-    <dimen name="material_button_raised_elevation">2dp</dimen>
+    <dimen name="material_button_raised_elevation_resting">@dimen/material_elevation_raised_button_resting</dimen>
+    <dimen name="material_button_raised_elevation_pressed">@dimen/material_elevation_raised_button_pressed</dimen>
     <dimen name="material_button_raised_corner_radius">2dp</dimen>
     <color name="material_button_raised_light_theme_background_color_disabled">@color/material_color_black_12_percent</color>
     <color name="material_button_raised_dark_theme_background_color_disabled">@color/material_color_white_12_percent</color>

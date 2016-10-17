@@ -22,7 +22,7 @@
     <dimen name="material_expansion_list_label_secondary_text_size">@dimen/material_typography_regular_caption_text_size</dimen>
     <color name="material_expansion_list_label_secondary_content_text_color">@color/material_typography_black_low_contrast</color>
 
-    <dimen name="material_expansion_list_elevation">2dp</dimen> <!-- Extrapolated -->
+    <!-- The elevation is the same as the elements the expansion list can connect with (typically, a card) -->
     <dimen name="material_expansion_list_expand_icon_size">@dimen/material_baseline_grid_3x</dimen>
     <dimen name="material_expansion_list_expand_icon_margin_start">@dimen/material_baseline_grid_2x</dimen>
     <dimen name="material_expansion_list_padding_horizontal">@dimen/material_baseline_grid_3x</dimen>

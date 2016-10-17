@@ -17,6 +17,9 @@
 
 <resources>
 
+    <dimen name="material_bottom_sheet_elevation">@dimen/material_elevation_bottom_sheet_modal</dimen>
+
+
     <!-- Font and color -->
     <dimen name="material_bottom_sheet_title_text_size">@dimen/material_typography_regular_subheading_text_size</dimen>
     <dimen name="material_bottom_sheet_contents_text_size">@dimen/material_typography_regular_subheading_text_size</dimen>

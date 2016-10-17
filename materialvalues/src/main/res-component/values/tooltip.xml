@@ -17,6 +17,7 @@
 
 <resources>
 
+    <dimen name="material_tooltip_elevation">@dimen/material_elevation_tooltip</dimen>
     <dimen name="material_tooltip_text_size">@dimen/material_typography_regular_body_2_text_size</dimen>
     <color name="material_tooltip_color">@color/material_color_grey_700</color>
     <dimen name="material_tooltip_height">@dimen/material_baseline_grid_4x</dimen>

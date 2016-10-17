@@ -17,6 +17,9 @@
 
 <resources>
 
+    <dimen name="material_menu_elevation">@dimen/material_elevation_menu</dimen>
+    <dimen name="material_menu_submenu_elevation_increment">@dimen/material_elevation_submenu_increment</dimen>
+
     <integer name="material_menu_simple_minimum_width_increment">2</integer>
     <integer name="material_menu_simple_maximum_width_increment">5</integer>
     <dimen name="material_menu_simple_minimum_width">@dimen/material_increment_2x</dimen>
