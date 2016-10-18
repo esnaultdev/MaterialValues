@@ -20,38 +20,38 @@
     <!-- Card values -->
     <dimen name="material_card_elevation_resting">@dimen/material_elevation_card_resting</dimen>
     <dimen name="material_card_elevation_raised">@dimen/material_elevation_card_raised</dimen>
-    <dimen name="material_card_screen_edge_margin">@dimen/material_baseline_grid_1x</dimen>
+    <dimen name="material_card_edge_margin">@dimen/material_baseline_grid_1x</dimen>
     <dimen name="material_card_gutter">@dimen/material_baseline_grid_1x</dimen>
 
 
-    <!-- Primary title -->
-    <dimen name="material_card_primary_title_padding_horizontal">@dimen/material_content_edge_margin_horizontal</dimen>
-    <dimen name="material_card_primary_subtitle_text_size">@dimen/material_typography_regular_body_2_text_size</dimen>
+    <!-- Title block (Primary title) -->
+    <dimen name="material_card_title_block_padding_horizontal">@dimen/material_content_edge_margin_horizontal</dimen>
+    <dimen name="material_card_title_block_subtitle_text_size">@dimen/material_typography_regular_body_2_text_size</dimen>
 
-    <dimen name="material_card_primary_title_large_text_size">@dimen/material_typography_regular_headline_text_size</dimen>
-    <dimen name="material_card_primary_title_large_padding_top">@dimen/material_baseline_grid_3x</dimen>
-    <dimen name="material_card_primary_title_large_padding_bottom">@dimen/material_baseline_grid_2x</dimen>
-    <dimen name="material_card_primary_title_large_space_between_title_and_subtitle">@dimen/material_baseline_grid_1.5x</dimen>
+    <dimen name="material_card_title_block_large_title_text_size">@dimen/material_typography_regular_headline_text_size</dimen>
+    <dimen name="material_card_title_block_large_padding_top">@dimen/material_baseline_grid_3x</dimen>
+    <dimen name="material_card_title_block_large_padding_bottom">@dimen/material_baseline_grid_2x</dimen>
+    <dimen name="material_card_title_block_large_subtitle_margin_top">@dimen/material_baseline_grid_1.5x</dimen>
 
-    <dimen name="material_card_primary_title_small_height">@dimen/material_baseline_grid_9x</dimen>
-    <dimen name="material_card_primary_title_small_text_size">@dimen/material_typography_regular_body_2_text_size</dimen>
-    <dimen name="material_card_primary_title_small_padding_bottom_last_block">@dimen/material_baseline_grid_3x</dimen>
-    <dimen name="material_card_primary_title_small_padding_top">@dimen/material_baseline_grid_2x</dimen>
-    <dimen name="material_card_primary_title_small_padding_bottom">@dimen/material_baseline_grid_2x</dimen>
+    <dimen name="material_card_title_block_small_height">@dimen/material_baseline_grid_9x</dimen>
+    <dimen name="material_card_title_block_small_text_size">@dimen/material_typography_regular_body_2_text_size</dimen>
+    <dimen name="material_card_title_block_small_padding_top">@dimen/material_baseline_grid_2x</dimen>
+    <dimen name="material_card_title_block_small_padding_bottom">@dimen/material_baseline_grid_2x</dimen>
+    <dimen name="material_card_title_block_small_padding_bottom_last_block">@dimen/material_baseline_grid_3x</dimen>
 
 
     <!-- Actions -->
-    <dimen name="material_card_action_row_padding">@dimen/material_baseline_grid_1x</dimen>
-    <dimen name="material_card_action_action_gutter_horizontal">@dimen/material_baseline_grid_1x</dimen>
-    <dimen name="material_card_action_action_gutter_vertical">@dimen/material_baseline_grid_0.5x</dimen>
+    <dimen name="material_card_actions_row_padding">@dimen/material_baseline_grid_1x</dimen>
+    <dimen name="material_card_actions_action_gutter_horizontal">@dimen/material_baseline_grid_1x</dimen>
+    <dimen name="material_card_actions_action_gutter_vertical">@dimen/material_baseline_grid_0.5x</dimen>
 
 
     <!-- Supporting text -->
+    <dimen name="material_card_supporting_text_text_size">@dimen/material_typography_regular_body_1_text_size</dimen>
     <dimen name="material_card_supporting_text_padding_top">@dimen/material_baseline_grid_2x</dimen>
     <dimen name="material_card_supporting_text_padding_horizontal">@dimen/material_content_edge_margin_horizontal</dimen>
     <dimen name="material_card_supporting_text_padding_bottom">@dimen/material_baseline_grid_1x</dimen>
     <dimen name="material_card_supporting_text_padding_bottom_last_block">@dimen/material_baseline_grid_2x</dimen>
-    <dimen name="material_card_supporting_text_text_size">@dimen/material_typography_regular_body_1_text_size</dimen>
 
 
     <!-- Media area -->

@@ -20,12 +20,12 @@
     <dimen name="material_menu_elevation">@dimen/material_elevation_menu</dimen>
     <dimen name="material_menu_submenu_elevation_increment">@dimen/material_elevation_submenu_increment</dimen>
 
-    <integer name="material_menu_simple_minimum_width_increment">2</integer>
-    <integer name="material_menu_simple_maximum_width_increment">5</integer>
-    <dimen name="material_menu_simple_minimum_width">@dimen/material_increment_2x</dimen>
-    <dimen name="material_menu_simple_maximum_width">@dimen/material_increment_5x</dimen>
+    <integer name="material_menu_simple_width_minimum_increment">2</integer>
+    <integer name="material_menu_simple_width_maximum_increment">5</integer>
+    <dimen name="material_menu_simple_width_minimum">@dimen/material_increment_2x</dimen>
+    <dimen name="material_menu_simple_width_maximum">@dimen/material_increment_5x</dimen>
 
-    <dimen name="material_menu_simple_minimum_edge_margin_horizontal">@dimen/material_content_edge_margin_horizontal</dimen>
+    <dimen name="material_menu_simple_edge_margin_horizontal_minimum">@dimen/material_content_edge_margin_horizontal</dimen>
     <dimen name="material_menu_simple_item_height">@dimen/material_baseline_grid_6x</dimen>
     <dimen name="material_menu_simple_item_padding_horizontal">@dimen/material_content_edge_margin_horizontal</dimen>
     <dimen name="material_menu_simple_text_padding_bottom">@dimen/material_baseline_grid_2.5x</dimen>

@@ -19,13 +19,13 @@
     <!-- General values -->
     <dimen name="material_expansion_panel_label_text_size">15sp</dimen> <!-- Not in the typography guidelines -->
     <color name="material_expansion_panel_label_text_color">@color/material_typography_black_high_contrast</color>
-    <dimen name="material_expansion_panel_label_secondary_text_size">@dimen/material_typography_regular_caption_text_size</dimen>
+    <dimen name="material_expansion_panel_label_secondary_content_text_size">@dimen/material_typography_regular_caption_text_size</dimen>
     <color name="material_expansion_panel_label_secondary_content_text_color">@color/material_typography_black_low_contrast</color>
 
     <!-- The elevation is the same as the elements the expansion panel can connect with (typically, a card) -->
+    <dimen name="material_expansion_panel_padding_horizontal">@dimen/material_baseline_grid_3x</dimen>
     <dimen name="material_expansion_panel_expand_icon_size">@dimen/material_baseline_grid_3x</dimen>
     <dimen name="material_expansion_panel_expand_icon_margin_start">@dimen/material_baseline_grid_2x</dimen>
-    <dimen name="material_expansion_panel_padding_horizontal">@dimen/material_baseline_grid_3x</dimen>
     <!-- Divider values are defined in divider.xml -->
 
 
@@ -39,7 +39,7 @@
     <dimen name="material_expansion_panel_expanded_content_area_padding_bottom">@dimen/material_baseline_grid_2x</dimen>
     <dimen name="material_expansion_panel_expanded_action_area_padding_bottom">@dimen/material_baseline_grid_2x</dimen>
     <dimen name="material_expansion_panel_expanded_action_area_padding_top">15dp</dimen> <!-- baseline_grid_2x - divider_height -->
-    <dimen name="material_expansion_panel_expanded_action_area_button_height">@dimen/material_button_minimum_height</dimen>
+    <dimen name="material_expansion_panel_expanded_action_area_button_height">@dimen/material_button_height_minimum</dimen>
     <dimen name="material_expansion_panel_expanded_action_area_button_margin_end">@dimen/material_baseline_grid_1x</dimen>
 
 </resources>

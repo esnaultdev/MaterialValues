@@ -9,8 +9,6 @@ but I have stumbled upon some details during the creation of this library.
 Bottom sheets
 -------------
 
-The height of a grid list is not specified (`components_bottomsheets_specs7.png`).
-
 The grid list label (text size?) is defined in dp instead of sp.
 
 
@@ -38,7 +36,7 @@ Minor fixes:
 - Rename `Mobile` to `Simple menu (mobile)`, `Various widths` to `Simple menu (Various widths)` and merge the `Cascading menu` elements
 - The specs for the `Cascading menu` font are in pt
 - Mobile: `Menu item text left padding: 16dp` -> `Menu item text left and right padding: 16dp` to match the `components_dialogs_simplemenus8.png` and `components_dialogs_simplemenus9.png` diagrams
-- Missing divider specs for the simple menu (present in cascading menu), I suppose it's the same (16 dp height)
+- Missing divider specs for the simple menu (present in cascading menu), I suppose it's the same (16dp height)
 
 Should the position of the text in the simple menu items be specified by a bottom padding?
 With tall scripts and scaled text using sp, the text will expand vertically.

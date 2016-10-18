@@ -66,6 +66,6 @@
     <dimen name="material_stepper_horizontal_standard_height">@dimen/material_baseline_grid_9x</dimen>
     <dimen name="material_stepper_horizontal_alternative_height">@dimen/material_baseline_grid_13x</dimen>
     <dimen name="material_stepper_horizontal_alternative_step_title_margin_bottom">@dimen/material_baseline_grid_3x</dimen>
-    <dimen name="material_stepper_horizontal_alternative_step_interspace">@dimen/material_baseline_grid_4x</dimen>
+    <dimen name="material_stepper_horizontal_alternative_step_gutter">@dimen/material_baseline_grid_4x</dimen>
 
 </resources>

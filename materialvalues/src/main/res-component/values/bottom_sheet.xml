@@ -22,8 +22,8 @@
 
     <!-- Font and color -->
     <dimen name="material_bottom_sheet_title_text_size">@dimen/material_typography_regular_subheading_text_size</dimen>
-    <dimen name="material_bottom_sheet_contents_text_size">@dimen/material_typography_regular_subheading_text_size</dimen>
     <color name="material_bottom_sheet_title_text_color">@color/material_typography_black_low_contrast</color>
+    <dimen name="material_bottom_sheet_contents_text_size">@dimen/material_typography_regular_subheading_text_size</dimen>
     <color name="material_bottom_sheet_contents_text_color">@color/material_typography_black_high_contrast</color>
     <color name="material_bottom_sheet_background_fill">@color/material_color_white</color>
     <color name="material_bottom_sheet_transparent_overlay_fill">@color/material_color_black_20_percent</color>
@@ -36,7 +36,7 @@
 
     <dimen name="material_bottom_sheet_list_item_height">@dimen/material_baseline_grid_6x</dimen>
     <dimen name="material_bottom_sheet_list_item_icon_size">@dimen/material_baseline_grid_3x</dimen>
-    <dimen name="material_bottom_sheet_list_item_label_left_padding">@dimen/material_baseline_grid_4x</dimen>
+    <dimen name="material_bottom_sheet_list_item_label_padding_start">@dimen/material_baseline_grid_4x</dimen>
 
     <dimen name="material_bottom_sheet_list_header_height">@dimen/material_baseline_grid_7x</dimen>
     <!-- Divider height is defined in divider.xml -->
@@ -48,12 +48,12 @@
     <dimen name="material_bottom_sheet_grid_padding_horizontal">@dimen/material_baseline_grid_3x</dimen>
     <dimen name="material_bottom_sheet_grid_padding_bottom">@dimen/material_baseline_grid_3x</dimen>
 
-    <dimen name="material_bottom_sheet_grid_line_padding_top">@dimen/material_baseline_grid_2x</dimen>
-    <dimen name="material_bottom_sheet_grid_line_height">@dimen/material_baseline_grid_10x</dimen> <!-- Unspecified but extrapolated -->
+    <dimen name="material_bottom_sheet_grid_row_padding_top">@dimen/material_baseline_grid_2x</dimen>
+    <dimen name="material_bottom_sheet_grid_row_height">@dimen/material_baseline_grid_10x</dimen>
 
     <dimen name="material_bottom_sheet_grid_item_icon_size">@dimen/material_baseline_grid_6x</dimen>
     <dimen name="material_bottom_sheet_grid_item_label_height">@dimen/material_baseline_grid_2x</dimen>
-    <dimen name="material_bottom_sheet_grid_item_label_text_size">@dimen/material_typography_regular_caption_text_size</dimen> <!-- Unspecified but extrapolated -->
+    <dimen name="material_bottom_sheet_grid_item_label_text_size">@dimen/material_typography_regular_caption_text_size</dimen> <!-- Unspecified -->
 
 
     <!-- Bottom sheet width (Tablet only) -->

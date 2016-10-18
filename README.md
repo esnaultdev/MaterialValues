@@ -44,8 +44,6 @@ Remaining tasks
 
 - Add missing values in Layout (Structure)
 - Add missing values in Patterns (Navigation drawer, Scrolling techniques)
-- Clean resource names (consistent naming order)
-- Publish a v1 on JCenter
 
 
 -----
