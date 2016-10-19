@@ -1,0 +1,63 @@
+plugins {
+    id "com.jfrog.bintray" version "1.7"
+    id "com.github.dcendents.android-maven" version "1.4.1"
+}
+apply plugin: 'com.android.library'
+
+
+group = 'blue.aodev'
+//artifact name = module name (material-values)
+version = '1.0'
+
+android {
+    compileSdkVersion 24
+    buildToolsVersion "24.0.3"
+
+    defaultConfig {
+        minSdkVersion 1
+        targetSdkVersion 24
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    sourceSets {
+        main.res.srcDirs = ['src/main/res-style', 'src/main/res-layout', 'src/main/res-component']
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+}
+
+
+bintray {
+    Properties properties = new Properties()
+    properties.load(project.rootProject.file('local.properties').newDataInputStream())
+
+    user = properties.getProperty('bintrayUser')
+    key = properties.getProperty('bintrayApiKey')
+
+    pkg {
+        repo = 'maven'
+        name = 'material-values'
+
+        version {
+            name = '1.0'
+        }
+    }
+    configurations = ['archives']
+}
+
+task sourcesJar(type: Jar) {
+    from android.sourceSets.main.java.srcDirs
+    classifier = 'sources'
+}
+
+artifacts {
+    archives sourcesJar
+}
