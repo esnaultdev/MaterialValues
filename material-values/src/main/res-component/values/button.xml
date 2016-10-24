@@ -45,9 +45,9 @@
 
 
     <!-- Toggle button -->
-    <color name="material_button_icon_light_theme_light_icon_ripple_color">#4DFFFFFF</color> <!-- 30% opacity -->
-    <color name="material_button_icon_light_theme_dark_icon_ripple_color">#1F000000</color>  <!-- 12% opacity -->
-    <color name="material_button_icon_dark_theme_light_icon_ripple_color">#33FFFFFF</color>  <!-- 20% opacity -->
+    <color name="material_button_icon_light_theme_light_icon_ripple_color">@color/material_color_white_30_percent</color>
+    <color name="material_button_icon_light_theme_dark_icon_ripple_color">@color/material_color_black_12_percent</color>
+    <color name="material_button_icon_dark_theme_light_icon_ripple_color">@color/material_color_white_20_percent</color>
     <!-- (light or dark theme) Color icon ripple color = color with 26% opacity -->
 
 

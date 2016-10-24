@@ -45,7 +45,7 @@
 
 
     <!-- Ripple -->
-    <color name="material_stepper_ripple_color">#0F000000</color>
+    <color name="material_stepper_ripple_color">@color/material_color_black_06_percent</color>
 
 
     <!-- Vertical stepper -->
