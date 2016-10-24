@@ -39,11 +39,33 @@ If a section of the Material Design specs is not in the above list, it may be be
 Note that the values for the following components are not available as they are already well implemented in Android: Selection controls, Sliders, Snackbars & toasts, Tabs, Text fields.
 
 
+Usage
+-----
+
+Just add this dependency to your build.gradle:
+```
+compile 'blue.aodev:material-values:1.0'
+```
+
+The artifact is currently only available on jCenter, not mavenCentral.
+Make sure that your buildscript repositories include jCenter.
+
+
+You can now use the values referenced in the available values, for example:
+| In xml | Programmatically |
+| :--- | :--- |
+| `@color/material_color_green_primary`                | `blue.aodev.materialspecs.R.color.material_color_green_primary`
+| `@dimen/material_list_two_line_dense_height`         | `blue.aodev.materialspecs.R.dimen.material_list_two_line_dense_height`
+| `@dimen/material_elevation_card_raised`              | `blue.aodev.materialspecs.R.dimen.material_elevation_card_raised`
+| `@dimen/material_typography_regular_title_text_size` | `blue.aodev.materialspecs.R.dimen.material_typography_regular_title_text_size`
+
+
 Remaining tasks
 ---------------
 
 - Add missing values in Layout (Structure)
 - Add missing values in Patterns (Navigation drawer, Scrolling techniques)
+- Create a wiki to document the values
 
 
 -----
