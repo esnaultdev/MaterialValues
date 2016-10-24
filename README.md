@@ -52,12 +52,13 @@ Make sure that your buildscript repositories include jCenter.
 
 
 You can now use the values referenced in the available values, for example:
-| In xml | Programmatically |
+
+| In xml | Programmatically (`blue.aodev.materialvalues.R`) |
 | :--- | :--- |
-| `@color/material_color_green_primary`                | `blue.aodev.materialvalues.R.color.material_color_green_primary`
-| `@dimen/material_list_two_line_dense_height`         | `blue.aodev.materialvalues.R.dimen.material_list_two_line_dense_height`
-| `@dimen/material_elevation_card_raised`              | `blue.aodev.materialvalues.R.dimen.material_elevation_card_raised`
-| `@dimen/material_typography_regular_title_text_size` | `blue.aodev.materialvalues.R.dimen.material_typography_regular_title_text_size`
+| `@color/material_color_green_primary`                | `R.color.material_color_green_primary`
+| `@dimen/material_list_two_line_dense_height`         | `R.dimen.material_list_two_line_dense_height`
+| `@dimen/material_elevation_card_raised`              | `R.dimen.material_elevation_card_raised`
+| `@dimen/material_typography_regular_title_text_size` | `R.dimen.material_typography_regular_title_text_size`
 
 
 Remaining tasks
