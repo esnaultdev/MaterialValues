@@ -3,4 +3,5 @@ pages:
 - Presentation: index.md
 - Style:
     - Colors: style/colors.md
+    - Typography: style/typography.md
 theme: flatly

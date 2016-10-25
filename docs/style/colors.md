@@ -39,7 +39,7 @@
 
 ### Colors with both primary and accent colors
 
-| Color | Resource name |
+| Color | Resource prefix |
 |:------|:--------------|
 | Red         | `red`         |
 | Pink        | `pink`        |
@@ -60,7 +60,7 @@
 
 ### Colors with only primary colors
 
-| Color | Resource name |
+| Color | Resource prefix |
 |:------|:--------------|
 | Brown     | `brown`     |
 | Grey      | `grey`      |
