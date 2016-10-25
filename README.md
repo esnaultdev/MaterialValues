@@ -8,7 +8,7 @@ Available values
 ----------------
 
 [Style](https://github.com/AoDevBlue/MaterialValues/tree/master/material-values/src/main/res-style/values)
-- [Color](https://github.com/AoDevBlue/MaterialValues/blob/master/material-values/src/main/res-style/values/colors.xml)
+- Color [[Documentation]](https://aodevblue.github.io/MaterialValues/style/colors/) [[Source]](https://github.com/AoDevBlue/MaterialValues/blob/master/material-values/src/main/res-style/values/colors.xml) [[Specs]](https://material.google.com/style/color.html)
 - [Icon](https://github.com/AoDevBlue/MaterialValues/blob/master/material-values/src/main/res-style/values/icons.xml)
 - [Typography](https://github.com/AoDevBlue/MaterialValues/blob/master/material-values/src/main/res-style/values/typography.xml)
 
