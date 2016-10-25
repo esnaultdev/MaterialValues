@@ -62,7 +62,7 @@
         },
         {
             "location": "/style/icons/",
-            "text": "Icons\n\n\nColor\n\n\nLight theme\n\n\n\n\n\n\n\n\nColor\n\n\nResource\n\n\n\n\n\n\n\n\n\n\nActive\n\n\n@color/material_icon_color_light_theme_active\n\n\n\n\n\n\nInactive\n\n\n@color/material_icon_color_light_theme_inactive\n\n\n\n\n\n\n\n\nA color state list is available as well: \n@color/material_icon_color_light_theme\n.\n\n\nDark theme\n\n\n\n\n\n\n\n\nColor\n\n\nResource\n\n\n\n\n\n\n\n\n\n\nActive\n\n\n@color/material_icon_color_dark_theme_active\n\n\n\n\n\n\nInactive\n\n\n@color/material_icon_color_dark_theme_inactive\n\n\n\n\n\n\n\n\nA color state list is available as well: \n@color/material_icon_color_dark_theme\n.\n\n\nSize\n\n\nSome values are missing and will be included in the next version.",
+            "text": "Icons\n\n\nColor\n\n\nLight theme\n\n\n\n\n\n\n\n\nColor\n\n\nResource\n\n\n\n\n\n\n\n\n\n\nActive\n\n\n@color/material_icon_color_light_theme_active\n\n\n\n\n\n\nInactive\n\n\n@color/material_icon_color_light_theme_inactive\n\n\n\n\n\n\n\n\nA color state list is available as well: \n@color/material_icon_color_light_theme\n.\n\n\nDark theme\n\n\n\n\n\n\n\n\nColor\n\n\nResource\n\n\n\n\n\n\n\n\n\n\nActive\n\n\n@color/material_icon_color_dark_theme_active\n\n\n\n\n\n\nInactive\n\n\n@color/material_icon_color_dark_theme_inactive\n\n\n\n\n\n\n\n\nA color state list is available as well: \n@color/material_icon_color_dark_theme\n.\n\n\nSize\n\n\nThese values are missing and will be included in a future version.",
             "title": "Icons"
         },
         {
@@ -87,12 +87,12 @@
         },
         {
             "location": "/style/icons/#size",
-            "text": "Some values are missing and will be included in the next version.",
+            "text": "These values are missing and will be included in a future version.",
             "title": "Size"
         },
         {
             "location": "/style/typography/",
-            "text": "Typography\n\n\nScript families\n\n\nThe values for typography depend on the script family of your text.\n\n\nThe values are defined using the following prefixes:\n\n\n\n\n\n\n\n\nScript family\n\n\nResource prefix\n\n\n\n\n\n\n\n\n\n\nEnglish-like\n\n\nregular\n\n\n\n\n\n\nDense\n\n\ndense\n\n\n\n\n\n\nTall\n\n\ntall\n\n\n\n\n\n\n\n\nSize\n\n\n\n\n\n\n\n\nText type\n\n\nValue\n\n\n\n\n\n\n\n\n\n\nDisplay 4\n\n\n@dimen/material_typography_FAMILY_display_4_text_size\n\n\n\n\n\n\nDisplay 3\n\n\n@dimen/material_typography_FAMILY_display_3_text_size\n\n\n\n\n\n\nDisplay 2\n\n\n@dimen/material_typography_FAMILY_display_2_text_size\n\n\n\n\n\n\nDisplay 1\n\n\n@dimen/material_typography_FAMILY_display_1_text_size\n\n\n\n\n\n\nHeadline\n\n\n@dimen/material_typography_FAMILY_headline_text_size\n\n\n\n\n\n\nTitle\n\n\n@dimen/material_typography_FAMILY_title_text_size\n\n\n\n\n\n\nSubheading\n\n\n@dimen/material_typography_FAMILY_subheading_text_size\n\n\n\n\n\n\nBody 2\n\n\n@dimen/material_typography_FAMILY_body_2_text_size\n\n\n\n\n\n\nBody 1\n\n\n@dimen/material_typography_FAMILY_body_1_text_size\n\n\n\n\n\n\nCaption\n\n\n@dimen/material_typography_FAMILY_caption_text_size\n\n\n\n\n\n\nButton\n\n\n@dimen/material_typography_FAMILY_button_text_size\n\n\n\n\n\n\n\n\nStyle\n\n\nThese styles use the previously defined text sizes and also applies the good font-weight.\n\n\n\n\n\n\n\n\nText type\n\n\nValue\n\n\n\n\n\n\n\n\n\n\nDisplay 4\n\n\n@style/MaterialTypography.FAMILY.Display4\n\n\n\n\n\n\nDisplay 3\n\n\n@style/MaterialTypography.FAMILY.Display3\n\n\n\n\n\n\nDisplay 2\n\n\n@style/MaterialTypography.FAMILY.Display2\n\n\n\n\n\n\nDisplay 1\n\n\n@style/MaterialTypography.FAMILY.Display1\n\n\n\n\n\n\nHeadline\n\n\n@style/MaterialTypography.FAMILY.Headline\n\n\n\n\n\n\nTitle\n\n\n@style/MaterialTypography.FAMILY.Title\n\n\n\n\n\n\nSubheading\n\n\n@style/MaterialTypography.FAMILY.Subheading\n\n\n\n\n\n\nBody 2\n\n\n@style/MaterialTypography.FAMILY.Body2\n\n\n\n\n\n\nBody 1\n\n\n@style/MaterialTypography.FAMILY.Body1\n\n\n\n\n\n\nCaption\n\n\n@style/MaterialTypography.FAMILY.Caption\n\n\n\n\n\n\nButton\n\n\n@style/MaterialTypography.FAMILY.Button\n\n\n\n\n\n\n\n\nColor\n\n\nSome values are missing and will be included in the next version.\n\n\nLocale prefix\n\n\nA \nlocale\n prefix is also available in the resources.\n\n\nThis prefix will choose the script family corresponding to the current locale, and default to \nregular\n.\n\n\nIts usage is not recommended currently as the typography will change even if your text is not translated for the locale.",
+            "text": "Typography\n\n\nScript families\n\n\nThe values for typography depend on the script family of your text.\n\n\nThe values are defined using the following prefixes:\n\n\n\n\n\n\n\n\nScript family\n\n\nResource prefix\n\n\n\n\n\n\n\n\n\n\nEnglish-like\n\n\nregular\n\n\n\n\n\n\nDense\n\n\ndense\n\n\n\n\n\n\nTall\n\n\ntall\n\n\n\n\n\n\n\n\nSize\n\n\n\n\n\n\n\n\nText type\n\n\nValue\n\n\n\n\n\n\n\n\n\n\nDisplay 4\n\n\n@dimen/material_typography_FAMILY_display_4_text_size\n\n\n\n\n\n\nDisplay 3\n\n\n@dimen/material_typography_FAMILY_display_3_text_size\n\n\n\n\n\n\nDisplay 2\n\n\n@dimen/material_typography_FAMILY_display_2_text_size\n\n\n\n\n\n\nDisplay 1\n\n\n@dimen/material_typography_FAMILY_display_1_text_size\n\n\n\n\n\n\nHeadline\n\n\n@dimen/material_typography_FAMILY_headline_text_size\n\n\n\n\n\n\nTitle\n\n\n@dimen/material_typography_FAMILY_title_text_size\n\n\n\n\n\n\nSubheading\n\n\n@dimen/material_typography_FAMILY_subheading_text_size\n\n\n\n\n\n\nBody 2\n\n\n@dimen/material_typography_FAMILY_body_2_text_size\n\n\n\n\n\n\nBody 1\n\n\n@dimen/material_typography_FAMILY_body_1_text_size\n\n\n\n\n\n\nCaption\n\n\n@dimen/material_typography_FAMILY_caption_text_size\n\n\n\n\n\n\nButton\n\n\n@dimen/material_typography_FAMILY_button_text_size\n\n\n\n\n\n\n\n\nStyle\n\n\nThese styles use the previously defined text sizes and also applies the good font-weight.\n\n\n\n\n\n\n\n\nText type\n\n\nValue\n\n\n\n\n\n\n\n\n\n\nDisplay 4\n\n\n@style/MaterialTypography.FAMILY.Display4\n\n\n\n\n\n\nDisplay 3\n\n\n@style/MaterialTypography.FAMILY.Display3\n\n\n\n\n\n\nDisplay 2\n\n\n@style/MaterialTypography.FAMILY.Display2\n\n\n\n\n\n\nDisplay 1\n\n\n@style/MaterialTypography.FAMILY.Display1\n\n\n\n\n\n\nHeadline\n\n\n@style/MaterialTypography.FAMILY.Headline\n\n\n\n\n\n\nTitle\n\n\n@style/MaterialTypography.FAMILY.Title\n\n\n\n\n\n\nSubheading\n\n\n@style/MaterialTypography.FAMILY.Subheading\n\n\n\n\n\n\nBody 2\n\n\n@style/MaterialTypography.FAMILY.Body2\n\n\n\n\n\n\nBody 1\n\n\n@style/MaterialTypography.FAMILY.Body1\n\n\n\n\n\n\nCaption\n\n\n@style/MaterialTypography.FAMILY.Caption\n\n\n\n\n\n\nButton\n\n\n@style/MaterialTypography.FAMILY.Button\n\n\n\n\n\n\n\n\nColor\n\n\nThese values are missing and will be included in a future version.\n\n\nLocale prefix\n\n\nA \nlocale\n prefix is also available in the resources.\n\n\nThis prefix will choose the script family corresponding to the current locale, and default to \nregular\n.\n\n\nIts usage is not recommended currently as the typography will change even if your text is not translated for the locale.",
             "title": "Typography"
         },
         {
@@ -117,7 +117,7 @@
         },
         {
             "location": "/style/typography/#color",
-            "text": "Some values are missing and will be included in the next version.",
+            "text": "These values are missing and will be included in a future version.",
             "title": "Color"
         },
         {
@@ -149,6 +149,36 @@
             "location": "/layout/keylines/#content-keylines",
             "text": "Edge margin  Resource      Default  @dimen/material_content_edge_margin_horizontal    Secondary content  @dimen/material_content_secondary_edge_margin_start     Secondary content is content placed after some primary content. For example, the text after an avatar in a list.",
             "title": "Content keylines"
+        },
+        {
+            "location": "/layout/responsive_ui/",
+            "text": "Responsive UI\n\n\nColumns\n\n\nThe number of columns is defined by \n@integer/material_responsive_columns\n.\n\n\nGutter\n\n\nThe gutter is defined by \n@dimen/material_responsive_gutter\n.\n\n\nDevice information\n\n\nThe distinction between handsets and tablets can be made using \n@bool/material_responsive_is_tablet\n.\n\n\nThis disctinction is arbitrary and might be irrelevant.\n\n\nNumber of content levels\n\n\nThese values are missing and will be included in a future version.",
+            "title": "Responsive UI"
+        },
+        {
+            "location": "/layout/responsive_ui/#responsive-ui",
+            "text": "",
+            "title": "Responsive UI"
+        },
+        {
+            "location": "/layout/responsive_ui/#columns",
+            "text": "The number of columns is defined by  @integer/material_responsive_columns .",
+            "title": "Columns"
+        },
+        {
+            "location": "/layout/responsive_ui/#gutter",
+            "text": "The gutter is defined by  @dimen/material_responsive_gutter .",
+            "title": "Gutter"
+        },
+        {
+            "location": "/layout/responsive_ui/#device-information",
+            "text": "The distinction between handsets and tablets can be made using  @bool/material_responsive_is_tablet .  This disctinction is arbitrary and might be irrelevant.",
+            "title": "Device information"
+        },
+        {
+            "location": "/layout/responsive_ui/#number-of-content-levels",
+            "text": "These values are missing and will be included in a future version.",
+            "title": "Number of content levels"
         }
     ]
 }

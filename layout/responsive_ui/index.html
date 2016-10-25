@@ -7,14 +7,14 @@
         
         
         
-        <link rel="shortcut icon" href="./img/favicon.ico">
+        <link rel="shortcut icon" href="../../img/favicon.ico">
 
-	<title>MaterialValues</title>
+	<title>Responsive UI - MaterialValues</title>
 
-        <link href="./css/bootstrap-custom.min.css" rel="stylesheet">
-        <link href="./css/font-awesome-4.0.3.css" rel="stylesheet">
-        <link rel="stylesheet" href="./css/highlight.css">
-        <link href="./css/base.css" rel="stylesheet">
+        <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome-4.0.3.css" rel="stylesheet">
+        <link rel="stylesheet" href="../../css/highlight.css">
+        <link href="../../css/base.css" rel="stylesheet">
 
         <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!--[if lt IE 9]>
@@ -41,7 +41,7 @@
             </button>
 
             <!-- Main title -->
-            <a class="navbar-brand" href=".">MaterialValues</a>
+            <a class="navbar-brand" href="../..">MaterialValues</a>
         </div>
 
         <!-- Expanded navigation -->
@@ -50,8 +50,8 @@
             <ul class="nav navbar-nav">
             
             
-                <li class="active">
-                    <a href=".">Presentation</a>
+                <li >
+                    <a href="../..">Presentation</a>
                 </li>
             
             
@@ -62,19 +62,19 @@
                     
                         
 <li >
-    <a href="style/colors/">Colors</a>
+    <a href="../../style/colors/">Colors</a>
 </li>
 
                     
                         
 <li >
-    <a href="style/icons/">Icons</a>
+    <a href="../../style/icons/">Icons</a>
 </li>
 
                     
                         
 <li >
-    <a href="style/typography/">Typography</a>
+    <a href="../../style/typography/">Typography</a>
 </li>
 
                     
@@ -83,19 +83,19 @@
             
             
             
-                <li class="dropdown">
+                <li class="dropdown active">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Layout <b class="caret"></b></a>
                     <ul class="dropdown-menu">
                     
                         
 <li >
-    <a href="layout/keylines/">Metrics & keylines</a>
+    <a href="../keylines/">Metrics & keylines</a>
 </li>
 
                     
                         
-<li >
-    <a href="layout/responsive_ui/">Responsive UI</a>
+<li class="active">
+    <a href="./">Responsive UI</a>
 </li>
 
                     
@@ -112,13 +112,13 @@
                         <i class="fa fa-search"></i> Search
                     </a>
                 </li>
-                <li class="disabled">
-                    <a rel="next" >
+                <li >
+                    <a rel="next" href="../keylines/">
                         <i class="fa fa-arrow-left"></i> Previous
                     </a>
                 </li>
-                <li >
-                    <a rel="prev" href="style/colors/">
+                <li class="disabled">
+                    <a rel="prev" >
                         Next <i class="fa fa-arrow-right"></i>
                     </a>
                 </li>
@@ -132,60 +132,31 @@
             <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
     
-        <li class="main active"><a href="#materialvalues">MaterialValues</a></li>
+        <li class="main active"><a href="#responsive-ui">Responsive UI</a></li>
         
-            <li><a href="#documentation">Documentation</a></li>
+            <li><a href="#columns">Columns</a></li>
+        
+            <li><a href="#gutter">Gutter</a></li>
+        
+            <li><a href="#device-information">Device information</a></li>
+        
+            <li><a href="#number-of-content-levels">Number of content levels</a></li>
         
     
     </ul>
 </div></div>
             <div class="col-md-9" role="main">
 
-<h1 id="materialvalues">MaterialValues</h1>
-<table>
-<thead>
-<tr>
-<th align="center"></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="center"><img alt="Logo" src="./images/logo.png" /></td>
-</tr>
-</tbody>
-</table>
-<p>All the values from the Material Design guidelines defined in resources for Android.</p>
-<hr />
-<h2 id="documentation">Documentation</h2>
-<p>All the values in this documentation use the xml reference representation.</p>
-<p>You can also use them programmatically using <code>blue.aodev.materialvalues.R</code>.</p>
-<p>For example:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Xml reference</th>
-<th align="left">Code reference</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left"><code>@color/material_color_green_primary</code></td>
-<td align="left"><code>R.color.material_color_green_primary</code></td>
-</tr>
-<tr>
-<td align="left"><code>@dimen/material_list_two_line_dense_height</code></td>
-<td align="left"><code>R.dimen.material_list_two_line_dense_height</code></td>
-</tr>
-<tr>
-<td align="left"><code>@dimen/material_elevation_card_raised</code></td>
-<td align="left"><code>R.dimen.material_elevation_card_raised</code></td>
-</tr>
-<tr>
-<td align="left"><code>@dimen/material_typography_regular_title_text_size</code></td>
-<td align="left"><code>R.dimen.material_typography_regular_title_text_size</code></td>
-</tr>
-</tbody>
-</table></div>
+<h1 id="responsive-ui">Responsive UI</h1>
+<h2 id="columns">Columns</h2>
+<p>The number of columns is defined by <code>@integer/material_responsive_columns</code>.</p>
+<h2 id="gutter">Gutter</h2>
+<p>The gutter is defined by <code>@dimen/material_responsive_gutter</code>.</p>
+<h2 id="device-information">Device information</h2>
+<p>The distinction between handsets and tablets can be made using <code>@bool/material_responsive_is_tablet</code>.</p>
+<p>This disctinction is arbitrary and might be irrelevant.</p>
+<h2 id="number-of-content-levels">Number of content levels</h2>
+<p><em>These values are missing and will be included in a future version.</em></p></div>
         </div>
 
         <footer class="col-md-12">
@@ -194,12 +165,12 @@
             <center>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</center>
         </footer>
 
-        <script src="./js/jquery-1.10.2.min.js"></script>
-        <script src="./js/bootstrap-3.0.3.min.js"></script>
-        <script src="./js/highlight.pack.js"></script>
-        <script>var base_url = '.';</script>
-        <script data-main="./mkdocs/js/search.js" src="./mkdocs/js/require.js"></script>
-        <script src="./js/base.js"></script>
+        <script src="../../js/jquery-1.10.2.min.js"></script>
+        <script src="../../js/bootstrap-3.0.3.min.js"></script>
+        <script src="../../js/highlight.pack.js"></script>
+        <script>var base_url = '../..';</script>
+        <script data-main="../../mkdocs/js/search.js" src="../../mkdocs/js/require.js"></script>
+        <script src="../../js/base.js"></script>
 
         <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
             <div class="modal-dialog">
