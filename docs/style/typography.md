@@ -49,6 +49,11 @@ These styles use the previously defined text sizes and also applies the good fon
 | Button     | `@style/MaterialTypography.FAMILY.Button`     |
 
 
+## Color
+
+*Some values are missing and will be included in the next version.*
+
+
 ## Locale prefix
 
 A `locale` prefix is also available in the resources.

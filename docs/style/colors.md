@@ -66,30 +66,8 @@
 | Grey      | `grey`      |
 | Blue Grey | `blue_grey` |
 
----
 
-## Example
+## Text color
 
-For example, the blue color has the following resources defined.
+See [Typography](/style/typography.md).
 
-| Shade | Resource |
-|:------|:---------|
-| 50    | `@color/material_color_blue_50`                  |
-| 100   | `@color/material_color_blue_100`                 |
-| 200   | `@color/material_color_blue_200`                 |
-| 300   | `@color/material_color_blue_300`                 |
-| 400   | `@color/material_color_blue_400`                 |
-| 500   | `@color/material_color_blue_500`                 |
-| 600   | `@color/material_color_blue_600`                 |
-| 700   | `@color/material_color_blue_700`                 |
-| 800   | `@color/material_color_blue_800`                 |
-| 900   | `@color/material_color_blue_900`                 |
-|       |                                                  |
-| A100  | `@color/material_color_blue_accent_100`          |
-| A200  | `@color/material_color_blue_accent_200`          |
-| A400  | `@color/material_color_blue_accent_400`          |
-| A700  | `@color/material_color_blue_accent_700`          |
-|       |                                                  |
-| Primary       | `color/material_color_blue_primary`      |
-| Primary dark  | `color/material_color_blue_primary_dark` |
-| Accent        | `color/material_color_blue_accent`       |

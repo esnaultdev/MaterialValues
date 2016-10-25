@@ -9,8 +9,8 @@ Available values
 
 Style
 - [Color](https://aodevblue.github.io/MaterialValues/style/colors/) 
-- [Icon](https://github.com/AoDevBlue/MaterialValues/blob/master/material-values/src/main/res-style/values/icons.xml)
-- [Typography](https://aodevblue.github.io/MaterialValues/style/colors/)
+- [Icon](https://aodevblue.github.io/MaterialValues/style/icons/)
+- [Typography](https://aodevblue.github.io/MaterialValues/style/typography/)
 
 Layout
 - [Metrics & keylines](https://github.com/AoDevBlue/MaterialValues/blob/master/material-values/src/main/res-layout/values/keylines.xml)
