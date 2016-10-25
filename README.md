@@ -13,7 +13,7 @@ Style
 - [Typography](https://aodevblue.github.io/MaterialValues/style/typography/)
 
 Layout
-- [Metrics & keylines](https://github.com/AoDevBlue/MaterialValues/blob/master/material-values/src/main/res-layout/values/keylines.xml)
+- [Metrics & keylines](https://aodevblue.github.io/MaterialValues/layout/keylines/)
 - [Responsive UI](https://github.com/AoDevBlue/MaterialValues/blob/master/material-values/src/main/res-layout/values/responsive.xml)
 - [Elevation](https://github.com/AoDevBlue/MaterialValues/blob/master/material-values/src/main/res-layout/values/elevation.xml)
 
