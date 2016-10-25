@@ -14,7 +14,7 @@ Style
 
 Layout
 - [Metrics & keylines](https://aodevblue.github.io/MaterialValues/layout/keylines/)
-- [Responsive UI](https://github.com/AoDevBlue/MaterialValues/blob/master/material-values/src/main/res-layout/values/responsive.xml)
+- [Responsive UI](https://aodevblue.github.io/MaterialValues/layout/responsive_ui/)
 - [Elevation](https://github.com/AoDevBlue/MaterialValues/blob/master/material-values/src/main/res-layout/values/elevation.xml)
 
 Components
@@ -50,23 +50,15 @@ compile 'blue.aodev:material-values:1.0.1'
 The artifact is currently only available on jCenter, not mavenCentral.
 Make sure that your buildscript repositories include jCenter.
 
-
-You can now use the values referenced in the available values, for example:
-
-| In xml | Programmatically (`blue.aodev.materialvalues.R`) |
-| :--- | :--- |
-| `@color/material_color_green_primary`                | `R.color.material_color_green_primary`
-| `@dimen/material_list_two_line_dense_height`         | `R.dimen.material_list_two_line_dense_height`
-| `@dimen/material_elevation_card_raised`              | `R.dimen.material_elevation_card_raised`
-| `@dimen/material_typography_regular_title_text_size` | `R.dimen.material_typography_regular_title_text_size`
+Use the [documentation](https://aodevblue.github.io/MaterialValues/) for information about values and their usage.
 
 
 Remaining tasks
 ---------------
 
+- Finish the documentation
 - Add missing values in Layout (Structure)
 - Add missing values in Patterns (Navigation drawer, Scrolling techniques)
-- Create a wiki to document the values
 
 
 -----

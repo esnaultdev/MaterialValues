@@ -23,5 +23,5 @@ A color state list is available as well: `@color/material_icon_color_dark_theme`
 
 ## Size
 
-*Some values are missing and will be included in the next version.*
+*These values are missing and will be included in a future version.*
 

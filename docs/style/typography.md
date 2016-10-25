@@ -51,7 +51,7 @@ These styles use the previously defined text sizes and also applies the good fon
 
 ## Color
 
-*Some values are missing and will be included in the next version.*
+*These values are missing and will be included in a future version.*
 
 
 ## Locale prefix
