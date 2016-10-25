@@ -7,31 +7,31 @@ All the values from the [Material Design guidelines](https://material.google.com
 Available values
 ----------------
 
-[Style](https://github.com/AoDevBlue/MaterialValues/tree/master/material-values/src/main/res-style/values)
+Style
 - Color [[Documentation]](https://aodevblue.github.io/MaterialValues/style/colors/) [[Source]](https://github.com/AoDevBlue/MaterialValues/blob/master/material-values/src/main/res-style/values/colors.xml) [[Specs]](https://material.google.com/style/color.html)
-- [Icon](https://github.com/AoDevBlue/MaterialValues/blob/master/material-values/src/main/res-style/values/icons.xml)
-- [Typography](https://github.com/AoDevBlue/MaterialValues/blob/master/material-values/src/main/res-style/values/typography.xml)
+- Icon [[Source]](https://github.com/AoDevBlue/MaterialValues/blob/master/material-values/src/main/res-style/values/icons.xml) [[Specs]](https://material.google.com/style/icons.html)
+- Typography [[Source]](https://github.com/AoDevBlue/MaterialValues/blob/master/material-values/src/main/res-style/values/typography.xml) [[Specs]](https://material.google.com/style/typography.html)
 
-[Layout](https://github.com/AoDevBlue/MaterialValues/tree/master/material-values/src/main/res-layout/values)
-- [Metrics & keylines](https://github.com/AoDevBlue/MaterialValues/blob/master/material-values/src/main/res-layout/values/keylines.xml)
-- [Responsive UI](https://github.com/AoDevBlue/MaterialValues/blob/master/material-values/src/main/res-layout/values/responsive.xml)
-- [Elevation](https://github.com/AoDevBlue/MaterialValues/blob/master/material-values/src/main/res-layout/values/elevation.xml)
+Layout
+- Metrics & keylines [[Source]](https://github.com/AoDevBlue/MaterialValues/blob/master/material-values/src/main/res-layout/values/keylines.xml) [[Specs]](https://material.google.com/layout/metrics-keylines.html)
+- Responsive UI [[Source]](https://github.com/AoDevBlue/MaterialValues/blob/master/material-values/src/main/res-layout/values/responsive.xml) [[Specs]](https://material.google.com/layout/responsive-ui.html)
+- Elevation [[Source]](https://github.com/AoDevBlue/MaterialValues/blob/master/material-values/src/main/res-layout/values/elevation.xml) [[Specs]](https://material.google.com/material-design/elevation-shadows.html)
 
-[Components](https://github.com/AoDevBlue/MaterialValues/tree/master/material-values/src/main/res-component/values)
-- [Bottom navigation](https://github.com/AoDevBlue/MaterialValues/blob/master/material-values/src/main/res-component/values/bottom_navigation.xml)
-- [Bottom sheets](https://github.com/AoDevBlue/MaterialValues/blob/master/material-values/src/main/res-component/values/bottom_sheet.xml)
-- [Buttons](https://github.com/AoDevBlue/MaterialValues/blob/master/material-values/src/main/res-component/values/button.xml)
-- [Cards](https://github.com/AoDevBlue/MaterialValues/blob/master/material-values/src/main/res-component/values/card.xml)
-- [Chips](https://github.com/AoDevBlue/MaterialValues/blob/master/material-values/src/main/res-component/values/dialog.xml)
-- [Dialogs](https://github.com/AoDevBlue/MaterialValues/blob/master/material-values/src/main/res-component/values/dialog.xml)
-- [Dividers](https://github.com/AoDevBlue/MaterialValues/blob/master/material-values/src/main/res-component/values/divider.xml)
-- [Expansion panels](https://github.com/AoDevBlue/MaterialValues/blob/master/material-values/src/main/res-component/values/expansion_panel.xml)
-- [Grid lists](https://github.com/AoDevBlue/MaterialValues/blob/master/material-values/src/main/res-component/values/grid_list.xml)
-- [Lists](https://github.com/AoDevBlue/MaterialValues/blob/master/material-values/src/main/res-component/values/list.xml)
-- [Menus](https://github.com/AoDevBlue/MaterialValues/blob/master/material-values/src/main/res-component/values/menu.xml)
-- [Steppers](https://github.com/AoDevBlue/MaterialValues/blob/master/material-values/src/main/res-component/values/stepper.xml)
-- [Subheaders](https://github.com/AoDevBlue/MaterialValues/blob/master/material-values/src/main/res-component/values/subheader.xml)
-- [Tooltips](https://github.com/AoDevBlue/MaterialValues/blob/master/material-values/src/main/res-component/values/tooltip.xml)
+Components
+- Bottom navigation [[Source]](https://github.com/AoDevBlue/MaterialValues/blob/master/material-values/src/main/res-component/values/bottom_navigation.xml) [[Specs]](https://material.google.com/components/bottom-navigation.html)
+- Bottom sheets [[Source]](https://github.com/AoDevBlue/MaterialValues/blob/master/material-values/src/main/res-component/values/bottom_sheet.xml) [[Specs]](https://material.google.com/components/bottom-sheets.html)
+- Buttons [[Source]](https://github.com/AoDevBlue/MaterialValues/blob/master/material-values/src/main/res-component/values/button.xml) [[Specs]](https://material.google.com/components/buttons.html)
+- Cards [[Source]](https://github.com/AoDevBlue/MaterialValues/blob/master/material-values/src/main/res-component/values/card.xml) [[Specs]](https://material.google.com/components/cards.html)
+- Chips [[Source]](https://github.com/AoDevBlue/MaterialValues/blob/master/material-values/src/main/res-component/values/dialog.xml) [[Specs]](https://material.google.com/components/chips.html)
+- Dialogs [[Source]](https://github.com/AoDevBlue/MaterialValues/blob/master/material-values/src/main/res-component/values/dialog.xml) [[Specs]](https://material.google.com/components/dialogs.html)
+- Dividers [[Source]](https://github.com/AoDevBlue/MaterialValues/blob/master/material-values/src/main/res-component/values/divider.xml) [[Specs]](https://material.google.com/components/dividers.html)
+- Expansion panels [[Source]](https://github.com/AoDevBlue/MaterialValues/blob/master/material-values/src/main/res-component/values/expansion_panel.xml) [[Specs]](https://material.google.com/components/expansion-panels.html)
+- Grid lists [[Source]](https://github.com/AoDevBlue/MaterialValues/blob/master/material-values/src/main/res-component/values/grid_list.xml) [[Specs]](https://material.google.com/components/grid-lists.html)
+- Lists [[Source]](https://github.com/AoDevBlue/MaterialValues/blob/master/material-values/src/main/res-component/values/list.xml) [[Specs]](https://material.google.com/components/lists.html)
+- Menus [[Source]](https://github.com/AoDevBlue/MaterialValues/blob/master/material-values/src/main/res-component/values/menu.xml) [[Specs]](https://material.google.com/components/menus.html)
+- Steppers [[Source]](https://github.com/AoDevBlue/MaterialValues/blob/master/material-values/src/main/res-component/values/stepper.xml) [[Specs]](https://material.google.com/components/steppers.html)
+- Subheaders [[Source]](https://github.com/AoDevBlue/MaterialValues/blob/master/material-values/src/main/res-component/values/subheader.xml) [[Specs]](https://material.google.com/components/subheaders.html)
+- Tooltips [[Source]](https://github.com/AoDevBlue/MaterialValues/blob/master/material-values/src/main/res-component/values/tooltip.xml) [[Specs]](https://material.google.com/components/tooltips.html)
 
 
 If a section of the Material Design specs is not in the above list, it may be because it has no values or is only available on desktop.
