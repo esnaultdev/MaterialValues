@@ -9,7 +9,7 @@
         
         <link rel="shortcut icon" href="../../img/favicon.ico">
 
-	<title>Responsive UI - MaterialValues</title>
+	<title>Elevation - MaterialValues</title>
 
         <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
         <link href="../../css/font-awesome-4.0.3.css" rel="stylesheet">
@@ -94,14 +94,14 @@
 
                     
                         
-<li class="active">
-    <a href="./">Responsive UI</a>
+<li >
+    <a href="../responsive_ui/">Responsive UI</a>
 </li>
 
                     
                         
-<li >
-    <a href="../elevation/">Elevation</a>
+<li class="active">
+    <a href="./">Elevation</a>
 </li>
 
                     
@@ -119,12 +119,12 @@
                     </a>
                 </li>
                 <li >
-                    <a rel="next" href="../keylines/">
+                    <a rel="next" href="../responsive_ui/">
                         <i class="fa fa-arrow-left"></i> Previous
                     </a>
                 </li>
-                <li >
-                    <a rel="prev" href="../elevation/">
+                <li class="disabled">
+                    <a rel="prev" >
                         Next <i class="fa fa-arrow-right"></i>
                     </a>
                 </li>
@@ -138,39 +138,131 @@
             <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
     
-        <li class="main active"><a href="#responsive-ui">Responsive UI</a></li>
+        <li class="main active"><a href="#elevation">Elevation</a></li>
         
-            <li><a href="#columns">Columns</a></li>
-        
-            <li><a href="#gutter">Gutter</a></li>
-        
-            <li><a href="#device-information">Device information</a></li>
-        
-            <li><a href="#number-of-content-levels">Number of content levels</a></li>
+            <li><a href="#see-also">See also</a></li>
         
     
     </ul>
 </div></div>
             <div class="col-md-9" role="main">
 
-<h1 id="responsive-ui">Responsive UI</h1>
-<h2 id="columns">Columns</h2>
-<p>The number of columns is defined by <code>@integer/material_responsive_columns</code>.</p>
-<h2 id="gutter">Gutter</h2>
-<p>The gutter is defined by <code>@dimen/material_responsive_gutter</code>.</p>
-<h2 id="device-information">Device information</h2>
-<p>The distinction between handsets and tablets can be made using <code>@bool/material_responsive_is_tablet</code>.</p>
-<p>This disctinction is arbitrary and might be irrelevant.</p>
-<h2 id="number-of-content-levels">Number of content levels</h2>
-<p><em>These values are missing and will be included in a future version.</em></p>
+<h1 id="elevation">Elevation</h1>
+<table>
+<thead>
+<tr>
+<th>Component</th>
+<th>Resource</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>App bar</td>
+<td><code>@dimen/material_elevation_app_bar</code></td>
+</tr>
+<tr>
+<td>Flat button</td>
+<td><code>@dimen/material_elevation_flat_button</code></td>
+</tr>
+<tr>
+<td>Raised button (resting)</td>
+<td><code>@dimen/material_elevation_raised_button_resting</code></td>
+</tr>
+<tr>
+<td>Raised button (pressed)</td>
+<td><code>@dimen/material_elevation_raised_button_pressed</code></td>
+</tr>
+<tr>
+<td>Floating action button (resting)</td>
+<td><code>@dimen/material_elevation_fab_resting</code></td>
+</tr>
+<tr>
+<td>Floating action button (pressed)</td>
+<td><code>@dimen/material_elevation_fab_pressed</code></td>
+</tr>
+<tr>
+<td>Card (resting)</td>
+<td><code>@dimen/material_elevation_card_resting</code></td>
+</tr>
+<tr>
+<td>Card (raised)</td>
+<td><code>@dimen/material_elevation_card_raised</code></td>
+</tr>
+<tr>
+<td>Menu</td>
+<td><code>@dimen/material_elevation_menu</code></td>
+</tr>
+<tr>
+<td>Submenu (increment for each level)</td>
+<td><code>@dimen/material_elevation_submenu_increment</code></td>
+</tr>
+<tr>
+<td>Dialog</td>
+<td><code>@dimen/material_elevation_dialog</code></td>
+</tr>
+<tr>
+<td>Navigation drawer</td>
+<td><code>@dimen/material_elevation_nav_drawer</code></td>
+</tr>
+<tr>
+<td>Right drawer</td>
+<td><code>@dimen/material_elevation_right_drawer</code></td>
+</tr>
+<tr>
+<td>Bottom sheet (modal)</td>
+<td><code>@dimen/material_elevation_bottom_sheet_modal</code></td>
+</tr>
+<tr>
+<td>Refresh indicator</td>
+<td><code>@dimen/material_elevation_refresh_indicator</code></td>
+</tr>
+<tr>
+<td>Search bar (resting)</td>
+<td><code>@dimen/material_elevation_search_bar_resting</code></td>
+</tr>
+<tr>
+<td>Search bar (scrolled)</td>
+<td><code>@dimen/material_elevation_search_bar_scrolled</code></td>
+</tr>
+<tr>
+<td>Snackbar</td>
+<td><code>@dimen/material_elevation_snackbar</code></td>
+</tr>
+<tr>
+<td>Switch</td>
+<td><code>@dimen/material_elevation_switch</code></td>
+</tr>
+<tr>
+<td>Bottom navigation bar</td>
+<td><code>@dimen/material_elevation_bottom_nav_bar</code></td>
+</tr>
+<tr>
+<td>Chip</td>
+<td><code>@dimen/material_elevation_chip</code></td>
+</tr>
+<tr>
+<td>Contact chip (closed)</td>
+<td><code>@dimen/material_elevation_contact_chip_closed</code></td>
+</tr>
+<tr>
+<td>Contact chip (open)</td>
+<td><code>@dimen/material_elevation_contact_chip_open</code></td>
+</tr>
+<tr>
+<td>Tooltip</td>
+<td><code>@dimen/material_elevation_tooltip</code></td>
+</tr>
+</tbody>
+</table>
+<p>These values can also be referenced from their component-related values.</p>
 <hr />
 <h4 id="see-also">See also</h4>
 <ul>
 <li>
-<p><a href="https://github.com/AoDevBlue/MaterialValues/blob/master/material-values/src/main/res-layout/values/responsive.xml">Raw values</a></p>
+<p><a href="https://github.com/AoDevBlue/MaterialValues/blob/master/material-values/src/main/res-layout/values/elevation.xml">Raw values</a></p>
 </li>
 <li>
-<p><a href="https://material.google.com/layout/responsive-ui.html">Responsive UI (Material design)</a></p>
+<p><a href="https://material.google.com/material-design/elevation-shadows.html">Elevation (Material design)</a></p>
 </li>
 </ul></div>
         </div>

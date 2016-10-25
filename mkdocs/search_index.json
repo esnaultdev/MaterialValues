@@ -204,6 +204,21 @@
             "location": "/layout/responsive_ui/#see-also",
             "text": "Raw values    Responsive UI (Material design)",
             "title": "See also"
+        },
+        {
+            "location": "/layout/elevation/",
+            "text": "Elevation\n\n\n\n\n\n\n\n\nComponent\n\n\nResource\n\n\n\n\n\n\n\n\n\n\nApp bar\n\n\n@dimen/material_elevation_app_bar\n\n\n\n\n\n\nFlat button\n\n\n@dimen/material_elevation_flat_button\n\n\n\n\n\n\nRaised button (resting)\n\n\n@dimen/material_elevation_raised_button_resting\n\n\n\n\n\n\nRaised button (pressed)\n\n\n@dimen/material_elevation_raised_button_pressed\n\n\n\n\n\n\nFloating action button (resting)\n\n\n@dimen/material_elevation_fab_resting\n\n\n\n\n\n\nFloating action button (pressed)\n\n\n@dimen/material_elevation_fab_pressed\n\n\n\n\n\n\nCard (resting)\n\n\n@dimen/material_elevation_card_resting\n\n\n\n\n\n\nCard (raised)\n\n\n@dimen/material_elevation_card_raised\n\n\n\n\n\n\nMenu\n\n\n@dimen/material_elevation_menu\n\n\n\n\n\n\nSubmenu (increment for each level)\n\n\n@dimen/material_elevation_submenu_increment\n\n\n\n\n\n\nDialog\n\n\n@dimen/material_elevation_dialog\n\n\n\n\n\n\nNavigation drawer\n\n\n@dimen/material_elevation_nav_drawer\n\n\n\n\n\n\nRight drawer\n\n\n@dimen/material_elevation_right_drawer\n\n\n\n\n\n\nBottom sheet (modal)\n\n\n@dimen/material_elevation_bottom_sheet_modal\n\n\n\n\n\n\nRefresh indicator\n\n\n@dimen/material_elevation_refresh_indicator\n\n\n\n\n\n\nSearch bar (resting)\n\n\n@dimen/material_elevation_search_bar_resting\n\n\n\n\n\n\nSearch bar (scrolled)\n\n\n@dimen/material_elevation_search_bar_scrolled\n\n\n\n\n\n\nSnackbar\n\n\n@dimen/material_elevation_snackbar\n\n\n\n\n\n\nSwitch\n\n\n@dimen/material_elevation_switch\n\n\n\n\n\n\nBottom navigation bar\n\n\n@dimen/material_elevation_bottom_nav_bar\n\n\n\n\n\n\nChip\n\n\n@dimen/material_elevation_chip\n\n\n\n\n\n\nContact chip (closed)\n\n\n@dimen/material_elevation_contact_chip_closed\n\n\n\n\n\n\nContact chip (open)\n\n\n@dimen/material_elevation_contact_chip_open\n\n\n\n\n\n\nTooltip\n\n\n@dimen/material_elevation_tooltip\n\n\n\n\n\n\n\n\nThese values can also be referenced from their component-related values.\n\n\n\n\nSee also\n\n\n\n\n\n\nRaw values\n\n\n\n\n\n\nElevation (Material design)",
+            "title": "Elevation"
+        },
+        {
+            "location": "/layout/elevation/#elevation",
+            "text": "Component  Resource      App bar  @dimen/material_elevation_app_bar    Flat button  @dimen/material_elevation_flat_button    Raised button (resting)  @dimen/material_elevation_raised_button_resting    Raised button (pressed)  @dimen/material_elevation_raised_button_pressed    Floating action button (resting)  @dimen/material_elevation_fab_resting    Floating action button (pressed)  @dimen/material_elevation_fab_pressed    Card (resting)  @dimen/material_elevation_card_resting    Card (raised)  @dimen/material_elevation_card_raised    Menu  @dimen/material_elevation_menu    Submenu (increment for each level)  @dimen/material_elevation_submenu_increment    Dialog  @dimen/material_elevation_dialog    Navigation drawer  @dimen/material_elevation_nav_drawer    Right drawer  @dimen/material_elevation_right_drawer    Bottom sheet (modal)  @dimen/material_elevation_bottom_sheet_modal    Refresh indicator  @dimen/material_elevation_refresh_indicator    Search bar (resting)  @dimen/material_elevation_search_bar_resting    Search bar (scrolled)  @dimen/material_elevation_search_bar_scrolled    Snackbar  @dimen/material_elevation_snackbar    Switch  @dimen/material_elevation_switch    Bottom navigation bar  @dimen/material_elevation_bottom_nav_bar    Chip  @dimen/material_elevation_chip    Contact chip (closed)  @dimen/material_elevation_contact_chip_closed    Contact chip (open)  @dimen/material_elevation_contact_chip_open    Tooltip  @dimen/material_elevation_tooltip     These values can also be referenced from their component-related values.",
+            "title": "Elevation"
+        },
+        {
+            "location": "/layout/elevation/#see-also",
+            "text": "Raw values    Elevation (Material design)",
+            "title": "See also"
         }
     ]
 }
