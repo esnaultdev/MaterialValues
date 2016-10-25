@@ -8,4 +8,5 @@ pages:
 - Layout:
     - Metrics & keylines: layout/keylines.md
     - Responsive UI: layout/responsive_ui.md
+    - Elevation: layout/elevation.md
 theme: flatly

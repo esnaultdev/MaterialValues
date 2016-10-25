@@ -15,7 +15,7 @@ Style
 Layout
 - [Metrics & keylines](https://aodevblue.github.io/MaterialValues/layout/keylines/)
 - [Responsive UI](https://aodevblue.github.io/MaterialValues/layout/responsive_ui/)
-- [Elevation](https://github.com/AoDevBlue/MaterialValues/blob/master/material-values/src/main/res-layout/values/elevation.xml)
+- [Elevation](https://aodevblue.github.io/MaterialValues/layout/elevation/)
 
 Components
 - [Bottom navigation](https://github.com/AoDevBlue/MaterialValues/blob/master/material-values/src/main/res-component/values/bottom_navigation.xml)
