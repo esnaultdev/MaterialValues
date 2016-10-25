@@ -62,3 +62,11 @@ This prefix will choose the script family corresponding to the current locale, a
 
 Its usage is not recommended currently as the typography will change even if your text is not translated for the locale.
 
+---
+
+#### See also
+
+- [Raw values](https://github.com/AoDevBlue/MaterialValues/blob/master/material-values/src/main/res-style/values/typography.xml)
+
+- [Typography (Material design)](https://material.google.com/style/typography.html)
+

@@ -28,3 +28,11 @@ Increment values are provided from `@dimen/material_increment_1x` to `@dimen/mat
 
 Secondary content is content placed after some primary content. For example, the text after an avatar in a list.
 
+---
+
+#### See also
+
+- [Raw values](https://github.com/AoDevBlue/MaterialValues/blob/master/material-values/src/main/res-layout/values/keylines.xml)
+
+- [Metrics & keylines (Material design)](https://material.google.com/layout/metrics-keylines.html)
+

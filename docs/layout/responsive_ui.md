@@ -21,3 +21,11 @@ This disctinction is arbitrary and might be irrelevant.
 
 *These values are missing and will be included in a future version.*
 
+---
+
+#### See also
+
+- [Raw values](https://github.com/AoDevBlue/MaterialValues/blob/master/material-values/src/main/res-layout/values/responsive.xml)
+
+- [Responsive UI (Material design)](https://material.google.com/layout/responsive-ui.html)
+

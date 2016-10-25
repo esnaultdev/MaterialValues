@@ -71,3 +71,12 @@
 
 See [Typography](/style/typography.md).
 
+
+---
+
+#### See also
+
+- [Raw values](https://github.com/AoDevBlue/MaterialValues/blob/master/material-values/src/main/res-style/values/colors.xml)
+
+- [Color (Material design)](https://material.google.com/style/color.html)
+
