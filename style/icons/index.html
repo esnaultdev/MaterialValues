@@ -7,14 +7,14 @@
         
         
         
-        <link rel="shortcut icon" href="./img/favicon.ico">
+        <link rel="shortcut icon" href="../../img/favicon.ico">
 
-	<title>MaterialValues</title>
+	<title>Icons - MaterialValues</title>
 
-        <link href="./css/bootstrap-custom.min.css" rel="stylesheet">
-        <link href="./css/font-awesome-4.0.3.css" rel="stylesheet">
-        <link rel="stylesheet" href="./css/highlight.css">
-        <link href="./css/base.css" rel="stylesheet">
+        <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome-4.0.3.css" rel="stylesheet">
+        <link rel="stylesheet" href="../../css/highlight.css">
+        <link href="../../css/base.css" rel="stylesheet">
 
         <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!--[if lt IE 9]>
@@ -41,7 +41,7 @@
             </button>
 
             <!-- Main title -->
-            <a class="navbar-brand" href=".">MaterialValues</a>
+            <a class="navbar-brand" href="../..">MaterialValues</a>
         </div>
 
         <!-- Expanded navigation -->
@@ -50,31 +50,31 @@
             <ul class="nav navbar-nav">
             
             
-                <li class="active">
-                    <a href=".">Presentation</a>
+                <li >
+                    <a href="../..">Presentation</a>
                 </li>
             
             
             
-                <li class="dropdown">
+                <li class="dropdown active">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Style <b class="caret"></b></a>
                     <ul class="dropdown-menu">
                     
                         
 <li >
-    <a href="style/colors/">Colors</a>
+    <a href="../colors/">Colors</a>
+</li>
+
+                    
+                        
+<li class="active">
+    <a href="./">Icons</a>
 </li>
 
                     
                         
 <li >
-    <a href="style/icons/">Icons</a>
-</li>
-
-                    
-                        
-<li >
-    <a href="style/typography/">Typography</a>
+    <a href="../typography/">Typography</a>
 </li>
 
                     
@@ -91,13 +91,13 @@
                         <i class="fa fa-search"></i> Search
                     </a>
                 </li>
-                <li class="disabled">
-                    <a rel="next" >
+                <li >
+                    <a rel="next" href="../colors/">
                         <i class="fa fa-arrow-left"></i> Previous
                     </a>
                 </li>
                 <li >
-                    <a rel="prev" href="style/colors/">
+                    <a rel="prev" href="../typography/">
                         Next <i class="fa fa-arrow-right"></i>
                     </a>
                 </li>
@@ -111,60 +111,61 @@
             <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
     
-        <li class="main active"><a href="#materialvalues">MaterialValues</a></li>
+        <li class="main active"><a href="#icons">Icons</a></li>
         
-            <li><a href="#documentation">Documentation</a></li>
+            <li><a href="#color">Color</a></li>
+        
+            <li><a href="#size">Size</a></li>
         
     
     </ul>
 </div></div>
             <div class="col-md-9" role="main">
 
-<h1 id="materialvalues">MaterialValues</h1>
+<h1 id="icons">Icons</h1>
+<h2 id="color">Color</h2>
+<h3 id="light-theme">Light theme</h3>
 <table>
 <thead>
 <tr>
-<th align="center"></th>
+<th>Color</th>
+<th>Resource</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td align="center"><img alt="Logo" src="./images/logo.png" /></td>
+<td>Active</td>
+<td><code>@color/material_icon_color_light_theme_active</code></td>
+</tr>
+<tr>
+<td>Inactive</td>
+<td><code>@color/material_icon_color_light_theme_inactive</code></td>
 </tr>
 </tbody>
 </table>
-<p>All the values from the Material Design guidelines defined in resources for Android.</p>
-<hr />
-<h2 id="documentation">Documentation</h2>
-<p>All the values in this documentation use the xml reference representation.</p>
-<p>You can also use them programmatically using <code>blue.aodev.materialvalues.R</code>.</p>
-<p>For example:</p>
+<p>A color state list is available as well: <code>@color/material_icon_color_light_theme</code>.</p>
+<h3 id="dark-theme">Dark theme</h3>
 <table>
 <thead>
 <tr>
-<th align="left">Xml reference</th>
-<th align="left">Code reference</th>
+<th>Color</th>
+<th>Resource</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td align="left"><code>@color/material_color_green_primary</code></td>
-<td align="left"><code>R.color.material_color_green_primary</code></td>
+<td>Active</td>
+<td><code>@color/material_icon_color_dark_theme_active</code></td>
 </tr>
 <tr>
-<td align="left"><code>@dimen/material_list_two_line_dense_height</code></td>
-<td align="left"><code>R.dimen.material_list_two_line_dense_height</code></td>
-</tr>
-<tr>
-<td align="left"><code>@dimen/material_elevation_card_raised</code></td>
-<td align="left"><code>R.dimen.material_elevation_card_raised</code></td>
-</tr>
-<tr>
-<td align="left"><code>@dimen/material_typography_regular_title_text_size</code></td>
-<td align="left"><code>R.dimen.material_typography_regular_title_text_size</code></td>
+<td>Inactive</td>
+<td><code>@color/material_icon_color_dark_theme_inactive</code></td>
 </tr>
 </tbody>
-</table></div>
+</table>
+<p>A color state list is available as well: <code>@color/material_icon_color_dark_theme</code>.</p>
+<h2 id="size">Size</h2>
+<p><em>Some values are missing and will be included in the next version.</em></p></div>
         </div>
 
         <footer class="col-md-12">
@@ -173,12 +174,12 @@
             <center>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</center>
         </footer>
 
-        <script src="./js/jquery-1.10.2.min.js"></script>
-        <script src="./js/bootstrap-3.0.3.min.js"></script>
-        <script src="./js/highlight.pack.js"></script>
-        <script>var base_url = '.';</script>
-        <script data-main="./mkdocs/js/search.js" src="./mkdocs/js/require.js"></script>
-        <script src="./js/base.js"></script>
+        <script src="../../js/jquery-1.10.2.min.js"></script>
+        <script src="../../js/bootstrap-3.0.3.min.js"></script>
+        <script src="../../js/highlight.pack.js"></script>
+        <script>var base_url = '../..';</script>
+        <script data-main="../../mkdocs/js/search.js" src="../../mkdocs/js/require.js"></script>
+        <script src="../../js/base.js"></script>
 
         <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
             <div class="modal-dialog">
