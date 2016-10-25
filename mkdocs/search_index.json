@@ -124,6 +124,31 @@
             "location": "/style/typography/#locale-prefix",
             "text": "A  locale  prefix is also available in the resources.  This prefix will choose the script family corresponding to the current locale, and default to  regular .  Its usage is not recommended currently as the typography will change even if your text is not translated for the locale.",
             "title": "Locale prefix"
+        },
+        {
+            "location": "/layout/keylines/",
+            "text": "Metrics & Keylines\n\n\nBaseline grid\n\n\nBaseline grid values are provided from \n@dimen/material_baseline_grid_1x\n to \n@dimen/material_baseline_grid_20x\n.\n\n\nHalf-increments are also available for centering elements, from \n@dimen/material_baseline_grid_0.5x\n to \n@dimen/material_baseline_grid_9.5x\n.\n\n\nIt is recommended to use the baseline grid to specify component dimensions.\n\n\nIncrements\n\n\nA default value of 56dp for increments is used to specify increment values.\nThis is specific to this library and not a material design specification, even though it's a common value.\nEvery dimension relying on increments is provided alongside an \n@integer\n value so that a custom increment size can be used.\n\n\nIncrement values are provided from \n@dimen/material_increment_1x\n to \n@dimen/material_increment_10x\n. \n\n\nContent keylines\n\n\n\n\n\n\n\n\nEdge margin\n\n\nResource\n\n\n\n\n\n\n\n\n\n\nDefault\n\n\n@dimen/material_content_edge_margin_horizontal\n\n\n\n\n\n\nSecondary content\n\n\n@dimen/material_content_secondary_edge_margin_start\n\n\n\n\n\n\n\n\nSecondary content is content placed after some primary content. For example, the text after an avatar in a list.",
+            "title": "Metrics & keylines"
+        },
+        {
+            "location": "/layout/keylines/#metrics-keylines",
+            "text": "",
+            "title": "Metrics &amp; Keylines"
+        },
+        {
+            "location": "/layout/keylines/#baseline-grid",
+            "text": "Baseline grid values are provided from  @dimen/material_baseline_grid_1x  to  @dimen/material_baseline_grid_20x .  Half-increments are also available for centering elements, from  @dimen/material_baseline_grid_0.5x  to  @dimen/material_baseline_grid_9.5x .  It is recommended to use the baseline grid to specify component dimensions.",
+            "title": "Baseline grid"
+        },
+        {
+            "location": "/layout/keylines/#increments",
+            "text": "A default value of 56dp for increments is used to specify increment values.\nThis is specific to this library and not a material design specification, even though it's a common value.\nEvery dimension relying on increments is provided alongside an  @integer  value so that a custom increment size can be used.  Increment values are provided from  @dimen/material_increment_1x  to  @dimen/material_increment_10x .",
+            "title": "Increments"
+        },
+        {
+            "location": "/layout/keylines/#content-keylines",
+            "text": "Edge margin  Resource      Default  @dimen/material_content_edge_margin_horizontal    Secondary content  @dimen/material_content_secondary_edge_margin_start     Secondary content is content placed after some primary content. For example, the text after an avatar in a list.",
+            "title": "Content keylines"
         }
     ]
 }
