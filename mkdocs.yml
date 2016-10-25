@@ -1,0 +1,6 @@
+site_name: MaterialValues
+pages:
+- Presentation: index.md
+- Style:
+    - Colors: style/colors.md
+theme: flatly
