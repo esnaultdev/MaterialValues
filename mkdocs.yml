@@ -11,4 +11,5 @@ pages:
     - Elevation: layout/elevation.md
 - Components:
     - Bottom navigation: component/bottom_navigation.md
+    - Bottom sheet: component/bottom_sheet.md
 theme: flatly
