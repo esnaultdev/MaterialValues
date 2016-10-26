@@ -61,6 +61,12 @@
      <changefreq>daily</changefreq>
     </url>
         
+    <url>
+     <loc>None/component/bottom_sheet/</loc>
+     <lastmod>2016-10-26</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
     
 
 </urlset>

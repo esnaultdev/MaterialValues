@@ -9,7 +9,7 @@
         
         <link rel="shortcut icon" href="../../img/favicon.ico">
 
-	<title>Colors - MaterialValues</title>
+	<title>Bottom sheet - MaterialValues</title>
 
         <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
         <link href="../../css/font-awesome-4.0.3.css" rel="stylesheet">
@@ -56,25 +56,25 @@
             
             
             
-                <li class="dropdown active">
+                <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Style <b class="caret"></b></a>
                     <ul class="dropdown-menu">
                     
                         
-<li class="active">
-    <a href="./">Colors</a>
+<li >
+    <a href="../../style/colors/">Colors</a>
 </li>
 
                     
                         
 <li >
-    <a href="../icons/">Icons</a>
+    <a href="../../style/icons/">Icons</a>
 </li>
 
                     
                         
 <li >
-    <a href="../typography/">Typography</a>
+    <a href="../../style/typography/">Typography</a>
 </li>
 
                     
@@ -110,19 +110,19 @@
             
             
             
-                <li class="dropdown">
+                <li class="dropdown active">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Components <b class="caret"></b></a>
                     <ul class="dropdown-menu">
                     
                         
 <li >
-    <a href="../../component/bottom_navigation/">Bottom navigation</a>
+    <a href="../bottom_navigation/">Bottom navigation</a>
 </li>
 
                     
                         
-<li >
-    <a href="../../component/bottom_sheet/">Bottom sheet</a>
+<li class="active">
+    <a href="./">Bottom sheet</a>
 </li>
 
                     
@@ -140,12 +140,12 @@
                     </a>
                 </li>
                 <li >
-                    <a rel="next" href="../..">
+                    <a rel="next" href="../bottom_navigation/">
                         <i class="fa fa-arrow-left"></i> Previous
                     </a>
                 </li>
-                <li >
-                    <a rel="prev" href="../icons/">
+                <li class="disabled">
+                    <a rel="prev" >
                         Next <i class="fa fa-arrow-right"></i>
                     </a>
                 </li>
@@ -159,234 +159,139 @@
             <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
     
-        <li class="main active"><a href="#color-palette">Color palette</a></li>
+        <li class="main active"><a href="#bottom-sheet">Bottom sheet</a></li>
         
-            <li><a href="#primary-colors">Primary colors</a></li>
+            <li><a href="#font-and-color">Font and color</a></li>
         
-            <li><a href="#accent-colors">Accent colors</a></li>
+            <li><a href="#list-style">List style</a></li>
         
-            <li><a href="#common-values">Common values</a></li>
+            <li><a href="#grid-style">Grid style</a></li>
         
-            <li><a href="#color-names">Color names</a></li>
+            <li><a href="#elevation">Elevation</a></li>
         
-            <li><a href="#text-color">Text color</a></li>
+            <li><a href="#width-tablet-only">Width (Tablet only)</a></li>
         
     
     </ul>
 </div></div>
             <div class="col-md-9" role="main">
 
-<h1 id="color-palette">Color palette</h1>
-<h2 id="primary-colors">Primary colors</h2>
+<h1 id="bottom-sheet">Bottom sheet</h1>
+<h2 id="font-and-color">Font and color</h2>
 <table>
 <thead>
 <tr>
-<th align="left">Shade</th>
-<th align="left">Resource</th>
+<th>Name</th>
+<th>Resource</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td align="left">50</td>
-<td align="left"><code>@color/material_color_NAME_50</code></td>
+<td>Contents text size</td>
+<td><code>@dimen/material_bottom_sheet_contents_text_size</code></td>
 </tr>
 <tr>
-<td align="left">100</td>
-<td align="left"><code>@color/material_color_NAME_100</code></td>
+<td>Contents text color</td>
+<td><code>@color/material_bottom_sheet_contents_text_color</code></td>
 </tr>
 <tr>
-<td align="left">200</td>
-<td align="left"><code>@color/material_color_NAME_200</code></td>
+<td>Title text size</td>
+<td><code>@dimen/material_bottom_sheet_title_text_size</code></td>
 </tr>
 <tr>
-<td align="left">300</td>
-<td align="left"><code>@color/material_color_NAME_300</code></td>
-</tr>
-<tr>
-<td align="left">400</td>
-<td align="left"><code>@color/material_color_NAME_400</code></td>
-</tr>
-<tr>
-<td align="left">500</td>
-<td align="left"><code>@color/material_color_NAME_500</code></td>
-</tr>
-<tr>
-<td align="left">600</td>
-<td align="left"><code>@color/material_color_NAME_600</code></td>
-</tr>
-<tr>
-<td align="left">700</td>
-<td align="left"><code>@color/material_color_NAME_700</code></td>
-</tr>
-<tr>
-<td align="left">800</td>
-<td align="left"><code>@color/material_color_NAME_800</code></td>
-</tr>
-<tr>
-<td align="left">900</td>
-<td align="left"><code>@color/material_color_NAME_900</code></td>
+<td>Title text color</td>
+<td><code>@color/material_bottom_sheet_title_text_color</code></td>
 </tr>
 </tbody>
 </table>
-<h2 id="accent-colors">Accent colors</h2>
 <table>
 <thead>
 <tr>
-<th align="left">Shade</th>
-<th align="left">Resource</th>
+<th>Color</th>
+<th>Resource</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td align="left">A100</td>
-<td align="left"><code>@color/material_color_NAME_accent_100</code></td>
+<td>Sheet background</td>
+<td><code>@color/material_bottom_sheet_background_fill</code></td>
 </tr>
 <tr>
-<td align="left">A200</td>
-<td align="left"><code>@color/material_color_NAME_accent_200</code></td>
-</tr>
-<tr>
-<td align="left">A400</td>
-<td align="left"><code>@color/material_color_NAME_accent_400</code></td>
-</tr>
-<tr>
-<td align="left">A700</td>
-<td align="left"><code>@color/material_color_NAME_accent_700</code></td>
+<td>Transparent overlay</td>
+<td><code>@color/material_bottom_sheet_transparent_overlay_fill</code></td>
 </tr>
 </tbody>
 </table>
-<h2 id="common-values">Common values</h2>
+<h2 id="list-style">List style</h2>
+<p><img src="../../images/components_bottomsheets_list_headerless_specs.png" alt="Bottom sheet list headerless" style="width: 360px;"/></p>
+<ol>
+<li><code>@dimen/material_bottom_sheet_list_padding_horizontal</code></li>
+<li><code>@dimen/material_bottom_sheet_list_item_label_padding_start</code></li>
+<li><code>@dimen/material_bottom_sheet_list_item_icon_size</code></li>
+<li><code>@dimen/material_bottom_sheet_list_item_height</code></li>
+<li><code>@dimen/material_bottom_sheet_list_headerless_padding_top</code></li>
+<li><code>@dimen/material_bottom_sheet_list_padding_bottom</code></li>
+</ol>
+<p><img src="../../images/components_bottomsheets_list_header_specs.png" alt="Bottom sheet list headerless" style="width: 360px;"/></p>
+<ol>
+<li><code>@dimen/material_bottom_sheet_list_padding_horizontal</code></li>
+<li><code>@dimen/material_bottom_sheet_list_item_label_padding_start</code></li>
+<li><code>@dimen/material_bottom_sheet_list_item_icon_size</code></li>
+<li><code>@dimen/material_bottom_sheet_list_item_height</code></li>
+<li><code>@dimen/material_bottom_sheet_list_header_height</code></li>
+<li><code>@dimen/material_bottom_sheet_list_padding_bottom</code></li>
+<li><code>@dimen/material_bottom_sheet_list_divider_margin_top</code></li>
+<li><code>@dimen/material_divider_height</code></li>
+<li><code>@dimen/material_bottom_sheet_list_divider_margin_bottom</code></li>
+</ol>
+<h2 id="grid-style">Grid style</h2>
+<p><img src="../../images/components_bottomsheets_grid_specs.png" alt="Bottom sheet grid" style="width: 360px;"/></p>
+<ol>
+<li><code>@dimen/material_bottom_sheet_grid_row_padding_top</code></li>
+<li><code>@dimen/material_bottom_sheet_grid_item_icon_size</code></li>
+<li><code>@dimen/material_bottom_sheet_grid_row_height</code></li>
+<li><code>@dimen/material_bottom_sheet_grid_item_label_height</code></li>
+<li><code>@dimen/material_bottom_sheet_grid_padding_horizontal</code></li>
+<li><code>@dimen/material_bottom_sheet_grid_padding_bottom</code> </li>
+</ol>
+<p>The text size for labels in a grid style is <code>@dimen/material_bottom_sheet_grid_item_label_text_size</code>.</p>
+<h2 id="elevation">Elevation</h2>
+<p>For both styles, the elevation is <code>@dimen/material_bottom_sheet_elevation</code>.</p>
+<h2 id="width-tablet-only">Width (Tablet only)</h2>
 <table>
 <thead>
 <tr>
-<th align="left">Name</th>
-<th align="left">Resource</th>
+<th>Name</th>
+<th>Resource</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td align="left">Primary</td>
-<td align="left"><code>color/material_color_NAME_primary</code></td>
+<td>Minimum horizontal margin (increment)</td>
+<td><code>@integer/material_bottom_sheet_margin_horizontal_minimum_increment</code></td>
 </tr>
 <tr>
-<td align="left">Primary dark</td>
-<td align="left"><code>color/material_color_NAME_primary_dark</code></td>
+<td>Minimum horizontal margin</td>
+<td><code>@dimen/material_bottom_sheet_margin_horizontal_minimum</code></td>
 </tr>
 <tr>
-<td align="left">Accent</td>
-<td align="left"><code>color/material_color_NAME_accent</code></td>
+<td>Minimum width (increment)</td>
+<td><code>@integer/material_bottom_sheet_width_minimum_increment</code></td>
+</tr>
+<tr>
+<td>Minimum width</td>
+<td><code>@dimen/material_bottom_sheet_width_minimum</code></td>
 </tr>
 </tbody>
 </table>
-<h2 id="color-names">Color names</h2>
-<h3 id="colors-with-both-primary-and-accent-colors">Colors with both primary and accent colors</h3>
-<table>
-<thead>
-<tr>
-<th align="left">Color</th>
-<th align="left">Resource prefix</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">Red</td>
-<td align="left"><code>red</code></td>
-</tr>
-<tr>
-<td align="left">Pink</td>
-<td align="left"><code>pink</code></td>
-</tr>
-<tr>
-<td align="left">Purple</td>
-<td align="left"><code>purple</code></td>
-</tr>
-<tr>
-<td align="left">Deep Purple</td>
-<td align="left"><code>deep_purple</code></td>
-</tr>
-<tr>
-<td align="left">Indigo</td>
-<td align="left"><code>indigo</code></td>
-</tr>
-<tr>
-<td align="left">Blue</td>
-<td align="left"><code>blue</code></td>
-</tr>
-<tr>
-<td align="left">Light Blue</td>
-<td align="left"><code>light_blue</code></td>
-</tr>
-<tr>
-<td align="left">Cyan</td>
-<td align="left"><code>cyan</code></td>
-</tr>
-<tr>
-<td align="left">Teal</td>
-<td align="left"><code>teal</code></td>
-</tr>
-<tr>
-<td align="left">Green</td>
-<td align="left"><code>green</code></td>
-</tr>
-<tr>
-<td align="left">Light Green</td>
-<td align="left"><code>light_green</code></td>
-</tr>
-<tr>
-<td align="left">Lime</td>
-<td align="left"><code>lime</code></td>
-</tr>
-<tr>
-<td align="left">Yellow</td>
-<td align="left"><code>yellow</code></td>
-</tr>
-<tr>
-<td align="left">Amber</td>
-<td align="left"><code>amber</code></td>
-</tr>
-<tr>
-<td align="left">Orange</td>
-<td align="left"><code>orange</code></td>
-</tr>
-<tr>
-<td align="left">Deep Orange</td>
-<td align="left"><code>deep_orange</code></td>
-</tr>
-</tbody>
-</table>
-<h3 id="colors-with-only-primary-colors">Colors with only primary colors</h3>
-<table>
-<thead>
-<tr>
-<th align="left">Color</th>
-<th align="left">Resource prefix</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">Brown</td>
-<td align="left"><code>brown</code></td>
-</tr>
-<tr>
-<td align="left">Grey</td>
-<td align="left"><code>grey</code></td>
-</tr>
-<tr>
-<td align="left">Blue Grey</td>
-<td align="left"><code>blue_grey</code></td>
-</tr>
-</tbody>
-</table>
-<h2 id="text-color">Text color</h2>
-<p>See <a href="../typography/">Typography</a>.</p>
 <hr />
 <h4 id="see-also">See also</h4>
 <ul>
 <li>
-<p><a href="https://github.com/AoDevBlue/MaterialValues/blob/master/material-values/src/main/res-style/values/colors.xml">Raw values</a></p>
+<p><a href="https://github.com/AoDevBlue/MaterialValues/blob/master/material-values/src/main/res-component/values/bottom_sheet.xml">Raw values</a></p>
 </li>
 <li>
-<p><a href="https://material.google.com/style/color.html">Color (Material design)</a></p>
+<p><a href="https://material.google.com/components/bottom-sheets.html">Bottom sheets (Material design)</a></p>
 </li>
 </ul></div>
         </div>

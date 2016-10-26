@@ -227,7 +227,7 @@
         },
         {
             "location": "/component/bottom_navigation/",
-            "text": "Bottom navigation\n\n\nFixed bottom navigation bar\n\n\nAction size\n\n\n\n\n\n\n@dimen/material_bottom_nav_bar_fixed_action_minimum_width\n\n\n@dimen/material_bottom_nav_bar_fixed_action_maximum_width\n\n\n@dimen/material_bottom_nav_bar_action_padding_horizontal\n\n\n\n\nBar specs\n\n\n\n\n\n\n@dimen/material_bottom_nav_bar_height\n\n\n@dimen/material_bottom_nav_bar_action_icon_size\n\n\n@dimen/material_bottom_nav_bar_action_label_padding_bottom\n\n\n@dimen/material_bottom_nav_bar_fixed_action_active_icon_padding_top\n\n\n@dimen/material_bottom_nav_bar_fixed_action_inactive_icon_padding_top\n\n\n\n\nLabel\n\n\n\n\n\n\n\n\nLabel\n\n\nResource\n\n\n\n\n\n\n\n\n\n\nActive label\n\n\n@dimen/material_bottom_nav_bar_fixed_action_active_label_text_size\n\n\n\n\n\n\nInactive label\n\n\n@dimen/material_bottom_nav_bar_fixed_action_inactive_label_text_size\n\n\n\n\n\n\n\n\n\n\nShifting bottom navigation bar\n\n\nAction size\n\n\n\n\n\n\n@dimen/material_bottom_nav_bar_shifting_action_active_maximum_width\n\n\n@dimen/material_bottom_nav_bar_shifting_action_active_minimum_width\n\n\n\n\n\n\n\n\n@dimen/material_bottom_nav_bar_shifting_action_inactive_maximum_width\n\n\n@dimen/material_bottom_nav_bar_shifting_action_inactive_minimum_width\n\n\n\n\nBar specs\n\n\n\n\n\n\n@dimen/material_bottom_nav_bar_height\n\n\n@dimen/material_bottom_nav_bar_action_icon_size\n\n\n@dimen/material_bottom_nav_bar_shifting_action_active_icon_padding_top\n\n\n@dimen/material_bottom_nav_bar_action_label_padding_bottom\n\n\n@dimen/material_bottom_nav_bar_shifting_action_active_icon_padding_vertical\n Naming issue\n\n\n\n\nLabel\n\n\n\n\n\n\n\n\nLabel\n\n\nResource\n\n\n\n\n\n\n\n\n\n\nActive label\n\n\n@dimen/material_bottom_nav_bar_shifting_action_active_label_text_size\n\n\n\n\n\n\n\n\n\n\nElevation\n\n\nThe elevation of both styles is \n@dimen/material_elevation_bottom_nav_bar\n.\n\n\n\n\nSee also\n\n\n\n\n\n\nRaw values\n\n\n\n\n\n\n Bottom navigation (Material design)",
+            "text": "Bottom navigation\n\n\nFixed bottom navigation bar\n\n\nAction size\n\n\n\n\n\n\n@dimen/material_bottom_nav_bar_fixed_action_minimum_width\n\n\n@dimen/material_bottom_nav_bar_fixed_action_maximum_width\n\n\n@dimen/material_bottom_nav_bar_action_padding_horizontal\n\n\n\n\nBar specs\n\n\n\n\n\n\n@dimen/material_bottom_nav_bar_height\n\n\n@dimen/material_bottom_nav_bar_action_icon_size\n\n\n@dimen/material_bottom_nav_bar_action_label_padding_bottom\n\n\n@dimen/material_bottom_nav_bar_fixed_action_active_icon_padding_top\n\n\n@dimen/material_bottom_nav_bar_fixed_action_inactive_icon_padding_top\n\n\n\n\nLabel\n\n\n\n\n\n\n\n\nLabel\n\n\nResource\n\n\n\n\n\n\n\n\n\n\nActive label\n\n\n@dimen/material_bottom_nav_bar_fixed_action_active_label_text_size\n\n\n\n\n\n\nInactive label\n\n\n@dimen/material_bottom_nav_bar_fixed_action_inactive_label_text_size\n\n\n\n\n\n\n\n\n\n\nShifting bottom navigation bar\n\n\nAction size\n\n\n\n\n\n\n@dimen/material_bottom_nav_bar_shifting_action_active_maximum_width\n\n\n@dimen/material_bottom_nav_bar_shifting_action_active_minimum_width\n\n\n\n\n\n\n\n\n@dimen/material_bottom_nav_bar_shifting_action_inactive_maximum_width\n\n\n@dimen/material_bottom_nav_bar_shifting_action_inactive_minimum_width\n\n\n\n\nBar specs\n\n\n\n\n\n\n@dimen/material_bottom_nav_bar_height\n\n\n@dimen/material_bottom_nav_bar_action_icon_size\n\n\n@dimen/material_bottom_nav_bar_shifting_action_active_icon_padding_top\n\n\n@dimen/material_bottom_nav_bar_action_label_padding_bottom\n\n\n@dimen/material_bottom_nav_bar_shifting_action_active_icon_padding_vertical\n Naming issue\n\n\n\n\nLabel\n\n\n\n\n\n\n\n\nLabel\n\n\nResource\n\n\n\n\n\n\n\n\n\n\nActive label\n\n\n@dimen/material_bottom_nav_bar_shifting_action_active_label_text_size\n\n\n\n\n\n\n\n\n\n\nElevation\n\n\nThe elevation of both styles is \n@dimen/material_elevation_bottom_nav_bar\n.\n\n\n\n\nSee also\n\n\n\n\n\n\nRaw values\n\n\n\n\n\n\nBottom navigation (Material design)",
             "title": "Bottom navigation"
         },
         {
@@ -282,7 +282,47 @@
         },
         {
             "location": "/component/bottom_navigation/#see-also",
-            "text": "Raw values     Bottom navigation (Material design)",
+            "text": "Raw values    Bottom navigation (Material design)",
+            "title": "See also"
+        },
+        {
+            "location": "/component/bottom_sheet/",
+            "text": "Bottom sheet\n\n\nFont and color\n\n\n\n\n\n\n\n\nName\n\n\nResource\n\n\n\n\n\n\n\n\n\n\nContents text size\n\n\n@dimen/material_bottom_sheet_contents_text_size\n\n\n\n\n\n\nContents text color\n\n\n@color/material_bottom_sheet_contents_text_color\n\n\n\n\n\n\nTitle text size\n\n\n@dimen/material_bottom_sheet_title_text_size\n\n\n\n\n\n\nTitle text color\n\n\n@color/material_bottom_sheet_title_text_color\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nColor\n\n\nResource\n\n\n\n\n\n\n\n\n\n\nSheet background\n\n\n@color/material_bottom_sheet_background_fill\n\n\n\n\n\n\nTransparent overlay\n\n\n@color/material_bottom_sheet_transparent_overlay_fill\n\n\n\n\n\n\n\n\nList style\n\n\n\n\n\n\n@dimen/material_bottom_sheet_list_padding_horizontal\n\n\n@dimen/material_bottom_sheet_list_item_label_padding_start\n\n\n@dimen/material_bottom_sheet_list_item_icon_size\n\n\n@dimen/material_bottom_sheet_list_item_height\n\n\n@dimen/material_bottom_sheet_list_headerless_padding_top\n\n\n@dimen/material_bottom_sheet_list_padding_bottom\n\n\n\n\n\n\n\n\n@dimen/material_bottom_sheet_list_padding_horizontal\n\n\n@dimen/material_bottom_sheet_list_item_label_padding_start\n\n\n@dimen/material_bottom_sheet_list_item_icon_size\n\n\n@dimen/material_bottom_sheet_list_item_height\n\n\n@dimen/material_bottom_sheet_list_header_height\n\n\n@dimen/material_bottom_sheet_list_padding_bottom\n\n\n@dimen/material_bottom_sheet_list_divider_margin_top\n\n\n@dimen/material_divider_height\n\n\n@dimen/material_bottom_sheet_list_divider_margin_bottom\n\n\n\n\nGrid style\n\n\n\n\n\n\n@dimen/material_bottom_sheet_grid_row_padding_top\n\n\n@dimen/material_bottom_sheet_grid_item_icon_size\n\n\n@dimen/material_bottom_sheet_grid_row_height\n\n\n@dimen/material_bottom_sheet_grid_item_label_height\n\n\n@dimen/material_bottom_sheet_grid_padding_horizontal\n\n\n@dimen/material_bottom_sheet_grid_padding_bottom\n \n\n\n\n\nThe text size for labels in a grid style is \n@dimen/material_bottom_sheet_grid_item_label_text_size\n.\n\n\nElevation\n\n\nFor both styles, the elevation is \n@dimen/material_bottom_sheet_elevation\n.\n\n\nWidth (Tablet only)\n\n\n\n\n\n\n\n\nName\n\n\nResource\n\n\n\n\n\n\n\n\n\n\nMinimum horizontal margin (increment)\n\n\n@integer/material_bottom_sheet_margin_horizontal_minimum_increment\n\n\n\n\n\n\nMinimum horizontal margin\n\n\n@dimen/material_bottom_sheet_margin_horizontal_minimum\n\n\n\n\n\n\nMinimum width (increment)\n\n\n@integer/material_bottom_sheet_width_minimum_increment\n\n\n\n\n\n\nMinimum width\n\n\n@dimen/material_bottom_sheet_width_minimum\n\n\n\n\n\n\n\n\n\n\nSee also\n\n\n\n\n\n\nRaw values\n\n\n\n\n\n\nBottom sheets (Material design)",
+            "title": "Bottom sheet"
+        },
+        {
+            "location": "/component/bottom_sheet/#bottom-sheet",
+            "text": "",
+            "title": "Bottom sheet"
+        },
+        {
+            "location": "/component/bottom_sheet/#font-and-color",
+            "text": "Name  Resource      Contents text size  @dimen/material_bottom_sheet_contents_text_size    Contents text color  @color/material_bottom_sheet_contents_text_color    Title text size  @dimen/material_bottom_sheet_title_text_size    Title text color  @color/material_bottom_sheet_title_text_color        Color  Resource      Sheet background  @color/material_bottom_sheet_background_fill    Transparent overlay  @color/material_bottom_sheet_transparent_overlay_fill",
+            "title": "Font and color"
+        },
+        {
+            "location": "/component/bottom_sheet/#list-style",
+            "text": "@dimen/material_bottom_sheet_list_padding_horizontal  @dimen/material_bottom_sheet_list_item_label_padding_start  @dimen/material_bottom_sheet_list_item_icon_size  @dimen/material_bottom_sheet_list_item_height  @dimen/material_bottom_sheet_list_headerless_padding_top  @dimen/material_bottom_sheet_list_padding_bottom     @dimen/material_bottom_sheet_list_padding_horizontal  @dimen/material_bottom_sheet_list_item_label_padding_start  @dimen/material_bottom_sheet_list_item_icon_size  @dimen/material_bottom_sheet_list_item_height  @dimen/material_bottom_sheet_list_header_height  @dimen/material_bottom_sheet_list_padding_bottom  @dimen/material_bottom_sheet_list_divider_margin_top  @dimen/material_divider_height  @dimen/material_bottom_sheet_list_divider_margin_bottom",
+            "title": "List style"
+        },
+        {
+            "location": "/component/bottom_sheet/#grid-style",
+            "text": "@dimen/material_bottom_sheet_grid_row_padding_top  @dimen/material_bottom_sheet_grid_item_icon_size  @dimen/material_bottom_sheet_grid_row_height  @dimen/material_bottom_sheet_grid_item_label_height  @dimen/material_bottom_sheet_grid_padding_horizontal  @dimen/material_bottom_sheet_grid_padding_bottom     The text size for labels in a grid style is  @dimen/material_bottom_sheet_grid_item_label_text_size .",
+            "title": "Grid style"
+        },
+        {
+            "location": "/component/bottom_sheet/#elevation",
+            "text": "For both styles, the elevation is  @dimen/material_bottom_sheet_elevation .",
+            "title": "Elevation"
+        },
+        {
+            "location": "/component/bottom_sheet/#width-tablet-only",
+            "text": "Name  Resource      Minimum horizontal margin (increment)  @integer/material_bottom_sheet_margin_horizontal_minimum_increment    Minimum horizontal margin  @dimen/material_bottom_sheet_margin_horizontal_minimum    Minimum width (increment)  @integer/material_bottom_sheet_width_minimum_increment    Minimum width  @dimen/material_bottom_sheet_width_minimum",
+            "title": "Width (Tablet only)"
+        },
+        {
+            "location": "/component/bottom_sheet/#see-also",
+            "text": "Raw values    Bottom sheets (Material design)",
             "title": "See also"
         }
     ]
