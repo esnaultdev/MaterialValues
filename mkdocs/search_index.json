@@ -2,7 +2,7 @@
     "docs": [
         {
             "location": "/",
-            "text": "MaterialValues\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAll the values from the Material Design guidelines defined in resources for Android.\n\n\n\n\nDocumentation\n\n\nAll the values in this documentation use the xml reference representation.\n\n\nYou can also use them programmatically using \nblue.aodev.materialvalues.R\n.\n\n\nFor example:\n\n\n\n\n\n\n\n\nXml reference\n\n\nCode reference\n\n\n\n\n\n\n\n\n\n\n@color/material_color_green_primary\n\n\nR.color.material_color_green_primary\n\n\n\n\n\n\n@dimen/material_list_two_line_dense_height\n\n\nR.dimen.material_list_two_line_dense_height\n\n\n\n\n\n\n@dimen/material_elevation_card_raised\n\n\nR.dimen.material_elevation_card_raised\n\n\n\n\n\n\n@dimen/material_typography_regular_title_text_size\n\n\nR.dimen.material_typography_regular_title_text_size",
+            "text": "MaterialValues\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAll the values from the Material Design guidelines defined in resources for Android.\n\n\n\n\nDocumentation\n\n\nAll the values in this documentation use the xml reference representation.\n\n\nYou can also use them programmatically using \nblue.aodev.materialvalues.R\n.\n\n\nFor example:\n\n\n\n\n\n\n\n\nXml reference\n\n\nCode reference\n\n\n\n\n\n\n\n\n\n\n@color/material_color_green_primary\n\n\nR.color.material_color_green_primary\n\n\n\n\n\n\n@dimen/material_list_two_line_dense_height\n\n\nR.dimen.material_list_two_line_dense_height\n\n\n\n\n\n\n@dimen/material_elevation_card_raised\n\n\nR.dimen.material_elevation_card_raised\n\n\n\n\n\n\n@dimen/material_typography_regular_title_text_size\n\n\nR.dimen.material_typography_regular_title_text_size\n\n\n\n\n\n\n\n\n\n\nDisclaimer\n\n\nMost of the visuals come directly from the \nMaterial design specifications\n, and are property of Google.",
             "title": "Presentation"
         },
         {
@@ -14,6 +14,11 @@
             "location": "/#documentation",
             "text": "All the values in this documentation use the xml reference representation.  You can also use them programmatically using  blue.aodev.materialvalues.R .  For example:     Xml reference  Code reference      @color/material_color_green_primary  R.color.material_color_green_primary    @dimen/material_list_two_line_dense_height  R.dimen.material_list_two_line_dense_height    @dimen/material_elevation_card_raised  R.dimen.material_elevation_card_raised    @dimen/material_typography_regular_title_text_size  R.dimen.material_typography_regular_title_text_size",
             "title": "Documentation"
+        },
+        {
+            "location": "/#disclaimer",
+            "text": "Most of the visuals come directly from the  Material design specifications , and are property of Google.",
+            "title": "Disclaimer"
         },
         {
             "location": "/style/colors/",
@@ -218,6 +223,66 @@
         {
             "location": "/layout/elevation/#see-also",
             "text": "Raw values    Elevation (Material design)",
+            "title": "See also"
+        },
+        {
+            "location": "/component/bottom_navigation/",
+            "text": "Bottom navigation\n\n\nFixed bottom navigation bar\n\n\nAction size\n\n\n\n\n\n\n@dimen/material_bottom_nav_bar_fixed_action_minimum_width\n\n\n@dimen/material_bottom_nav_bar_fixed_action_maximum_width\n\n\n@dimen/material_bottom_nav_bar_action_padding_horizontal\n\n\n\n\nBar specs\n\n\n\n\n\n\n@dimen/material_bottom_nav_bar_height\n\n\n@dimen/material_bottom_nav_bar_action_icon_size\n\n\n@dimen/material_bottom_nav_bar_action_label_padding_bottom\n\n\n@dimen/material_bottom_nav_bar_fixed_action_active_icon_padding_top\n\n\n@dimen/material_bottom_nav_bar_fixed_action_inactive_icon_padding_top\n\n\n\n\nLabel\n\n\n\n\n\n\n\n\nLabel\n\n\nResource\n\n\n\n\n\n\n\n\n\n\nActive label\n\n\n@dimen/material_bottom_nav_bar_fixed_action_active_label_text_size\n\n\n\n\n\n\nInactive label\n\n\n@dimen/material_bottom_nav_bar_fixed_action_inactive_label_text_size\n\n\n\n\n\n\n\n\n\n\nShifting bottom navigation bar\n\n\nAction size\n\n\n\n\n\n\n@dimen/material_bottom_nav_bar_shifting_action_active_maximum_width\n\n\n@dimen/material_bottom_nav_bar_shifting_action_active_minimum_width\n\n\n\n\n\n\n\n\n@dimen/material_bottom_nav_bar_shifting_action_inactive_maximum_width\n\n\n@dimen/material_bottom_nav_bar_shifting_action_inactive_minimum_width\n\n\n\n\nBar specs\n\n\n\n\n\n\n@dimen/material_bottom_nav_bar_height\n\n\n@dimen/material_bottom_nav_bar_action_icon_size\n\n\n@dimen/material_bottom_nav_bar_shifting_action_active_icon_padding_top\n\n\n@dimen/material_bottom_nav_bar_action_label_padding_bottom\n\n\n@dimen/material_bottom_nav_bar_shifting_action_active_icon_padding_vertical\n Naming issue\n\n\n\n\nLabel\n\n\n\n\n\n\n\n\nLabel\n\n\nResource\n\n\n\n\n\n\n\n\n\n\nActive label\n\n\n@dimen/material_bottom_nav_bar_shifting_action_active_label_text_size\n\n\n\n\n\n\n\n\n\n\nElevation\n\n\nThe elevation of both styles is \n@dimen/material_elevation_bottom_nav_bar\n.\n\n\n\n\nSee also\n\n\n\n\n\n\nRaw values\n\n\n\n\n\n\n Bottom navigation (Material design)",
+            "title": "Bottom navigation"
+        },
+        {
+            "location": "/component/bottom_navigation/#bottom-navigation",
+            "text": "",
+            "title": "Bottom navigation"
+        },
+        {
+            "location": "/component/bottom_navigation/#fixed-bottom-navigation-bar",
+            "text": "",
+            "title": "Fixed bottom navigation bar"
+        },
+        {
+            "location": "/component/bottom_navigation/#action-size",
+            "text": "@dimen/material_bottom_nav_bar_fixed_action_minimum_width  @dimen/material_bottom_nav_bar_fixed_action_maximum_width  @dimen/material_bottom_nav_bar_action_padding_horizontal",
+            "title": "Action size"
+        },
+        {
+            "location": "/component/bottom_navigation/#bar-specs",
+            "text": "@dimen/material_bottom_nav_bar_height  @dimen/material_bottom_nav_bar_action_icon_size  @dimen/material_bottom_nav_bar_action_label_padding_bottom  @dimen/material_bottom_nav_bar_fixed_action_active_icon_padding_top  @dimen/material_bottom_nav_bar_fixed_action_inactive_icon_padding_top",
+            "title": "Bar specs"
+        },
+        {
+            "location": "/component/bottom_navigation/#label",
+            "text": "Label  Resource      Active label  @dimen/material_bottom_nav_bar_fixed_action_active_label_text_size    Inactive label  @dimen/material_bottom_nav_bar_fixed_action_inactive_label_text_size",
+            "title": "Label"
+        },
+        {
+            "location": "/component/bottom_navigation/#shifting-bottom-navigation-bar",
+            "text": "",
+            "title": "Shifting bottom navigation bar"
+        },
+        {
+            "location": "/component/bottom_navigation/#action-size_1",
+            "text": "@dimen/material_bottom_nav_bar_shifting_action_active_maximum_width  @dimen/material_bottom_nav_bar_shifting_action_active_minimum_width     @dimen/material_bottom_nav_bar_shifting_action_inactive_maximum_width  @dimen/material_bottom_nav_bar_shifting_action_inactive_minimum_width",
+            "title": "Action size"
+        },
+        {
+            "location": "/component/bottom_navigation/#bar-specs_1",
+            "text": "@dimen/material_bottom_nav_bar_height  @dimen/material_bottom_nav_bar_action_icon_size  @dimen/material_bottom_nav_bar_shifting_action_active_icon_padding_top  @dimen/material_bottom_nav_bar_action_label_padding_bottom  @dimen/material_bottom_nav_bar_shifting_action_active_icon_padding_vertical  Naming issue",
+            "title": "Bar specs"
+        },
+        {
+            "location": "/component/bottom_navigation/#label_1",
+            "text": "Label  Resource      Active label  @dimen/material_bottom_nav_bar_shifting_action_active_label_text_size",
+            "title": "Label"
+        },
+        {
+            "location": "/component/bottom_navigation/#elevation",
+            "text": "The elevation of both styles is  @dimen/material_elevation_bottom_nav_bar .",
+            "title": "Elevation"
+        },
+        {
+            "location": "/component/bottom_navigation/#see-also",
+            "text": "Raw values     Bottom navigation (Material design)",
             "title": "See also"
         }
     ]
