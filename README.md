@@ -18,7 +18,7 @@ Layout
 - [Elevation](https://aodevblue.github.io/MaterialValues/layout/elevation/)
 
 Components
-- [Bottom navigation](https://github.com/AoDevBlue/MaterialValues/blob/master/material-values/src/main/res-component/values/bottom_navigation.xml)
+- [Bottom navigation](https://aodevblue.github.io/MaterialValues/component/bottom_navigation/)
 - [Bottom sheets](https://github.com/AoDevBlue/MaterialValues/blob/master/material-values/src/main/res-component/values/bottom_sheet.xml)
 - [Buttons](https://github.com/AoDevBlue/MaterialValues/blob/master/material-values/src/main/res-component/values/button.xml)
 - [Cards](https://github.com/AoDevBlue/MaterialValues/blob/master/material-values/src/main/res-component/values/card.xml)
