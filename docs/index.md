@@ -23,3 +23,10 @@ For example:
 | `@dimen/material_elevation_card_raised`              | `R.dimen.material_elevation_card_raised`
 | `@dimen/material_typography_regular_title_text_size` | `R.dimen.material_typography_regular_title_text_size`
 
+
+---
+
+## Disclaimer
+
+Most of the visuals come directly from the [Material design specifications](https://material.google.com), and are property of Google.
+

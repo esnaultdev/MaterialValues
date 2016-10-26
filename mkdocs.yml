@@ -9,4 +9,6 @@ pages:
     - Metrics & keylines: layout/keylines.md
     - Responsive UI: layout/responsive_ui.md
     - Elevation: layout/elevation.md
+- Components:
+    - Bottom navigation: component/bottom_navigation.md
 theme: flatly
