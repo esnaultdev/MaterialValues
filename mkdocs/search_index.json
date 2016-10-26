@@ -324,6 +324,61 @@
             "location": "/component/bottom_sheet/#see-also",
             "text": "Raw values    Bottom sheets (Material design)",
             "title": "See also"
+        },
+        {
+            "location": "/component/card/",
+            "text": "Card\n\n\nElevation\n\n\n\n\n\n\n\n\nName\n\n\nResource\n\n\n\n\n\n\n\n\n\n\nElevation (resting)\n\n\n@dimen/material_card_elevation_resting\n\n\n\n\n\n\nElevation (raised)\n\n\n@dimen/material_card_elevation_raised\n\n\n\n\n\n\n\n\nLayout\n\n\n\n\n\n\n@dimen/material_card_edge_margin\n\n\n@dimen/material_card_gutter\n\n\nMissing value, it will be included in the future\n\n\n\n\nNote that the gutter and the edge margin have the same value behind the scenes, if you want to use only one.\n\n\nTitle\n\n\nSmall\n\n\n\n\n\n\n@dimen/material_card_title_block_padding_horizontal\n\n\n@dimen/material_card_title_block_small_padding_top\n \nNaming issue\n\n   \n@dimen/material_card_title_block_small_padding_bottom\n \nNaming issue\n\n\n@dimen/material_card_title_block_small_height\n\n\n\n\n\n\n\n\n\n\nText\n\n\nResource\n\n\n\n\n\n\n\n\n\n\nTitle\n\n\n@dimen/material_card_title_block_small_text_size\n\n\n\n\n\n\nSubtitle\n\n\n@dimen/material_card_title_block_subtitle_text_size\n\n\n\n\n\n\n\n\nLarge\n\n\n\n\n\n\n@dimen/material_card_title_block_padding_horizontal\n\n\n@dimen/material_card_title_block_large_padding_top\n\n\n@dimen/material_card_title_block_large_subtitle_margin_top\n\n\n@dimen/material_card_title_block_large_padding_bottom\n\n\nMissing value, it will be included in the future\n\n\n\n\n\n\n\n\n\n\nText\n\n\nResource\n\n\n\n\n\n\n\n\n\n\nTitle\n\n\n@dimen/material_card_title_block_large_title_text_size\n\n\n\n\n\n\nSubtitle\n\n\n@dimen/material_card_title_block_subtitle_text_size\n\n\n\n\n\n\n\n\nSupporting text\n\n\n\n\n\n\n@dimen/material_card_supporting_text_padding_horizontal\n\n\n@dimen/material_card_supporting_text_padding_top\n\n\n@dimen/material_card_supporting_text_padding_bottom_last_block\n\n\n@dimen/material_card_supporting_text_padding_bottom\n\n\n\n\nText size: \n@dimen/material_card_supporting_text_text_size\n.\n\n\nActions\n\n\n\n\n\n\n@dimen/material_card_actions_row_padding\n\n\n@dimen/material_card_actions_action_gutter_horizontal\n\n\n\n\n\n\n\n\n@dimen/material_card_actions_row_padding\n\n\n@dimen/material_card_actions_action_gutter_vertical\n\n\n\n\n\n\n\n\n@dimen/material_card_actions_row_padding\n\n\nMissing value, it will be included in the future\n\n\nMissing value, it will be included in the future\n\n\n\n\nMedia area\n\n\n//TODO\n\n\n\n\nSee also\n\n\n\n\n\n\nRaw values\n\n\n\n\n\n\nCards (Material design)",
+            "title": "Cards"
+        },
+        {
+            "location": "/component/card/#card",
+            "text": "",
+            "title": "Card"
+        },
+        {
+            "location": "/component/card/#elevation",
+            "text": "Name  Resource      Elevation (resting)  @dimen/material_card_elevation_resting    Elevation (raised)  @dimen/material_card_elevation_raised",
+            "title": "Elevation"
+        },
+        {
+            "location": "/component/card/#layout",
+            "text": "@dimen/material_card_edge_margin  @dimen/material_card_gutter  Missing value, it will be included in the future   Note that the gutter and the edge margin have the same value behind the scenes, if you want to use only one.",
+            "title": "Layout"
+        },
+        {
+            "location": "/component/card/#title",
+            "text": "",
+            "title": "Title"
+        },
+        {
+            "location": "/component/card/#small",
+            "text": "@dimen/material_card_title_block_padding_horizontal  @dimen/material_card_title_block_small_padding_top   Naming issue \n    @dimen/material_card_title_block_small_padding_bottom   Naming issue  @dimen/material_card_title_block_small_height      Text  Resource      Title  @dimen/material_card_title_block_small_text_size    Subtitle  @dimen/material_card_title_block_subtitle_text_size",
+            "title": "Small"
+        },
+        {
+            "location": "/component/card/#large",
+            "text": "@dimen/material_card_title_block_padding_horizontal  @dimen/material_card_title_block_large_padding_top  @dimen/material_card_title_block_large_subtitle_margin_top  @dimen/material_card_title_block_large_padding_bottom  Missing value, it will be included in the future      Text  Resource      Title  @dimen/material_card_title_block_large_title_text_size    Subtitle  @dimen/material_card_title_block_subtitle_text_size",
+            "title": "Large"
+        },
+        {
+            "location": "/component/card/#supporting-text",
+            "text": "@dimen/material_card_supporting_text_padding_horizontal  @dimen/material_card_supporting_text_padding_top  @dimen/material_card_supporting_text_padding_bottom_last_block  @dimen/material_card_supporting_text_padding_bottom   Text size:  @dimen/material_card_supporting_text_text_size .",
+            "title": "Supporting text"
+        },
+        {
+            "location": "/component/card/#actions",
+            "text": "@dimen/material_card_actions_row_padding  @dimen/material_card_actions_action_gutter_horizontal     @dimen/material_card_actions_row_padding  @dimen/material_card_actions_action_gutter_vertical     @dimen/material_card_actions_row_padding  Missing value, it will be included in the future  Missing value, it will be included in the future",
+            "title": "Actions"
+        },
+        {
+            "location": "/component/card/#media-area",
+            "text": "//TODO",
+            "title": "Media area"
+        },
+        {
+            "location": "/component/card/#see-also",
+            "text": "Raw values    Cards (Material design)",
+            "title": "See also"
         }
     ]
 }

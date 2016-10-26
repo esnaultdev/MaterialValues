@@ -9,7 +9,7 @@
         
         <link rel="shortcut icon" href="../../img/favicon.ico">
 
-	<title>Typography - MaterialValues</title>
+	<title>Cards - MaterialValues</title>
 
         <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
         <link href="../../css/font-awesome-4.0.3.css" rel="stylesheet">
@@ -56,25 +56,25 @@
             
             
             
-                <li class="dropdown active">
+                <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Style <b class="caret"></b></a>
                     <ul class="dropdown-menu">
                     
                         
 <li >
-    <a href="../colors/">Colors</a>
+    <a href="../../style/colors/">Colors</a>
 </li>
 
                     
                         
 <li >
-    <a href="../icons/">Icons</a>
+    <a href="../../style/icons/">Icons</a>
 </li>
 
                     
                         
-<li class="active">
-    <a href="./">Typography</a>
+<li >
+    <a href="../../style/typography/">Typography</a>
 </li>
 
                     
@@ -110,25 +110,25 @@
             
             
             
-                <li class="dropdown">
+                <li class="dropdown active">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Components <b class="caret"></b></a>
                     <ul class="dropdown-menu">
                     
                         
 <li >
-    <a href="../../component/bottom_navigation/">Bottom navigation</a>
+    <a href="../bottom_navigation/">Bottom navigation</a>
 </li>
 
                     
                         
 <li >
-    <a href="../../component/bottom_sheet/">Bottom sheet</a>
+    <a href="../bottom_sheet/">Bottom sheet</a>
 </li>
 
                     
                         
-<li >
-    <a href="../../component/card/">Cards</a>
+<li class="active">
+    <a href="./">Cards</a>
 </li>
 
                     
@@ -146,12 +146,12 @@
                     </a>
                 </li>
                 <li >
-                    <a rel="next" href="../icons/">
+                    <a rel="next" href="../bottom_sheet/">
                         <i class="fa fa-arrow-left"></i> Previous
                     </a>
                 </li>
-                <li >
-                    <a rel="prev" href="../../layout/keylines/">
+                <li class="disabled">
+                    <a rel="prev" >
                         Next <i class="fa fa-arrow-right"></i>
                     </a>
                 </li>
@@ -165,174 +165,143 @@
             <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
     
-        <li class="main active"><a href="#typography">Typography</a></li>
+        <li class="main active"><a href="#card">Card</a></li>
         
-            <li><a href="#script-families">Script families</a></li>
+            <li><a href="#elevation">Elevation</a></li>
         
-            <li><a href="#size">Size</a></li>
+            <li><a href="#layout">Layout</a></li>
         
-            <li><a href="#style">Style</a></li>
+            <li><a href="#title">Title</a></li>
         
-            <li><a href="#color">Color</a></li>
+            <li><a href="#supporting-text">Supporting text</a></li>
         
-            <li><a href="#locale-prefix">Locale prefix</a></li>
+            <li><a href="#actions">Actions</a></li>
+        
+            <li><a href="#media-area">Media area</a></li>
         
     
     </ul>
 </div></div>
             <div class="col-md-9" role="main">
 
-<h1 id="typography">Typography</h1>
-<h2 id="script-families">Script families</h2>
-<p>The values for typography depend on the script family of your text.</p>
-<p>The values are defined using the following prefixes:</p>
+<h1 id="card">Card</h1>
+<h2 id="elevation">Elevation</h2>
 <table>
 <thead>
 <tr>
-<th>Script family</th>
-<th>Resource prefix</th>
+<th>Name</th>
+<th>Resource</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>English-like</td>
-<td><code>regular</code></td>
+<td>Elevation (resting)</td>
+<td><code>@dimen/material_card_elevation_resting</code></td>
 </tr>
 <tr>
-<td>Dense</td>
-<td><code>dense</code></td>
-</tr>
-<tr>
-<td>Tall</td>
-<td><code>tall</code></td>
+<td>Elevation (raised)</td>
+<td><code>@dimen/material_card_elevation_raised</code></td>
 </tr>
 </tbody>
 </table>
-<h2 id="size">Size</h2>
+<h2 id="layout">Layout</h2>
+<p><img src="../../images/components_card_layout.png" alt="Card layout" style="width: 360px;"/></p>
+<ol>
+<li><code>@dimen/material_card_edge_margin</code></li>
+<li><code>@dimen/material_card_gutter</code></li>
+<li><em>Missing value, it will be included in the future</em></li>
+</ol>
+<p><em>Note that the gutter and the edge margin have the same value behind the scenes, if you want to use only one.</em></p>
+<h2 id="title">Title</h2>
+<h3 id="small">Small</h3>
+<p><img src="../../images/components_card_title_small.png" alt="Card small title" style="width: 360px;"/></p>
+<ol>
+<li><code>@dimen/material_card_title_block_padding_horizontal</code></li>
+<li><del><code>@dimen/material_card_title_block_small_padding_top</code></del> <em>Naming issue</em>
+   <del><code>@dimen/material_card_title_block_small_padding_bottom</code></del> <em>Naming issue</em></li>
+<li><code>@dimen/material_card_title_block_small_height</code></li>
+</ol>
 <table>
 <thead>
 <tr>
-<th>Text type</th>
-<th>Value</th>
+<th>Text</th>
+<th>Resource</th>
 </tr>
 </thead>
 <tbody>
-<tr>
-<td>Display 4</td>
-<td><code>@dimen/material_typography_FAMILY_display_4_text_size</code></td>
-</tr>
-<tr>
-<td>Display 3</td>
-<td><code>@dimen/material_typography_FAMILY_display_3_text_size</code></td>
-</tr>
-<tr>
-<td>Display 2</td>
-<td><code>@dimen/material_typography_FAMILY_display_2_text_size</code></td>
-</tr>
-<tr>
-<td>Display 1</td>
-<td><code>@dimen/material_typography_FAMILY_display_1_text_size</code></td>
-</tr>
-<tr>
-<td>Headline</td>
-<td><code>@dimen/material_typography_FAMILY_headline_text_size</code></td>
-</tr>
 <tr>
 <td>Title</td>
-<td><code>@dimen/material_typography_FAMILY_title_text_size</code></td>
+<td><code>@dimen/material_card_title_block_small_text_size</code></td>
 </tr>
 <tr>
-<td>Subheading</td>
-<td><code>@dimen/material_typography_FAMILY_subheading_text_size</code></td>
-</tr>
-<tr>
-<td>Body 2</td>
-<td><code>@dimen/material_typography_FAMILY_body_2_text_size</code></td>
-</tr>
-<tr>
-<td>Body 1</td>
-<td><code>@dimen/material_typography_FAMILY_body_1_text_size</code></td>
-</tr>
-<tr>
-<td>Caption</td>
-<td><code>@dimen/material_typography_FAMILY_caption_text_size</code></td>
-</tr>
-<tr>
-<td>Button</td>
-<td><code>@dimen/material_typography_FAMILY_button_text_size</code></td>
+<td>Subtitle</td>
+<td><code>@dimen/material_card_title_block_subtitle_text_size</code></td>
 </tr>
 </tbody>
 </table>
-<h2 id="style">Style</h2>
-<p>These styles use the previously defined text sizes and also applies the good font-weight.</p>
+<h3 id="large">Large</h3>
+<p><img src="../../images/components_card_title_large.png" alt="Card large title" style="width: 360px;"/></p>
+<ol>
+<li><code>@dimen/material_card_title_block_padding_horizontal</code></li>
+<li><code>@dimen/material_card_title_block_large_padding_top</code></li>
+<li><code>@dimen/material_card_title_block_large_subtitle_margin_top</code></li>
+<li><code>@dimen/material_card_title_block_large_padding_bottom</code></li>
+<li><em>Missing value, it will be included in the future</em></li>
+</ol>
 <table>
 <thead>
 <tr>
-<th>Text type</th>
-<th>Value</th>
+<th>Text</th>
+<th>Resource</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>Display 4</td>
-<td><code>@style/MaterialTypography.FAMILY.Display4</code></td>
-</tr>
-<tr>
-<td>Display 3</td>
-<td><code>@style/MaterialTypography.FAMILY.Display3</code></td>
-</tr>
-<tr>
-<td>Display 2</td>
-<td><code>@style/MaterialTypography.FAMILY.Display2</code></td>
-</tr>
-<tr>
-<td>Display 1</td>
-<td><code>@style/MaterialTypography.FAMILY.Display1</code></td>
-</tr>
-<tr>
-<td>Headline</td>
-<td><code>@style/MaterialTypography.FAMILY.Headline</code></td>
-</tr>
-<tr>
 <td>Title</td>
-<td><code>@style/MaterialTypography.FAMILY.Title</code></td>
+<td><code>@dimen/material_card_title_block_large_title_text_size</code></td>
 </tr>
 <tr>
-<td>Subheading</td>
-<td><code>@style/MaterialTypography.FAMILY.Subheading</code></td>
-</tr>
-<tr>
-<td>Body 2</td>
-<td><code>@style/MaterialTypography.FAMILY.Body2</code></td>
-</tr>
-<tr>
-<td>Body 1</td>
-<td><code>@style/MaterialTypography.FAMILY.Body1</code></td>
-</tr>
-<tr>
-<td>Caption</td>
-<td><code>@style/MaterialTypography.FAMILY.Caption</code></td>
-</tr>
-<tr>
-<td>Button</td>
-<td><code>@style/MaterialTypography.FAMILY.Button</code></td>
+<td>Subtitle</td>
+<td><code>@dimen/material_card_title_block_subtitle_text_size</code></td>
 </tr>
 </tbody>
 </table>
-<h2 id="color">Color</h2>
-<p><em>These values are missing and will be included in a future version.</em></p>
-<h2 id="locale-prefix">Locale prefix</h2>
-<p>A <code>locale</code> prefix is also available in the resources.</p>
-<p>This prefix will choose the script family corresponding to the current locale, and default to <code>regular</code>.</p>
-<p>Its usage is not recommended currently as the typography will change even if your text is not translated for the locale.</p>
+<h2 id="supporting-text">Supporting text</h2>
+<p><img src="../../images/components_card_supporting_text.png" alt="Card supporting text" style="width: 360px;"/></p>
+<ol>
+<li><code>@dimen/material_card_supporting_text_padding_horizontal</code></li>
+<li><code>@dimen/material_card_supporting_text_padding_top</code></li>
+<li><code>@dimen/material_card_supporting_text_padding_bottom_last_block</code></li>
+<li><code>@dimen/material_card_supporting_text_padding_bottom</code></li>
+</ol>
+<p>Text size: <code>@dimen/material_card_supporting_text_text_size</code>.</p>
+<h2 id="actions">Actions</h2>
+<p><img src="../../images/components_card_actions_horizontal.png" alt="Card actions horizontal" style="width: 360px;"/></p>
+<ol>
+<li><code>@dimen/material_card_actions_row_padding</code></li>
+<li><code>@dimen/material_card_actions_action_gutter_horizontal</code></li>
+</ol>
+<p><img src="../../images/components_card_actions_vertical.png" alt="Card actions vertical" style="width: 360px;"/></p>
+<ol>
+<li><code>@dimen/material_card_actions_row_padding</code></li>
+<li><code>@dimen/material_card_actions_action_gutter_vertical</code></li>
+</ol>
+<p><img src="../../images/components_card_actions_icons.png" alt="Card actions icons" style="width: 360px;"/></p>
+<ol>
+<li><code>@dimen/material_card_actions_row_padding</code></li>
+<li><em>Missing value, it will be included in the future</em></li>
+<li><em>Missing value, it will be included in the future</em></li>
+</ol>
+<h2 id="media-area">Media area</h2>
+<p>//TODO</p>
 <hr />
 <h4 id="see-also">See also</h4>
 <ul>
 <li>
-<p><a href="https://github.com/AoDevBlue/MaterialValues/blob/master/material-values/src/main/res-style/values/typography.xml">Raw values</a></p>
+<p><a href="https://github.com/AoDevBlue/MaterialValues/blob/master/material-values/src/main/res-component/values/card.xml">Raw values</a></p>
 </li>
 <li>
-<p><a href="https://material.google.com/style/typography.html">Typography (Material design)</a></p>
+<p><a href="https://material.google.com/components/cards.html">Cards (Material design)</a></p>
 </li>
 </ul></div>
         </div>
