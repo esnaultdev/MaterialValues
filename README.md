@@ -19,7 +19,7 @@ Layout
 
 Components
 - [Bottom navigation](https://aodevblue.github.io/MaterialValues/component/bottom_navigation/)
-- [Bottom sheets](https://github.com/AoDevBlue/MaterialValues/blob/master/material-values/src/main/res-component/values/bottom_sheet.xml)
+- [Bottom sheets](https://aodevblue.github.io/MaterialValues/component/bottom_sheet/)
 - [Buttons](https://github.com/AoDevBlue/MaterialValues/blob/master/material-values/src/main/res-component/values/button.xml)
 - [Cards](https://github.com/AoDevBlue/MaterialValues/blob/master/material-values/src/main/res-component/values/card.xml)
 - [Chips](https://github.com/AoDevBlue/MaterialValues/blob/master/material-values/src/main/res-component/values/dialog.xml)

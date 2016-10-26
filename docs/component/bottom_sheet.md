@@ -41,6 +41,16 @@
 
 ## Grid style
 
+<img src="../../images/components_bottomsheets_grid_specs.png" alt="Bottom sheet grid" style="width: 360px;"/>
+
+1. `@dimen/material_bottom_sheet_grid_row_padding_top`
+2. `@dimen/material_bottom_sheet_grid_item_icon_size`
+3. `@dimen/material_bottom_sheet_grid_row_height`
+4. `@dimen/material_bottom_sheet_grid_item_label_height`
+5. `@dimen/material_bottom_sheet_grid_padding_horizontal`
+6. `@dimen/material_bottom_sheet_grid_padding_bottom` 
+
+The text size for labels in a grid style is `@dimen/material_bottom_sheet_grid_item_label_text_size`.
 
 ## Elevation
 
@@ -62,5 +72,5 @@ For both styles, the elevation is `@dimen/material_bottom_sheet_elevation`.
 
 - [Raw values](https://github.com/AoDevBlue/MaterialValues/blob/master/material-values/src/main/res-component/values/bottom_sheet.xml)
 
-- [ Bottom navigation (Material design)](https://material.google.com/components/bottom-sheets.html)
+- [Bottom sheets (Material design)](https://material.google.com/components/bottom-sheets.html)
 

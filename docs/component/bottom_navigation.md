@@ -74,5 +74,5 @@ The elevation of both styles is `@dimen/material_elevation_bottom_nav_bar`.
 
 - [Raw values](https://github.com/AoDevBlue/MaterialValues/blob/master/material-values/src/main/res-component/values/bottom_navigation.xml)
 
-- [ Bottom navigation (Material design)](https://material.google.com/components/bottom-navigation.html)
+- [Bottom navigation (Material design)](https://material.google.com/components/bottom-navigation.html)
 
