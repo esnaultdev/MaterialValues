@@ -51,9 +51,19 @@
 | Subtitle | `@dimen/material_card_title_block_subtitle_text_size`    |
 
 
-## Actions
-
 ## Supporting text
+
+<img src="../../images/components_card_supporting_text.png" alt="Card large layout" style="width: 360px;"/>
+
+1. `@dimen/material_card_supporting_text_padding_horizontal`
+2. `@dimen/material_card_supporting_text_padding_top`
+3. `@dimen/material_card_supporting_text_padding_bottom_last_block`
+4. `@dimen/material_card_supporting_text_padding_bottom`
+
+Text size: `@dimen/material_card_supporting_text_text_size`.
+
+
+## Actions
 
 ## Media area
 
