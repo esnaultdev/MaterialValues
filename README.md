@@ -21,7 +21,7 @@ Components
 - [Bottom navigation](https://aodevblue.github.io/MaterialValues/component/bottom_navigation/)
 - [Bottom sheets](https://aodevblue.github.io/MaterialValues/component/bottom_sheet/)
 - [Buttons](https://github.com/AoDevBlue/MaterialValues/blob/master/material-values/src/main/res-component/values/button.xml)
-- [Cards](https://github.com/AoDevBlue/MaterialValues/blob/master/material-values/src/main/res-component/values/card.xml)
+- [Cards](https://aodevblue.github.io/MaterialValues/component/card/)
 - [Chips](https://github.com/AoDevBlue/MaterialValues/blob/master/material-values/src/main/res-component/values/dialog.xml)
 - [Dialogs](https://github.com/AoDevBlue/MaterialValues/blob/master/material-values/src/main/res-component/values/dialog.xml)
 - [Dividers](https://github.com/AoDevBlue/MaterialValues/blob/master/material-values/src/main/res-component/values/divider.xml)

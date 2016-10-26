@@ -12,4 +12,5 @@ pages:
 - Components:
     - Bottom navigation: component/bottom_navigation.md
     - Bottom sheet: component/bottom_sheet.md
+    - Cards: component/card.md
 theme: flatly
