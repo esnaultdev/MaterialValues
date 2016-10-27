@@ -24,6 +24,8 @@ pages:
     - Steppers: component/steppers.md
     - Subheaders: component/subheaders.md
     - Tooltips: component/tooltips.md
+- About:
+    - Changelog: about/changelog.md
 theme: flatly
 repo_url: https://github.com/AoDevBlue/MaterialValues
 
