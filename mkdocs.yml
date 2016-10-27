@@ -12,7 +12,18 @@ pages:
 - Components:
     - Bottom navigation: component/bottom_navigation.md
     - Bottom sheet: component/bottom_sheet.md
+    - Buttons: component/buttons.md
     - Cards: component/card.md
+    - Chips: component/chips.md
+    - Dialogs: component/dialogs.md
+    - Dividers: component/dividers.md
+    - Expansion panels: component/expansion_panels.md
+    - Grid lists: component/grid_lists.md
+    - Lists: component/lists.md
+    - Menus: component/menus.md
+    - Steppers: component/steppers.md
+    - Subheaders: component/subheaders.md
+    - Tooltips: component/tooltips.md
 theme: flatly
 repo_url: https://github.com/AoDevBlue/MaterialValues
 
