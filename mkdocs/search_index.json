@@ -467,13 +467,23 @@
         },
         {
             "location": "/component/dividers/",
-            "text": "Dividers\n\n\nSorry the documentation for this component values is not available yet.\n\n\nHowever, the values exist. Check the raw values below.\n\n\n\n\nSee also\n\n\n\n\n\n\nRaw values\n\n\n\n\n\n\nDividers (Material design)",
+            "text": "Dividers\n\n\nSize\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHeight\n\n\n@dimen/material_divider_height\n\n\n\n\n\n\n\n\nColor\n\n\n\n\n\n\n\n\nTheme\n\n\nResource\n\n\n\n\n\n\n\n\n\n\nLight theme\n\n\n@color/material_divider_color_light_theme\n\n\n\n\n\n\nDark theme\n\n\n@color/material_divider_color_dark_theme\n\n\n\n\n\n\n\n\n\n\nSee also\n\n\n\n\n\n\nRaw values\n\n\n\n\n\n\nDividers (Material design)",
             "title": "Dividers"
         },
         {
             "location": "/component/dividers/#dividers",
-            "text": "Sorry the documentation for this component values is not available yet.  However, the values exist. Check the raw values below.",
+            "text": "",
             "title": "Dividers"
+        },
+        {
+            "location": "/component/dividers/#size",
+            "text": "Height  @dimen/material_divider_height",
+            "title": "Size"
+        },
+        {
+            "location": "/component/dividers/#color",
+            "text": "Theme  Resource      Light theme  @color/material_divider_color_light_theme    Dark theme  @color/material_divider_color_dark_theme",
+            "title": "Color"
         },
         {
             "location": "/component/dividers/#see-also",
@@ -572,13 +582,28 @@
         },
         {
             "location": "/component/tooltips/",
-            "text": "Tooltips\n\n\nSorry the documentation for this component values is not available yet.\n\n\nHowever, the values exist. Check the raw values below.\n\n\n\n\nSee also\n\n\n\n\n\n\nRaw values\n\n\n\n\n\n\nTooltips (Material design)",
+            "text": "Tooltips\n\n\nElevation\n\n\nThe elevation is defined as \n@dimen/material_tooltip_elevation\n.\n\n\nGeneral values\n\n\n\n\n\n\n@dimen/material_tooltip_height\n\n\n@dimen/material_tooltip_padding_horizontal\n\n\n@dimen/material_tooltip_margin_top\n\n\n@dimen/material_tooltip_text_size\n\n\n@dimen/material_tooltip_color\n\n\n\n\nEdge margin\n\n\n\n\n\n\n@dimen/material_tooltip_edge_margin_minimum\n\n\n\n\n\n\nSee also\n\n\n\n\n\n\nRaw values\n\n\n\n\n\n\nTooltips (Material design)",
             "title": "Tooltips"
         },
         {
             "location": "/component/tooltips/#tooltips",
-            "text": "Sorry the documentation for this component values is not available yet.  However, the values exist. Check the raw values below.",
+            "text": "",
             "title": "Tooltips"
+        },
+        {
+            "location": "/component/tooltips/#elevation",
+            "text": "The elevation is defined as  @dimen/material_tooltip_elevation .",
+            "title": "Elevation"
+        },
+        {
+            "location": "/component/tooltips/#general-values",
+            "text": "@dimen/material_tooltip_height  @dimen/material_tooltip_padding_horizontal  @dimen/material_tooltip_margin_top  @dimen/material_tooltip_text_size  @dimen/material_tooltip_color",
+            "title": "General values"
+        },
+        {
+            "location": "/component/tooltips/#edge-margin",
+            "text": "@dimen/material_tooltip_edge_margin_minimum",
+            "title": "Edge margin"
         },
         {
             "location": "/component/tooltips/#see-also",
