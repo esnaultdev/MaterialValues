@@ -1,8 +1,17 @@
 # Dividers
 
-Sorry the documentation for this component values is not available yet.
+## Size
 
-However, the values exist. Check the raw values below.
+|        |        |
+| ------ | ------ |
+| Height | `@dimen/material_divider_height` |
+
+## Color
+
+| Theme | Resource |
+| ----- | -------- |
+| Light theme | `@color/material_divider_color_light_theme` |
+| Dark theme  | `@color/material_divider_color_dark_theme`  |
 
 
 ---
