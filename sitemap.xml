@@ -68,7 +68,73 @@
     </url>
         
     <url>
+     <loc>None/component/buttons/</loc>
+     <lastmod>2016-10-27</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
      <loc>None/component/card/</loc>
+     <lastmod>2016-10-27</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>None/component/chips/</loc>
+     <lastmod>2016-10-27</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>None/component/dialogs/</loc>
+     <lastmod>2016-10-27</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>None/component/dividers/</loc>
+     <lastmod>2016-10-27</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>None/component/expansion_panels/</loc>
+     <lastmod>2016-10-27</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>None/component/grid_lists/</loc>
+     <lastmod>2016-10-27</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>None/component/lists/</loc>
+     <lastmod>2016-10-27</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>None/component/menus/</loc>
+     <lastmod>2016-10-27</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>None/component/steppers/</loc>
+     <lastmod>2016-10-27</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>None/component/subheaders/</loc>
+     <lastmod>2016-10-27</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>None/component/tooltips/</loc>
      <lastmod>2016-10-27</lastmod>
      <changefreq>daily</changefreq>
     </url>

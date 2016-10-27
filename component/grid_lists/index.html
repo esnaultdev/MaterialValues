@@ -9,7 +9,7 @@
         
         <link rel="shortcut icon" href="../../img/favicon.ico">
 
-	<title>Metrics & keylines - MaterialValues</title>
+	<title>Grid lists - MaterialValues</title>
 
         <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
         <link href="../../css/font-awesome-4.0.3.css" rel="stylesheet">
@@ -83,25 +83,25 @@
             
             
             
-                <li class="dropdown active">
+                <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Layout <b class="caret"></b></a>
                     <ul class="dropdown-menu">
                     
                         
-<li class="active">
-    <a href="./">Metrics & keylines</a>
+<li >
+    <a href="../../layout/keylines/">Metrics & keylines</a>
 </li>
 
                     
                         
 <li >
-    <a href="../responsive_ui/">Responsive UI</a>
+    <a href="../../layout/responsive_ui/">Responsive UI</a>
 </li>
 
                     
                         
 <li >
-    <a href="../elevation/">Elevation</a>
+    <a href="../../layout/elevation/">Elevation</a>
 </li>
 
                     
@@ -110,91 +110,91 @@
             
             
             
-                <li class="dropdown">
+                <li class="dropdown active">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Components <b class="caret"></b></a>
                     <ul class="dropdown-menu">
                     
                         
 <li >
-    <a href="../../component/bottom_navigation/">Bottom navigation</a>
+    <a href="../bottom_navigation/">Bottom navigation</a>
 </li>
 
                     
                         
 <li >
-    <a href="../../component/bottom_sheet/">Bottom sheet</a>
+    <a href="../bottom_sheet/">Bottom sheet</a>
 </li>
 
                     
                         
 <li >
-    <a href="../../component/buttons/">Buttons</a>
+    <a href="../buttons/">Buttons</a>
 </li>
 
                     
                         
 <li >
-    <a href="../../component/card/">Cards</a>
+    <a href="../card/">Cards</a>
 </li>
 
                     
                         
 <li >
-    <a href="../../component/chips/">Chips</a>
+    <a href="../chips/">Chips</a>
 </li>
 
                     
                         
 <li >
-    <a href="../../component/dialogs/">Dialogs</a>
+    <a href="../dialogs/">Dialogs</a>
 </li>
 
                     
                         
 <li >
-    <a href="../../component/dividers/">Dividers</a>
+    <a href="../dividers/">Dividers</a>
 </li>
 
                     
                         
 <li >
-    <a href="../../component/expansion_panels/">Expansion panels</a>
+    <a href="../expansion_panels/">Expansion panels</a>
+</li>
+
+                    
+                        
+<li class="active">
+    <a href="./">Grid lists</a>
 </li>
 
                     
                         
 <li >
-    <a href="../../component/grid_lists/">Grid lists</a>
+    <a href="../lists/">Lists</a>
 </li>
 
                     
                         
 <li >
-    <a href="../../component/lists/">Lists</a>
+    <a href="../menus/">Menus</a>
 </li>
 
                     
                         
 <li >
-    <a href="../../component/menus/">Menus</a>
+    <a href="../steppers/">Steppers</a>
 </li>
 
                     
                         
 <li >
-    <a href="../../component/steppers/">Steppers</a>
+    <a href="../subheaders/">Subheaders</a>
 </li>
 
                     
                         
 <li >
-    <a href="../../component/subheaders/">Subheaders</a>
-</li>
-
-                    
-                        
-<li >
-    <a href="../../component/tooltips/">Tooltips</a>
+    <a href="../tooltips/">Tooltips</a>
 </li>
 
                     
@@ -212,12 +212,12 @@
                     </a>
                 </li>
                 <li >
-                    <a rel="next" href="../../style/typography/">
+                    <a rel="next" href="../expansion_panels/">
                         <i class="fa fa-arrow-left"></i> Previous
                     </a>
                 </li>
                 <li >
-                    <a rel="prev" href="../responsive_ui/">
+                    <a rel="prev" href="../lists/">
                         Next <i class="fa fa-arrow-right"></i>
                     </a>
                 </li>
@@ -240,57 +240,26 @@
             <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
     
-        <li class="main active"><a href="#metrics-keylines">Metrics &amp; Keylines</a></li>
+        <li class="main active"><a href="#grid-lists">Grid lists</a></li>
         
-            <li><a href="#baseline-grid">Baseline grid</a></li>
-        
-            <li><a href="#increments">Increments</a></li>
-        
-            <li><a href="#content-keylines">Content keylines</a></li>
+            <li><a href="#see-also">See also</a></li>
         
     
     </ul>
 </div></div>
             <div class="col-md-9" role="main">
 
-<h1 id="metrics-keylines">Metrics &amp; Keylines</h1>
-<h2 id="baseline-grid">Baseline grid</h2>
-<p>Baseline grid values are provided from <code>@dimen/material_baseline_grid_1x</code> to <code>@dimen/material_baseline_grid_20x</code>.</p>
-<p>Half-increments are also available for centering elements, from <code>@dimen/material_baseline_grid_0.5x</code> to <code>@dimen/material_baseline_grid_9.5x</code>.</p>
-<p>It is recommended to use the baseline grid to specify component dimensions.</p>
-<h2 id="increments">Increments</h2>
-<p>A default value of 56dp for increments is used to specify increment values.
-This is specific to this library and not a material design specification, even though it's a common value.
-Every dimension relying on increments is provided alongside an <code>@integer</code> value so that a custom increment size can be used.</p>
-<p>Increment values are provided from <code>@dimen/material_increment_1x</code> to <code>@dimen/material_increment_10x</code>. </p>
-<h2 id="content-keylines">Content keylines</h2>
-<table>
-<thead>
-<tr>
-<th>Edge margin</th>
-<th>Resource</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Default</td>
-<td><code>@dimen/material_content_edge_margin_horizontal</code></td>
-</tr>
-<tr>
-<td>Secondary content</td>
-<td><code>@dimen/material_content_secondary_edge_margin_start</code></td>
-</tr>
-</tbody>
-</table>
-<p>Secondary content is content placed after some primary content. For example, the text after an avatar in a list.</p>
+<h1 id="grid-lists">Grid lists</h1>
+<p>Sorry the documentation for this component values is not available yet.</p>
+<p>However, the values exist. Check the raw values below.</p>
 <hr />
 <h4 id="see-also">See also</h4>
 <ul>
 <li>
-<p><a href="https://github.com/AoDevBlue/MaterialValues/blob/master/material-values/src/main/res-layout/values/keylines.xml">Raw values</a></p>
+<p><a href="https://github.com/AoDevBlue/MaterialValues/blob/master/material-values/src/main/res-component/values/grid_list.xml">Raw values</a></p>
 </li>
 <li>
-<p><a href="https://material.google.com/layout/metrics-keylines.html">Metrics &amp; keylines (Material design)</a></p>
+<p><a href="https://material.google.com/components/grid-lists.html">Grid lists (Material design)</a></p>
 </li>
 </ul></div>
         </div>

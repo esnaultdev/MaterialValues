@@ -2,7 +2,7 @@
     "docs": [
         {
             "location": "/",
-            "text": "MaterialValues\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAll the values from the Material Design guidelines defined in resources for Android.\n\n\n\n\nDocumentation\n\n\nAll the values in this documentation use the xml reference representation.\n\n\nYou can also use them programmatically using \nblue.aodev.materialvalues.R\n.\n\n\nFor example:\n\n\n\n\n\n\n\n\nXml reference\n\n\nCode reference\n\n\n\n\n\n\n\n\n\n\n@color/material_color_green_primary\n\n\nR.color.material_color_green_primary\n\n\n\n\n\n\n@dimen/material_list_two_line_dense_height\n\n\nR.dimen.material_list_two_line_dense_height\n\n\n\n\n\n\n@dimen/material_elevation_card_raised\n\n\nR.dimen.material_elevation_card_raised\n\n\n\n\n\n\n@dimen/material_typography_regular_title_text_size\n\n\nR.dimen.material_typography_regular_title_text_size\n\n\n\n\n\n\n\n\n\n\nDisclaimer\n\n\nMost of the visuals come directly from the \nMaterial design specifications\n, and are property of Google.",
+            "text": "MaterialValues\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAll the values from the Material Design guidelines defined in resources for Android.\n\n\n\n\nDocumentation\n\n\nAll the values in this documentation use the xml reference representation.\n\n\nYou can also use them programmatically using \nblue.aodev.materialvalues.R\n.\n\n\nFor example:\n\n\n\n\n\n\n\n\nXml reference\n\n\nCode reference\n\n\n\n\n\n\n\n\n\n\n@color/material_color_green_primary\n\n\nR.color.material_color_green_primary\n\n\n\n\n\n\n@dimen/material_list_two_line_dense_height\n\n\nR.dimen.material_list_two_line_dense_height\n\n\n\n\n\n\n@dimen/material_elevation_card_raised\n\n\nR.dimen.material_elevation_card_raised\n\n\n\n\n\n\n@dimen/material_typography_regular_title_text_size\n\n\nR.dimen.material_typography_regular_title_text_size\n\n\n\n\n\n\n\n\n\n\nIf a section of the Material Design specs is not included, it may be because it has no values or is only available on desktop.\n\n\nNote that the values for the following components are not available as they are already well implemented in Android:\n- Selection controls\n- Sliders\n- Snackbars & toasts\n- Tabs\n- Text fields\n\n\n\n\nDisclaimer\n\n\nMost of the visuals come directly from the \nMaterial design specifications\n, and are property of Google.",
             "title": "Presentation"
         },
         {
@@ -12,7 +12,7 @@
         },
         {
             "location": "/#documentation",
-            "text": "All the values in this documentation use the xml reference representation.  You can also use them programmatically using  blue.aodev.materialvalues.R .  For example:     Xml reference  Code reference      @color/material_color_green_primary  R.color.material_color_green_primary    @dimen/material_list_two_line_dense_height  R.dimen.material_list_two_line_dense_height    @dimen/material_elevation_card_raised  R.dimen.material_elevation_card_raised    @dimen/material_typography_regular_title_text_size  R.dimen.material_typography_regular_title_text_size",
+            "text": "All the values in this documentation use the xml reference representation.  You can also use them programmatically using  blue.aodev.materialvalues.R .  For example:     Xml reference  Code reference      @color/material_color_green_primary  R.color.material_color_green_primary    @dimen/material_list_two_line_dense_height  R.dimen.material_list_two_line_dense_height    @dimen/material_elevation_card_raised  R.dimen.material_elevation_card_raised    @dimen/material_typography_regular_title_text_size  R.dimen.material_typography_regular_title_text_size      If a section of the Material Design specs is not included, it may be because it has no values or is only available on desktop.  Note that the values for the following components are not available as they are already well implemented in Android:\n- Selection controls\n- Sliders\n- Snackbars & toasts\n- Tabs\n- Text fields",
             "title": "Documentation"
         },
         {
@@ -326,6 +326,21 @@
             "title": "See also"
         },
         {
+            "location": "/component/buttons/",
+            "text": "Buttons\n\n\nSorry the documentation for this component values is not available yet.\n\n\nHowever, the values exist. Check the raw values below.\n\n\n\n\nSee also\n\n\n\n\n\n\nRaw values\n\n\n\n\n\n\nButtons (Material design)\n\n\n\n\n\n\nButtons: FAB (Material design)",
+            "title": "Buttons"
+        },
+        {
+            "location": "/component/buttons/#buttons",
+            "text": "Sorry the documentation for this component values is not available yet.  However, the values exist. Check the raw values below.",
+            "title": "Buttons"
+        },
+        {
+            "location": "/component/buttons/#see-also",
+            "text": "Raw values    Buttons (Material design)    Buttons: FAB (Material design)",
+            "title": "See also"
+        },
+        {
             "location": "/component/card/",
             "text": "Card\n\n\nElevation\n\n\n\n\n\n\n\n\nName\n\n\nResource\n\n\n\n\n\n\n\n\n\n\nElevation (resting)\n\n\n@dimen/material_card_elevation_resting\n\n\n\n\n\n\nElevation (raised)\n\n\n@dimen/material_card_elevation_raised\n\n\n\n\n\n\n\n\nLayout\n\n\n\n\n\n\n@dimen/material_card_edge_margin\n\n\n@dimen/material_card_gutter\n\n\nMissing value, it will be included in the future\n\n\n\n\nNote that the gutter and the edge margin have the same value behind the scenes, if you want to use only one.\n\n\nTitle\n\n\nSmall\n\n\n\n\n\n\n@dimen/material_card_title_block_padding_horizontal\n\n\n@dimen/material_card_title_block_small_padding_top\n \nNaming issue\n\n   \n@dimen/material_card_title_block_small_padding_bottom\n \nNaming issue\n\n\n@dimen/material_card_title_block_small_height\n\n\n\n\n\n\n\n\n\n\nText\n\n\nResource\n\n\n\n\n\n\n\n\n\n\nTitle\n\n\n@dimen/material_card_title_block_small_text_size\n\n\n\n\n\n\nSubtitle\n\n\n@dimen/material_card_title_block_subtitle_text_size\n\n\n\n\n\n\n\n\nLarge\n\n\n\n\n\n\n@dimen/material_card_title_block_padding_horizontal\n\n\n@dimen/material_card_title_block_large_padding_top\n\n\n@dimen/material_card_title_block_large_subtitle_margin_top\n\n\n@dimen/material_card_title_block_large_padding_bottom\n\n\nMissing value, it will be included in the future\n\n\n\n\n\n\n\n\n\n\nText\n\n\nResource\n\n\n\n\n\n\n\n\n\n\nTitle\n\n\n@dimen/material_card_title_block_large_title_text_size\n\n\n\n\n\n\nSubtitle\n\n\n@dimen/material_card_title_block_subtitle_text_size\n\n\n\n\n\n\n\n\nSupporting text\n\n\n\n\n\n\n@dimen/material_card_supporting_text_padding_horizontal\n\n\n@dimen/material_card_supporting_text_padding_top\n\n\n@dimen/material_card_supporting_text_padding_bottom_last_block\n\n\n@dimen/material_card_supporting_text_padding_bottom\n\n\n\n\nText size: \n@dimen/material_card_supporting_text_text_size\n.\n\n\nActions\n\n\n\n\n\n\n@dimen/material_card_actions_row_padding\n\n\n@dimen/material_card_actions_action_gutter_horizontal\n\n\n\n\n\n\n\n\n@dimen/material_card_actions_row_padding\n\n\n@dimen/material_card_actions_action_gutter_vertical\n\n\n\n\n\n\n\n\n@dimen/material_card_actions_row_padding\n\n\nMissing value, it will be included in the future\n\n\nMissing value, it will be included in the future\n\n\n\n\nMedia area\n\n\nIn title\n\n\n\n\n\n\nSee following \nsize\n table.\n\n\n@dimen/material_card_media_area_in_title_padding_top\n\n\n@dimen/material_card_media_area_in_title_padding_end\n\n\nFollowing block\n\n\n\n\n\n\n\n\n\n\nSize\n\n\nResource\n\n\n\n\n\n\n\n\n\n\nSmall (80dp)\n\n\n@dimen/material_card_media_area_in_title_size_small\n\n\n\n\n\n\nMedium (120dp)\n\n\n@dimen/material_card_media_area_in_title_size_medium\n\n\n\n\n\n\nLarge (160dp)\n\n\n@dimen/material_card_media_area_in_title_size_large\n\n\n\n\n\n\nxLarge (240dp)\n\n\n@dimen/material_card_media_area_in_title_size_xlarge\n\n\n\n\n\n\n\n\nShrunk\n\n\n\n\n\n\nSee \"Media area in title\" sizes (\nNaming issue\n)\n\n\n@dimen/material_card_media_area_shrunk_padding_horizontal\n\n\n@dimen/material_card_media_area_shrunk_padding_vertical\n\n\nAction block\n\n\n\n\nInset divider\n\n\n\n\n\n\n\n\nName\n\n\nResource\n\n\n\n\n\n\n\n\n\n\nHeight\n\n\n@dimen/material_divider_height\n\n\n\n\n\n\nHorizontal padding\n\n\n@dimen/material_card_divider_inset_padding_horizontal\n\n\n\n\n\n\n\n\n\n\nSee also\n\n\n\n\n\n\nRaw values\n\n\n\n\n\n\nCards (Material design)",
             "title": "Cards"
@@ -393,6 +408,156 @@
         {
             "location": "/component/card/#see-also",
             "text": "Raw values    Cards (Material design)",
+            "title": "See also"
+        },
+        {
+            "location": "/component/chips/",
+            "text": "Chips\n\n\nSorry the documentation for this component values is not available yet.\n\n\nHowever, the values exist. Check the raw values below.\n\n\n\n\nSee also\n\n\n\n\n\n\nRaw values\n\n\n\n\n\n\nChips (Material design)",
+            "title": "Chips"
+        },
+        {
+            "location": "/component/chips/#chips",
+            "text": "Sorry the documentation for this component values is not available yet.  However, the values exist. Check the raw values below.",
+            "title": "Chips"
+        },
+        {
+            "location": "/component/chips/#see-also",
+            "text": "Raw values    Chips (Material design)",
+            "title": "See also"
+        },
+        {
+            "location": "/component/dialogs/",
+            "text": "Dialogs\n\n\nSorry the documentation for this component values is not available yet.\n\n\nHowever, the values exist. Check the raw values below.\n\n\n\n\nSee also\n\n\n\n\n\n\nRaw values\n\n\n\n\n\n\nDialogs (Material design)",
+            "title": "Dialogs"
+        },
+        {
+            "location": "/component/dialogs/#dialogs",
+            "text": "Sorry the documentation for this component values is not available yet.  However, the values exist. Check the raw values below.",
+            "title": "Dialogs"
+        },
+        {
+            "location": "/component/dialogs/#see-also",
+            "text": "Raw values    Dialogs (Material design)",
+            "title": "See also"
+        },
+        {
+            "location": "/component/dividers/",
+            "text": "Dividers\n\n\nSorry the documentation for this component values is not available yet.\n\n\nHowever, the values exist. Check the raw values below.\n\n\n\n\nSee also\n\n\n\n\n\n\nRaw values\n\n\n\n\n\n\nDividers (Material design)",
+            "title": "Dividers"
+        },
+        {
+            "location": "/component/dividers/#dividers",
+            "text": "Sorry the documentation for this component values is not available yet.  However, the values exist. Check the raw values below.",
+            "title": "Dividers"
+        },
+        {
+            "location": "/component/dividers/#see-also",
+            "text": "Raw values    Dividers (Material design)",
+            "title": "See also"
+        },
+        {
+            "location": "/component/expansion_panels/",
+            "text": "Expansion panels\n\n\nSorry the documentation for this component values is not available yet.\n\n\nHowever, the values exist. Check the raw values below.\n\n\n\n\nSee also\n\n\n\n\n\n\nRaw values\n\n\n\n\n\n\nExpansion panels (Material design)",
+            "title": "Expansion panels"
+        },
+        {
+            "location": "/component/expansion_panels/#expansion-panels",
+            "text": "Sorry the documentation for this component values is not available yet.  However, the values exist. Check the raw values below.",
+            "title": "Expansion panels"
+        },
+        {
+            "location": "/component/expansion_panels/#see-also",
+            "text": "Raw values    Expansion panels (Material design)",
+            "title": "See also"
+        },
+        {
+            "location": "/component/grid_lists/",
+            "text": "Grid lists\n\n\nSorry the documentation for this component values is not available yet.\n\n\nHowever, the values exist. Check the raw values below.\n\n\n\n\nSee also\n\n\n\n\n\n\nRaw values\n\n\n\n\n\n\nGrid lists (Material design)",
+            "title": "Grid lists"
+        },
+        {
+            "location": "/component/grid_lists/#grid-lists",
+            "text": "Sorry the documentation for this component values is not available yet.  However, the values exist. Check the raw values below.",
+            "title": "Grid lists"
+        },
+        {
+            "location": "/component/grid_lists/#see-also",
+            "text": "Raw values    Grid lists (Material design)",
+            "title": "See also"
+        },
+        {
+            "location": "/component/lists/",
+            "text": "Lists\n\n\nSorry the documentation for this component values is not available yet.\n\n\nHowever, the values exist. Check the raw values below.\n\n\n\n\nSee also\n\n\n\n\n\n\nRaw values\n\n\n\n\n\n\nLists (Material design)",
+            "title": "Lists"
+        },
+        {
+            "location": "/component/lists/#lists",
+            "text": "Sorry the documentation for this component values is not available yet.  However, the values exist. Check the raw values below.",
+            "title": "Lists"
+        },
+        {
+            "location": "/component/lists/#see-also",
+            "text": "Raw values    Lists (Material design)",
+            "title": "See also"
+        },
+        {
+            "location": "/component/menus/",
+            "text": "Menus\n\n\nSorry the documentation for this component values is not available yet.\n\n\nHowever, the values exist. Check the raw values below.\n\n\n\n\nSee also\n\n\n\n\n\n\nRaw values\n\n\n\n\n\n\nMenus (Material design)",
+            "title": "Menus"
+        },
+        {
+            "location": "/component/menus/#menus",
+            "text": "Sorry the documentation for this component values is not available yet.  However, the values exist. Check the raw values below.",
+            "title": "Menus"
+        },
+        {
+            "location": "/component/menus/#see-also",
+            "text": "Raw values    Menus (Material design)",
+            "title": "See also"
+        },
+        {
+            "location": "/component/steppers/",
+            "text": "Steppers\n\n\nSorry the documentation for this component values is not available yet.\n\n\nHowever, the values exist. Check the raw values below.\n\n\n\n\nSee also\n\n\n\n\n\n\nRaw values\n\n\n\n\n\n\nButtons (Material design)",
+            "title": "Steppers"
+        },
+        {
+            "location": "/component/steppers/#steppers",
+            "text": "Sorry the documentation for this component values is not available yet.  However, the values exist. Check the raw values below.",
+            "title": "Steppers"
+        },
+        {
+            "location": "/component/steppers/#see-also",
+            "text": "Raw values    Buttons (Material design)",
+            "title": "See also"
+        },
+        {
+            "location": "/component/subheaders/",
+            "text": "Subheaders\n\n\nSorry the documentation for this component values is not available yet.\n\n\nHowever, the values exist. Check the raw values below.\n\n\n\n\nSee also\n\n\n\n\n\n\nRaw values\n\n\n\n\n\n\nButtons (Material design)",
+            "title": "Subheaders"
+        },
+        {
+            "location": "/component/subheaders/#subheaders",
+            "text": "Sorry the documentation for this component values is not available yet.  However, the values exist. Check the raw values below.",
+            "title": "Subheaders"
+        },
+        {
+            "location": "/component/subheaders/#see-also",
+            "text": "Raw values    Buttons (Material design)",
+            "title": "See also"
+        },
+        {
+            "location": "/component/tooltips/",
+            "text": "Tooltips\n\n\nSorry the documentation for this component values is not available yet.\n\n\nHowever, the values exist. Check the raw values below.\n\n\n\n\nSee also\n\n\n\n\n\n\nRaw values\n\n\n\n\n\n\nTooltips (Material design)",
+            "title": "Tooltips"
+        },
+        {
+            "location": "/component/tooltips/#tooltips",
+            "text": "Sorry the documentation for this component values is not available yet.  However, the values exist. Check the raw values below.",
+            "title": "Tooltips"
+        },
+        {
+            "location": "/component/tooltips/#see-also",
+            "text": "Raw values    Tooltips (Material design)",
             "title": "See also"
         }
     ]
