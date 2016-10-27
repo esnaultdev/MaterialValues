@@ -14,3 +14,5 @@ pages:
     - Bottom sheet: component/bottom_sheet.md
     - Cards: component/card.md
 theme: flatly
+repo_url: https://github.com/AoDevBlue/MaterialValues
+
