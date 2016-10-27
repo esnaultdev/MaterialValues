@@ -26,6 +26,17 @@ For example:
 
 ---
 
+If a section of the Material Design specs is not included, it may be because it has no values or is only available on desktop.
+
+Note that the values for the following components are not available as they are already well implemented in Android:
+- Selection controls
+- Sliders
+- Snackbars & toasts
+- Tabs
+- Text fields
+
+---
+
 ## Disclaimer
 
 Most of the visuals come directly from the [Material design specifications](https://material.google.com), and are property of Google.

@@ -34,11 +34,6 @@ Components
 - [Tooltips](https://github.com/AoDevBlue/MaterialValues/blob/master/material-values/src/main/res-component/values/tooltip.xml)
 
 
-If a section of the Material Design specs is not in the above list, it may be because it has no values or is only available on desktop.
-
-Note that the values for the following components are not available as they are already well implemented in Android: Selection controls, Sliders, Snackbars & toasts, Tabs, Text fields.
-
-
 Usage
 -----
 
