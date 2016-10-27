@@ -84,7 +84,38 @@ Text size: `@dimen/material_card_supporting_text_text_size`.
 
 ## Media area
 
-//TODO
+### In title
+
+<img src="/MaterialValues/images/components_card_media_in_title.png" alt="Card media in title" style="width: 360px;"/>
+
+1. See following `size` table.
+2. `@dimen/material_card_media_area_in_title_padding_top`
+3. `@dimen/material_card_media_area_in_title_padding_end`
+4. Following block
+
+| Size | Resource |
+| ---- | -------- |
+| Small (80dp)   | `@dimen/material_card_media_area_in_title_size_small`  |
+| Medium (120dp) | `@dimen/material_card_media_area_in_title_size_medium` |
+| Large (160dp)  | `@dimen/material_card_media_area_in_title_size_large`  |
+| xLarge (240dp) | `@dimen/material_card_media_area_in_title_size_xlarge` |
+
+### Shrunk
+
+<img src="/MaterialValues/images/components_card_media_shrunk.png" alt="Card media shrunk" style="width: 360px;"/>
+
+1. See "Media area in title" sizes (*Naming issue*)
+2. `@dimen/material_card_media_area_shrunk_padding_horizontal`
+3. `@dimen/material_card_media_area_shrunk_padding_vertical`
+4. Action block
+
+
+## Inset divider
+
+| Name | Resource |
+| ---- | -------- |
+| Height             | `@dimen/material_divider_height`                        |
+| Horizontal padding | `@dimen/material_card_divider_inset_padding_horizontal` |
 
 
 ---
