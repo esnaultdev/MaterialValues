@@ -2,7 +2,7 @@
     "docs": [
         {
             "location": "/",
-            "text": "MaterialValues\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAll the values from the Material Design guidelines defined in resources for Android.\n\n\n\n\nDocumentation\n\n\nAll the values in this documentation use the xml reference representation.\n\n\nYou can also use them programmatically using \nblue.aodev.materialvalues.R\n.\n\n\nFor example:\n\n\n\n\n\n\n\n\nXml reference\n\n\nCode reference\n\n\n\n\n\n\n\n\n\n\n@color/material_color_green_primary\n\n\nR.color.material_color_green_primary\n\n\n\n\n\n\n@dimen/material_list_two_line_dense_height\n\n\nR.dimen.material_list_two_line_dense_height\n\n\n\n\n\n\n@dimen/material_elevation_card_raised\n\n\nR.dimen.material_elevation_card_raised\n\n\n\n\n\n\n@dimen/material_typography_regular_title_text_size\n\n\nR.dimen.material_typography_regular_title_text_size\n\n\n\n\n\n\n\n\n\n\nIf a section of the Material Design specs is not included, it may be because it has no values or is only available on desktop.\n\n\nNote that the values for the following components are not available as they are already well implemented in Android:\n- Selection controls\n- Sliders\n- Snackbars & toasts\n- Tabs\n- Text fields\n\n\n\n\nDisclaimer\n\n\nMost of the visuals come directly from the \nMaterial design specifications\n, and are property of Google.",
+            "text": "MaterialValues\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAll the values from the Material Design guidelines defined in resources for Android.\n\n\n\n\nDocumentation\n\n\nAll the values in this documentation use the xml reference representation.\n\n\nYou can also use them programmatically using \nblue.aodev.materialvalues.R\n.\n\n\nFor example:\n\n\n\n\n\n\n\n\nXml reference\n\n\nCode reference\n\n\n\n\n\n\n\n\n\n\n@color/material_color_green_primary\n\n\nR.color.material_color_green_primary\n\n\n\n\n\n\n@dimen/material_list_two_line_dense_height\n\n\nR.dimen.material_list_two_line_dense_height\n\n\n\n\n\n\n@dimen/material_elevation_card_raised\n\n\nR.dimen.material_elevation_card_raised\n\n\n\n\n\n\n@dimen/material_typography_regular_title_text_size\n\n\nR.dimen.material_typography_regular_title_text_size\n\n\n\n\n\n\n\n\n\n\nMissing values\n\n\nIf a section of the Material Design specs is not included, it may be because it has no values or is only available on desktop.\n\n\nNote that the values for the following components are not available as they are already well implemented in Android:\n\n\n\n\nSelection controls\n\n\nSliders\n\n\nSnackbars & toasts\n\n\nTabs\n\n\nText fields\n\n\n\n\n\n\nDisclaimer\n\n\nMost of the visuals come directly from the \nMaterial design specifications\n, and are property of Google.",
             "title": "Presentation"
         },
         {
@@ -12,8 +12,13 @@
         },
         {
             "location": "/#documentation",
-            "text": "All the values in this documentation use the xml reference representation.  You can also use them programmatically using  blue.aodev.materialvalues.R .  For example:     Xml reference  Code reference      @color/material_color_green_primary  R.color.material_color_green_primary    @dimen/material_list_two_line_dense_height  R.dimen.material_list_two_line_dense_height    @dimen/material_elevation_card_raised  R.dimen.material_elevation_card_raised    @dimen/material_typography_regular_title_text_size  R.dimen.material_typography_regular_title_text_size      If a section of the Material Design specs is not included, it may be because it has no values or is only available on desktop.  Note that the values for the following components are not available as they are already well implemented in Android:\n- Selection controls\n- Sliders\n- Snackbars & toasts\n- Tabs\n- Text fields",
+            "text": "All the values in this documentation use the xml reference representation.  You can also use them programmatically using  blue.aodev.materialvalues.R .  For example:     Xml reference  Code reference      @color/material_color_green_primary  R.color.material_color_green_primary    @dimen/material_list_two_line_dense_height  R.dimen.material_list_two_line_dense_height    @dimen/material_elevation_card_raised  R.dimen.material_elevation_card_raised    @dimen/material_typography_regular_title_text_size  R.dimen.material_typography_regular_title_text_size",
             "title": "Documentation"
+        },
+        {
+            "location": "/#missing-values",
+            "text": "If a section of the Material Design specs is not included, it may be because it has no values or is only available on desktop.  Note that the values for the following components are not available as they are already well implemented in Android:   Selection controls  Sliders  Snackbars & toasts  Tabs  Text fields",
+            "title": "Missing values"
         },
         {
             "location": "/#disclaimer",
@@ -412,13 +417,33 @@
         },
         {
             "location": "/component/chips/",
-            "text": "Chips\n\n\nSorry the documentation for this component values is not available yet.\n\n\nHowever, the values exist. Check the raw values below.\n\n\n\n\nSee also\n\n\n\n\n\n\nRaw values\n\n\n\n\n\n\nChips (Material design)",
+            "text": "Chips\n\n\nElevation\n\n\n\n\n\n\n\n\nName\n\n\nResource\n\n\n\n\n\n\n\n\n\n\nSimple chip\n\n\n@dimen/material_chip_simple_elevation\n\n\n\n\n\n\nContact chip (closed)\n\n\n@dimen/material_chip_contact_closed_elevation\n\n\n\n\n\n\nContact chip (open)\n\n\n@dimen/material_chip_contact_open_elevation\n\n\n\n\n\n\n\n\nSimple chip and closed contact chip\n\n\n\n\n\n\n@dimen/material_chip_height\n \n\n\n@dimen/material_chip_simple_label_horizontal_padding\n\n\n@dimen/material_chip_contact_closed_label_padding_start\n\n\n@dimen/material_chip_contact_closed_label_padding_end\n\n\n@dimen/material_chip_simple_label_text_size\n\n   or \n@dimen/material_chip_contact_closed_label_text_size\n \nNaming issue\n\n\nUnspecified color\n\n\n\n\nDeletable chip\n\n\nBoth simple and contact chips can be deletable.\n\n\n\n\n\n\n@dimen/material_chip_simple_remove_icon_size\n\n\n@dimen/material_chip_simple_remove_icon_margin\n\n\n@color/material_chip_simple_remove_icon_color\n\n\n\n\nOpen contact chip\n\n\n\n\n\n\n@dimen/material_chip_contact_open_focused_height\n\n\n@dimen/material_chip_contact_open_unfocused_height\n\n\n@dimen/material_chip_contact_open_avatar_size\n\n\n@dimen/material_chip_contact_open_padding_horizontal\n\n\n@dimen/material_chip_contact_open_focused_padding_vertical\n\n\n@dimen/material_chip_contact_open_name_text_size\n\n\n@dimen/material_chip_contact_open_address_text_size\n\n\n\n\n\n\nSee also\n\n\n\n\n\n\nRaw values\n\n\n\n\n\n\nChips (Material design)",
             "title": "Chips"
         },
         {
             "location": "/component/chips/#chips",
-            "text": "Sorry the documentation for this component values is not available yet.  However, the values exist. Check the raw values below.",
+            "text": "",
             "title": "Chips"
+        },
+        {
+            "location": "/component/chips/#elevation",
+            "text": "Name  Resource      Simple chip  @dimen/material_chip_simple_elevation    Contact chip (closed)  @dimen/material_chip_contact_closed_elevation    Contact chip (open)  @dimen/material_chip_contact_open_elevation",
+            "title": "Elevation"
+        },
+        {
+            "location": "/component/chips/#simple-chip-and-closed-contact-chip",
+            "text": "@dimen/material_chip_height    @dimen/material_chip_simple_label_horizontal_padding  @dimen/material_chip_contact_closed_label_padding_start  @dimen/material_chip_contact_closed_label_padding_end  @dimen/material_chip_simple_label_text_size \n   or  @dimen/material_chip_contact_closed_label_text_size   Naming issue  Unspecified color",
+            "title": "Simple chip and closed contact chip"
+        },
+        {
+            "location": "/component/chips/#deletable-chip",
+            "text": "Both simple and contact chips can be deletable.    @dimen/material_chip_simple_remove_icon_size  @dimen/material_chip_simple_remove_icon_margin  @color/material_chip_simple_remove_icon_color",
+            "title": "Deletable chip"
+        },
+        {
+            "location": "/component/chips/#open-contact-chip",
+            "text": "@dimen/material_chip_contact_open_focused_height  @dimen/material_chip_contact_open_unfocused_height  @dimen/material_chip_contact_open_avatar_size  @dimen/material_chip_contact_open_padding_horizontal  @dimen/material_chip_contact_open_focused_padding_vertical  @dimen/material_chip_contact_open_name_text_size  @dimen/material_chip_contact_open_address_text_size",
+            "title": "Open contact chip"
         },
         {
             "location": "/component/chips/#see-also",
@@ -559,6 +584,21 @@
             "location": "/component/tooltips/#see-also",
             "text": "Raw values    Tooltips (Material design)",
             "title": "See also"
+        },
+        {
+            "location": "/about/changelog/",
+            "text": "1.0.1 (2016-10-24)\n\n\n\n\nChange package name from \nblue.aodev.materialspecs\n to \nblue.aodev.materialvalues\n.\n\n\n\n\n1.0 (2016-10-19)\n\n\n\n\nInitial release",
+            "title": "Changelog"
+        },
+        {
+            "location": "/about/changelog/#101-2016-10-24",
+            "text": "Change package name from  blue.aodev.materialspecs  to  blue.aodev.materialvalues .",
+            "title": "1.0.1 (2016-10-24)"
+        },
+        {
+            "location": "/about/changelog/#10-2016-10-19",
+            "text": "Initial release",
+            "title": "1.0 (2016-10-19)"
         }
     ]
 }
