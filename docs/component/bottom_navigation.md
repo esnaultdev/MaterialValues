@@ -4,7 +4,7 @@
 
 ### Action size
 
-<img src="../../images/components_bottomnavigation_spec_fixed2.png" alt="Fixed nav bar: action size" style="width: 360px;"/>
+<img src="/MaterialValues/images/components_bottomnavigation_spec_fixed2.png" alt="Fixed nav bar: action size" style="width: 360px;"/>
 
 1. `@dimen/material_bottom_nav_bar_fixed_action_minimum_width`
 2. `@dimen/material_bottom_nav_bar_fixed_action_maximum_width`
@@ -12,7 +12,7 @@
 
 ### Bar specs
 
-<img src="../../images/components_bottomnavigation_spec_fixed1.png" alt="Fixed nav bar: specs" style="width: 360px;"/>
+<img src="/MaterialValues/images/components_bottomnavigation_spec_fixed1.png" alt="Fixed nav bar: specs" style="width: 360px;"/>
 
 1. `@dimen/material_bottom_nav_bar_height`
 2. `@dimen/material_bottom_nav_bar_action_icon_size`
@@ -34,19 +34,19 @@
 
 ### Action size
 
-<img src="../../images/components_bottomnavigation_spec_shifting2.png" alt="Shifting nav bar: active action size" style="width: 360px;"/>
+<img src="/MaterialValues/images/components_bottomnavigation_spec_shifting2.png" alt="Shifting nav bar: active action size" style="width: 360px;"/>
 
 1. `@dimen/material_bottom_nav_bar_shifting_action_active_maximum_width`
 2. `@dimen/material_bottom_nav_bar_shifting_action_active_minimum_width`
 
-<img src="../../images/components_bottomnavigation_spec_shifting3.png" alt="Shifting nav bar: inactive action size" style="width: 360px;"/>
+<img src="/MaterialValues/images/components_bottomnavigation_spec_shifting3.png" alt="Shifting nav bar: inactive action size" style="width: 360px;"/>
 
 1. `@dimen/material_bottom_nav_bar_shifting_action_inactive_maximum_width`
 2. `@dimen/material_bottom_nav_bar_shifting_action_inactive_minimum_width`
 
 ### Bar specs
 
-<img src="../../images/components_bottomnavigation_spec_shifting1.png" alt="Shifting nav bar specs" style="width: 360px;"/>
+<img src="/MaterialValues/images/components_bottomnavigation_spec_shifting1.png" alt="Shifting nav bar specs" style="width: 360px;"/>
 
 1. `@dimen/material_bottom_nav_bar_height`
 2. `@dimen/material_bottom_nav_bar_action_icon_size`
