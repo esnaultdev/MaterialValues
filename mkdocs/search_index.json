@@ -517,13 +517,38 @@
         },
         {
             "location": "/component/grid_lists/",
-            "text": "Grid lists\n\n\nSorry the documentation for this component values is not available yet.\n\n\nHowever, the values exist. Check the raw values below.\n\n\n\n\nSee also\n\n\n\n\n\n\nRaw values\n\n\n\n\n\n\nGrid lists (Material design)",
+            "text": "Grid lists\n\n\nSpacing\n\n\n\n\n\n\n\n\nSpacing\n\n\nResource\n\n\n\n\n\n\n\n\n\n\nSmall\n\n\n@dimen/material_grid_list_tile_spacing_small\n\n\n\n\n\n\nMedium\n\n\n@dimen/material_grid_list_tile_spacing_medium\n\n\n\n\n\n\n\n\nHeaders and footers\n\n\nHeight\n\n\n\n\n\n\n\n\nType\n\n\nResource\n\n\n\n\n\n\n\n\n\n\nSingle line\n\n\n@dimen/material_grid_list_header_footer_single_line_height\n\n\n\n\n\n\nTwo-line\n\n\n@dimen/material_grid_list_header_footer_two_line_height\n\n\n\n\n\n\n\n\nText size\n\n\nTwo styles exist for headers and footers.\n\n\nIn the material design guidelines, they are referred to as the 16/12 and 14/14 styles.\nIn the following values, the 16/12 style is called \"standard\" and the 14/14 \"alternative\".\n\n\n\n\n\n\n\n\nValue\n\n\nResource\n\n\n\n\n\n\n\n\n\n\nTitle (Standard)\n\n\n@dimen/material_grid_list_header_footer_title_text_size_standard\n\n\n\n\n\n\nTitle (Alternative)\n\n\n@dimen/material_grid_list_header_footer_title_text_size_alternative\n\n\n\n\n\n\nSubtitle (Standard)\n\n\n@dimen/material_grid_list_header_footer_subtitle_text_size_standard\n\n\n\n\n\n\nSubtitle (Alternative)\n\n\n@dimen/material_grid_list_header_footer_subtitle_text_size_alternative\n\n\n\n\n\n\n\n\nDimensions\n\n\n\n\n\n\n@dimen/material_grid_list_header_footer_text_area_margin_start\n\n\n@dimen/material_grid_list_header_footer_text_area_margin_vertical\n\n\n@dimen/material_grid_list_header_footer_icon_padding_horizontal\n\n\n@dimen/material_grid_list_header_footer_icon_size\n\n\n@dimen/material_grid_list_header_footer_text_area_margin_end_after_icon\n\n\n@dimen/material_grid_list_header_footer_text_area_margin_end_alone\n\n\n\n\n\n\nSee also\n\n\n\n\n\n\nRaw values\n\n\n\n\n\n\nGrid lists (Material design)",
             "title": "Grid lists"
         },
         {
             "location": "/component/grid_lists/#grid-lists",
-            "text": "Sorry the documentation for this component values is not available yet.  However, the values exist. Check the raw values below.",
+            "text": "",
             "title": "Grid lists"
+        },
+        {
+            "location": "/component/grid_lists/#spacing",
+            "text": "Spacing  Resource      Small  @dimen/material_grid_list_tile_spacing_small    Medium  @dimen/material_grid_list_tile_spacing_medium",
+            "title": "Spacing"
+        },
+        {
+            "location": "/component/grid_lists/#headers-and-footers",
+            "text": "",
+            "title": "Headers and footers"
+        },
+        {
+            "location": "/component/grid_lists/#height",
+            "text": "Type  Resource      Single line  @dimen/material_grid_list_header_footer_single_line_height    Two-line  @dimen/material_grid_list_header_footer_two_line_height",
+            "title": "Height"
+        },
+        {
+            "location": "/component/grid_lists/#text-size",
+            "text": "Two styles exist for headers and footers.  In the material design guidelines, they are referred to as the 16/12 and 14/14 styles.\nIn the following values, the 16/12 style is called \"standard\" and the 14/14 \"alternative\".     Value  Resource      Title (Standard)  @dimen/material_grid_list_header_footer_title_text_size_standard    Title (Alternative)  @dimen/material_grid_list_header_footer_title_text_size_alternative    Subtitle (Standard)  @dimen/material_grid_list_header_footer_subtitle_text_size_standard    Subtitle (Alternative)  @dimen/material_grid_list_header_footer_subtitle_text_size_alternative",
+            "title": "Text size"
+        },
+        {
+            "location": "/component/grid_lists/#dimensions",
+            "text": "@dimen/material_grid_list_header_footer_text_area_margin_start  @dimen/material_grid_list_header_footer_text_area_margin_vertical  @dimen/material_grid_list_header_footer_icon_padding_horizontal  @dimen/material_grid_list_header_footer_icon_size  @dimen/material_grid_list_header_footer_text_area_margin_end_after_icon  @dimen/material_grid_list_header_footer_text_area_margin_end_alone",
+            "title": "Dimensions"
         },
         {
             "location": "/component/grid_lists/#see-also",
@@ -532,13 +557,63 @@
         },
         {
             "location": "/component/lists/",
-            "text": "Lists\n\n\nSorry the documentation for this component values is not available yet.\n\n\nHowever, the values exist. Check the raw values below.\n\n\n\n\nSee also\n\n\n\n\n\n\nRaw values\n\n\n\n\n\n\nLists (Material design)",
+            "text": "Lists\n\n\nResource modifiers\n\n\nDense lists\n\n\nThe guidelines give alternative values for dense lists.\n\n\nThe \"normal\" prefix is added to the guidelines name for non-dense lists values.\n\n\nBlock position\n\n\nThe values for the text and the icon are based on their relative position in the list item:\n\n\n\n\n\n\n\n\nList item type\n\n\nText position\n\n\nIcon position\n\n\n\n\n\n\n\n\n\n\nText only\n\n\nfirst & last\n\n\n-\n\n\n\n\n\n\nIcon with text\n\n\nsecond & last\n\n\nfirst\n\n\n\n\n\n\nAvatar with text\n\n\nsecond & last\n\n\n-\n\n\n\n\n\n\nAvatar with text and icon\n\n\nsecond\n\n\nlast\n\n\n\n\n\n\n\n\nSince the avatar is always first when present, its related values don't depend on its position.\n\n\nList padding\n\n\n\n\n\n\n\n\nValue\n\n\nResource\n\n\n\n\n\n\n\n\n\n\nPadding vertical (Normal)\n\n\n@dimen/material_list_normal_padding_vertical\n\n\n\n\n\n\nPadding vertical (Dense)\n\n\n@dimen/material_list_dense_padding_vertical\n\n\n\n\n\n\n\n\nIcon\n\n\n\n\n\n\n\n\nValue\n\n\nResource\n\n\n\n\n\n\n\n\n\n\nSize\n\n\n@dimen/material_list_icon_size\n\n\n\n\n\n\nMargin start (first position)\n\n\n@dimen/material_list_icon_first_position_margin_start\n\n\n\n\n\n\nMargin horizontal (last position)\n\n\n@dimen/material_list_icon_last_position_margin_horizontal\n\n\n\n\n\n\n\n\nAvatar\n\n\n\n\n\n\n\n\nValue\n\n\nResource\n\n\n\n\n\n\n\n\n\n\nSize\n\n\n@dimen/material_list_avatar_size\n\n\n\n\n\n\nMargin start\n\n\n@dimen/material_list_avatar_margin_start\n\n\n\n\n\n\n\n\nText\n\n\nSize\n\n\n\n\n\n\n\n\nValue\n\n\nResource\n\n\n\n\n\n\n\n\n\n\nPrimary text size (Normal)\n\n\n@dimen/material_list_normal_primary_text_size\n\n\n\n\n\n\nPrimary text size (Dense)\n\n\n@dimen/material_list_dense_primary_text_size\n\n\n\n\n\n\nSecondary text size (Normal)\n\n\n@dimen/material_list_normal_secondary_text_size\n\n\n\n\n\n\nSecondary text size (Dense)\n\n\n@dimen/material_list_dense_secondary_text_size\n\n\n\n\n\n\n\n\nMargin\n\n\n\n\n\n\n\n\nValue\n\n\nResource\n\n\n\n\n\n\n\n\n\n\nMargin horizontal (Text only)\n\n\n@dimen/material_list_text_only_margin_horizontal\n\n\n\n\n\n\nMargin start (first position)\n\n\n@dimen/material_list_text_first_position_margin_start\n\n\n\n\n\n\nEdge margin start (second position)\n\n\n@dimen/material_list_text_second_position_edge_margin_start\n\n\n\n\n\n\nMargin end (last position)\n\n\n@dimen/material_list_text_last_position_margin_end\n\n\n\n\n\n\n\n\nItem height\n\n\n\n\n\n\n\n\nValue\n\n\nResource\n\n\n\n\n\n\n\n\n\n\nSingle line without avatar (Normal)\n\n\n@dimen/material_list_single_line_without_avatar_normal_height\n\n\n\n\n\n\nSingle line without avatar (Dense)\n\n\n@dimen/material_list_single_line_without_avatar_dense_height\n\n\n\n\n\n\nSingle line with avatar (Normal)\n\n\n@dimen/material_list_single_line_with_avatar_normal_height\n\n\n\n\n\n\nSingle line with avatar (Dense)\n\n\n@dimen/material_list_single_line_with_avatar_dense_height\n\n\n\n\n\n\nTwo-line (Normal)\n\n\n@dimen/material_list_two_line_normal_height\n\n\n\n\n\n\nTwo-line (Dense)\n\n\n@dimen/material_list_two_line_dense_height\n\n\n\n\n\n\nThree-line (Normal)\n\n\n@dimen/material_list_three_line_normal_height\n\n\n\n\n\n\nThree-line (Dense)\n\n\n@dimen/material_list_three_line_dense_height\n\n\n\n\n\n\n\n\n\n\nSee also\n\n\n\n\n\n\nRaw values\n\n\n\n\n\n\nLists (Material design)",
             "title": "Lists"
         },
         {
             "location": "/component/lists/#lists",
-            "text": "Sorry the documentation for this component values is not available yet.  However, the values exist. Check the raw values below.",
+            "text": "",
             "title": "Lists"
+        },
+        {
+            "location": "/component/lists/#resource-modifiers",
+            "text": "",
+            "title": "Resource modifiers"
+        },
+        {
+            "location": "/component/lists/#dense-lists",
+            "text": "The guidelines give alternative values for dense lists.  The \"normal\" prefix is added to the guidelines name for non-dense lists values.",
+            "title": "Dense lists"
+        },
+        {
+            "location": "/component/lists/#block-position",
+            "text": "The values for the text and the icon are based on their relative position in the list item:     List item type  Text position  Icon position      Text only  first & last  -    Icon with text  second & last  first    Avatar with text  second & last  -    Avatar with text and icon  second  last     Since the avatar is always first when present, its related values don't depend on its position.",
+            "title": "Block position"
+        },
+        {
+            "location": "/component/lists/#list-padding",
+            "text": "Value  Resource      Padding vertical (Normal)  @dimen/material_list_normal_padding_vertical    Padding vertical (Dense)  @dimen/material_list_dense_padding_vertical",
+            "title": "List padding"
+        },
+        {
+            "location": "/component/lists/#icon",
+            "text": "Value  Resource      Size  @dimen/material_list_icon_size    Margin start (first position)  @dimen/material_list_icon_first_position_margin_start    Margin horizontal (last position)  @dimen/material_list_icon_last_position_margin_horizontal",
+            "title": "Icon"
+        },
+        {
+            "location": "/component/lists/#avatar",
+            "text": "Value  Resource      Size  @dimen/material_list_avatar_size    Margin start  @dimen/material_list_avatar_margin_start",
+            "title": "Avatar"
+        },
+        {
+            "location": "/component/lists/#text",
+            "text": "",
+            "title": "Text"
+        },
+        {
+            "location": "/component/lists/#size",
+            "text": "Value  Resource      Primary text size (Normal)  @dimen/material_list_normal_primary_text_size    Primary text size (Dense)  @dimen/material_list_dense_primary_text_size    Secondary text size (Normal)  @dimen/material_list_normal_secondary_text_size    Secondary text size (Dense)  @dimen/material_list_dense_secondary_text_size",
+            "title": "Size"
+        },
+        {
+            "location": "/component/lists/#margin",
+            "text": "Value  Resource      Margin horizontal (Text only)  @dimen/material_list_text_only_margin_horizontal    Margin start (first position)  @dimen/material_list_text_first_position_margin_start    Edge margin start (second position)  @dimen/material_list_text_second_position_edge_margin_start    Margin end (last position)  @dimen/material_list_text_last_position_margin_end",
+            "title": "Margin"
+        },
+        {
+            "location": "/component/lists/#item-height",
+            "text": "Value  Resource      Single line without avatar (Normal)  @dimen/material_list_single_line_without_avatar_normal_height    Single line without avatar (Dense)  @dimen/material_list_single_line_without_avatar_dense_height    Single line with avatar (Normal)  @dimen/material_list_single_line_with_avatar_normal_height    Single line with avatar (Dense)  @dimen/material_list_single_line_with_avatar_dense_height    Two-line (Normal)  @dimen/material_list_two_line_normal_height    Two-line (Dense)  @dimen/material_list_two_line_dense_height    Three-line (Normal)  @dimen/material_list_three_line_normal_height    Three-line (Dense)  @dimen/material_list_three_line_dense_height",
+            "title": "Item height"
         },
         {
             "location": "/component/lists/#see-also",

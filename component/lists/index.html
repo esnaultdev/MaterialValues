@@ -268,7 +268,17 @@
     
         <li class="main active"><a href="#lists">Lists</a></li>
         
-            <li><a href="#see-also">See also</a></li>
+            <li><a href="#resource-modifiers">Resource modifiers</a></li>
+        
+            <li><a href="#list-padding">List padding</a></li>
+        
+            <li><a href="#icon">Icon</a></li>
+        
+            <li><a href="#avatar">Avatar</a></li>
+        
+            <li><a href="#text">Text</a></li>
+        
+            <li><a href="#item-height">Item height</a></li>
         
     
     </ul>
@@ -276,8 +286,203 @@
             <div class="col-md-9" role="main">
 
 <h1 id="lists">Lists</h1>
-<p>Sorry the documentation for this component values is not available yet.</p>
-<p>However, the values exist. Check the raw values below.</p>
+<h2 id="resource-modifiers">Resource modifiers</h2>
+<h3 id="dense-lists">Dense lists</h3>
+<p>The guidelines give alternative values for dense lists.</p>
+<p>The "normal" prefix is added to the guidelines name for non-dense lists values.</p>
+<h3 id="block-position">Block position</h3>
+<p>The values for the text and the icon are based on their relative position in the list item:</p>
+<table>
+<thead>
+<tr>
+<th>List item type</th>
+<th>Text position</th>
+<th>Icon position</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Text only</td>
+<td>first &amp; last</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Icon with text</td>
+<td>second &amp; last</td>
+<td>first</td>
+</tr>
+<tr>
+<td>Avatar with text</td>
+<td>second &amp; last</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Avatar with text and icon</td>
+<td>second</td>
+<td>last</td>
+</tr>
+</tbody>
+</table>
+<p>Since the avatar is always first when present, its related values don't depend on its position.</p>
+<h2 id="list-padding">List padding</h2>
+<table>
+<thead>
+<tr>
+<th>Value</th>
+<th>Resource</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Padding vertical (Normal)</td>
+<td><code>@dimen/material_list_normal_padding_vertical</code></td>
+</tr>
+<tr>
+<td>Padding vertical (Dense)</td>
+<td><code>@dimen/material_list_dense_padding_vertical</code></td>
+</tr>
+</tbody>
+</table>
+<h2 id="icon">Icon</h2>
+<table>
+<thead>
+<tr>
+<th>Value</th>
+<th>Resource</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Size</td>
+<td><code>@dimen/material_list_icon_size</code></td>
+</tr>
+<tr>
+<td>Margin start (first position)</td>
+<td><code>@dimen/material_list_icon_first_position_margin_start</code></td>
+</tr>
+<tr>
+<td>Margin horizontal (last position)</td>
+<td><code>@dimen/material_list_icon_last_position_margin_horizontal</code></td>
+</tr>
+</tbody>
+</table>
+<h2 id="avatar">Avatar</h2>
+<table>
+<thead>
+<tr>
+<th>Value</th>
+<th>Resource</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Size</td>
+<td><code>@dimen/material_list_avatar_size</code></td>
+</tr>
+<tr>
+<td>Margin start</td>
+<td><code>@dimen/material_list_avatar_margin_start</code></td>
+</tr>
+</tbody>
+</table>
+<h2 id="text">Text</h2>
+<h3 id="size">Size</h3>
+<table>
+<thead>
+<tr>
+<th>Value</th>
+<th>Resource</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Primary text size (Normal)</td>
+<td><code>@dimen/material_list_normal_primary_text_size</code></td>
+</tr>
+<tr>
+<td>Primary text size (Dense)</td>
+<td><code>@dimen/material_list_dense_primary_text_size</code></td>
+</tr>
+<tr>
+<td>Secondary text size (Normal)</td>
+<td><code>@dimen/material_list_normal_secondary_text_size</code></td>
+</tr>
+<tr>
+<td>Secondary text size (Dense)</td>
+<td><code>@dimen/material_list_dense_secondary_text_size</code></td>
+</tr>
+</tbody>
+</table>
+<h3 id="margin">Margin</h3>
+<table>
+<thead>
+<tr>
+<th>Value</th>
+<th>Resource</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Margin horizontal (Text only)</td>
+<td><code>@dimen/material_list_text_only_margin_horizontal</code></td>
+</tr>
+<tr>
+<td>Margin start (first position)</td>
+<td><code>@dimen/material_list_text_first_position_margin_start</code></td>
+</tr>
+<tr>
+<td>Edge margin start (second position)</td>
+<td><code>@dimen/material_list_text_second_position_edge_margin_start</code></td>
+</tr>
+<tr>
+<td>Margin end (last position)</td>
+<td><code>@dimen/material_list_text_last_position_margin_end</code></td>
+</tr>
+</tbody>
+</table>
+<h2 id="item-height">Item height</h2>
+<table>
+<thead>
+<tr>
+<th>Value</th>
+<th>Resource</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Single line without avatar (Normal)</td>
+<td><code>@dimen/material_list_single_line_without_avatar_normal_height</code></td>
+</tr>
+<tr>
+<td>Single line without avatar (Dense)</td>
+<td><code>@dimen/material_list_single_line_without_avatar_dense_height</code></td>
+</tr>
+<tr>
+<td>Single line with avatar (Normal)</td>
+<td><code>@dimen/material_list_single_line_with_avatar_normal_height</code></td>
+</tr>
+<tr>
+<td>Single line with avatar (Dense)</td>
+<td><code>@dimen/material_list_single_line_with_avatar_dense_height</code></td>
+</tr>
+<tr>
+<td>Two-line (Normal)</td>
+<td><code>@dimen/material_list_two_line_normal_height</code></td>
+</tr>
+<tr>
+<td>Two-line (Dense)</td>
+<td><code>@dimen/material_list_two_line_dense_height</code></td>
+</tr>
+<tr>
+<td>Three-line (Normal)</td>
+<td><code>@dimen/material_list_three_line_normal_height</code></td>
+</tr>
+<tr>
+<td>Three-line (Dense)</td>
+<td><code>@dimen/material_list_three_line_dense_height</code></td>
+</tr>
+</tbody>
+</table>
 <hr />
 <h4 id="see-also">See also</h4>
 <ul>
