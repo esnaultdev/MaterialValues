@@ -1,10 +1,8 @@
-#MaterialValues
+<h1 class="project-name">MaterialValues</h1>
 
-|       |
-| :---: |
-| ![Logo](images/logo.png) |
+<img class="logo" src="images/logo.png" alt="Logo" />
 
-All the values from the Material Design guidelines defined in resources for Android.
+<p class="project-desc">All the values from the Material Design guidelines defined in resources for Android.</p>
 
 ---
 

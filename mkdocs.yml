@@ -27,6 +27,8 @@ pages:
 - About:
     - Changelog: about/changelog.md
 theme: flatly
+extra_css:
+    - css/extra.css
 repo_url: https://github.com/AoDevBlue/MaterialValues
 google_analytics: ['UA-86460261-1', 'auto']
 

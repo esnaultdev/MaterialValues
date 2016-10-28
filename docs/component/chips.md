@@ -10,7 +10,7 @@
 
 ## Simple chip and closed contact chip
 
-<img src="../../images/components_chip_basic.png" alt="Basic chip" style="width: 360px;"/>
+<img class="figure" src="../../images/components_chip_basic.png" alt="Basic chip"/>
 
 1. `@dimen/material_chip_height` 
 2. `@dimen/material_chip_simple_label_horizontal_padding`
@@ -25,7 +25,7 @@
 
 Both simple and contact chips can be deletable.
 
-<img src="../../images/components_chip_deletable.png" alt="Deletable chip" style="width: 360px;"/>
+<img class="figure" src="../../images/components_chip_deletable.png" alt="Deletable chip"/>
 
 1. `@dimen/material_chip_simple_remove_icon_size`
 2. `@dimen/material_chip_simple_remove_icon_margin`
@@ -34,7 +34,7 @@ Both simple and contact chips can be deletable.
 
 ## Open contact chip
 
-<img src="../../images/components_chip_contact_open.png" alt="Open contact chip" style="width: 360px;"/>
+<img class="figure" src="../../images/components_chip_contact_open.png" alt="Open contact chip"/>
 
 1. `@dimen/material_chip_contact_open_focused_height`
 2. `@dimen/material_chip_contact_open_unfocused_height`

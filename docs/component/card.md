@@ -10,7 +10,7 @@
 
 ## Layout
 
-<img src="../../images/components_card_layout.png" alt="Card layout" style="width: 360px;"/>
+<img class="figure" src="../../images/components_card_layout.png" alt="Card layout"/>
 
 1. `@dimen/material_card_edge_margin`
 2. `@dimen/material_card_gutter`
@@ -22,7 +22,7 @@
 
 ### Small
 
-<img src="../../images/components_card_title_small.png" alt="Card small title" style="width: 360px;"/>
+<img class="figure" src="../../images/components_card_title_small.png" alt="Card small title"/>
 
 1. `@dimen/material_card_title_block_padding_horizontal`
 2. <del>`@dimen/material_card_title_block_small_padding_top`</del> *Naming issue*
@@ -37,7 +37,7 @@
 
 ### Large
 
-<img src="../../images/components_card_title_large.png" alt="Card large title" style="width: 360px;"/>
+<img class="figure" src="../../images/components_card_title_large.png" alt="Card large title"/>
 
 1. `@dimen/material_card_title_block_padding_horizontal`
 2. `@dimen/material_card_title_block_large_padding_top`
@@ -53,7 +53,7 @@
 
 ## Supporting text
 
-<img src="../../images/components_card_supporting_text.png" alt="Card supporting text" style="width: 360px;"/>
+<img class="figure" src="../../images/components_card_supporting_text.png" alt="Card supporting text"/>
 
 1. `@dimen/material_card_supporting_text_padding_horizontal`
 2. `@dimen/material_card_supporting_text_padding_top`
@@ -65,17 +65,17 @@ Text size: `@dimen/material_card_supporting_text_text_size`.
 
 ## Actions
 
-<img src="../../images/components_card_actions_horizontal.png" alt="Card actions horizontal" style="width: 360px;"/>
+<img class="figure" src="../../images/components_card_actions_horizontal.png" alt="Card actions horizontal"/>
 
 1. `@dimen/material_card_actions_row_padding`
 2. `@dimen/material_card_actions_action_gutter_horizontal`
 
-<img src="../../images/components_card_actions_vertical.png" alt="Card actions vertical" style="width: 360px;"/>
+<img class="figure" src="../../images/components_card_actions_vertical.png" alt="Card actions vertical"/>
 
 1. `@dimen/material_card_actions_row_padding`
 2. `@dimen/material_card_actions_action_gutter_vertical`
 
-<img src="../../images/components_card_actions_icons.png" alt="Card actions icons" style="width: 360px;"/>
+<img class="figure" src="../../images/components_card_actions_icons.png" alt="Card actions icons"/>
 
 1. `@dimen/material_card_actions_row_padding`
 2. *Missing value, it will be included in the future*
@@ -86,7 +86,7 @@ Text size: `@dimen/material_card_supporting_text_text_size`.
 
 ### In title
 
-<img src="../../images/components_card_media_in_title.png" alt="Card media in title" style="width: 360px;"/>
+<img class="figure" src="../../images/components_card_media_in_title.png" alt="Card media in title"/>
 
 1. See following `size` table.
 2. `@dimen/material_card_media_area_in_title_padding_top`
@@ -102,7 +102,7 @@ Text size: `@dimen/material_card_supporting_text_text_size`.
 
 ### Shrunk
 
-<img src="../../images/components_card_media_shrunk.png" alt="Card media shrunk" style="width: 360px;"/>
+<img class="figure" src="../../images/components_card_media_shrunk.png" alt="Card media shrunk"/>
 
 1. See "Media area in title" sizes (*Naming issue*)
 2. `@dimen/material_card_media_area_shrunk_padding_horizontal`

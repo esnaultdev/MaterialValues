@@ -17,7 +17,7 @@
 
 ## List style
 
-<img src="../../images/components_bottomsheets_list_headerless_specs.png" alt="Bottom sheet list headerless" style="width: 360px;"/>
+<img class="figure" src="../../images/components_bottomsheets_list_headerless_specs.png" alt="Bottom sheet list headerless"/>
 
 1. `@dimen/material_bottom_sheet_list_padding_horizontal`
 2. `@dimen/material_bottom_sheet_list_item_label_padding_start`
@@ -26,7 +26,7 @@
 5. `@dimen/material_bottom_sheet_list_headerless_padding_top`
 6. `@dimen/material_bottom_sheet_list_padding_bottom`
 
-<img src="../../images/components_bottomsheets_list_header_specs.png" alt="Bottom sheet list headerless" style="width: 360px;"/>
+<img class="figure" src="../../images/components_bottomsheets_list_header_specs.png" alt="Bottom sheet list headerless"/>
 
 1. `@dimen/material_bottom_sheet_list_padding_horizontal`
 2. `@dimen/material_bottom_sheet_list_item_label_padding_start`
@@ -41,7 +41,7 @@
 
 ## Grid style
 
-<img src="../../images/components_bottomsheets_grid_specs.png" alt="Bottom sheet grid" style="width: 360px;"/>
+<img class="figure" src="../../images/components_bottomsheets_grid_specs.png" alt="Bottom sheet grid"/>
 
 1. `@dimen/material_bottom_sheet_grid_row_padding_top`
 2. `@dimen/material_bottom_sheet_grid_item_icon_size`

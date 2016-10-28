@@ -1,0 +1,18 @@
+
+.logo {
+    display: block;
+    margin: 0 auto;
+}
+
+.project-name {
+    text-align: center;
+}
+
+.project-desc {
+    text-align: center;
+}
+
+.figure {
+    width: 360px;
+}
+

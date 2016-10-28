@@ -6,7 +6,7 @@ The elevation is defined as `@dimen/material_tooltip_elevation`.
 
 ## General values
 
-<img src="../../images/components_tooltip.png" alt="Tooltip" style="width: 360px;"/>
+<img class="figure" src="../../images/components_tooltip.png" alt="Tooltip"/>
 
 1. `@dimen/material_tooltip_height`
 2. `@dimen/material_tooltip_padding_horizontal`
@@ -17,7 +17,7 @@ The elevation is defined as `@dimen/material_tooltip_elevation`.
 
 ## Edge margin
 
-<img src="../../images/components_tooltip_edge.png" alt="Tooltip edge" style="width: 360px;"/>
+<img class="figure" src="../../images/components_tooltip_edge.png" alt="Tooltip edge"/>
 
 1. `@dimen/material_tooltip_edge_margin_minimum`
 
