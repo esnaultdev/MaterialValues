@@ -20,7 +20,7 @@
 
 ## Dimensions
 
-<img class="large-figure" src="../../images/components_menu_simple_dimension.png" alt="Simple menu dimensions"/>
+<img class="figure-large" src="../../images/components_menu_simple_dimension.png" alt="Simple menu dimensions"/>
 
 1. *Missing value, it will be included in the future*
 2. `@dimen/material_menu_simple_item_padding_horizontal`
