@@ -7,7 +7,7 @@ The elevation is the same as the elements the expansion panel can connect with (
 
 ## Dimensions
 
-<img class="figure-large" src="../../images/components_expansionpanel.png" alt="Simple menu dimensions"/>
+<img class="figure-large" src="../../images/components_expansionpanel.png" alt="Expansion panel dimensions"/>
 
 1. `@dimen/material_expansion_panel_padding_horizontal`
 2. `@dimen/material_expansion_panel_expand_icon_size`
