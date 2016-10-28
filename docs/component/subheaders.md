@@ -1,8 +1,23 @@
 # Subheaders
 
-Sorry the documentation for this component values is not available yet.
+## Text style
 
-However, the values exist. Check the raw values below.
+| Name | Resource |
+| ---- | -------- |
+| Text size          | `@dimen/material_subheader_text_size`          |
+| Default text color | `@color/material_subheader_text_color_default` |
+
+Text color can also be the primary color of the app.
+
+
+## Size and alignment
+
+| Name | Resource |
+| ---- | -------- |
+| Height        | `@dimen/material_subheader_height`        |
+| Padding start | `@dimen/material_subheader_padding_start` |
+
+For lists, use the same alignment values as the list item text.
 
 
 ---
