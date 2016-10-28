@@ -24,12 +24,12 @@ Two styles exist for headers and footers.
 In the material design guidelines, they are referred to as the 16/12 and 14/14 styles.
 In the following values, the 16/12 style is called "standard" and the 14/14 "alternative".
 
-| Text type | Resource |
-| --------- | -------- |
-| **Standard** Title       | `@dimen/material_grid_list_header_footer_title_text_size_standard`       |
-| **Standard** Subtitle    | `@dimen/material_grid_list_header_footer_subtitle_text_size_standard`    |
-| **Alternative** Title    | `@dimen/material_grid_list_header_footer_title_text_size_alternative`    |
-| **Alternative** Subtitle | `@dimen/material_grid_list_header_footer_subtitle_text_size_alternative` |
+| Value | Resource |
+| ----- | -------- |
+| Title (Standard)       | `@dimen/material_grid_list_header_footer_title_text_size_standard`       |
+| Title (Alternative)    | `@dimen/material_grid_list_header_footer_title_text_size_alternative`    |
+| Subtitle (Standard)    | `@dimen/material_grid_list_header_footer_subtitle_text_size_standard`    |
+| Subtitle (Alternative) | `@dimen/material_grid_list_header_footer_subtitle_text_size_alternative` |
 
 ## Dimensions
 
