@@ -532,13 +532,33 @@
         },
         {
             "location": "/component/menus/",
-            "text": "Menus\n\n\nSorry the documentation for this component values is not available yet.\n\n\nHowever, the values exist. Check the raw values below.\n\n\n\n\nSee also\n\n\n\n\n\n\nRaw values\n\n\n\n\n\n\nMenus (Material design)",
+            "text": "Menus\n\n\nElevation\n\n\n\n\n\n\n\n\nComponent\n\n\nResource\n\n\n\n\n\n\n\n\n\n\nMenu\n\n\n@dimen/material_menu_elevation\n\n\n\n\n\n\nSubmenu (elevation increment per level)\n\n\n@dimen/material_menu_submenu_elevation_increment\n\n\n\n\n\n\n\n\nWidth\n\n\n\n\n\n\n\n\nName\n\n\nResource\n\n\n\n\n\n\n\n\n\n\nMinimum width (increment)\n\n\n@integer/material_menu_simple_width_minimum_increment\n\n\n\n\n\n\nMinimum width\n\n\n@dimen/material_menu_simple_width_minimum\n\n\n\n\n\n\nMaximum width (increment)\n\n\n@integer/material_menu_simple_width_maximum_increment\n\n\n\n\n\n\nMaximum width\n\n\n@dimen/material_menu_simple_width_maximum\n\n\n\n\n\n\n\n\nDimensions\n\n\n\n\n\n\nMissing value, it will be included in the future\n\n\n@dimen/material_menu_simple_item_padding_horizontal\n\n\n@dimen/material_menu_simple_text_padding_bottom\n\n\n@dimen/material_menu_simple_item_height\n\n\nMissing value, it will be included in the future\n\n\n\n\n\n\n\n\n@dimen/material_menu_simple_edge_margin_horizontal_minimum\n\n\n\n\nDivider\n\n\n\n\n\n\n\n\nName\n\n\nResource\n\n\n\n\n\n\n\n\n\n\nHeight\n\n\n@dimen/material_divider_height\n\n\n\n\n\n\nMargin top\n\n\n@dimen/material_menu_simple_divider_margin_top\n\n\n\n\n\n\nMargin bottom\n\n\n@dimen/material_menu_simple_divider_margin_bottom\n\n\n\n\n\n\n\n\n\n\nSee also\n\n\n\n\n\n\nRaw values\n\n\n\n\n\n\nMenus (Material design)",
             "title": "Menus"
         },
         {
             "location": "/component/menus/#menus",
-            "text": "Sorry the documentation for this component values is not available yet.  However, the values exist. Check the raw values below.",
+            "text": "",
             "title": "Menus"
+        },
+        {
+            "location": "/component/menus/#elevation",
+            "text": "Component  Resource      Menu  @dimen/material_menu_elevation    Submenu (elevation increment per level)  @dimen/material_menu_submenu_elevation_increment",
+            "title": "Elevation"
+        },
+        {
+            "location": "/component/menus/#width",
+            "text": "Name  Resource      Minimum width (increment)  @integer/material_menu_simple_width_minimum_increment    Minimum width  @dimen/material_menu_simple_width_minimum    Maximum width (increment)  @integer/material_menu_simple_width_maximum_increment    Maximum width  @dimen/material_menu_simple_width_maximum",
+            "title": "Width"
+        },
+        {
+            "location": "/component/menus/#dimensions",
+            "text": "Missing value, it will be included in the future  @dimen/material_menu_simple_item_padding_horizontal  @dimen/material_menu_simple_text_padding_bottom  @dimen/material_menu_simple_item_height  Missing value, it will be included in the future     @dimen/material_menu_simple_edge_margin_horizontal_minimum",
+            "title": "Dimensions"
+        },
+        {
+            "location": "/component/menus/#divider",
+            "text": "Name  Resource      Height  @dimen/material_divider_height    Margin top  @dimen/material_menu_simple_divider_margin_top    Margin bottom  @dimen/material_menu_simple_divider_margin_bottom",
+            "title": "Divider"
         },
         {
             "location": "/component/menus/#see-also",
@@ -562,13 +582,23 @@
         },
         {
             "location": "/component/subheaders/",
-            "text": "Subheaders\n\n\nSorry the documentation for this component values is not available yet.\n\n\nHowever, the values exist. Check the raw values below.\n\n\n\n\nSee also\n\n\n\n\n\n\nRaw values\n\n\n\n\n\n\nButtons (Material design)",
+            "text": "Subheaders\n\n\nText style\n\n\n\n\n\n\n\n\nName\n\n\nResource\n\n\n\n\n\n\n\n\n\n\nText size\n\n\n@dimen/material_subheader_text_size\n\n\n\n\n\n\nDefault text color\n\n\n@color/material_subheader_text_color_default\n\n\n\n\n\n\n\n\nText color can also be the primary color of the app.\n\n\nSize and alignment\n\n\n\n\n\n\n\n\nName\n\n\nResource\n\n\n\n\n\n\n\n\n\n\nHeight\n\n\n@dimen/material_subheader_height\n\n\n\n\n\n\nPadding start\n\n\n@dimen/material_subheader_padding_start\n\n\n\n\n\n\n\n\nFor lists, use the same alignment values as the list item text.\n\n\n\n\nSee also\n\n\n\n\n\n\nRaw values\n\n\n\n\n\n\nButtons (Material design)",
             "title": "Subheaders"
         },
         {
             "location": "/component/subheaders/#subheaders",
-            "text": "Sorry the documentation for this component values is not available yet.  However, the values exist. Check the raw values below.",
+            "text": "",
             "title": "Subheaders"
+        },
+        {
+            "location": "/component/subheaders/#text-style",
+            "text": "Name  Resource      Text size  @dimen/material_subheader_text_size    Default text color  @color/material_subheader_text_color_default     Text color can also be the primary color of the app.",
+            "title": "Text style"
+        },
+        {
+            "location": "/component/subheaders/#size-and-alignment",
+            "text": "Name  Resource      Height  @dimen/material_subheader_height    Padding start  @dimen/material_subheader_padding_start     For lists, use the same alignment values as the list item text.",
+            "title": "Size and alignment"
         },
         {
             "location": "/component/subheaders/#see-also",
