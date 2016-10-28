@@ -487,13 +487,28 @@
         },
         {
             "location": "/component/expansion_panels/",
-            "text": "Expansion panels\n\n\nSorry the documentation for this component values is not available yet.\n\n\nHowever, the values exist. Check the raw values below.\n\n\n\n\nSee also\n\n\n\n\n\n\nRaw values\n\n\n\n\n\n\nExpansion panels (Material design)",
+            "text": "Expansion panels\n\n\nElevation\n\n\nThe elevation is the same as the elements the expansion panel can connect with (typically, a card).\n\n\nDimensions\n\n\n\n\n\n\n@dimen/material_expansion_panel_padding_horizontal\n\n\n@dimen/material_expansion_panel_expand_icon_size\n\n\n@dimen/material_expansion_panel_expand_icon_margin_start\n\n\n@dimen/material_expansion_list_collapsed_height\n\n\n@dimen/material_expansion_panel_expanded_margin_vertical\n\n\n@dimen/material_expansion_panel_expanded_header_height\n\n\n@dimen/material_expansion_panel_expanded_content_area_padding_bottom\n\n\n@dimen/material_expansion_panel_expanded_action_area_padding_top\n\n\n@dimen/material_expansion_panel_expanded_action_area_button_height\n\n\n@dimen/material_expansion_panel_expanded_action_area_padding_bottom\n\n\n@dimen/material_expansion_panel_expanded_action_area_button_margin_end\n\n\n@dimen/material_expansion_panel_label_text_size\n and \n@color/material_expansion_panel_label_text_color\n\n\n@dimen/material_expansion_panel_label_secondary_content_text_size\n and \n@color/material_expansion_panel_label_secondary_content_text_color\n\n\n\n\nNote that action vertical padding (8. & 10.) is splitted because the top padding takes the divider height into account.\nIt seems that a divider is always present in expansion panels, if it's not the case, use the bottom padding two times.\n\n\nDivider\n\n\nSee \nDividers\n.\n\n\n\n\nSee also\n\n\n\n\n\n\nRaw values\n\n\n\n\n\n\nExpansion panels (Material design)",
             "title": "Expansion panels"
         },
         {
             "location": "/component/expansion_panels/#expansion-panels",
-            "text": "Sorry the documentation for this component values is not available yet.  However, the values exist. Check the raw values below.",
+            "text": "",
             "title": "Expansion panels"
+        },
+        {
+            "location": "/component/expansion_panels/#elevation",
+            "text": "The elevation is the same as the elements the expansion panel can connect with (typically, a card).",
+            "title": "Elevation"
+        },
+        {
+            "location": "/component/expansion_panels/#dimensions",
+            "text": "@dimen/material_expansion_panel_padding_horizontal  @dimen/material_expansion_panel_expand_icon_size  @dimen/material_expansion_panel_expand_icon_margin_start  @dimen/material_expansion_list_collapsed_height  @dimen/material_expansion_panel_expanded_margin_vertical  @dimen/material_expansion_panel_expanded_header_height  @dimen/material_expansion_panel_expanded_content_area_padding_bottom  @dimen/material_expansion_panel_expanded_action_area_padding_top  @dimen/material_expansion_panel_expanded_action_area_button_height  @dimen/material_expansion_panel_expanded_action_area_padding_bottom  @dimen/material_expansion_panel_expanded_action_area_button_margin_end  @dimen/material_expansion_panel_label_text_size  and  @color/material_expansion_panel_label_text_color  @dimen/material_expansion_panel_label_secondary_content_text_size  and  @color/material_expansion_panel_label_secondary_content_text_color   Note that action vertical padding (8. & 10.) is splitted because the top padding takes the divider height into account.\nIt seems that a divider is always present in expansion panels, if it's not the case, use the bottom padding two times.",
+            "title": "Dimensions"
+        },
+        {
+            "location": "/component/expansion_panels/#divider",
+            "text": "See  Dividers .",
+            "title": "Divider"
         },
         {
             "location": "/component/expansion_panels/#see-also",

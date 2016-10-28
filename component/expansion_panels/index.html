@@ -268,7 +268,11 @@
     
         <li class="main active"><a href="#expansion-panels">Expansion panels</a></li>
         
-            <li><a href="#see-also">See also</a></li>
+            <li><a href="#elevation">Elevation</a></li>
+        
+            <li><a href="#dimensions">Dimensions</a></li>
+        
+            <li><a href="#divider">Divider</a></li>
         
     
     </ul>
@@ -276,8 +280,29 @@
             <div class="col-md-9" role="main">
 
 <h1 id="expansion-panels">Expansion panels</h1>
-<p>Sorry the documentation for this component values is not available yet.</p>
-<p>However, the values exist. Check the raw values below.</p>
+<h2 id="elevation">Elevation</h2>
+<p>The elevation is the same as the elements the expansion panel can connect with (typically, a card).</p>
+<h2 id="dimensions">Dimensions</h2>
+<p><img class="figure-large" src="../../images/components_expansionpanel.png" alt="Simple menu dimensions"/></p>
+<ol>
+<li><code>@dimen/material_expansion_panel_padding_horizontal</code></li>
+<li><code>@dimen/material_expansion_panel_expand_icon_size</code></li>
+<li><code>@dimen/material_expansion_panel_expand_icon_margin_start</code></li>
+<li><code>@dimen/material_expansion_list_collapsed_height</code></li>
+<li><code>@dimen/material_expansion_panel_expanded_margin_vertical</code></li>
+<li><code>@dimen/material_expansion_panel_expanded_header_height</code></li>
+<li><code>@dimen/material_expansion_panel_expanded_content_area_padding_bottom</code></li>
+<li><code>@dimen/material_expansion_panel_expanded_action_area_padding_top</code></li>
+<li><code>@dimen/material_expansion_panel_expanded_action_area_button_height</code></li>
+<li><code>@dimen/material_expansion_panel_expanded_action_area_padding_bottom</code></li>
+<li><code>@dimen/material_expansion_panel_expanded_action_area_button_margin_end</code></li>
+<li><code>@dimen/material_expansion_panel_label_text_size</code> and <code>@color/material_expansion_panel_label_text_color</code></li>
+<li><code>@dimen/material_expansion_panel_label_secondary_content_text_size</code> and <code>@color/material_expansion_panel_label_secondary_content_text_color</code></li>
+</ol>
+<p>Note that action vertical padding (8. &amp; 10.) is splitted because the top padding takes the divider height into account.
+It seems that a divider is always present in expansion panels, if it's not the case, use the bottom padding two times.</p>
+<h2 id="divider">Divider</h2>
+<p>See <a href="../dividers/">Dividers</a>.</p>
 <hr />
 <h4 id="see-also">See also</h4>
 <ul>
