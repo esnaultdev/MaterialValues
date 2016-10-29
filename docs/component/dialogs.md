@@ -40,6 +40,20 @@ Defined as `@material_dialog_elevation`.
 8. <del>`@dimen/material_dialog_actions_side_by_side_padding_vertical_with_divider`</del> *Naming issue* 
 9. `@dimen/material_divider_height`
 
+### Stacked
+
+<img class="figure" src="../../images/components_dialogs_actions_stacked.png" alt="Dialog actions stacked"/>
+
+1. `@dimen/material_dialog_actions_stacked_button_height`
+2. `@dimen/material_dialog_actions_stacked_padding_bottom`
+3. `@dimen/material_dialog_actions_stacked_button_padding_end`
+4. Dialog content
+
+
+## Fullscreen dialog
+
+Documentation not yet available, check the raw values.
+
 
 ---
 
