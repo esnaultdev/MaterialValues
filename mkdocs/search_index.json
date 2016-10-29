@@ -3,7 +3,7 @@
         {
             "location": "/",
             "text": "MaterialValues\n\n\n\n\n\nAll the values from the Material Design guidelines defined in resources for Android.\n\n\n\n\n\nDocumentation\n\n\nAll the values in this documentation use the xml reference representation.\n\n\nYou can also use them programmatically using \nblue.aodev.materialvalues.R\n.\n\n\nFor example:\n\n\n\n\n\n\n\n\nXml reference\n\n\nCode reference\n\n\n\n\n\n\n\n\n\n\n@color/material_color_green_primary\n\n\nR.color.material_color_green_primary\n\n\n\n\n\n\n@dimen/material_list_two_line_dense_height\n\n\nR.dimen.material_list_two_line_dense_height\n\n\n\n\n\n\n@dimen/material_elevation_card_raised\n\n\nR.dimen.material_elevation_card_raised\n\n\n\n\n\n\n@dimen/material_typography_regular_title_text_size\n\n\nR.dimen.material_typography_regular_title_text_size\n\n\n\n\n\n\n\n\n\n\nMissing values\n\n\nIf a section of the Material Design specs is not included, it may be because it has no values or is only available on desktop.\n\n\nNote that the values for the following components are not available as they are already well implemented in Android:\n\n\n\n\nSelection controls\n\n\nSliders\n\n\nSnackbars & toasts\n\n\nTabs\n\n\nText fields\n\n\n\n\n\n\nDisclaimer\n\n\nMost of the visuals come directly from the \nMaterial design specifications\n, and are property of Google.",
-            "title": "Presentation"
+            "title": "Home"
         },
         {
             "location": "/#documentation",
@@ -557,42 +557,32 @@
         },
         {
             "location": "/component/lists/",
-            "text": "Lists\n\n\nResource modifiers\n\n\nDense lists\n\n\nThe guidelines give alternative values for dense lists.\n\n\nThe \"normal\" prefix is added to the guidelines name for non-dense lists values.\n\n\nBlock position\n\n\nThe values for the text and the icon are based on their relative position in the list item:\n\n\n\n\n\n\n\n\nList item type\n\n\nText position\n\n\nIcon position\n\n\n\n\n\n\n\n\n\n\nText only\n\n\nfirst & last\n\n\n-\n\n\n\n\n\n\nIcon with text\n\n\nsecond & last\n\n\nfirst\n\n\n\n\n\n\nAvatar with text\n\n\nsecond & last\n\n\n-\n\n\n\n\n\n\nAvatar with text and icon\n\n\nsecond\n\n\nlast\n\n\n\n\n\n\n\n\nSince the avatar is always first when present, its related values don't depend on its position.\n\n\nList padding\n\n\n\n\n\n\n\n\nValue\n\n\nResource\n\n\n\n\n\n\n\n\n\n\nPadding vertical (Normal)\n\n\n@dimen/material_list_normal_padding_vertical\n\n\n\n\n\n\nPadding vertical (Dense)\n\n\n@dimen/material_list_dense_padding_vertical\n\n\n\n\n\n\n\n\nIcon\n\n\n\n\n\n\n\n\nValue\n\n\nResource\n\n\n\n\n\n\n\n\n\n\nSize\n\n\n@dimen/material_list_icon_size\n\n\n\n\n\n\nMargin start (first position)\n\n\n@dimen/material_list_icon_first_position_margin_start\n\n\n\n\n\n\nMargin horizontal (last position)\n\n\n@dimen/material_list_icon_last_position_margin_horizontal\n\n\n\n\n\n\n\n\nAvatar\n\n\n\n\n\n\n\n\nValue\n\n\nResource\n\n\n\n\n\n\n\n\n\n\nSize\n\n\n@dimen/material_list_avatar_size\n\n\n\n\n\n\nMargin start\n\n\n@dimen/material_list_avatar_margin_start\n\n\n\n\n\n\n\n\nText\n\n\nSize\n\n\n\n\n\n\n\n\nValue\n\n\nResource\n\n\n\n\n\n\n\n\n\n\nPrimary text size (Normal)\n\n\n@dimen/material_list_normal_primary_text_size\n\n\n\n\n\n\nPrimary text size (Dense)\n\n\n@dimen/material_list_dense_primary_text_size\n\n\n\n\n\n\nSecondary text size (Normal)\n\n\n@dimen/material_list_normal_secondary_text_size\n\n\n\n\n\n\nSecondary text size (Dense)\n\n\n@dimen/material_list_dense_secondary_text_size\n\n\n\n\n\n\n\n\nMargin\n\n\n\n\n\n\n\n\nValue\n\n\nResource\n\n\n\n\n\n\n\n\n\n\nMargin horizontal (Text only)\n\n\n@dimen/material_list_text_only_margin_horizontal\n\n\n\n\n\n\nMargin start (first position)\n\n\n@dimen/material_list_text_first_position_margin_start\n\n\n\n\n\n\nEdge margin start (second position)\n\n\n@dimen/material_list_text_second_position_edge_margin_start\n\n\n\n\n\n\nMargin end (last position)\n\n\n@dimen/material_list_text_last_position_margin_end\n\n\n\n\n\n\n\n\nItem height\n\n\n\n\n\n\n\n\nValue\n\n\nResource\n\n\n\n\n\n\n\n\n\n\nSingle line without avatar (Normal)\n\n\n@dimen/material_list_single_line_without_avatar_normal_height\n\n\n\n\n\n\nSingle line without avatar (Dense)\n\n\n@dimen/material_list_single_line_without_avatar_dense_height\n\n\n\n\n\n\nSingle line with avatar (Normal)\n\n\n@dimen/material_list_single_line_with_avatar_normal_height\n\n\n\n\n\n\nSingle line with avatar (Dense)\n\n\n@dimen/material_list_single_line_with_avatar_dense_height\n\n\n\n\n\n\nTwo-line (Normal)\n\n\n@dimen/material_list_two_line_normal_height\n\n\n\n\n\n\nTwo-line (Dense)\n\n\n@dimen/material_list_two_line_dense_height\n\n\n\n\n\n\nThree-line (Normal)\n\n\n@dimen/material_list_three_line_normal_height\n\n\n\n\n\n\nThree-line (Dense)\n\n\n@dimen/material_list_three_line_dense_height\n\n\n\n\n\n\n\n\n\n\nSee also\n\n\n\n\n\n\nRaw values\n\n\n\n\n\n\nLists (Material design)",
+            "text": "Lists\n\n\nThe \"normal\" prefix is added to the guidelines name for non-dense lists values.\n\n\nList padding\n\n\nThe padding at the top of the list, before the first element, has the following values.\n\n\n\n\n\n\n\n\nValue\n\n\nResource\n\n\n\n\n\n\n\n\n\n\nPadding vertical (Normal)\n\n\n@dimen/material_list_normal_padding_vertical\n\n\n\n\n\n\nPadding vertical (Dense)\n\n\n@dimen/material_list_dense_padding_vertical\n\n\n\n\n\n\n\n\nBlock position\n\n\nThe values for the text and the icon are based on their relative position in the list item.\n\n\n\n\n\n\n\n\n\n\nFigure label\n\n\nList item type\n\n\nText position\n\n\nIcon position\n\n\n\n\n\n\n\n\n\n\n1\n\n\nText only\n\n\nfirst & last\n\n\n-\n\n\n\n\n\n\n2\n\n\nIcon with text\n\n\nsecond & last\n\n\nfirst\n\n\n\n\n\n\n3\n\n\nAvatar with text\n\n\nsecond & last\n\n\n-\n\n\n\n\n\n\n4\n\n\nAvatar with text and icon\n\n\nsecond\n\n\nlast\n\n\n\n\n\n\n\n\nSince the avatar is always first when present, its related values don't depend on its position.\n\n\nIcon\n\n\n\n\n\n\n@dimen/material_list_icon_size\n\n\n@dimen/material_list_icon_first_position_margin_start\n\n\n@dimen/material_list_icon_last_position_margin_horizontal\n\n\n\n\nAvatar\n\n\n\n\n\n\n@dimen/material_list_avatar_size\n\n\n@dimen/material_list_avatar_margin_start\n\n\n\n\nText\n\n\nSize\n\n\n\n\n\n\n\n\nValue\n\n\nResource\n\n\n\n\n\n\n\n\n\n\nPrimary text size (Normal)\n\n\n@dimen/material_list_normal_primary_text_size\n\n\n\n\n\n\nPrimary text size (Dense)\n\n\n@dimen/material_list_dense_primary_text_size\n\n\n\n\n\n\nSecondary text size (Normal)\n\n\n@dimen/material_list_normal_secondary_text_size\n\n\n\n\n\n\nSecondary text size (Dense)\n\n\n@dimen/material_list_dense_secondary_text_size\n\n\n\n\n\n\n\n\nMargin\n\n\n\n\n\n\n@dimen/material_list_text_first_position_margin_start\n\n\n@dimen/material_list_text_second_position_edge_margin_start\n\n\n@dimen/material_list_text_last_position_margin_end\n\n\n\n\n1) and 3) can be replaced by \n@dimen/material_list_text_only_margin_horizontal\n for text only items.\n\n\nItem height\n\n\n\n\n\n\n\n\nValue\n\n\nResource\n\n\n\n\n\n\n\n\n\n\nSingle line without avatar (Normal)\n\n\n@dimen/material_list_single_line_without_avatar_normal_height\n\n\n\n\n\n\nSingle line without avatar (Dense)\n\n\n@dimen/material_list_single_line_without_avatar_dense_height\n\n\n\n\n\n\nSingle line with avatar (Normal)\n\n\n@dimen/material_list_single_line_with_avatar_normal_height\n\n\n\n\n\n\nSingle line with avatar (Dense)\n\n\n@dimen/material_list_single_line_with_avatar_dense_height\n\n\n\n\n\n\nTwo-line (Normal)\n\n\n@dimen/material_list_two_line_normal_height\n\n\n\n\n\n\nTwo-line (Dense)\n\n\n@dimen/material_list_two_line_dense_height\n\n\n\n\n\n\nThree-line (Normal)\n\n\n@dimen/material_list_three_line_normal_height\n\n\n\n\n\n\nThree-line (Dense)\n\n\n@dimen/material_list_three_line_dense_height\n\n\n\n\n\n\n\n\n\n\nSee also\n\n\n\n\n\n\nRaw values\n\n\n\n\n\n\nLists (Material design)",
             "title": "Lists"
         },
         {
             "location": "/component/lists/#lists",
-            "text": "",
+            "text": "The \"normal\" prefix is added to the guidelines name for non-dense lists values.",
             "title": "Lists"
         },
         {
-            "location": "/component/lists/#resource-modifiers",
-            "text": "",
-            "title": "Resource modifiers"
-        },
-        {
-            "location": "/component/lists/#dense-lists",
-            "text": "The guidelines give alternative values for dense lists.  The \"normal\" prefix is added to the guidelines name for non-dense lists values.",
-            "title": "Dense lists"
-        },
-        {
-            "location": "/component/lists/#block-position",
-            "text": "The values for the text and the icon are based on their relative position in the list item:     List item type  Text position  Icon position      Text only  first & last  -    Icon with text  second & last  first    Avatar with text  second & last  -    Avatar with text and icon  second  last     Since the avatar is always first when present, its related values don't depend on its position.",
-            "title": "Block position"
-        },
-        {
             "location": "/component/lists/#list-padding",
-            "text": "Value  Resource      Padding vertical (Normal)  @dimen/material_list_normal_padding_vertical    Padding vertical (Dense)  @dimen/material_list_dense_padding_vertical",
+            "text": "The padding at the top of the list, before the first element, has the following values.     Value  Resource      Padding vertical (Normal)  @dimen/material_list_normal_padding_vertical    Padding vertical (Dense)  @dimen/material_list_dense_padding_vertical",
             "title": "List padding"
         },
         {
+            "location": "/component/lists/#block-position",
+            "text": "The values for the text and the icon are based on their relative position in the list item.      Figure label  List item type  Text position  Icon position      1  Text only  first & last  -    2  Icon with text  second & last  first    3  Avatar with text  second & last  -    4  Avatar with text and icon  second  last     Since the avatar is always first when present, its related values don't depend on its position.",
+            "title": "Block position"
+        },
+        {
             "location": "/component/lists/#icon",
-            "text": "Value  Resource      Size  @dimen/material_list_icon_size    Margin start (first position)  @dimen/material_list_icon_first_position_margin_start    Margin horizontal (last position)  @dimen/material_list_icon_last_position_margin_horizontal",
+            "text": "@dimen/material_list_icon_size  @dimen/material_list_icon_first_position_margin_start  @dimen/material_list_icon_last_position_margin_horizontal",
             "title": "Icon"
         },
         {
             "location": "/component/lists/#avatar",
-            "text": "Value  Resource      Size  @dimen/material_list_avatar_size    Margin start  @dimen/material_list_avatar_margin_start",
+            "text": "@dimen/material_list_avatar_size  @dimen/material_list_avatar_margin_start",
             "title": "Avatar"
         },
         {
@@ -607,7 +597,7 @@
         },
         {
             "location": "/component/lists/#margin",
-            "text": "Value  Resource      Margin horizontal (Text only)  @dimen/material_list_text_only_margin_horizontal    Margin start (first position)  @dimen/material_list_text_first_position_margin_start    Edge margin start (second position)  @dimen/material_list_text_second_position_edge_margin_start    Margin end (last position)  @dimen/material_list_text_last_position_margin_end",
+            "text": "@dimen/material_list_text_first_position_margin_start  @dimen/material_list_text_second_position_edge_margin_start  @dimen/material_list_text_last_position_margin_end   1) and 3) can be replaced by  @dimen/material_list_text_only_margin_horizontal  for text only items.",
             "title": "Margin"
         },
         {

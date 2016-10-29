@@ -62,7 +62,7 @@
             
             
                 <li >
-                    <a href="../..">Presentation</a>
+                    <a href="../..">Home</a>
                 </li>
             
             
@@ -268,9 +268,9 @@
     
         <li class="main active"><a href="#lists">Lists</a></li>
         
-            <li><a href="#resource-modifiers">Resource modifiers</a></li>
-        
             <li><a href="#list-padding">List padding</a></li>
+        
+            <li><a href="#block-position">Block position</a></li>
         
             <li><a href="#icon">Icon</a></li>
         
@@ -286,45 +286,9 @@
             <div class="col-md-9" role="main">
 
 <h1 id="lists">Lists</h1>
-<h2 id="resource-modifiers">Resource modifiers</h2>
-<h3 id="dense-lists">Dense lists</h3>
-<p>The guidelines give alternative values for dense lists.</p>
 <p>The "normal" prefix is added to the guidelines name for non-dense lists values.</p>
-<h3 id="block-position">Block position</h3>
-<p>The values for the text and the icon are based on their relative position in the list item:</p>
-<table>
-<thead>
-<tr>
-<th>List item type</th>
-<th>Text position</th>
-<th>Icon position</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Text only</td>
-<td>first &amp; last</td>
-<td>-</td>
-</tr>
-<tr>
-<td>Icon with text</td>
-<td>second &amp; last</td>
-<td>first</td>
-</tr>
-<tr>
-<td>Avatar with text</td>
-<td>second &amp; last</td>
-<td>-</td>
-</tr>
-<tr>
-<td>Avatar with text and icon</td>
-<td>second</td>
-<td>last</td>
-</tr>
-</tbody>
-</table>
-<p>Since the avatar is always first when present, its related values don't depend on its position.</p>
 <h2 id="list-padding">List padding</h2>
+<p>The padding at the top of the list, before the first element, has the following values.</p>
 <table>
 <thead>
 <tr>
@@ -343,48 +307,59 @@
 </tr>
 </tbody>
 </table>
+<h2 id="block-position">Block position</h2>
+<p>The values for the text and the icon are based on their relative position in the list item.</p>
+<p><img class="figure" src="../../images/components_lists_types.png" alt="List types"/></p>
+<table>
+<thead>
+<tr>
+<th>Figure label</th>
+<th>List item type</th>
+<th>Text position</th>
+<th>Icon position</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Text only</td>
+<td>first &amp; last</td>
+<td>-</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Icon with text</td>
+<td>second &amp; last</td>
+<td>first</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Avatar with text</td>
+<td>second &amp; last</td>
+<td>-</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Avatar with text and icon</td>
+<td>second</td>
+<td>last</td>
+</tr>
+</tbody>
+</table>
+<p>Since the avatar is always first when present, its related values don't depend on its position.</p>
 <h2 id="icon">Icon</h2>
-<table>
-<thead>
-<tr>
-<th>Value</th>
-<th>Resource</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Size</td>
-<td><code>@dimen/material_list_icon_size</code></td>
-</tr>
-<tr>
-<td>Margin start (first position)</td>
-<td><code>@dimen/material_list_icon_first_position_margin_start</code></td>
-</tr>
-<tr>
-<td>Margin horizontal (last position)</td>
-<td><code>@dimen/material_list_icon_last_position_margin_horizontal</code></td>
-</tr>
-</tbody>
-</table>
+<p><img class="figure" src="../../images/components_lists_icon.png" alt="List icon"/></p>
+<ol>
+<li><code>@dimen/material_list_icon_size</code></li>
+<li><code>@dimen/material_list_icon_first_position_margin_start</code></li>
+<li><code>@dimen/material_list_icon_last_position_margin_horizontal</code></li>
+</ol>
 <h2 id="avatar">Avatar</h2>
-<table>
-<thead>
-<tr>
-<th>Value</th>
-<th>Resource</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Size</td>
-<td><code>@dimen/material_list_avatar_size</code></td>
-</tr>
-<tr>
-<td>Margin start</td>
-<td><code>@dimen/material_list_avatar_margin_start</code></td>
-</tr>
-</tbody>
-</table>
+<p><img class="figure" src="../../images/components_lists_avatar.png" alt="List avatar"/></p>
+<ol>
+<li><code>@dimen/material_list_avatar_size</code></li>
+<li><code>@dimen/material_list_avatar_margin_start</code></li>
+</ol>
 <h2 id="text">Text</h2>
 <h3 id="size">Size</h3>
 <table>
@@ -414,32 +389,13 @@
 </tbody>
 </table>
 <h3 id="margin">Margin</h3>
-<table>
-<thead>
-<tr>
-<th>Value</th>
-<th>Resource</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Margin horizontal (Text only)</td>
-<td><code>@dimen/material_list_text_only_margin_horizontal</code></td>
-</tr>
-<tr>
-<td>Margin start (first position)</td>
-<td><code>@dimen/material_list_text_first_position_margin_start</code></td>
-</tr>
-<tr>
-<td>Edge margin start (second position)</td>
-<td><code>@dimen/material_list_text_second_position_edge_margin_start</code></td>
-</tr>
-<tr>
-<td>Margin end (last position)</td>
-<td><code>@dimen/material_list_text_last_position_margin_end</code></td>
-</tr>
-</tbody>
-</table>
+<p><img class="figure" src="../../images/components_lists_text.png" alt="List text"/></p>
+<ol>
+<li><code>@dimen/material_list_text_first_position_margin_start</code></li>
+<li><code>@dimen/material_list_text_second_position_edge_margin_start</code></li>
+<li><code>@dimen/material_list_text_last_position_margin_end</code></li>
+</ol>
+<p>1) and 3) can be replaced by <code>@dimen/material_list_text_only_margin_horizontal</code> for text only items.</p>
 <h2 id="item-height">Item height</h2>
 <table>
 <thead>
