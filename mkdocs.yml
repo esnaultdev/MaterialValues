@@ -1,6 +1,6 @@
 site_name: MaterialValues
 pages:
-- Presentation: index.md
+- Home: index.md
 - Style:
     - Colors: style/colors.md
     - Icons: style/icons.md

@@ -1,28 +1,11 @@
 # Lists
 
-## Resource modifiers
-
-### Dense lists
-
-The guidelines give alternative values for dense lists.
-
 The "normal" prefix is added to the guidelines name for non-dense lists values.
-
-### Block position
-
-The values for the text and the icon are based on their relative position in the list item:
-
-| List item type | Text position | Icon position |
-| -------------- | ------------- | ------------- |
-| Text only                 | first & last  | -     |
-| Icon with text            | second & last | first |
-| Avatar with text          | second & last | -     |
-| Avatar with text and icon | second        | last  |
-
-Since the avatar is always first when present, its related values don't depend on its position.
 
 
 ## List padding
+
+The padding at the top of the list, before the first element, has the following values.
 
 | Value | Resource |
 | ----- | -------- |
@@ -30,21 +13,37 @@ Since the avatar is always first when present, its related values don't depend o
 | Padding vertical (Dense)  | `@dimen/material_list_dense_padding_vertical`  |
 
 
+## Block position
+
+The values for the text and the icon are based on their relative position in the list item.
+
+<img class="figure" src="../../images/components_lists_types.png" alt="List types"/>
+
+| Figure label | List item type | Text position | Icon position |
+| ------------ | -------------- | ------------- | ------------- |
+| 1 | Text only                 | first & last  | -     |
+| 2 | Icon with text            | second & last | first |
+| 3 | Avatar with text          | second & last | -     |
+| 4 | Avatar with text and icon | second        | last  |
+
+Since the avatar is always first when present, its related values don't depend on its position.
+
+
 ## Icon
 
-| Value | Resource |
-| ----- | -------- |
-| Size                              | `@dimen/material_list_icon_size`                            |
-| Margin start (first position)     | `@dimen/material_list_icon_first_position_margin_start`     |
-| Margin horizontal (last position) | `@dimen/material_list_icon_last_position_margin_horizontal` |
+<img class="figure" src="../../images/components_lists_icon.png" alt="List icon"/>
+
+1. `@dimen/material_list_icon_size`
+2. `@dimen/material_list_icon_first_position_margin_start`
+3. `@dimen/material_list_icon_last_position_margin_horizontal`
 
 
 ## Avatar
 
-| Value | Resource |
-| ----- | -------- |
-| Size         | `@dimen/material_list_avatar_size`         |
-| Margin start | `@dimen/material_list_avatar_margin_start` |
+<img class="figure" src="../../images/components_lists_avatar.png" alt="List avatar"/>
+
+1. `@dimen/material_list_avatar_size`
+2. `@dimen/material_list_avatar_margin_start`
 
 
 ## Text
@@ -61,12 +60,13 @@ Since the avatar is always first when present, its related values don't depend o
 
 ### Margin
 
-| Value  | Resource |
-| ------ | -------- |
-| Margin horizontal (Text only)       | `@dimen/material_list_text_only_margin_horizontal`            |
-| Margin start (first position)       | `@dimen/material_list_text_first_position_margin_start`       |
-| Edge margin start (second position) | `@dimen/material_list_text_second_position_edge_margin_start` |
-| Margin end (last position)          | `@dimen/material_list_text_last_position_margin_end`          |
+<img class="figure" src="../../images/components_lists_text.png" alt="List text"/>
+
+1. `@dimen/material_list_text_first_position_margin_start`
+2. `@dimen/material_list_text_second_position_edge_margin_start`
+3. `@dimen/material_list_text_last_position_margin_end`
+
+1) and 3) can be replaced by `@dimen/material_list_text_only_margin_horizontal` for text only items.
 
 
 ## Item height
