@@ -447,13 +447,48 @@
         },
         {
             "location": "/component/dialogs/",
-            "text": "Dialogs\n\n\nSorry the documentation for this component values is not available yet.\n\n\nHowever, the values exist. Check the raw values below.\n\n\n\n\nSee also\n\n\n\n\n\n\nRaw values\n\n\n\n\n\n\nDialogs (Material design)",
+            "text": "Dialogs\n\n\nElevation\n\n\nDefined as \n@material_dialog_elevation\n.\n\n\nSize and edge margins\n\n\n\n\n\n\n\n\nValue\n\n\nResource\n\n\n\n\n\n\n\n\n\n\nMinimum width (increment)\n\n\n@dimen/material_dialog_width_minimum_increment\n\n\n\n\n\n\nMinimum width\n\n\n@dimen/material_dialog_width_minimum\n\n\n\n\n\n\nMinimum vertical edge margin\n\n\n@dimen/material_dialog_screen_edge_margin_minimum_vertical\n\n\n\n\n\n\nMinimum horizontal edge margin\n\n\n@dimen/material_dialog_screen_edge_margin_minimum_horizontal\n\n\n\n\n\n\n\n\nTitle and content\n\n\n\n\n\n\n@dimen/material_dialog_content_area_padding_horizontal\n\n\n@dimen/material_dialog_content_area_padding_vertical\n\n\n@dimen/material_dialog_content_area_title_content_margin\n\n\nAction area\n\n\n\n\nActions\n\n\nSide by side\n\n\n\n\n\n\nNon scrollable content\n\n\nScrollable content\n\n\n@dimen/material_dialog_actions_side_by_side_height\n\n\n@dimen/material_dialog_actions_side_by_side_button_height\n\n\n@dimen/material_dialog_actions_side_by_side_padding_horizontal\n \nNaming issue\n\n\n@dimen/material_dialog_actions_side_by_side_padding_vertical\n \nNaming issue\n\n\n@dimen/material_dialog_actions_side_by_side_padding_vertical\n \nNaming issue\n \n\n\n@dimen/material_dialog_actions_side_by_side_padding_vertical_with_divider\n \nNaming issue\n \n\n\n@dimen/material_divider_height\n\n\n\n\nStacked\n\n\n\n\n\n\n@dimen/material_dialog_actions_stacked_button_height\n\n\n@dimen/material_dialog_actions_stacked_padding_bottom\n\n\n@dimen/material_dialog_actions_stacked_button_padding_end\n\n\nDialog content\n\n\n\n\nFullscreen dialog\n\n\nDocumentation not yet available, check the raw values.\n\n\n\n\nSee also\n\n\n\n\n\n\nRaw values\n\n\n\n\n\n\nDialogs (Material design)",
             "title": "Dialogs"
         },
         {
             "location": "/component/dialogs/#dialogs",
-            "text": "Sorry the documentation for this component values is not available yet.  However, the values exist. Check the raw values below.",
+            "text": "",
             "title": "Dialogs"
+        },
+        {
+            "location": "/component/dialogs/#elevation",
+            "text": "Defined as  @material_dialog_elevation .",
+            "title": "Elevation"
+        },
+        {
+            "location": "/component/dialogs/#size-and-edge-margins",
+            "text": "Value  Resource      Minimum width (increment)  @dimen/material_dialog_width_minimum_increment    Minimum width  @dimen/material_dialog_width_minimum    Minimum vertical edge margin  @dimen/material_dialog_screen_edge_margin_minimum_vertical    Minimum horizontal edge margin  @dimen/material_dialog_screen_edge_margin_minimum_horizontal",
+            "title": "Size and edge margins"
+        },
+        {
+            "location": "/component/dialogs/#title-and-content",
+            "text": "@dimen/material_dialog_content_area_padding_horizontal  @dimen/material_dialog_content_area_padding_vertical  @dimen/material_dialog_content_area_title_content_margin  Action area",
+            "title": "Title and content"
+        },
+        {
+            "location": "/component/dialogs/#actions",
+            "text": "",
+            "title": "Actions"
+        },
+        {
+            "location": "/component/dialogs/#side-by-side",
+            "text": "Non scrollable content  Scrollable content  @dimen/material_dialog_actions_side_by_side_height  @dimen/material_dialog_actions_side_by_side_button_height  @dimen/material_dialog_actions_side_by_side_padding_horizontal   Naming issue  @dimen/material_dialog_actions_side_by_side_padding_vertical   Naming issue  @dimen/material_dialog_actions_side_by_side_padding_vertical   Naming issue    @dimen/material_dialog_actions_side_by_side_padding_vertical_with_divider   Naming issue    @dimen/material_divider_height",
+            "title": "Side by side"
+        },
+        {
+            "location": "/component/dialogs/#stacked",
+            "text": "@dimen/material_dialog_actions_stacked_button_height  @dimen/material_dialog_actions_stacked_padding_bottom  @dimen/material_dialog_actions_stacked_button_padding_end  Dialog content",
+            "title": "Stacked"
+        },
+        {
+            "location": "/component/dialogs/#fullscreen-dialog",
+            "text": "Documentation not yet available, check the raw values.",
+            "title": "Fullscreen dialog"
         },
         {
             "location": "/component/dialogs/#see-also",
