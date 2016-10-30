@@ -10,7 +10,7 @@
 
 All the values in this documentation use the xml reference representation.
 
-You can also use them programmatically using `blue.aodev.materialvalues.R`.
+You can also use them programmatically using `blue.aodev.materialvalues.R`
 
 For example:
 
