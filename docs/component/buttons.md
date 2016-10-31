@@ -1,9 +1,10 @@
 # Buttons
 
-Sorry the documentation for this component values is not available yet.
+## Flat
 
-However, the values exist. Check the raw values below.
+## Raised
 
+## Floating action button
 
 ---
 
