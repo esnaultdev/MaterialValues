@@ -3,45 +3,36 @@
 
 - Change package name from `blue.aodev.materialvalues` to `material.values`.
 
-### Added values
-
 **Typography**
 
-- Text color for disabled and hint text.
+- Add text color values for disabled and hint text.
+- Rename `@color/material_typography_black_high_contrast` to `@color/material_typography_primary_text_color_dark`
+- Rename `@color/material_typography_black_low_contrast` to `@color/material_typography_secondary_text_color_dark`
+- Rename `@color/material_typography_white_high_contrast` to `@color/material_typography_primary_text_color_light`
+- Rename `@color/material_typography_white_low_contrast` to `@color/material_typography_secondary_text_color_light`
 
 **Icons**
 
-- Icon size dimensions.
+- Add size values.
 
 **Metrics & keylines**
 
-- Baseline grid multiples 21 to 25.
-- Half increments from 0.5 to 4.5.
+- Add baseline grid multiples 21 to 25.
+- Add half increments from 0.5 to 4.5.
+- Delete specific baseline grid multiples 28, 30 and 35.
 
 **Responsive UI**
 
-- Number of content hierarchy levels.
+- Add number of content hierarchy levels.
 
-### Renamed values
 
-**Typography**
+**Bottom navigation**
 
-| Old name | New name |
-| -------- | -------- |
-| `@color/material_typography_black_high_contrast` | `@color/material_typography_primary_text_color_dark`    |
-| `@color/material_typography_black_low_contrast`  | `@color/material_typography_secondary_text_color_dark`  |
-| `@color/material_typography_white_high_contrast` | `@color/material_typography_primary_text_color_light`   |
-| `@color/material_typography_white_low_contrast`  | `@color/material_typography_secondary_text_color_light` |
-
-### Deleted values
+- Rename `@dimen/material_bottom_nav_bar_shifting_action_active_icon_padding_vertical` to `@dimen/material_bottom_nav_bar_shifting_action_inactive_icon_padding_vertical`
 
 **Buttons: FAB**
 
-- `@dimen/material_button_fab_mini_icon_size`, use `@dimen/material_button_fab_icon_size` instead.
-
-**Metrics & keylines**
-
-- Specific baseline grid multiples 28, 30 and 35.
+- Delete `@dimen/material_button_fab_mini_icon_size`, use `@dimen/material_button_fab_icon_size` instead.
 
 
 ----

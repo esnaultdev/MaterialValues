@@ -1,5 +1,10 @@
 # Bottom navigation
 
+## Elevation
+
+Defined as `@dimen/material_elevation_bottom_nav_bar`.
+
+
 ## Fixed bottom navigation bar
 
 ### Action size
@@ -19,16 +24,9 @@
 3. `@dimen/material_bottom_nav_bar_action_label_padding_bottom`
 4. `@dimen/material_bottom_nav_bar_fixed_action_active_icon_padding_top`
 5. `@dimen/material_bottom_nav_bar_fixed_action_inactive_icon_padding_top`
+6. `@dimen/material_bottom_nav_bar_fixed_action_active_label_text_size`
+7. `@dimen/material_bottom_nav_bar_fixed_action_inactive_label_text_size`
 
-### Label
-
-| Label | Resource |
-| ----- | -------- |
-| Active label   | `@dimen/material_bottom_nav_bar_fixed_action_active_label_text_size`   |
-| Inactive label | `@dimen/material_bottom_nav_bar_fixed_action_inactive_label_text_size` |
-
-
----
 
 ## Shifting bottom navigation bar
 
@@ -52,20 +50,8 @@
 2. `@dimen/material_bottom_nav_bar_action_icon_size`
 3. `@dimen/material_bottom_nav_bar_shifting_action_active_icon_padding_top`
 4. `@dimen/material_bottom_nav_bar_action_label_padding_bottom`
-5. <del>`@dimen/material_bottom_nav_bar_shifting_action_active_icon_padding_vertical`</del> Naming issue
-
-### Label
-
-| Label | Resource |
-| ----- | -------- |
-| Active label | `@dimen/material_bottom_nav_bar_shifting_action_active_label_text_size` |
-
-
----
-
-## Elevation
-
-The elevation of both styles is `@dimen/material_elevation_bottom_nav_bar`.
+5. `@dimen/material_bottom_nav_bar_shifting_action_inactive_icon_padding_vertical`
+6. `@dimen/material_bottom_nav_bar_shifting_action_active_label_text_size`
 
 
 ---
