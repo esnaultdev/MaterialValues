@@ -22,5 +22,6 @@
     <dimen name="material_responsive_gutter_plus_baseline_grid_7x">@dimen/material_baseline_grid_9x</dimen>
 
     <bool name="material_responsive_is_tablet">false</bool>
+    <integer name="material_responsive_content_levels">1</integer>
 
 </resources>

@@ -16,6 +16,10 @@
 - Baseline grid multiples 21 to 25.
 - Half increments from 0.5 to 4.5.
 
+**Responsive UI**
+
+- Number of content hierarchy levels.
+
 ### Renamed values
 
 **Typography**

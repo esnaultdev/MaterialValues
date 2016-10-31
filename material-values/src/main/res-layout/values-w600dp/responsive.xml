@@ -17,4 +17,5 @@
 
 <resources>
     <integer name="material_responsive_columns">8</integer>
+    <integer name="material_responsive_content_levels">2</integer>
 </resources>
