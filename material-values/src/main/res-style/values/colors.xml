@@ -462,7 +462,8 @@
     <color name="material_color_black_06_percent">#0F000000</color>
 
     <color name="material_color_white">#FFFFFF</color>
-    <color name="material_color_white_48_percent">#7BFFFFFF</color>
+    <color name="material_color_white_70_percent">#B3FFFFFF</color>
+    <color name="material_color_white_50_percent">#80FFFFFF</color>
     <color name="material_color_white_30_percent">#4DFFFFFF</color>
     <color name="material_color_white_20_percent">#33FFFFFF</color>
     <color name="material_color_white_12_percent">#1FFFFFFF</color>

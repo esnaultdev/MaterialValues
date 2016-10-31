@@ -238,11 +238,15 @@
 
 
     <!-- Text color -->
-    <color name="material_typography_black_high_contrast">@color/material_color_black_87_percent</color>
-    <color name="material_typography_black_low_contrast">@color/material_color_black_54_percent</color>
+    <color name="material_typography_primary_text_color_dark">@color/material_color_black_87_percent</color>
+    <color name="material_typography_secondary_text_color_dark">@color/material_color_black_54_percent</color>
+    <color name="material_typography_disabled_text_color_dark">@color/material_color_black_38_percent</color>
+    <color name="material_typography_hint_text_color_dark">@color/material_color_black_38_percent</color>
 
-    <color name="material_typography_white_high_contrast">@color/material_color_white</color> <!-- Unspecified -->
-    <color name="material_typography_white_low_contrast">@color/material_color_white_48_percent</color> <!-- Unspecified -->
+    <color name="material_typography_primary_text_color_light">@color/material_color_white</color>
+    <color name="material_typography_secondary_text_color_light">@color/material_color_white_70_percent</color>
+    <color name="material_typography_disabled_text_color_light">@color/material_color_white_50_percent</color>
+    <color name="material_typography_hint_text_color_light">@color/material_color_white_50_percent</color>
 
 
     <!-- TODO Add line height values with leading -->

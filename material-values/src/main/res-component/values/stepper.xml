@@ -24,13 +24,13 @@
 
     <dimen name="material_stepper_step_title_text_size">@dimen/material_typography_regular_body_1_text_size</dimen>
     <dimen name="material_stepper_step_subtitle_text_size">@dimen/material_typography_regular_caption_text_size</dimen>
-    <color name="material_stepper_step_subtitle_text_color">@color/material_typography_black_low_contrast</color>
+    <color name="material_stepper_step_subtitle_text_color">@color/material_typography_secondary_text_color_dark</color>
 
 
     <!-- Active step -->
     <!-- The active circle color should be primaryColor, but a default one is defined -->
     <color name="material_stepper_step_active_circle_active_color_default">@color/material_color_blue_500</color>
-    <color name="material_stepper_step_active_title_text_color">@color/material_typography_black_high_contrast</color>
+    <color name="material_stepper_step_active_title_text_color">@color/material_typography_primary_text_color_dark</color>
 
 
     <!-- Inactive step -->

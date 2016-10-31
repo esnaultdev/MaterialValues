@@ -51,7 +51,16 @@ These styles use the previously defined text sizes and also applies the good fon
 
 ## Color
 
-*These values are missing and will be included in a future version.*
+| Text type | Value |
+| --------- | ----- |
+| Primary text (dark)     | `@color/material_typography_primary_text_color_dark`    |
+| Primary text (light)    | `@color/material_typography_primary_text_color_light`   |
+| Secondary text (dark)   | `@color/material_typography_secondary_text_color_dark`  |
+| Secondary text (light)  | `@color/material_typography_secondary_text_color_light` |
+| Disabled text (dark)    | `@color/material_typography_disabled_text_color_dark`   |
+| Disabled text (light)   | `@color/material_typography_disabled_text_color_light`  |
+| Hint text (dark)        | `@color/material_typography_hint_text_color_dark`       |
+| Hint text (light)       | `@color/material_typography_hint_text_color_light`      |
 
 
 ## Locale prefix

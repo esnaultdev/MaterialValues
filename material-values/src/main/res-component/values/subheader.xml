@@ -19,7 +19,7 @@
 
     <!-- Text style -->
     <!-- Text color can also be the primaryColor of the app -->
-    <color name="material_subheader_text_color_default">@color/material_typography_black_low_contrast</color>
+    <color name="material_subheader_text_color_default">@color/material_typography_secondary_text_color_dark</color>
     <dimen name="material_subheader_text_size">@dimen/material_typography_regular_subheading_text_size</dimen>
 
 

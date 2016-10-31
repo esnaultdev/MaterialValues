@@ -18,9 +18,9 @@
 
     <!-- General values -->
     <dimen name="material_expansion_panel_label_text_size">15sp</dimen> <!-- Not in the typography guidelines -->
-    <color name="material_expansion_panel_label_text_color">@color/material_typography_black_high_contrast</color>
+    <color name="material_expansion_panel_label_text_color">@color/material_typography_primary_text_color_dark</color>
     <dimen name="material_expansion_panel_label_secondary_content_text_size">@dimen/material_typography_regular_caption_text_size</dimen>
-    <color name="material_expansion_panel_label_secondary_content_text_color">@color/material_typography_black_low_contrast</color>
+    <color name="material_expansion_panel_label_secondary_content_text_color">@color/material_typography_secondary_text_color_dark</color>
 
     <!-- The elevation is the same as the elements the expansion panel can connect with (typically, a card) -->
     <dimen name="material_expansion_panel_padding_horizontal">@dimen/material_baseline_grid_3x</dimen>

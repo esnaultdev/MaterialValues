@@ -19,7 +19,7 @@
 
     <!-- Common values -->
     <dimen name="material_chip_height">@dimen/material_baseline_grid_4x</dimen>
-    <color name="material_chip_label_color">@color/material_typography_black_high_contrast</color>
+    <color name="material_chip_label_color">@color/material_typography_primary_text_color_dark</color>
 
 
     <!-- Simple chip (As opposed to a contact one) -->
