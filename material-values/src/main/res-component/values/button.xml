@@ -54,8 +54,7 @@
     <dimen name="material_button_fab_size">@dimen/material_baseline_grid_7x</dimen>
     <dimen name="material_button_fab_icon_size">@dimen/material_icon_size_system</dimen>
     <dimen name="material_button_fab_mini_size">@dimen/material_baseline_grid_5x</dimen>
-    <dimen name="material_button_fab_edge_margin_horizontal">@dimen/material_content_edge_margin_horizontal</dimen>
-    <dimen name="material_button_fab_edge_margin_vertical">@dimen/material_baseline_grid_2x</dimen>
+    <dimen name="material_button_fab_edge_margin">@dimen/material_content_edge_margin_horizontal</dimen>
 
 
     <!-- Button specific colors -->

@@ -13,7 +13,7 @@
 
 <img class="figure" src="../../images/components_fab_edge_margin.png" alt="FAB edge margin"/>
 
-1. <del>`@dimen/material_button_fab_edge_margin_horizontal`</del> and <del>`@dimen/material_button_fab_edge_margin_vertical`</del> *Naming issue* 
+1. `@dimen/material_button_fab_edge_margin`
 
 ---
 

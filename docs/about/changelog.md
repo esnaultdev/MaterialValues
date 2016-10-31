@@ -38,6 +38,8 @@
 **Buttons: FAB**
 
 - Delete `@dimen/material_button_fab_mini_icon_size`, use `@dimen/material_button_fab_icon_size` instead.
+- Rename `@dimen/material_button_fab_edge_margin_horizontal` to `@dimen/material_button_fab_edge_margin`
+- Rename `@dimen/material_button_fab_edge_margin_vertical` to `@dimen/material_button_fab_edge_margin`
 
 
 ----
