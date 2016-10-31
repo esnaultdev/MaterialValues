@@ -327,7 +327,7 @@
         },
         {
             "location": "/component/buttons/",
-            "text": "Buttons\n\n\nFlat\n\n\nRaised\n\n\nFloating action button\n\n\n\n\nSee also\n\n\n\n\n\n\nRaw values\n\n\n\n\n\n\nButtons (Material design)\n\n\n\n\n\n\nButtons: FAB (Material design)",
+            "text": "Buttons\n\n\nSize and padding\n\n\n\n\n\n\n@dimen/material_button_height_minimum\n\n\n@dimen/material_button_touch_target_height_minimum\n\n\n@dimen/material_button_width_minimum\n\n\n@dimen/material_button_gutter_horizontal\n\n\n@dimen/material_button_padding_horizontal\n\n\n@dimen/material_button_raised_corner_radius\n \nNaming issue\n\n\n\n\nFlat button\n\n\nElevation\n \n@dimen/material_button_flat_elevation\n\n\nColors\n\n\n\n\n\n\nMissing value, it will be included in the future\n\n\nMissing value, it will be included in the future\n\n\n@color/material_button_text_color_disabled_light_theme\n\n\n@color/material_button_text_color_disabled_dark_theme\n\n\n@color/material_button_flat_background_color_pressed_light_theme\n\n\n@color/material_button_flat_background_color_pressed_dark_theme\n\n\n\n\nRaised button\n\n\nElevation\n\n\n\n\n\n\n\n\nElevation\n\n\nResource\n\n\n\n\n\n\n\n\n\n\nResting\n\n\n@dimen/material_button_raised_elevation_resting\n\n\n\n\n\n\nPressed\n\n\n@dimen/material_button_raised_elevation_pressed\n\n\n\n\n\n\n\n\nColors\n\n\n\n\n\n\nMissing value, it will be included in the future\n\n\nMissing value, it will be included in the future\n\n\n@color/material_button_text_color_disabled_light_theme\n\n\n@color/material_button_text_color_disabled_dark_theme\n\n\nColor shade 500\n\n\nColor shade 700\n\n\n@color/material_button_raised_background_color_disabled_light_theme\n\n\n@color/material_button_raised_background_color_disabled_dark_theme\n\n\n\n\nIcon toggles\n\n\n\n\n\n\n@color/material_button_icon_light_theme_light_icon_ripple_color\n\n\n@color/material_button_icon_light_theme_dark_icon_ripple_color\n\n\nSame color with 26% opacity \n\n\n@color/material_button_icon_dark_theme_light_icon_ripple_color\n\n\n\n\n\n\nSee also\n\n\n\n\n\n\nRaw values\n\n\n\n\n\n\nButtons (Material design)",
             "title": "Buttons"
         },
         {
@@ -336,23 +336,68 @@
             "title": "Buttons"
         },
         {
-            "location": "/component/buttons/#flat",
-            "text": "",
-            "title": "Flat"
+            "location": "/component/buttons/#size-and-padding",
+            "text": "@dimen/material_button_height_minimum  @dimen/material_button_touch_target_height_minimum  @dimen/material_button_width_minimum  @dimen/material_button_gutter_horizontal  @dimen/material_button_padding_horizontal  @dimen/material_button_raised_corner_radius   Naming issue",
+            "title": "Size and padding"
         },
         {
-            "location": "/component/buttons/#raised",
-            "text": "",
-            "title": "Raised"
+            "location": "/component/buttons/#flat-button",
+            "text": "Elevation   @dimen/material_button_flat_elevation",
+            "title": "Flat button"
         },
         {
-            "location": "/component/buttons/#floating-action-button",
+            "location": "/component/buttons/#colors",
+            "text": "Missing value, it will be included in the future  Missing value, it will be included in the future  @color/material_button_text_color_disabled_light_theme  @color/material_button_text_color_disabled_dark_theme  @color/material_button_flat_background_color_pressed_light_theme  @color/material_button_flat_background_color_pressed_dark_theme",
+            "title": "Colors"
+        },
+        {
+            "location": "/component/buttons/#raised-button",
             "text": "",
-            "title": "Floating action button"
+            "title": "Raised button"
+        },
+        {
+            "location": "/component/buttons/#elevation",
+            "text": "Elevation  Resource      Resting  @dimen/material_button_raised_elevation_resting    Pressed  @dimen/material_button_raised_elevation_pressed",
+            "title": "Elevation"
+        },
+        {
+            "location": "/component/buttons/#colors_1",
+            "text": "Missing value, it will be included in the future  Missing value, it will be included in the future  @color/material_button_text_color_disabled_light_theme  @color/material_button_text_color_disabled_dark_theme  Color shade 500  Color shade 700  @color/material_button_raised_background_color_disabled_light_theme  @color/material_button_raised_background_color_disabled_dark_theme",
+            "title": "Colors"
+        },
+        {
+            "location": "/component/buttons/#icon-toggles",
+            "text": "@color/material_button_icon_light_theme_light_icon_ripple_color  @color/material_button_icon_light_theme_dark_icon_ripple_color  Same color with 26% opacity   @color/material_button_icon_dark_theme_light_icon_ripple_color",
+            "title": "Icon toggles"
         },
         {
             "location": "/component/buttons/#see-also",
-            "text": "Raw values    Buttons (Material design)    Buttons: FAB (Material design)",
+            "text": "Raw values    Buttons (Material design)",
+            "title": "See also"
+        },
+        {
+            "location": "/component/buttons-fab/",
+            "text": "Buttons: Floating action button\n\n\nSize\n\n\n\n\n\n\n@dimen/material_button_fab_size\n\n\n@dimen/material_button_fab_mini_size\n\n\n@dimen/material_button_fab_icon_size\n\n\n\n\nEdge margin\n\n\n\n\n\n\n@dimen/material_button_fab_edge_margin_horizontal\n and \n@dimen/material_button_fab_edge_margin_vertical\n \nNaming issue\n \n\n\n\n\n\n\nSee also\n\n\n\n\n\n\nRaw values\n\n\n\n\n\n\nButtons: FAB (Material design)",
+            "title": "Buttons (FAB)"
+        },
+        {
+            "location": "/component/buttons-fab/#buttons-floating-action-button",
+            "text": "",
+            "title": "Buttons: Floating action button"
+        },
+        {
+            "location": "/component/buttons-fab/#size",
+            "text": "@dimen/material_button_fab_size  @dimen/material_button_fab_mini_size  @dimen/material_button_fab_icon_size",
+            "title": "Size"
+        },
+        {
+            "location": "/component/buttons-fab/#edge-margin",
+            "text": "@dimen/material_button_fab_edge_margin_horizontal  and  @dimen/material_button_fab_edge_margin_vertical   Naming issue",
+            "title": "Edge margin"
+        },
+        {
+            "location": "/component/buttons-fab/#see-also",
+            "text": "Raw values    Buttons: FAB (Material design)",
             "title": "See also"
         },
         {

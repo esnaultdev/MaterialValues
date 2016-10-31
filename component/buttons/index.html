@@ -145,6 +145,12 @@
                     
                         
 <li >
+    <a href="../buttons-fab/">Buttons (FAB)</a>
+</li>
+
+                    
+                        
+<li >
     <a href="../card/">Cards</a>
 </li>
 
@@ -243,7 +249,7 @@
                     </a>
                 </li>
                 <li >
-                    <a rel="prev" href="../card/">
+                    <a rel="prev" href="../buttons-fab/">
                         Next <i class="fa fa-arrow-right"></i>
                     </a>
                 </li>
@@ -268,11 +274,13 @@
     
         <li class="main active"><a href="#buttons">Buttons</a></li>
         
-            <li><a href="#flat">Flat</a></li>
+            <li><a href="#size-and-padding">Size and padding</a></li>
         
-            <li><a href="#raised">Raised</a></li>
+            <li><a href="#flat-button">Flat button</a></li>
         
-            <li><a href="#floating-action-button">Floating action button</a></li>
+            <li><a href="#raised-button">Raised button</a></li>
+        
+            <li><a href="#icon-toggles">Icon toggles</a></li>
         
     
     </ul>
@@ -280,9 +288,68 @@
             <div class="col-md-9" role="main">
 
 <h1 id="buttons">Buttons</h1>
-<h2 id="flat">Flat</h2>
-<h2 id="raised">Raised</h2>
-<h2 id="floating-action-button">Floating action button</h2>
+<h2 id="size-and-padding">Size and padding</h2>
+<p><img class="figure" src="../../images/components_buttons_size.png" alt="Button size"/></p>
+<ol>
+<li><code>@dimen/material_button_height_minimum</code></li>
+<li><code>@dimen/material_button_touch_target_height_minimum</code></li>
+<li><code>@dimen/material_button_width_minimum</code></li>
+<li><code>@dimen/material_button_gutter_horizontal</code></li>
+<li><code>@dimen/material_button_padding_horizontal</code></li>
+<li><del><code>@dimen/material_button_raised_corner_radius</code></del> <em>Naming issue</em></li>
+</ol>
+<h2 id="flat-button">Flat button</h2>
+<p><strong>Elevation</strong> <code>@dimen/material_button_flat_elevation</code></p>
+<h3 id="colors">Colors</h3>
+<p><img class="figure-large" src="../../images/components_buttons_flat_color.png" alt="Flat button color"/></p>
+<ol>
+<li><em>Missing value, it will be included in the future</em></li>
+<li><em>Missing value, it will be included in the future</em></li>
+<li><code>@color/material_button_text_color_disabled_light_theme</code></li>
+<li><code>@color/material_button_text_color_disabled_dark_theme</code></li>
+<li><code>@color/material_button_flat_background_color_pressed_light_theme</code></li>
+<li><code>@color/material_button_flat_background_color_pressed_dark_theme</code></li>
+</ol>
+<h2 id="raised-button">Raised button</h2>
+<h3 id="elevation">Elevation</h3>
+<table>
+<thead>
+<tr>
+<th>Elevation</th>
+<th>Resource</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Resting</td>
+<td><code>@dimen/material_button_raised_elevation_resting</code></td>
+</tr>
+<tr>
+<td>Pressed</td>
+<td><code>@dimen/material_button_raised_elevation_pressed</code></td>
+</tr>
+</tbody>
+</table>
+<h3 id="colors_1">Colors</h3>
+<p><img class="figure-large" src="../../images/components_buttons_raised_color.png" alt="Raised button color"/></p>
+<ol>
+<li><em>Missing value, it will be included in the future</em></li>
+<li><em>Missing value, it will be included in the future</em></li>
+<li><code>@color/material_button_text_color_disabled_light_theme</code></li>
+<li><code>@color/material_button_text_color_disabled_dark_theme</code></li>
+<li>Color shade 500</li>
+<li>Color shade 700</li>
+<li><code>@color/material_button_raised_background_color_disabled_light_theme</code></li>
+<li><code>@color/material_button_raised_background_color_disabled_dark_theme</code></li>
+</ol>
+<h2 id="icon-toggles">Icon toggles</h2>
+<p><img class="figure-large" src="../../images/components_buttons_toggle_icons_color.png" alt="Icon toggles color"/></p>
+<ol>
+<li><code>@color/material_button_icon_light_theme_light_icon_ripple_color</code></li>
+<li><code>@color/material_button_icon_light_theme_dark_icon_ripple_color</code></li>
+<li>Same color with 26% opacity </li>
+<li><code>@color/material_button_icon_dark_theme_light_icon_ripple_color</code></li>
+</ol>
 <hr />
 <h4 id="see-also">See also</h4>
 <ul>
@@ -291,9 +358,6 @@
 </li>
 <li>
 <p><a href="https://material.google.com/components/buttons.html">Buttons (Material design)</a></p>
-</li>
-<li>
-<p><a href="https://material.google.com/components/buttons-floating-action-button.html">Buttons: FAB (Material design)</a></p>
 </li>
 </ul></div>
         </div>
