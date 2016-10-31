@@ -1,10 +1,55 @@
 # Buttons
 
-## Flat
+## Size and padding
 
-## Raised
+<img class="figure" src="../../images/components_buttons_size.png" alt="Button size"/>
 
-## Floating action button
+1. `@dimen/material_button_height_minimum`
+2. `@dimen/material_button_touch_target_height_minimum`
+3. `@dimen/material_button_width_minimum`
+4. `@dimen/material_button_gutter_horizontal`
+5. `@dimen/material_button_padding_horizontal`
+6. *Missing value, it will be included in the future*
+
+
+## Flat button
+
+**Elevation** `@dimen/material_button_flat_elevation`
+
+### Colors
+
+<img class="figure-large" src="../../images/components_buttons_flat_color.png" alt="Flat button color"/>
+
+1. *Missing value, it will be included in the future*
+2. *Missing value, it will be included in the future*
+3. `@color/material_button_text_color_disabled_light_theme`
+4. `@color/material_button_text_color_disabled_dark_theme`
+5. `@color/material_button_flat_background_color_pressed_light_theme`
+6. `@color/material_button_flat_background_color_pressed_dark_theme`
+
+
+## Raised button
+
+### Elevation
+
+| Elevation | Resource |
+| --------- | -------- |
+| Resting | `@dimen/material_button_raised_elevation_resting` |
+| Pressed | `@dimen/material_button_raised_elevation_pressed` |
+
+### Colors
+
+<img class="figure-large" src="../../images/components_buttons_raised_color.png" alt="Flat button color"/>
+
+1. *Missing value, it will be included in the future*
+2. *Missing value, it will be included in the future*
+3. `@color/material_button_text_color_disabled_light_theme`
+4. `@color/material_button_text_color_disabled_dark_theme`
+5. Color shade 500
+6. Color shade 700
+7. `@color/material_button_raised_background_color_disabled_light_theme`
+8. `@color/material_button_raised_background_color_disabled_dark_theme`
+
 
 ---
 
