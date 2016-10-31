@@ -20,7 +20,7 @@
     <!-- Common values of the fixed and shifting navigation bar -->
     <dimen name="material_bottom_nav_bar_elevation">@dimen/material_elevation_bottom_nav_bar</dimen>
     <dimen name="material_bottom_nav_bar_height">@dimen/material_baseline_grid_7x</dimen>
-    <dimen name="material_bottom_nav_bar_action_icon_size">@dimen/material_baseline_grid_3x</dimen>
+    <dimen name="material_bottom_nav_bar_action_icon_size">@dimen/material_icon_size_system</dimen>
     <dimen name="material_bottom_nav_bar_action_padding_horizontal">@dimen/material_baseline_grid_1.5x</dimen>
 
     <dimen name="material_bottom_nav_bar_action_label_padding_bottom">10dp</dimen>

@@ -24,7 +24,7 @@
 
     <!-- The elevation is the same as the elements the expansion panel can connect with (typically, a card) -->
     <dimen name="material_expansion_panel_padding_horizontal">@dimen/material_baseline_grid_3x</dimen>
-    <dimen name="material_expansion_panel_expand_icon_size">@dimen/material_baseline_grid_3x</dimen>
+    <dimen name="material_expansion_panel_expand_icon_size">@dimen/material_icon_size_system</dimen>
     <dimen name="material_expansion_panel_expand_icon_margin_start">@dimen/material_baseline_grid_2x</dimen>
     <!-- Divider values are defined in divider.xml -->
 

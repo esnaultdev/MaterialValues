@@ -25,4 +25,8 @@
     <color name="material_icon_color_light_theme_active">@color/material_color_white</color>
     <color name="material_icon_color_light_theme_inactive">@color/material_color_white_30_percent</color>
 
+    <!-- Size -->
+    <dimen name="material_icon_size_system">@dimen/material_baseline_grid_3x</dimen>
+    <dimen name="material_icon_size_product">@dimen/material_baseline_grid_6x</dimen>
+
 </resources>

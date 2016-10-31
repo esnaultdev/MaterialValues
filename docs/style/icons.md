@@ -23,7 +23,11 @@ A color state list is available as well: `@color/material_icon_color_dark_theme`
 
 ## Size
 
-*These values are missing and will be included in a future version.*
+| Icon type | Resource |
+| --------- | -------- |
+| System  | `@dimen/material_icon_size_system`  |
+| Product | `@dimen/material_icon_size_product` |
+
 
 ---
 

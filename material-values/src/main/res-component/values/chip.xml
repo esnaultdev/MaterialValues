@@ -27,7 +27,7 @@
     <dimen name="material_chip_simple_label_horizontal_padding">@dimen/material_baseline_grid_1.5x</dimen>
     <dimen name="material_chip_simple_label_text_size">13sp</dimen> <!-- Not the same as contact chips (error ?) -->
 
-    <dimen name="material_chip_simple_remove_icon_size">@dimen/material_baseline_grid_3x</dimen>
+    <dimen name="material_chip_simple_remove_icon_size">@dimen/material_icon_size_system</dimen>
     <color name="material_chip_simple_remove_icon_color">@color/material_icon_color_dark_theme_active</color>
     <dimen name="material_chip_simple_remove_icon_margin">@dimen/material_baseline_grid_0.5x</dimen>
 

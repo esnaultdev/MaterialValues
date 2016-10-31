@@ -44,7 +44,7 @@
 
 
     <!-- Footer/header icon -->
-    <dimen name="material_grid_list_header_footer_icon_size">@dimen/material_baseline_grid_3x</dimen>
+    <dimen name="material_grid_list_header_footer_icon_size">@dimen/material_icon_size_system</dimen>
     <dimen name="material_grid_list_header_footer_icon_padding_horizontal">@dimen/material_baseline_grid_2x</dimen>
 
 </resources>

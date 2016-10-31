@@ -49,7 +49,7 @@
 
 
     <!-- Icon values -->
-    <dimen name="material_list_icon_size">@dimen/material_baseline_grid_3x</dimen>
+    <dimen name="material_list_icon_size">@dimen/material_icon_size_system</dimen>
     <dimen name="material_list_icon_first_position_margin_start">@dimen/material_baseline_grid_2x</dimen>
     <dimen name="material_list_icon_last_position_margin_horizontal">@dimen/material_baseline_grid_2x</dimen>
 

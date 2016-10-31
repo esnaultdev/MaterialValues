@@ -7,6 +7,10 @@
 
 - Text color for disabled and hint text.
 
+**Icons**
+
+- Icon size dimensions.
+
 ### Renamed values
 
 **Typography**
@@ -20,7 +24,7 @@
 
 ### Deleted values
 
--
+- `@dimen/material_button_fab_mini_icon_size`, use `@dimen/material_button_fab_icon_size`
 
 ----
 
