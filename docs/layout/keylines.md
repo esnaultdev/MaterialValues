@@ -9,8 +9,8 @@ Baseline grid values are provided as multiples:
 - `@dimen/material_baseline_grid_1x`
 - `@dimen/material_baseline_grid_2x`
 - ...
-- `@dimen/material_baseline_grid_19x`
-- `@dimen/material_baseline_grid_20x`
+- `@dimen/material_baseline_grid_24x`
+- `@dimen/material_baseline_grid_25x`
 
 Half-increments are also available for centering elements:
 
@@ -38,6 +38,14 @@ Increment values are provided as multiples:
 A default value of 56dp for increments is used to specify increment values.
 Every dimension relying on increments is provided alongside an `@integer` value so that a custom increment size can be used.
 
+
+Half increments are also available for centering elements:
+
+- `@dimen/material_increment_0.5x`
+- `@dimen/material_increment_1.5x`
+- ...
+- `@dimen/material_increment_3.5x`
+- `@dimen/material_increment_4.5x`
 
 
 ## Content keylines

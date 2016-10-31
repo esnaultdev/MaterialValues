@@ -60,10 +60,10 @@
     <dimen name="material_card_media_area_in_title_padding_top">@dimen/material_card_media_area_shrunk_padding_vertical</dimen>
     <dimen name="material_card_media_area_in_title_padding_end">@dimen/material_card_media_area_shrunk_padding_horizontal</dimen>
 
-    <dimen name="material_card_media_area_in_title_size_small">@dimen/material_baseline_grid_10x</dimen>
-    <dimen name="material_card_media_area_in_title_size_medium">@dimen/material_baseline_grid_15x</dimen>
-    <dimen name="material_card_media_area_in_title_size_large">@dimen/material_baseline_grid_20x</dimen>
-    <dimen name="material_card_media_area_in_title_size_xlarge">@dimen/material_baseline_grid_30x</dimen>
+    <dimen name="material_card_media_area_in_title_size_small">80dp</dimen>
+    <dimen name="material_card_media_area_in_title_size_medium">120dp</dimen>
+    <dimen name="material_card_media_area_in_title_size_large">160dp</dimen>
+    <dimen name="material_card_media_area_in_title_size_xlarge">240dp</dimen>
 
 
     <!-- Divider -->

@@ -11,6 +11,11 @@
 
 - Icon size dimensions.
 
+**Metrics & keylines**
+
+- Baseline grid multiples 21 to 25.
+- Half increments from 0.5 to 4.5.
+
 ### Renamed values
 
 **Typography**
@@ -24,7 +29,14 @@
 
 ### Deleted values
 
-- `@dimen/material_button_fab_mini_icon_size`, use `@dimen/material_button_fab_icon_size`
+**Buttons: FAB**
+
+- `@dimen/material_button_fab_mini_icon_size`, use `@dimen/material_button_fab_icon_size` instead.
+
+**Metrics & keylines**
+
+- Specific baseline grid multiples 28, 30 and 35.
+
 
 ----
 

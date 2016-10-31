@@ -39,9 +39,10 @@
     <dimen name="material_baseline_grid_19x">152dp</dimen>
     <dimen name="material_baseline_grid_20x">160dp</dimen>
     <dimen name="material_baseline_grid_21x">168dp</dimen>
-    <dimen name="material_baseline_grid_28x">224dp</dimen>
-    <dimen name="material_baseline_grid_30x">240dp</dimen>
-    <dimen name="material_baseline_grid_35x">280dp</dimen>
+    <dimen name="material_baseline_grid_22x">176dp</dimen>
+    <dimen name="material_baseline_grid_23x">184dp</dimen>
+    <dimen name="material_baseline_grid_24x">192dp</dimen>
+    <dimen name="material_baseline_grid_25x">200dp</dimen>
 
 
     <!--
@@ -75,6 +76,13 @@
     <dimen name="material_increment_8x">448dp</dimen>
     <dimen name="material_increment_9x">504dp</dimen>
     <dimen name="material_increment_10x">560dp</dimen>
+
+    <!-- Half increments -->
+    <dimen name="material_increment_0.5x">28dp</dimen>
+    <dimen name="material_increment_1.5x">84dp</dimen>
+    <dimen name="material_increment_2.5x">140dp</dimen>
+    <dimen name="material_increment_3.5x">168dp</dimen>
+    <dimen name="material_increment_4.5x">196dp</dimen>
 
 
     <!-- Content -->
