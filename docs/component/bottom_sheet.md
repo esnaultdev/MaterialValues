@@ -1,17 +1,22 @@
 # Bottom sheet
 
+## Elevation
+
+Defined as `@dimen/material_bottom_sheet_elevation`.
+
+
 ## Font and color
 
 | Name | Resource |
 | ---- | -------- |
 | Contents text size  | `@dimen/material_bottom_sheet_contents_text_size`  |
 | Contents text color | `@color/material_bottom_sheet_contents_text_color` |
-| Title text size  | `@dimen/material_bottom_sheet_title_text_size`  |
-| Title text color | `@color/material_bottom_sheet_title_text_color` |
+| Title text size     | `@dimen/material_bottom_sheet_title_text_size`     |
+| Title text color    | `@color/material_bottom_sheet_title_text_color`    |
 
 | Color | Resource |
 | ----- | -------- |
-| Sheet background    | `@color/material_bottom_sheet_background_fill` |
+| Sheet background    | `@color/material_bottom_sheet_background_fill`          |
 | Transparent overlay | `@color/material_bottom_sheet_transparent_overlay_fill` |
 
 
@@ -52,9 +57,7 @@
 
 The text size for labels in a grid style is `@dimen/material_bottom_sheet_grid_item_label_text_size`.
 
-## Elevation
-
-For both styles, the elevation is `@dimen/material_bottom_sheet_elevation`.
+----
 
 ## Width (Tablet only)
 

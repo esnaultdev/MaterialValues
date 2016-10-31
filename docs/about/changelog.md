@@ -30,6 +30,11 @@
 
 - Rename `@dimen/material_bottom_nav_bar_shifting_action_active_icon_padding_vertical` to `@dimen/material_bottom_nav_bar_shifting_action_inactive_icon_padding_vertical`
 
+**Buttons**
+
+- Delete `@dimen/material_button_persistent_footer_height`, use `@dimen/material_button_touch_target_height_minimum` instead.
+- Rename `@dimen/material_button_raised_corner_radius` to `@dimen/material_button_corner_radius`
+
 **Buttons: FAB**
 
 - Delete `@dimen/material_button_fab_mini_icon_size`, use `@dimen/material_button_fab_icon_size` instead.

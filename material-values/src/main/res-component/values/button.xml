@@ -25,7 +25,7 @@
     <dimen name="material_button_gutter_horizontal">@dimen/material_baseline_grid_1x</dimen>
     <color name="material_button_text_color_disabled_light_theme">@color/material_color_black_26_percent</color>
     <color name="material_button_text_color_disabled_dark_theme">@color/material_color_white_30_percent</color>
-    <dimen name="material_button_persistent_footer_height">@dimen/material_baseline_grid_6x</dimen>
+    <dimen name="material_button_corner_radius">2dp</dimen>
 
 
     <!-- Flat button -->
@@ -37,11 +37,10 @@
     <!-- Raised button -->
     <dimen name="material_button_raised_elevation_resting">@dimen/material_elevation_raised_button_resting</dimen>
     <dimen name="material_button_raised_elevation_pressed">@dimen/material_elevation_raised_button_pressed</dimen>
-    <dimen name="material_button_raised_corner_radius">2dp</dimen>
     <color name="material_button_raised_background_color_disabled_light_theme">@color/material_color_black_12_percent</color>
     <color name="material_button_raised_background_color_disabled_dark_theme">@color/material_color_white_12_percent</color>
-    <!-- Dark normal background color = 500 swatch -->
-    <!-- Dark pressed background color = 700 swatch -->
+    <!-- Dark normal background color  = Color shade 500 -->
+    <!-- Dark pressed background color = Color shade 700 -->
 
 
     <!-- Toggle button -->
