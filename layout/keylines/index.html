@@ -281,34 +281,42 @@
 
 <h1 id="metrics-keylines">Metrics &amp; Keylines</h1>
 <h2 id="baseline-grid">Baseline grid</h2>
-<p>Baseline grid values are provided from <code>@dimen/material_baseline_grid_1x</code> to <code>@dimen/material_baseline_grid_20x</code>.</p>
-<p>Half-increments are also available for centering elements, from <code>@dimen/material_baseline_grid_0.5x</code> to <code>@dimen/material_baseline_grid_9.5x</code>.</p>
+<p><img class="figure" src="../../images/layout_metrics_baseline.png" alt="Baseline grid"/></p>
+<p>Baseline grid values are provided as multiples:</p>
+<ul>
+<li><code>@dimen/material_baseline_grid_1x</code></li>
+<li><code>@dimen/material_baseline_grid_2x</code></li>
+<li>...</li>
+<li><code>@dimen/material_baseline_grid_19x</code></li>
+<li><code>@dimen/material_baseline_grid_20x</code></li>
+</ul>
+<p>Half-increments are also available for centering elements:</p>
+<ul>
+<li><code>@dimen/material_baseline_grid_0.5x</code></li>
+<li><code>@dimen/material_baseline_grid_1.5x</code></li>
+<li>...</li>
+<li><code>@dimen/material_baseline_grid_8.5x</code></li>
+<li><code>@dimen/material_baseline_grid_9.5x</code></li>
+</ul>
 <p>It is recommended to use the baseline grid to specify component dimensions.</p>
 <h2 id="increments">Increments</h2>
+<p><img class="figure-large" src="../../images/layout_metrics_incremental.png" alt="Increments"/></p>
+<p>Increment values are provided as multiples:</p>
+<ul>
+<li><code>@dimen/material_increment_1x</code></li>
+<li><code>@dimen/material_increment_2x</code></li>
+<li>...</li>
+<li><code>@dimen/material_increment_9x</code></li>
+<li><code>@dimen/material_increment_10x</code> </li>
+</ul>
 <p>A default value of 56dp for increments is used to specify increment values.
-This is specific to this library and not a material design specification, even though it's a common value.
 Every dimension relying on increments is provided alongside an <code>@integer</code> value so that a custom increment size can be used.</p>
-<p>Increment values are provided from <code>@dimen/material_increment_1x</code> to <code>@dimen/material_increment_10x</code>. </p>
 <h2 id="content-keylines">Content keylines</h2>
-<table>
-<thead>
-<tr>
-<th>Edge margin</th>
-<th>Resource</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Default</td>
-<td><code>@dimen/material_content_edge_margin_horizontal</code></td>
-</tr>
-<tr>
-<td>Secondary content</td>
-<td><code>@dimen/material_content_secondary_edge_margin_start</code></td>
-</tr>
-</tbody>
-</table>
-<p>Secondary content is content placed after some primary content. For example, the text after an avatar in a list.</p>
+<p><img class="figure" src="../../images/layout_metrics_keyline_list.png" alt="Increments"/></p>
+<ol>
+<li><code>@dimen/material_content_edge_margin_horizontal</code></li>
+<li><code>@dimen/material_content_secondary_edge_margin_start</code></li>
+</ol>
 <hr />
 <h4 id="see-also">See also</h4>
 <ul>
