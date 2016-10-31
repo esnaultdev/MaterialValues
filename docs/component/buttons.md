@@ -9,7 +9,7 @@
 3. `@dimen/material_button_width_minimum`
 4. `@dimen/material_button_gutter_horizontal`
 5. `@dimen/material_button_padding_horizontal`
-6. *Missing value, it will be included in the future*
+6. <del>`@dimen/material_button_raised_corner_radius`</del> *Naming issue*
 
 
 ## Flat button
@@ -68,6 +68,4 @@
 - [Raw values](https://github.com/AoDevBlue/MaterialValues/blob/master/material-values/src/main/res-component/values/button.xml)
 
 - [Buttons (Material design)](https://material.google.com/components/buttons.html)
-
-- [Buttons: FAB (Material design)](https://material.google.com/components/buttons-floating-action-button.html)
 

@@ -13,6 +13,7 @@ pages:
     - Bottom navigation: component/bottom_navigation.md
     - Bottom sheet: component/bottom_sheet.md
     - Buttons: component/buttons.md
+    - Buttons (FAB): component/buttons-fab.md
     - Cards: component/card.md
     - Chips: component/chips.md
     - Dialogs: component/dialogs.md
