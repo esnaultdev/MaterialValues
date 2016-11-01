@@ -2,6 +2,7 @@
 # Dev branch
 
 - Change package name from `blue.aodev.materialvalues` to `material.values`
+- Add Layout/Structure values
 
 **Typography**
 
