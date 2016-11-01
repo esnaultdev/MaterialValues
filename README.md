@@ -56,8 +56,7 @@ Make sure that your buildscript repositories include jCenter.
 Remaining tasks
 ---------------
 
-- Finish the documentation
-- Fix ill-named and missing values found during the documentation process (a lot))
+- Fix ill-named and missing values found during the documentation process (a lot)
 - Add missing values in Layout (Structure)
 - Add missing values in Patterns (Navigation drawer, Scrolling techniques)
 
@@ -65,7 +64,7 @@ Remaining tasks
 Changelog
 ---------
 
-A changelog for available values is available [here](https://aodevblue.github.io/MaterialValues/about/changelog/).
+A changelog is available [here](https://aodevblue.github.io/MaterialValues/about/changelog/).
 
 -----
 

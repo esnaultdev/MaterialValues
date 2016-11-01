@@ -14,7 +14,7 @@
 
 1. `@dimen/material_card_edge_margin`
 2. `@dimen/material_card_gutter`
-3. *Missing value, it will be included in the future*
+3. `@dimen/material_card_corner_radius`
 
 *Note that the gutter and the edge margin have the same value behind the scenes, if you want to use only one.*
 
@@ -25,8 +25,7 @@
 <img class="figure" src="../../images/components_card_title_small.png" alt="Card small title"/>
 
 1. `@dimen/material_card_title_block_padding_horizontal`
-2. <del>`@dimen/material_card_title_block_small_padding_top`</del> *Naming issue*
-   <del>`@dimen/material_card_title_block_small_padding_bottom`</del> *Naming issue*
+2. `@dimen/material_card_title_block_small_padding_vertical`
 3. `@dimen/material_card_title_block_small_height`
 
 | Text  | Resource |
@@ -43,7 +42,7 @@
 2. `@dimen/material_card_title_block_large_padding_top`
 3. `@dimen/material_card_title_block_large_subtitle_margin_top`
 4. `@dimen/material_card_title_block_large_padding_bottom`
-5. *Missing value, it will be included in the future*
+5. `@dimen/material_card_title_block_large_padding_bottom_last_block`
 
 | Text  | Resource |
 | ----- | -------- |
@@ -78,11 +77,17 @@ Text size: `@dimen/material_card_supporting_text_text_size`.
 <img class="figure" src="../../images/components_card_actions_icons.png" alt="Card actions icons"/>
 
 1. `@dimen/material_card_actions_row_padding`
-2. *Missing value, it will be included in the future*
-3. *Missing value, it will be included in the future*
+2. `@dimen/material_card_actions_icon_action_size`
+3. `@dimen/material_card_actions_icon_action_gutter`
 
 
 ## Media area
+
+### Basic
+
+The basic media area uses keyline ratios for its dimension, which are not provided in this library.
+
+Check the Material design guidelines for more information.
 
 ### In title
 
@@ -95,19 +100,26 @@ Text size: `@dimen/material_card_supporting_text_text_size`.
 
 | Size | Resource |
 | ---- | -------- |
-| Small (80dp)   | `@dimen/material_card_media_area_in_title_size_small`  |
-| Medium (120dp) | `@dimen/material_card_media_area_in_title_size_medium` |
-| Large (160dp)  | `@dimen/material_card_media_area_in_title_size_large`  |
-| xLarge (240dp) | `@dimen/material_card_media_area_in_title_size_xlarge` |
+| Small (80dp)   | `@dimen/material_card_media_area_framed_size_small`  |
+| Medium (120dp) | `@dimen/material_card_media_area_framed_size_medium` |
+| Large (160dp)  | `@dimen/material_card_media_area_framed_size_large`  |
+| xLarge (240dp) | `@dimen/material_card_media_area_framed_size_xlarge` |
 
-### Shrunk
+### Framed
 
-<img class="figure" src="../../images/components_card_media_shrunk.png" alt="Card media shrunk"/>
+<img class="figure" src="../../images/components_card_media_shrunk.png" alt="Card media framed"/>
 
-1. See "Media area in title" sizes (*Naming issue*)
-2. `@dimen/material_card_media_area_shrunk_padding_horizontal`
-3. `@dimen/material_card_media_area_shrunk_padding_vertical`
+1. See following `size` table.
+2. `@dimen/material_card_media_area_framed_padding_horizontal`
+3. `@dimen/material_card_media_area_framed_padding_vertical`
 4. Action block
+
+| Size | Resource |
+| ---- | -------- |
+| Small (80dp)   | `@dimen/material_card_media_area_framed_size_small`  |
+| Medium (120dp) | `@dimen/material_card_media_area_framed_size_medium` |
+| Large (160dp)  | `@dimen/material_card_media_area_framed_size_large`  |
+| xLarge (240dp) | `@dimen/material_card_media_area_framed_size_xlarge` |
 
 
 ## Inset divider
