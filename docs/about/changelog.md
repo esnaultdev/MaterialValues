@@ -38,18 +38,22 @@
 **Buttons: FAB**
 
 - Delete `@dimen/material_button_fab_mini_icon_size`, use `@dimen/material_button_fab_icon_size` instead
-- Rename `@dimen/material_button_fab_edge_margin_horizontal` to `@dimen/material_button_fab_edge_margin`
-- Rename `@dimen/material_button_fab_edge_margin_vertical` to `@dimen/material_button_fab_edge_margin`
+- Rename `@dimen/material_button_fab_edge_margin_*` to `@dimen/material_button_fab_edge_margin`
 
 **Cards**
 
 - Add corner radius value
-- Rename `@dimen/material_card_title_block_small_padding_top` to `@dimen/material_card_title_block_small_padding_vertical`
-- Rename `@dimen/material_card_title_block_small_padding_bottom` to `@dimen/material_card_title_block_small_padding_vertical`
+- Rename `@dimen/material_card_title_block_small_padding_[top|bottom]` to `@dimen/material_card_title_block_small_padding_vertical`
 - Delete `@dimen/material_card_title_block_small_padding_bottom_last_block`, use the vertical padding value
 - Fix large title block's bottom padding value
-- Rename "shrunk" media area values to "framed"
-- Rename "in_title" media area sizes to "framed"
+- Rename `@dimen/material_card_media_area_shrunk_*` to `@dimen/material_card_media_area_framed_*`
+- Rename `@dimen/material_card_media_area_in_title_size_*` to `@dimen/material_card_media_area_framed_size_*`
+
+**Chips**
+
+- Rename `@dimen/material_chip_simple_remove_icon_*` to `@dimen/@dimen/material_chip_deletable_remove_icon_*`
+- Split `@dimen/material_chip_simple_label_horizontal_padding` into start and end padding
+- Add simple chip padding after icon
 
 ----
 

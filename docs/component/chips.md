@@ -8,17 +8,16 @@
 | Contact chip (closed) | `@dimen/material_chip_contact_closed_elevation` |
 | Contact chip (open)   | `@dimen/material_chip_contact_open_elevation`   |
 
-## Simple chip and closed contact chip
+## Simple chip
 
 <img class="figure" src="../../images/components_chip_basic.png" alt="Basic chip"/>
 
 1. `@dimen/material_chip_height` 
-2. `@dimen/material_chip_simple_label_horizontal_padding`
-3. `@dimen/material_chip_contact_closed_label_padding_start`
-4. `@dimen/material_chip_contact_closed_label_padding_end`
-5. <del>`@dimen/material_chip_simple_label_text_size`</del>
-   or <del>`@dimen/material_chip_contact_closed_label_text_size`</del> *Naming issue*
-6. *Unspecified color*
+2. `@dimen/material_chip_simple_label_padding_start`
+3. `@dimen/material_chip_simple_label_padding_start_after_icon`
+4. `@dimen/material_chip_simple_label_padding_end`
+5. `@dimen/material_chip_simple_label_text_size`
+6. *Unspecified*
 
 
 ## Deletable chip
@@ -32,7 +31,19 @@ Both simple and contact chips can be deletable.
 3. `@color/material_chip_simple_remove_icon_color`
 
 
-## Open contact chip
+## Contact chip
+
+### Closed
+
+<img class="figure" src="../../images/components_chips_contact_closed.png" alt="Closed contact chip"/>
+
+1. `@dimen/material_chip_height`
+2. `@dimen/material_chip_contact_closed_label_padding_vertical`
+3. `@dimen/material_chip_contact_closed_label_padding_start`
+4. `@dimen/material_chip_contact_closed_label_padding_end`
+5. `@dimen/material_chip_contact_closed_label_text_size`
+
+### Open
 
 <img class="figure" src="../../images/components_chip_contact_open.png" alt="Open contact chip"/>
 
