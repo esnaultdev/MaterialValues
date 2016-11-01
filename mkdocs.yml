@@ -32,4 +32,5 @@ extra_css:
     - css/extra.css
 repo_url: https://github.com/AoDevBlue/MaterialValues
 google_analytics: ['UA-86460261-1', 'aodevblue.github.io']
+copyright: MaterialValues [dev branch]
 

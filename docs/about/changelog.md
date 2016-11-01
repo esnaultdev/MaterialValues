@@ -55,6 +55,12 @@
 - Split `@dimen/material_chip_simple_label_horizontal_padding` into start and end padding
 - Add simple chip padding after icon
 
+**Dialogs**
+
+- Delete some content values (duplicate of list specs)
+- Fix `@dimen/material_dialog_actions_side_by_side_padding_*` values
+
+
 ----
 
 # 1.0.1 (2016-10-24)

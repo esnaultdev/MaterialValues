@@ -29,24 +29,21 @@
     <dimen name="material_dialog_content_area_padding_vertical">@dimen/material_baseline_grid_3x</dimen>
     <dimen name="material_dialog_content_area_padding_horizontal">@dimen/material_baseline_grid_3x</dimen>
     <dimen name="material_dialog_content_area_title_content_margin">@dimen/material_baseline_grid_2.5x</dimen>
-    <dimen name="material_dialog_content_area_avatar_size">@dimen/material_baseline_grid_5x</dimen>
-    <dimen name="material_dialog_content_area_avatar_text_edge_margin">@dimen/material_baseline_grid_10x</dimen>
 
 
     <!-- Action area (side by side) -->
     <dimen name="material_dialog_actions_side_by_side_height">@dimen/material_baseline_grid_6.5x</dimen>
     <dimen name="material_dialog_actions_side_by_side_button_height">@dimen/material_button_height_minimum</dimen>
     <!-- Button values are the flat button ones, defined in button.xml -->
-    <dimen name="material_dialog_actions_side_by_side_padding_vertical">@dimen/material_baseline_grid_1x</dimen>
-    <dimen name="material_dialog_actions_side_by_side_padding_vertical_with_divider">7dp</dimen> <!-- baseline_grid_1x - divider_height -->
-    <dimen name="material_dialog_actions_side_by_side_padding_horizontal">@dimen/material_baseline_grid_1x</dimen>
-    <dimen name="material_dialog_actions_side_by_side_button_spacing">@dimen/material_baseline_grid_1x</dimen>
+    <dimen name="material_dialog_actions_side_by_side_padding_bottom">@dimen/material_baseline_grid_1x</dimen>
+    <dimen name="material_dialog_actions_side_by_side_padding_top">@dimen/material_baseline_grid_1x</dimen>
+    <dimen name="material_dialog_actions_side_by_side_padding_top_with_divider">7dp</dimen> <!-- baseline_grid_1x - divider_height -->
+    <dimen name="material_dialog_actions_side_by_side_padding_end">@dimen/material_baseline_grid_1x</dimen>
 
 
     <!-- Action area (stacked) -->
     <dimen name="material_dialog_actions_stacked_button_height">@dimen/material_baseline_grid_6x</dimen>
     <dimen name="material_dialog_actions_stacked_padding_bottom">@dimen/material_baseline_grid_1x</dimen>
-    <dimen name="material_dialog_actions_stacked_padding_top">0dp</dimen> <!-- Only the content area bottom padding is used -->
     <dimen name="material_dialog_actions_stacked_button_padding_end">@dimen/material_baseline_grid_2x</dimen>
 
 

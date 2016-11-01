@@ -34,10 +34,10 @@ Defined as `@material_dialog_elevation`.
 2. Scrollable content
 3. `@dimen/material_dialog_actions_side_by_side_height`
 4. `@dimen/material_dialog_actions_side_by_side_button_height`
-5. <del>`@dimen/material_dialog_actions_side_by_side_padding_horizontal`</del> *Naming issue*
-6. <del>`@dimen/material_dialog_actions_side_by_side_padding_vertical`</del> *Naming issue*
-7. <del>`@dimen/material_dialog_actions_side_by_side_padding_vertical`</del> *Naming issue* 
-8. <del>`@dimen/material_dialog_actions_side_by_side_padding_vertical_with_divider`</del> *Naming issue* 
+5. `@dimen/material_dialog_actions_side_by_side_padding_end`
+6. `@dimen/material_dialog_actions_side_by_side_padding_bottom`
+7. `@dimen/material_dialog_actions_side_by_side_padding_top`
+8. `@dimen/material_dialog_actions_side_by_side_padding_top_with_divider`
 9. `@dimen/material_divider_height`
 
 ### Stacked
