@@ -6,10 +6,7 @@
 **Typography**
 
 - Add text color values for disabled and hint text
-- Rename `@color/material_typography_black_high_contrast` to `@color/material_typography_primary_text_color_dark`
-- Rename `@color/material_typography_black_low_contrast` to `@color/material_typography_secondary_text_color_dark`
-- Rename `@color/material_typography_white_high_contrast` to `@color/material_typography_primary_text_color_light`
-- Rename `@color/material_typography_white_low_contrast` to `@color/material_typography_secondary_text_color_light`
+- Rename typography colors
 
 **Icons**
 
@@ -67,6 +64,13 @@
 **Menus**
 
 - Add missing vertical padding and font values
+
+**Steppers**
+
+- Remove desktop-only values
+- Almost every remaining value has been renamed
+- Add missing button and overview margin values
+
 
 ----
 

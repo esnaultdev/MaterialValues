@@ -17,25 +17,29 @@
 
 <resources>
 
-    <!-- Step -->
+    <!-- Step circle -->
     <dimen name="material_stepper_step_circle_size">@dimen/material_baseline_grid_3x</dimen>
     <dimen name="material_stepper_step_circle_text_size">@dimen/material_typography_regular_caption_text_size</dimen>
     <color name="material_stepper_step_circle_text_color">@color/material_color_white</color>
 
+
+    <!-- Step text -->
     <dimen name="material_stepper_step_title_text_size">@dimen/material_typography_regular_body_1_text_size</dimen>
+    <color name="material_stepper_step_title_text_color">@color/material_typography_primary_text_color_dark</color>
     <dimen name="material_stepper_step_subtitle_text_size">@dimen/material_typography_regular_caption_text_size</dimen>
     <color name="material_stepper_step_subtitle_text_color">@color/material_typography_secondary_text_color_dark</color>
 
 
     <!-- Active step -->
     <!-- The active circle color should be primaryColor, but a default one is defined -->
-    <color name="material_stepper_step_active_circle_active_color_default">@color/material_color_blue_500</color>
-    <color name="material_stepper_step_active_title_text_color">@color/material_typography_primary_text_color_dark</color>
+    <color name="material_stepper_step_active_circle_color_default">@color/material_color_blue_500</color>
+    <dimen name="material_stepper_step_active_margin_bottom">@dimen/material_baseline_grid_6x</dimen>
+    <dimen name="material_stepper_step_active_title_margin_bottom">@dimen/material_baseline_grid_2x</dimen>
 
 
     <!-- Inactive step -->
-    <color name="material_stepper_step_inactive_circle_inactive_color">@color/material_color_black_38_percent</color>
-    <color name="material_stepper_step_inactive_title_text_color">@color/material_stepper_step_inactive_circle_inactive_color</color>
+    <color name="material_stepper_step_inactive_circle_color">@color/material_color_black_38_percent</color>
+    <dimen name="material_stepper_step_inactive_margin_bottom">@dimen/material_baseline_grid_5x</dimen>
 
 
     <!-- Connector -->
@@ -44,28 +48,12 @@
     <dimen name="material_stepper_connector_margin">@dimen/material_baseline_grid_1x</dimen> <!-- Left and right for an horizontal stepper, top and bottom for a vertical one -->
 
 
-    <!-- Ripple -->
-    <color name="material_stepper_ripple_color">@color/material_color_black_06_percent</color>
-
-
-    <!-- Vertical stepper -->
-    <dimen name="material_stepper_vertical_padding_top">@dimen/material_baseline_grid_3x</dimen>
-    <dimen name="material_stepper_vertical_padding_horizontal">@dimen/material_baseline_grid_3x</dimen>
-    <dimen name="material_stepper_vertical_button_area_height">@dimen/material_baseline_grid_6x</dimen>
-    <dimen name="material_stepper_vertical_button_area_margin_top">@dimen/material_baseline_grid_1x</dimen>
-    <dimen name="material_stepper_vertical_step_active_margin_bottom">@dimen/material_baseline_grid_6x</dimen>
-    <dimen name="material_stepper_vertical_step_inactive_margin_bottom">@dimen/material_baseline_grid_5x</dimen>
-    <dimen name="material_stepper_vertical_step_active_title_margin_bottom">@dimen/material_baseline_grid_2x</dimen>
-
-
-    <!-- Horizontal stepper (Only desktop?) -->
-    <dimen name="material_stepper_horizontal_padding_horizontal">@dimen/material_baseline_grid_9x</dimen>
-    <dimen name="material_stepper_horizontal_step_circle_margin_right">@dimen/material_baseline_grid_1x</dimen>
-    <dimen name="material_stepper_horizontal_step_circle_margin_top">@dimen/material_baseline_grid_3x</dimen>
-
-    <dimen name="material_stepper_horizontal_standard_height">@dimen/material_baseline_grid_9x</dimen>
-    <dimen name="material_stepper_horizontal_alternative_height">@dimen/material_baseline_grid_13x</dimen>
-    <dimen name="material_stepper_horizontal_alternative_step_title_margin_bottom">@dimen/material_baseline_grid_3x</dimen>
-    <dimen name="material_stepper_horizontal_alternative_step_gutter">@dimen/material_baseline_grid_4x</dimen>
+    <!-- Stepper -->
+    <dimen name="material_stepper_padding_top">@dimen/material_baseline_grid_3x</dimen>
+    <dimen name="material_stepper_padding_horizontal">@dimen/material_baseline_grid_3x</dimen>
+    <dimen name="material_stepper_button_area_height">@dimen/material_baseline_grid_6x</dimen>
+    <dimen name="material_stepper_button_area_margin_top">@dimen/material_baseline_grid_1x</dimen>
+    <dimen name="material_stepper_button_gutter">@dimen/material_baseline_grid_1.5x</dimen>
+    <dimen name="material_stepper_overview_step_margin">@dimen/material_baseline_grid_1.5x</dimen>
 
 </resources>
