@@ -60,6 +60,13 @@
 - Delete some content values (duplicate of list specs)
 - Fix `@dimen/material_dialog_actions_side_by_side_padding_*` values
 
+**Grid lists**
+
+- Delete `@dimen/material_grid_list_header_footer_text_area_margin_end_before_icon`
+
+**Menus**
+
+- Add missing vertical padding and font values
 
 ----
 

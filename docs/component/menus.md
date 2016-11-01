@@ -22,11 +22,11 @@
 
 <img class="figure-large" src="../../images/components_menu_simple_dimension.png" alt="Simple menu dimensions"/>
 
-1. *Missing value, it will be included in the future*
+1. `@dimen/material_menu_simple_padding_vertical`
 2. `@dimen/material_menu_simple_item_padding_horizontal`
 3. `@dimen/material_menu_simple_text_padding_bottom`
 4. `@dimen/material_menu_simple_item_height`
-5. *Missing value, it will be included in the future*
+5. `@dimen/material_menu_simple_item_text_size`
 
 <img class="figure" src="../../images/components_menu_simple_edge.png" alt="Simple menu edge"/>
 

@@ -40,7 +40,6 @@
     <dimen name="material_grid_list_header_footer_text_area_margin_vertical">@dimen/material_baseline_grid_2x</dimen>
     <dimen name="material_grid_list_header_footer_text_area_margin_end_alone">@dimen/material_baseline_grid_2x</dimen>
     <dimen name="material_grid_list_header_footer_text_area_margin_end_after_icon">@dimen/material_baseline_grid_1x</dimen>
-    <dimen name="material_grid_list_header_footer_text_area_margin_end_before_icon">0dp</dimen> <!-- Only the icon padding is used -->
 
 
     <!-- Footer/header icon -->
