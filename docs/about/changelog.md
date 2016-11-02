@@ -1,5 +1,5 @@
 
-# Dev branch
+# 1.1.0 (2016-11-02)
 
 - Change package name from `blue.aodev.materialvalues` to `material.values`
 - Add Layout/Structure values
