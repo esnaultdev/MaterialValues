@@ -116,6 +116,12 @@
 </li>
 
                     
+                        
+<li >
+    <a href="../../layout/structure/">Structure</a>
+</li>
+
+                    
                     </ul>
                 </li>
             
@@ -272,7 +278,10 @@
             <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
     
-        <li class="main active"><a href="#101-2016-10-24">1.0.1 (2016-10-24)</a></li>
+        <li class="main active"><a href="#dev-branch">Dev branch</a></li>
+        
+    
+        <li class="main "><a href="#101-2016-10-24">1.0.1 (2016-10-24)</a></li>
         
     
         <li class="main "><a href="#10-2016-10-19">1.0 (2016-10-19)</a></li>
@@ -282,11 +291,85 @@
 </div></div>
             <div class="col-md-9" role="main">
 
-<h3 id="101-2016-10-24">1.0.1 (2016-10-24)</h3>
+<h1 id="dev-branch">Dev branch</h1>
 <ul>
-<li>Change package name from <code>blue.aodev.materialspecs</code> to <code>blue.aodev.materialvalues</code>.</li>
+<li>Change package name from <code>blue.aodev.materialvalues</code> to <code>material.values</code></li>
+<li>Add Layout/Structure values</li>
 </ul>
-<h3 id="10-2016-10-19">1.0 (2016-10-19)</h3>
+<p><strong>Typography</strong></p>
+<ul>
+<li>Add text color values for disabled and hint text</li>
+<li>Rename typography colors</li>
+</ul>
+<p><strong>Icons</strong></p>
+<ul>
+<li>Add size values.</li>
+</ul>
+<p><strong>Metrics &amp; keylines</strong></p>
+<ul>
+<li>Add baseline grid multiples 21 to 25</li>
+<li>Add half increments from 0.5 to 4.5</li>
+<li>Delete specific baseline grid multiples 28, 30 and 35</li>
+</ul>
+<p><strong>Responsive UI</strong></p>
+<ul>
+<li>Add number of content hierarchy levels</li>
+</ul>
+<p><strong>Bottom navigation</strong></p>
+<ul>
+<li>Rename <code>@dimen/material_bottom_nav_bar_shifting_action_active_icon_padding_vertical</code> to <code>@dimen/material_bottom_nav_bar_shifting_action_inactive_icon_padding_vertical</code></li>
+</ul>
+<p><strong>Buttons</strong></p>
+<ul>
+<li>Delete <code>@dimen/material_button_persistent_footer_height</code>, use <code>@dimen/material_button_touch_target_height_minimum</code> instead</li>
+<li>Rename <code>@dimen/material_button_raised_corner_radius</code> to <code>@dimen/material_button_corner_radius</code></li>
+</ul>
+<p><strong>Buttons: FAB</strong></p>
+<ul>
+<li>Delete <code>@dimen/material_button_fab_mini_icon_size</code>, use <code>@dimen/material_button_fab_icon_size</code> instead</li>
+<li>Rename <code>@dimen/material_button_fab_edge_margin_*</code> to <code>@dimen/material_button_fab_edge_margin</code></li>
+</ul>
+<p><strong>Cards</strong></p>
+<ul>
+<li>Add corner radius value</li>
+<li>Rename <code>@dimen/material_card_title_block_small_padding_[top|bottom]</code> to <code>@dimen/material_card_title_block_small_padding_vertical</code></li>
+<li>Delete <code>@dimen/material_card_title_block_small_padding_bottom_last_block</code>, use the vertical padding value</li>
+<li>Fix large title block's bottom padding value</li>
+<li>Rename <code>@dimen/material_card_media_area_shrunk_*</code> to <code>@dimen/material_card_media_area_framed_*</code></li>
+<li>Rename <code>@dimen/material_card_media_area_in_title_size_*</code> to <code>@dimen/material_card_media_area_framed_size_*</code></li>
+</ul>
+<p><strong>Chips</strong></p>
+<ul>
+<li>Rename <code>@dimen/material_chip_simple_remove_icon_*</code> to <code>@dimen/@dimen/material_chip_deletable_remove_icon_*</code></li>
+<li>Split <code>@dimen/material_chip_simple_label_horizontal_padding</code> into start and end padding</li>
+<li>Add simple chip padding after icon</li>
+</ul>
+<p><strong>Dialogs</strong></p>
+<ul>
+<li>Delete some content values (duplicate of list specs)</li>
+<li>Fix <code>@dimen/material_dialog_actions_side_by_side_padding_*</code> values</li>
+</ul>
+<p><strong>Grid lists</strong></p>
+<ul>
+<li>Delete <code>@dimen/material_grid_list_header_footer_text_area_margin_end_before_icon</code></li>
+</ul>
+<p><strong>Menus</strong></p>
+<ul>
+<li>Add missing vertical padding and font values</li>
+</ul>
+<p><strong>Steppers</strong></p>
+<ul>
+<li>Remove desktop-only values</li>
+<li>Almost every remaining value has been renamed</li>
+<li>Add missing button and overview margin values</li>
+</ul>
+<hr />
+<h1 id="101-2016-10-24">1.0.1 (2016-10-24)</h1>
+<ul>
+<li>Change package name from <code>blue.aodev.materialspecs</code> to <code>blue.aodev.materialvalues</code></li>
+</ul>
+<hr />
+<h1 id="10-2016-10-19">1.0 (2016-10-19)</h1>
 <ul>
 <li>Initial release</li>
 </ul></div>
@@ -294,6 +377,8 @@
 
         <footer class="col-md-12">
             <hr>
+            
+                <center>MaterialValues 1.1.0</center>
             
             <center>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</center>
         </footer>

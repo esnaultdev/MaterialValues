@@ -116,6 +116,12 @@
 </li>
 
                     
+                        
+<li >
+    <a href="../../layout/structure/">Structure</a>
+</li>
+
+                    
                     </ul>
                 </li>
             
@@ -296,22 +302,23 @@
 <li><code>@dimen/material_button_width_minimum</code></li>
 <li><code>@dimen/material_button_gutter_horizontal</code></li>
 <li><code>@dimen/material_button_padding_horizontal</code></li>
-<li><del><code>@dimen/material_button_raised_corner_radius</code></del> <em>Naming issue</em></li>
+<li><code>@dimen/material_button_corner_radius</code></li>
 </ol>
 <h2 id="flat-button">Flat button</h2>
-<p><strong>Elevation</strong> <code>@dimen/material_button_flat_elevation</code></p>
-<h3 id="colors">Colors</h3>
+<h3 id="elevation">Elevation</h3>
+<p>Defined as <code>@dimen/material_button_flat_elevation</code></p>
+<h3 id="font-and-colors">Font and colors</h3>
 <p><img class="figure-large" src="../../images/components_buttons_flat_color.png" alt="Flat button color"/></p>
 <ol>
-<li><em>Missing value, it will be included in the future</em></li>
-<li><em>Missing value, it will be included in the future</em></li>
-<li><code>@color/material_button_text_color_disabled_light_theme</code></li>
-<li><code>@color/material_button_text_color_disabled_dark_theme</code></li>
+<li><code>@dimen/material_typography_regular_button_text_size</code>, the color depends on the button color (default <code>@dimen/material_typography_primary_text_color_dark</code>).</li>
+<li><code>@dimen/material_typography_regular_button_text_size</code>, the color depends on the button color (default <code>@dimen/material_typography_primary_text_color_light</code>).</li>
+<li>Same text size as 1), <code>@color/material_button_text_color_disabled_light_theme</code></li>
+<li>Same text size as 1), <code>@color/material_button_text_color_disabled_dark_theme</code></li>
 <li><code>@color/material_button_flat_background_color_pressed_light_theme</code></li>
 <li><code>@color/material_button_flat_background_color_pressed_dark_theme</code></li>
 </ol>
 <h2 id="raised-button">Raised button</h2>
-<h3 id="elevation">Elevation</h3>
+<h3 id="elevation_1">Elevation</h3>
 <table>
 <thead>
 <tr>
@@ -330,13 +337,13 @@
 </tr>
 </tbody>
 </table>
-<h3 id="colors_1">Colors</h3>
+<h3 id="font-and-colors_1">Font and colors</h3>
 <p><img class="figure-large" src="../../images/components_buttons_raised_color.png" alt="Raised button color"/></p>
 <ol>
-<li><em>Missing value, it will be included in the future</em></li>
-<li><em>Missing value, it will be included in the future</em></li>
-<li><code>@color/material_button_text_color_disabled_light_theme</code></li>
-<li><code>@color/material_button_text_color_disabled_dark_theme</code></li>
+<li><code>@dimen/material_typography_regular_button_text_size</code>, the color depends on the button color (default <code>@dimen/material_typography_primary_text_color_dark</code>).</li>
+<li><code>@dimen/material_typography_regular_button_text_size</code>, the color depends on the button color (default <code>@dimen/material_typography_primary_text_color_light</code>).</li>
+<li>Same text size as 1), <code>@color/material_button_text_color_disabled_light_theme</code></li>
+<li>Same text size as 1), <code>@color/material_button_text_color_disabled_dark_theme</code></li>
 <li>Color shade 500</li>
 <li>Color shade 700</li>
 <li><code>@color/material_button_raised_background_color_disabled_light_theme</code></li>
@@ -364,6 +371,8 @@
 
         <footer class="col-md-12">
             <hr>
+            
+                <center>MaterialValues 1.1.0</center>
             
             <center>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</center>
         </footer>

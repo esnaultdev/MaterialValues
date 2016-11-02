@@ -116,6 +116,12 @@
 </li>
 
                     
+                        
+<li >
+    <a href="../../layout/structure/">Structure</a>
+</li>
+
+                    
                     </ul>
                 </li>
             
@@ -318,7 +324,7 @@
 <ol>
 <li><code>@dimen/material_card_edge_margin</code></li>
 <li><code>@dimen/material_card_gutter</code></li>
-<li><em>Missing value, it will be included in the future</em></li>
+<li><code>@dimen/material_card_corner_radius</code></li>
 </ol>
 <p><em>Note that the gutter and the edge margin have the same value behind the scenes, if you want to use only one.</em></p>
 <h2 id="title">Title</h2>
@@ -326,8 +332,7 @@
 <p><img class="figure" src="../../images/components_card_title_small.png" alt="Card small title"/></p>
 <ol>
 <li><code>@dimen/material_card_title_block_padding_horizontal</code></li>
-<li><del><code>@dimen/material_card_title_block_small_padding_top</code></del> <em>Naming issue</em>
-   <del><code>@dimen/material_card_title_block_small_padding_bottom</code></del> <em>Naming issue</em></li>
+<li><code>@dimen/material_card_title_block_small_padding_vertical</code></li>
 <li><code>@dimen/material_card_title_block_small_height</code></li>
 </ol>
 <table>
@@ -355,7 +360,7 @@
 <li><code>@dimen/material_card_title_block_large_padding_top</code></li>
 <li><code>@dimen/material_card_title_block_large_subtitle_margin_top</code></li>
 <li><code>@dimen/material_card_title_block_large_padding_bottom</code></li>
-<li><em>Missing value, it will be included in the future</em></li>
+<li><code>@dimen/material_card_title_block_large_padding_bottom_last_block</code></li>
 </ol>
 <table>
 <thead>
@@ -398,10 +403,13 @@
 <p><img class="figure" src="../../images/components_card_actions_icons.png" alt="Card actions icons"/></p>
 <ol>
 <li><code>@dimen/material_card_actions_row_padding</code></li>
-<li><em>Missing value, it will be included in the future</em></li>
-<li><em>Missing value, it will be included in the future</em></li>
+<li><code>@dimen/material_card_actions_icon_action_size</code></li>
+<li><code>@dimen/material_card_actions_icon_action_gutter</code></li>
 </ol>
 <h2 id="media-area">Media area</h2>
+<h3 id="basic">Basic</h3>
+<p>The basic media area uses keyline ratios for its dimension, which are not provided in this library.</p>
+<p>Check the Material design guidelines for more information.</p>
 <h3 id="in-title">In title</h3>
 <p><img class="figure" src="../../images/components_card_media_in_title.png" alt="Card media in title"/></p>
 <ol>
@@ -420,30 +428,56 @@
 <tbody>
 <tr>
 <td>Small (80dp)</td>
-<td><code>@dimen/material_card_media_area_in_title_size_small</code></td>
+<td><code>@dimen/material_card_media_area_framed_size_small</code></td>
 </tr>
 <tr>
 <td>Medium (120dp)</td>
-<td><code>@dimen/material_card_media_area_in_title_size_medium</code></td>
+<td><code>@dimen/material_card_media_area_framed_size_medium</code></td>
 </tr>
 <tr>
 <td>Large (160dp)</td>
-<td><code>@dimen/material_card_media_area_in_title_size_large</code></td>
+<td><code>@dimen/material_card_media_area_framed_size_large</code></td>
 </tr>
 <tr>
 <td>xLarge (240dp)</td>
-<td><code>@dimen/material_card_media_area_in_title_size_xlarge</code></td>
+<td><code>@dimen/material_card_media_area_framed_size_xlarge</code></td>
 </tr>
 </tbody>
 </table>
-<h3 id="shrunk">Shrunk</h3>
-<p><img class="figure" src="../../images/components_card_media_shrunk.png" alt="Card media shrunk"/></p>
+<h3 id="framed">Framed</h3>
+<p><img class="figure" src="../../images/components_card_media_shrunk.png" alt="Card media framed"/></p>
 <ol>
-<li>See "Media area in title" sizes (<em>Naming issue</em>)</li>
-<li><code>@dimen/material_card_media_area_shrunk_padding_horizontal</code></li>
-<li><code>@dimen/material_card_media_area_shrunk_padding_vertical</code></li>
+<li>See following <code>size</code> table.</li>
+<li><code>@dimen/material_card_media_area_framed_padding_horizontal</code></li>
+<li><code>@dimen/material_card_media_area_framed_padding_vertical</code></li>
 <li>Action block</li>
 </ol>
+<table>
+<thead>
+<tr>
+<th>Size</th>
+<th>Resource</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Small (80dp)</td>
+<td><code>@dimen/material_card_media_area_framed_size_small</code></td>
+</tr>
+<tr>
+<td>Medium (120dp)</td>
+<td><code>@dimen/material_card_media_area_framed_size_medium</code></td>
+</tr>
+<tr>
+<td>Large (160dp)</td>
+<td><code>@dimen/material_card_media_area_framed_size_large</code></td>
+</tr>
+<tr>
+<td>xLarge (240dp)</td>
+<td><code>@dimen/material_card_media_area_framed_size_xlarge</code></td>
+</tr>
+</tbody>
+</table>
 <h2 id="inset-divider">Inset divider</h2>
 <table>
 <thead>
@@ -477,6 +511,8 @@
 
         <footer class="col-md-12">
             <hr>
+            
+                <center>MaterialValues 1.1.0</center>
             
             <center>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</center>
         </footer>

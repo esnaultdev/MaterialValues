@@ -2,12 +2,12 @@
     "docs": [
         {
             "location": "/",
-            "text": "MaterialValues\n\n\n\n\n\nAll the values from the Material Design guidelines defined in resources for Android.\n\n\n\n\n\nDocumentation\n\n\nAll the values in this documentation use the xml reference representation.\n\n\nYou can also use them programmatically using \nblue.aodev.materialvalues.R\n\n\nFor example:\n\n\n\n\n\n\n\n\nXml reference\n\n\nCode reference\n\n\n\n\n\n\n\n\n\n\n@color/material_color_green_primary\n\n\nR.color.material_color_green_primary\n\n\n\n\n\n\n@dimen/material_list_two_line_dense_height\n\n\nR.dimen.material_list_two_line_dense_height\n\n\n\n\n\n\n@dimen/material_elevation_card_raised\n\n\nR.dimen.material_elevation_card_raised\n\n\n\n\n\n\n@dimen/material_typography_regular_title_text_size\n\n\nR.dimen.material_typography_regular_title_text_size\n\n\n\n\n\n\n\n\n\n\nMissing values\n\n\nIf a section of the Material Design specs is not included, it may be because it has no values or is only available on desktop.\n\n\nNote that the values for the following components are not available as they are already well implemented in Android:\n\n\n\n\nSelection controls\n\n\nSliders\n\n\nSnackbars & toasts\n\n\nTabs\n\n\nText fields\n\n\n\n\n\n\nDisclaimer\n\n\nMost of the visuals come directly from the \nMaterial design specifications\n, and are property of Google.",
+            "text": "MaterialValues\n\n\n\n\n\nAll the values from the Material Design guidelines defined in resources for Android.\n\n\n\n\n\nDocumentation\n\n\nAll the values in this documentation use the xml reference representation.\n\n\nYou can also use them programmatically using \nmaterial.values.R\n\n\nFor example:\n\n\n\n\n\n\n\n\nXml reference\n\n\nCode reference\n\n\n\n\n\n\n\n\n\n\n@color/material_color_green_primary\n\n\nR.color.material_color_green_primary\n\n\n\n\n\n\n@dimen/material_list_two_line_dense_height\n\n\nR.dimen.material_list_two_line_dense_height\n\n\n\n\n\n\n@dimen/material_elevation_card_raised\n\n\nR.dimen.material_elevation_card_raised\n\n\n\n\n\n\n@dimen/material_typography_regular_title_text_size\n\n\nR.dimen.material_typography_regular_title_text_size\n\n\n\n\n\n\n\n\n\n\nMissing values\n\n\nIf a section of the Material Design specs is not included, it may be because it has no values or is only available on desktop.\n\n\nNote that the values for the following components are not available as they are already well implemented in Android:\n\n\n\n\nSelection controls\n\n\nSliders\n\n\nSnackbars & toasts\n\n\nTabs\n\n\nText fields\n\n\n\n\n\n\nDisclaimer\n\n\nMost of the visuals come directly from the \nMaterial design specifications\n, and are property of Google.",
             "title": "Home"
         },
         {
             "location": "/#documentation",
-            "text": "All the values in this documentation use the xml reference representation.  You can also use them programmatically using  blue.aodev.materialvalues.R  For example:     Xml reference  Code reference      @color/material_color_green_primary  R.color.material_color_green_primary    @dimen/material_list_two_line_dense_height  R.dimen.material_list_two_line_dense_height    @dimen/material_elevation_card_raised  R.dimen.material_elevation_card_raised    @dimen/material_typography_regular_title_text_size  R.dimen.material_typography_regular_title_text_size",
+            "text": "All the values in this documentation use the xml reference representation.  You can also use them programmatically using  material.values.R  For example:     Xml reference  Code reference      @color/material_color_green_primary  R.color.material_color_green_primary    @dimen/material_list_two_line_dense_height  R.dimen.material_list_two_line_dense_height    @dimen/material_elevation_card_raised  R.dimen.material_elevation_card_raised    @dimen/material_typography_regular_title_text_size  R.dimen.material_typography_regular_title_text_size",
             "title": "Documentation"
         },
         {
@@ -72,7 +72,7 @@
         },
         {
             "location": "/style/icons/",
-            "text": "Icons\n\n\nColor\n\n\nLight theme\n\n\n\n\n\n\n\n\nColor\n\n\nResource\n\n\n\n\n\n\n\n\n\n\nActive\n\n\n@color/material_icon_color_light_theme_active\n\n\n\n\n\n\nInactive\n\n\n@color/material_icon_color_light_theme_inactive\n\n\n\n\n\n\n\n\nA color state list is available as well: \n@color/material_icon_color_light_theme\n.\n\n\nDark theme\n\n\n\n\n\n\n\n\nColor\n\n\nResource\n\n\n\n\n\n\n\n\n\n\nActive\n\n\n@color/material_icon_color_dark_theme_active\n\n\n\n\n\n\nInactive\n\n\n@color/material_icon_color_dark_theme_inactive\n\n\n\n\n\n\n\n\nA color state list is available as well: \n@color/material_icon_color_dark_theme\n.\n\n\nSize\n\n\nThese values are missing and will be included in a future version.\n\n\n\n\nSee also\n\n\n\n\n\n\nRaw values\n\n\n\n\n\n\nIcons (Material design)",
+            "text": "Icons\n\n\nColor\n\n\nLight theme\n\n\n\n\n\n\n\n\nColor\n\n\nResource\n\n\n\n\n\n\n\n\n\n\nActive\n\n\n@color/material_icon_color_light_theme_active\n\n\n\n\n\n\nInactive\n\n\n@color/material_icon_color_light_theme_inactive\n\n\n\n\n\n\n\n\nA color state list is available as well: \n@color/material_icon_color_light_theme\n.\n\n\nDark theme\n\n\n\n\n\n\n\n\nColor\n\n\nResource\n\n\n\n\n\n\n\n\n\n\nActive\n\n\n@color/material_icon_color_dark_theme_active\n\n\n\n\n\n\nInactive\n\n\n@color/material_icon_color_dark_theme_inactive\n\n\n\n\n\n\n\n\nA color state list is available as well: \n@color/material_icon_color_dark_theme\n.\n\n\nSize\n\n\n\n\n\n\n\n\nIcon type\n\n\nResource\n\n\n\n\n\n\n\n\n\n\nSystem\n\n\n@dimen/material_icon_size_system\n\n\n\n\n\n\nProduct\n\n\n@dimen/material_icon_size_product\n\n\n\n\n\n\n\n\n\n\nSee also\n\n\n\n\n\n\nRaw values\n\n\n\n\n\n\nIcons (Material design)",
             "title": "Icons"
         },
         {
@@ -97,7 +97,7 @@
         },
         {
             "location": "/style/icons/#size",
-            "text": "These values are missing and will be included in a future version.",
+            "text": "Icon type  Resource      System  @dimen/material_icon_size_system    Product  @dimen/material_icon_size_product",
             "title": "Size"
         },
         {
@@ -107,7 +107,7 @@
         },
         {
             "location": "/style/typography/",
-            "text": "Typography\n\n\nScript families\n\n\nThe values for typography depend on the script family of your text.\n\n\nThe values are defined using the following prefixes:\n\n\n\n\n\n\n\n\nScript family\n\n\nResource prefix\n\n\n\n\n\n\n\n\n\n\nEnglish-like\n\n\nregular\n\n\n\n\n\n\nDense\n\n\ndense\n\n\n\n\n\n\nTall\n\n\ntall\n\n\n\n\n\n\n\n\nSize\n\n\n\n\n\n\n\n\nText type\n\n\nValue\n\n\n\n\n\n\n\n\n\n\nDisplay 4\n\n\n@dimen/material_typography_FAMILY_display_4_text_size\n\n\n\n\n\n\nDisplay 3\n\n\n@dimen/material_typography_FAMILY_display_3_text_size\n\n\n\n\n\n\nDisplay 2\n\n\n@dimen/material_typography_FAMILY_display_2_text_size\n\n\n\n\n\n\nDisplay 1\n\n\n@dimen/material_typography_FAMILY_display_1_text_size\n\n\n\n\n\n\nHeadline\n\n\n@dimen/material_typography_FAMILY_headline_text_size\n\n\n\n\n\n\nTitle\n\n\n@dimen/material_typography_FAMILY_title_text_size\n\n\n\n\n\n\nSubheading\n\n\n@dimen/material_typography_FAMILY_subheading_text_size\n\n\n\n\n\n\nBody 2\n\n\n@dimen/material_typography_FAMILY_body_2_text_size\n\n\n\n\n\n\nBody 1\n\n\n@dimen/material_typography_FAMILY_body_1_text_size\n\n\n\n\n\n\nCaption\n\n\n@dimen/material_typography_FAMILY_caption_text_size\n\n\n\n\n\n\nButton\n\n\n@dimen/material_typography_FAMILY_button_text_size\n\n\n\n\n\n\n\n\nStyle\n\n\nThese styles use the previously defined text sizes and also applies the good font-weight.\n\n\n\n\n\n\n\n\nText type\n\n\nValue\n\n\n\n\n\n\n\n\n\n\nDisplay 4\n\n\n@style/MaterialTypography.FAMILY.Display4\n\n\n\n\n\n\nDisplay 3\n\n\n@style/MaterialTypography.FAMILY.Display3\n\n\n\n\n\n\nDisplay 2\n\n\n@style/MaterialTypography.FAMILY.Display2\n\n\n\n\n\n\nDisplay 1\n\n\n@style/MaterialTypography.FAMILY.Display1\n\n\n\n\n\n\nHeadline\n\n\n@style/MaterialTypography.FAMILY.Headline\n\n\n\n\n\n\nTitle\n\n\n@style/MaterialTypography.FAMILY.Title\n\n\n\n\n\n\nSubheading\n\n\n@style/MaterialTypography.FAMILY.Subheading\n\n\n\n\n\n\nBody 2\n\n\n@style/MaterialTypography.FAMILY.Body2\n\n\n\n\n\n\nBody 1\n\n\n@style/MaterialTypography.FAMILY.Body1\n\n\n\n\n\n\nCaption\n\n\n@style/MaterialTypography.FAMILY.Caption\n\n\n\n\n\n\nButton\n\n\n@style/MaterialTypography.FAMILY.Button\n\n\n\n\n\n\n\n\nColor\n\n\nThese values are missing and will be included in a future version.\n\n\nLocale prefix\n\n\nA \nlocale\n prefix is also available in the resources.\n\n\nThis prefix will choose the script family corresponding to the current locale, and default to \nregular\n.\n\n\nIts usage is not recommended currently as the typography will change even if your text is not translated for the locale.\n\n\n\n\nSee also\n\n\n\n\n\n\nRaw values\n\n\n\n\n\n\nTypography (Material design)",
+            "text": "Typography\n\n\nScript families\n\n\nThe values for typography depend on the script family of your text.\n\n\nThe values are defined using the following prefixes:\n\n\n\n\n\n\n\n\nScript family\n\n\nResource prefix\n\n\n\n\n\n\n\n\n\n\nEnglish-like\n\n\nregular\n\n\n\n\n\n\nDense\n\n\ndense\n\n\n\n\n\n\nTall\n\n\ntall\n\n\n\n\n\n\n\n\nSize\n\n\n\n\n\n\n\n\nText type\n\n\nValue\n\n\n\n\n\n\n\n\n\n\nDisplay 4\n\n\n@dimen/material_typography_FAMILY_display_4_text_size\n\n\n\n\n\n\nDisplay 3\n\n\n@dimen/material_typography_FAMILY_display_3_text_size\n\n\n\n\n\n\nDisplay 2\n\n\n@dimen/material_typography_FAMILY_display_2_text_size\n\n\n\n\n\n\nDisplay 1\n\n\n@dimen/material_typography_FAMILY_display_1_text_size\n\n\n\n\n\n\nHeadline\n\n\n@dimen/material_typography_FAMILY_headline_text_size\n\n\n\n\n\n\nTitle\n\n\n@dimen/material_typography_FAMILY_title_text_size\n\n\n\n\n\n\nSubheading\n\n\n@dimen/material_typography_FAMILY_subheading_text_size\n\n\n\n\n\n\nBody 2\n\n\n@dimen/material_typography_FAMILY_body_2_text_size\n\n\n\n\n\n\nBody 1\n\n\n@dimen/material_typography_FAMILY_body_1_text_size\n\n\n\n\n\n\nCaption\n\n\n@dimen/material_typography_FAMILY_caption_text_size\n\n\n\n\n\n\nButton\n\n\n@dimen/material_typography_FAMILY_button_text_size\n\n\n\n\n\n\n\n\nStyle\n\n\nThese styles use the previously defined text sizes and also applies the good font-weight.\n\n\n\n\n\n\n\n\nText type\n\n\nValue\n\n\n\n\n\n\n\n\n\n\nDisplay 4\n\n\n@style/MaterialTypography.FAMILY.Display4\n\n\n\n\n\n\nDisplay 3\n\n\n@style/MaterialTypography.FAMILY.Display3\n\n\n\n\n\n\nDisplay 2\n\n\n@style/MaterialTypography.FAMILY.Display2\n\n\n\n\n\n\nDisplay 1\n\n\n@style/MaterialTypography.FAMILY.Display1\n\n\n\n\n\n\nHeadline\n\n\n@style/MaterialTypography.FAMILY.Headline\n\n\n\n\n\n\nTitle\n\n\n@style/MaterialTypography.FAMILY.Title\n\n\n\n\n\n\nSubheading\n\n\n@style/MaterialTypography.FAMILY.Subheading\n\n\n\n\n\n\nBody 2\n\n\n@style/MaterialTypography.FAMILY.Body2\n\n\n\n\n\n\nBody 1\n\n\n@style/MaterialTypography.FAMILY.Body1\n\n\n\n\n\n\nCaption\n\n\n@style/MaterialTypography.FAMILY.Caption\n\n\n\n\n\n\nButton\n\n\n@style/MaterialTypography.FAMILY.Button\n\n\n\n\n\n\n\n\nColor\n\n\n\n\n\n\n\n\nText type\n\n\nValue\n\n\n\n\n\n\n\n\n\n\nPrimary text (dark)\n\n\n@color/material_typography_primary_text_color_dark\n\n\n\n\n\n\nPrimary text (light)\n\n\n@color/material_typography_primary_text_color_light\n\n\n\n\n\n\nSecondary text (dark)\n\n\n@color/material_typography_secondary_text_color_dark\n\n\n\n\n\n\nSecondary text (light)\n\n\n@color/material_typography_secondary_text_color_light\n\n\n\n\n\n\nDisabled text (dark)\n\n\n@color/material_typography_disabled_text_color_dark\n\n\n\n\n\n\nDisabled text (light)\n\n\n@color/material_typography_disabled_text_color_light\n\n\n\n\n\n\nHint text (dark)\n\n\n@color/material_typography_hint_text_color_dark\n\n\n\n\n\n\nHint text (light)\n\n\n@color/material_typography_hint_text_color_light\n\n\n\n\n\n\n\n\nLocale prefix\n\n\nA \nlocale\n prefix is also available in the resources.\n\n\nThis prefix will choose the script family corresponding to the current locale, and default to \nregular\n.\n\n\nIts usage is not recommended currently as the typography will change even if your text is not translated for the locale.\n\n\n\n\nSee also\n\n\n\n\n\n\nRaw values\n\n\n\n\n\n\nTypography (Material design)",
             "title": "Typography"
         },
         {
@@ -132,7 +132,7 @@
         },
         {
             "location": "/style/typography/#color",
-            "text": "These values are missing and will be included in a future version.",
+            "text": "Text type  Value      Primary text (dark)  @color/material_typography_primary_text_color_dark    Primary text (light)  @color/material_typography_primary_text_color_light    Secondary text (dark)  @color/material_typography_secondary_text_color_dark    Secondary text (light)  @color/material_typography_secondary_text_color_light    Disabled text (dark)  @color/material_typography_disabled_text_color_dark    Disabled text (light)  @color/material_typography_disabled_text_color_light    Hint text (dark)  @color/material_typography_hint_text_color_dark    Hint text (light)  @color/material_typography_hint_text_color_light",
             "title": "Color"
         },
         {
@@ -147,7 +147,7 @@
         },
         {
             "location": "/layout/keylines/",
-            "text": "Metrics & Keylines\n\n\nBaseline grid\n\n\n\n\nBaseline grid values are provided as multiples:\n\n\n\n\n@dimen/material_baseline_grid_1x\n\n\n@dimen/material_baseline_grid_2x\n\n\n...\n\n\n@dimen/material_baseline_grid_19x\n\n\n@dimen/material_baseline_grid_20x\n\n\n\n\nHalf-increments are also available for centering elements:\n\n\n\n\n@dimen/material_baseline_grid_0.5x\n\n\n@dimen/material_baseline_grid_1.5x\n\n\n...\n\n\n@dimen/material_baseline_grid_8.5x\n\n\n@dimen/material_baseline_grid_9.5x\n\n\n\n\nIt is recommended to use the baseline grid to specify component dimensions.\n\n\nIncrements\n\n\n\n\nIncrement values are provided as multiples:\n\n\n\n\n@dimen/material_increment_1x\n\n\n@dimen/material_increment_2x\n\n\n...\n\n\n@dimen/material_increment_9x\n\n\n@dimen/material_increment_10x\n \n\n\n\n\nA default value of 56dp for increments is used to specify increment values.\nEvery dimension relying on increments is provided alongside an \n@integer\n value so that a custom increment size can be used.\n\n\nContent keylines\n\n\n\n\n\n\n@dimen/material_content_edge_margin_horizontal\n\n\n@dimen/material_content_secondary_edge_margin_start\n\n\n\n\n\n\nSee also\n\n\n\n\n\n\nRaw values\n\n\n\n\n\n\nMetrics & keylines (Material design)",
+            "text": "Metrics & Keylines\n\n\nBaseline grid\n\n\n\n\nBaseline grid values are provided as multiples:\n\n\n\n\n@dimen/material_baseline_grid_1x\n\n\n@dimen/material_baseline_grid_2x\n\n\n...\n\n\n@dimen/material_baseline_grid_24x\n\n\n@dimen/material_baseline_grid_25x\n\n\n\n\nHalf-increments are also available for centering elements:\n\n\n\n\n@dimen/material_baseline_grid_0.5x\n\n\n@dimen/material_baseline_grid_1.5x\n\n\n...\n\n\n@dimen/material_baseline_grid_8.5x\n\n\n@dimen/material_baseline_grid_9.5x\n\n\n\n\nIt is recommended to use the baseline grid to specify component dimensions.\n\n\nIncrements\n\n\n\n\nIncrement values are provided as multiples:\n\n\n\n\n@dimen/material_increment_1x\n\n\n@dimen/material_increment_2x\n\n\n...\n\n\n@dimen/material_increment_9x\n\n\n@dimen/material_increment_10x\n \n\n\n\n\nA default value of 56dp for increments is used to specify increment values.\nEvery dimension relying on increments is provided alongside an \n@integer\n value so that a custom increment size can be used.\n\n\nHalf increments are also available for centering elements:\n\n\n\n\n@dimen/material_increment_0.5x\n\n\n@dimen/material_increment_1.5x\n\n\n...\n\n\n@dimen/material_increment_3.5x\n\n\n@dimen/material_increment_4.5x\n\n\n\n\nContent keylines\n\n\n\n\n\n\n@dimen/material_content_edge_margin_horizontal\n\n\n@dimen/material_content_secondary_edge_margin_start\n\n\n\n\n\n\nSee also\n\n\n\n\n\n\nRaw values\n\n\n\n\n\n\nMetrics & keylines (Material design)",
             "title": "Metrics & keylines"
         },
         {
@@ -157,12 +157,12 @@
         },
         {
             "location": "/layout/keylines/#baseline-grid",
-            "text": "Baseline grid values are provided as multiples:   @dimen/material_baseline_grid_1x  @dimen/material_baseline_grid_2x  ...  @dimen/material_baseline_grid_19x  @dimen/material_baseline_grid_20x   Half-increments are also available for centering elements:   @dimen/material_baseline_grid_0.5x  @dimen/material_baseline_grid_1.5x  ...  @dimen/material_baseline_grid_8.5x  @dimen/material_baseline_grid_9.5x   It is recommended to use the baseline grid to specify component dimensions.",
+            "text": "Baseline grid values are provided as multiples:   @dimen/material_baseline_grid_1x  @dimen/material_baseline_grid_2x  ...  @dimen/material_baseline_grid_24x  @dimen/material_baseline_grid_25x   Half-increments are also available for centering elements:   @dimen/material_baseline_grid_0.5x  @dimen/material_baseline_grid_1.5x  ...  @dimen/material_baseline_grid_8.5x  @dimen/material_baseline_grid_9.5x   It is recommended to use the baseline grid to specify component dimensions.",
             "title": "Baseline grid"
         },
         {
             "location": "/layout/keylines/#increments",
-            "text": "Increment values are provided as multiples:   @dimen/material_increment_1x  @dimen/material_increment_2x  ...  @dimen/material_increment_9x  @dimen/material_increment_10x     A default value of 56dp for increments is used to specify increment values.\nEvery dimension relying on increments is provided alongside an  @integer  value so that a custom increment size can be used.",
+            "text": "Increment values are provided as multiples:   @dimen/material_increment_1x  @dimen/material_increment_2x  ...  @dimen/material_increment_9x  @dimen/material_increment_10x     A default value of 56dp for increments is used to specify increment values.\nEvery dimension relying on increments is provided alongside an  @integer  value so that a custom increment size can be used.  Half increments are also available for centering elements:   @dimen/material_increment_0.5x  @dimen/material_increment_1.5x  ...  @dimen/material_increment_3.5x  @dimen/material_increment_4.5x",
             "title": "Increments"
         },
         {
@@ -177,7 +177,7 @@
         },
         {
             "location": "/layout/responsive_ui/",
-            "text": "Responsive UI\n\n\nColumns\n\n\nThe number of columns is defined by \n@integer/material_responsive_columns\n.\n\n\nGutter\n\n\nThe gutter is defined by \n@dimen/material_responsive_gutter\n.\n\n\nDevice information\n\n\nThe distinction between handsets and tablets can be made using \n@bool/material_responsive_is_tablet\n.\n\n\nThis disctinction is arbitrary and might be irrelevant.\n\n\nNumber of content levels\n\n\nThese values are missing and will be included in a future version.\n\n\n\n\nSee also\n\n\n\n\n\n\nRaw values\n\n\n\n\n\n\nResponsive UI (Material design)",
+            "text": "Responsive UI\n\n\nContent hierarchy\n\n\n\n\nThe number of content hierarchy levels is defined as \n@integer/material_responsive_content_levels\n.\n\n\nColumns\n\n\nThe number of columns is defined as \n@integer/material_responsive_columns\n.\n\n\nGutter\n\n\nThe gutter is defined as \n@dimen/material_responsive_gutter\n.\n\n\nDevice information\n\n\nThe distinction between handsets and tablets can be made using \n@bool/material_responsive_is_tablet\n.\n\n\nThis distinction is arbitrary and might be irrelevant.\n\n\n\n\nSee also\n\n\n\n\n\n\nRaw values\n\n\n\n\n\n\nResponsive UI (Material design)",
             "title": "Responsive UI"
         },
         {
@@ -186,24 +186,24 @@
             "title": "Responsive UI"
         },
         {
+            "location": "/layout/responsive_ui/#content-hierarchy",
+            "text": "The number of content hierarchy levels is defined as  @integer/material_responsive_content_levels .",
+            "title": "Content hierarchy"
+        },
+        {
             "location": "/layout/responsive_ui/#columns",
-            "text": "The number of columns is defined by  @integer/material_responsive_columns .",
+            "text": "The number of columns is defined as  @integer/material_responsive_columns .",
             "title": "Columns"
         },
         {
             "location": "/layout/responsive_ui/#gutter",
-            "text": "The gutter is defined by  @dimen/material_responsive_gutter .",
+            "text": "The gutter is defined as  @dimen/material_responsive_gutter .",
             "title": "Gutter"
         },
         {
             "location": "/layout/responsive_ui/#device-information",
-            "text": "The distinction between handsets and tablets can be made using  @bool/material_responsive_is_tablet .  This disctinction is arbitrary and might be irrelevant.",
+            "text": "The distinction between handsets and tablets can be made using  @bool/material_responsive_is_tablet .  This distinction is arbitrary and might be irrelevant.",
             "title": "Device information"
-        },
-        {
-            "location": "/layout/responsive_ui/#number-of-content-levels",
-            "text": "These values are missing and will be included in a future version.",
-            "title": "Number of content levels"
         },
         {
             "location": "/layout/responsive_ui/#see-also",
@@ -226,14 +226,54 @@
             "title": "See also"
         },
         {
+            "location": "/layout/structure/",
+            "text": "Structure\n\n\nStatus bar\n\n\n\n\n\n\n\n\nValue\n\n\nResource\n\n\n\n\n\n\n\n\n\n\nHeight\n\n\n@dimen/material_status_bar_height\n\n\n\n\n\n\n\n\nApp bar\n\n\nDefault\n\n\n\n\n\n\n@dimen/material_app_bar_default_height\n\n\n@dimen/material_app_bar_default_title_padding_bottom\n\n\n@dimen/material_app_bar_title_edge_margin_start\n\n\n@dimen/material_app_bar_icon_action_size\n\n\n@dimen/material_app_bar_icon_action_icon_size\n\n\n@dimen/material_app_bar_icon_action_margin_vertical\n\n\n@dimen/material_app_bar_icon_action_margin_horizontal\n\n\n@dimen/material_app_bar_default_title_text_size\n\n\n\n\nExtended\n\n\n\n\n\n\n@dimen/material_app_bar_extended_height\n\n\n@dimen/material_app_bar_extended_title_padding_bottom\n\n\n@dimen/material_app_bar_extended_title_text_size\n\n\n\n\n\n\nSee also\n\n\n\n\n\n\nRaw values\n\n\n\n\n\n\nButtons (Material design)",
+            "title": "Structure"
+        },
+        {
+            "location": "/layout/structure/#structure",
+            "text": "",
+            "title": "Structure"
+        },
+        {
+            "location": "/layout/structure/#status-bar",
+            "text": "Value  Resource      Height  @dimen/material_status_bar_height",
+            "title": "Status bar"
+        },
+        {
+            "location": "/layout/structure/#app-bar",
+            "text": "",
+            "title": "App bar"
+        },
+        {
+            "location": "/layout/structure/#default",
+            "text": "@dimen/material_app_bar_default_height  @dimen/material_app_bar_default_title_padding_bottom  @dimen/material_app_bar_title_edge_margin_start  @dimen/material_app_bar_icon_action_size  @dimen/material_app_bar_icon_action_icon_size  @dimen/material_app_bar_icon_action_margin_vertical  @dimen/material_app_bar_icon_action_margin_horizontal  @dimen/material_app_bar_default_title_text_size",
+            "title": "Default"
+        },
+        {
+            "location": "/layout/structure/#extended",
+            "text": "@dimen/material_app_bar_extended_height  @dimen/material_app_bar_extended_title_padding_bottom  @dimen/material_app_bar_extended_title_text_size",
+            "title": "Extended"
+        },
+        {
+            "location": "/layout/structure/#see-also",
+            "text": "Raw values    Buttons (Material design)",
+            "title": "See also"
+        },
+        {
             "location": "/component/bottom_navigation/",
-            "text": "Bottom navigation\n\n\nFixed bottom navigation bar\n\n\nAction size\n\n\n\n\n\n\n@dimen/material_bottom_nav_bar_fixed_action_minimum_width\n\n\n@dimen/material_bottom_nav_bar_fixed_action_maximum_width\n\n\n@dimen/material_bottom_nav_bar_action_padding_horizontal\n\n\n\n\nBar specs\n\n\n\n\n\n\n@dimen/material_bottom_nav_bar_height\n\n\n@dimen/material_bottom_nav_bar_action_icon_size\n\n\n@dimen/material_bottom_nav_bar_action_label_padding_bottom\n\n\n@dimen/material_bottom_nav_bar_fixed_action_active_icon_padding_top\n\n\n@dimen/material_bottom_nav_bar_fixed_action_inactive_icon_padding_top\n\n\n\n\nLabel\n\n\n\n\n\n\n\n\nLabel\n\n\nResource\n\n\n\n\n\n\n\n\n\n\nActive label\n\n\n@dimen/material_bottom_nav_bar_fixed_action_active_label_text_size\n\n\n\n\n\n\nInactive label\n\n\n@dimen/material_bottom_nav_bar_fixed_action_inactive_label_text_size\n\n\n\n\n\n\n\n\n\n\nShifting bottom navigation bar\n\n\nAction size\n\n\n\n\n\n\n@dimen/material_bottom_nav_bar_shifting_action_active_maximum_width\n\n\n@dimen/material_bottom_nav_bar_shifting_action_active_minimum_width\n\n\n\n\n\n\n\n\n@dimen/material_bottom_nav_bar_shifting_action_inactive_maximum_width\n\n\n@dimen/material_bottom_nav_bar_shifting_action_inactive_minimum_width\n\n\n\n\nBar specs\n\n\n\n\n\n\n@dimen/material_bottom_nav_bar_height\n\n\n@dimen/material_bottom_nav_bar_action_icon_size\n\n\n@dimen/material_bottom_nav_bar_shifting_action_active_icon_padding_top\n\n\n@dimen/material_bottom_nav_bar_action_label_padding_bottom\n\n\n@dimen/material_bottom_nav_bar_shifting_action_active_icon_padding_vertical\n Naming issue\n\n\n\n\nLabel\n\n\n\n\n\n\n\n\nLabel\n\n\nResource\n\n\n\n\n\n\n\n\n\n\nActive label\n\n\n@dimen/material_bottom_nav_bar_shifting_action_active_label_text_size\n\n\n\n\n\n\n\n\n\n\nElevation\n\n\nThe elevation of both styles is \n@dimen/material_elevation_bottom_nav_bar\n.\n\n\n\n\nSee also\n\n\n\n\n\n\nRaw values\n\n\n\n\n\n\nBottom navigation (Material design)",
+            "text": "Bottom navigation\n\n\nElevation\n\n\nDefined as \n@dimen/material_elevation_bottom_nav_bar\n.\n\n\nFixed bottom navigation bar\n\n\nAction size\n\n\n\n\n\n\n@dimen/material_bottom_nav_bar_fixed_action_minimum_width\n\n\n@dimen/material_bottom_nav_bar_fixed_action_maximum_width\n\n\n@dimen/material_bottom_nav_bar_action_padding_horizontal\n\n\n\n\nBar specs\n\n\n\n\n\n\n@dimen/material_bottom_nav_bar_height\n\n\n@dimen/material_bottom_nav_bar_action_icon_size\n\n\n@dimen/material_bottom_nav_bar_action_label_padding_bottom\n\n\n@dimen/material_bottom_nav_bar_fixed_action_active_icon_padding_top\n\n\n@dimen/material_bottom_nav_bar_fixed_action_inactive_icon_padding_top\n\n\n@dimen/material_bottom_nav_bar_fixed_action_active_label_text_size\n\n\n@dimen/material_bottom_nav_bar_fixed_action_inactive_label_text_size\n\n\n\n\nShifting bottom navigation bar\n\n\nAction size\n\n\n\n\n\n\n@dimen/material_bottom_nav_bar_shifting_action_active_maximum_width\n\n\n@dimen/material_bottom_nav_bar_shifting_action_active_minimum_width\n\n\n\n\n\n\n\n\n@dimen/material_bottom_nav_bar_shifting_action_inactive_maximum_width\n\n\n@dimen/material_bottom_nav_bar_shifting_action_inactive_minimum_width\n\n\n\n\nBar specs\n\n\n\n\n\n\n@dimen/material_bottom_nav_bar_height\n\n\n@dimen/material_bottom_nav_bar_action_icon_size\n\n\n@dimen/material_bottom_nav_bar_shifting_action_active_icon_padding_top\n\n\n@dimen/material_bottom_nav_bar_action_label_padding_bottom\n\n\n@dimen/material_bottom_nav_bar_shifting_action_inactive_icon_padding_vertical\n\n\n@dimen/material_bottom_nav_bar_shifting_action_active_label_text_size\n\n\n\n\n\n\nSee also\n\n\n\n\n\n\nRaw values\n\n\n\n\n\n\nBottom navigation (Material design)",
             "title": "Bottom navigation"
         },
         {
             "location": "/component/bottom_navigation/#bottom-navigation",
             "text": "",
             "title": "Bottom navigation"
+        },
+        {
+            "location": "/component/bottom_navigation/#elevation",
+            "text": "Defined as  @dimen/material_elevation_bottom_nav_bar .",
+            "title": "Elevation"
         },
         {
             "location": "/component/bottom_navigation/#fixed-bottom-navigation-bar",
@@ -247,13 +287,8 @@
         },
         {
             "location": "/component/bottom_navigation/#bar-specs",
-            "text": "@dimen/material_bottom_nav_bar_height  @dimen/material_bottom_nav_bar_action_icon_size  @dimen/material_bottom_nav_bar_action_label_padding_bottom  @dimen/material_bottom_nav_bar_fixed_action_active_icon_padding_top  @dimen/material_bottom_nav_bar_fixed_action_inactive_icon_padding_top",
+            "text": "@dimen/material_bottom_nav_bar_height  @dimen/material_bottom_nav_bar_action_icon_size  @dimen/material_bottom_nav_bar_action_label_padding_bottom  @dimen/material_bottom_nav_bar_fixed_action_active_icon_padding_top  @dimen/material_bottom_nav_bar_fixed_action_inactive_icon_padding_top  @dimen/material_bottom_nav_bar_fixed_action_active_label_text_size  @dimen/material_bottom_nav_bar_fixed_action_inactive_label_text_size",
             "title": "Bar specs"
-        },
-        {
-            "location": "/component/bottom_navigation/#label",
-            "text": "Label  Resource      Active label  @dimen/material_bottom_nav_bar_fixed_action_active_label_text_size    Inactive label  @dimen/material_bottom_nav_bar_fixed_action_inactive_label_text_size",
-            "title": "Label"
         },
         {
             "location": "/component/bottom_navigation/#shifting-bottom-navigation-bar",
@@ -267,18 +302,8 @@
         },
         {
             "location": "/component/bottom_navigation/#bar-specs_1",
-            "text": "@dimen/material_bottom_nav_bar_height  @dimen/material_bottom_nav_bar_action_icon_size  @dimen/material_bottom_nav_bar_shifting_action_active_icon_padding_top  @dimen/material_bottom_nav_bar_action_label_padding_bottom  @dimen/material_bottom_nav_bar_shifting_action_active_icon_padding_vertical  Naming issue",
+            "text": "@dimen/material_bottom_nav_bar_height  @dimen/material_bottom_nav_bar_action_icon_size  @dimen/material_bottom_nav_bar_shifting_action_active_icon_padding_top  @dimen/material_bottom_nav_bar_action_label_padding_bottom  @dimen/material_bottom_nav_bar_shifting_action_inactive_icon_padding_vertical  @dimen/material_bottom_nav_bar_shifting_action_active_label_text_size",
             "title": "Bar specs"
-        },
-        {
-            "location": "/component/bottom_navigation/#label_1",
-            "text": "Label  Resource      Active label  @dimen/material_bottom_nav_bar_shifting_action_active_label_text_size",
-            "title": "Label"
-        },
-        {
-            "location": "/component/bottom_navigation/#elevation",
-            "text": "The elevation of both styles is  @dimen/material_elevation_bottom_nav_bar .",
-            "title": "Elevation"
         },
         {
             "location": "/component/bottom_navigation/#see-also",
@@ -287,13 +312,18 @@
         },
         {
             "location": "/component/bottom_sheet/",
-            "text": "Bottom sheet\n\n\nFont and color\n\n\n\n\n\n\n\n\nName\n\n\nResource\n\n\n\n\n\n\n\n\n\n\nContents text size\n\n\n@dimen/material_bottom_sheet_contents_text_size\n\n\n\n\n\n\nContents text color\n\n\n@color/material_bottom_sheet_contents_text_color\n\n\n\n\n\n\nTitle text size\n\n\n@dimen/material_bottom_sheet_title_text_size\n\n\n\n\n\n\nTitle text color\n\n\n@color/material_bottom_sheet_title_text_color\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nColor\n\n\nResource\n\n\n\n\n\n\n\n\n\n\nSheet background\n\n\n@color/material_bottom_sheet_background_fill\n\n\n\n\n\n\nTransparent overlay\n\n\n@color/material_bottom_sheet_transparent_overlay_fill\n\n\n\n\n\n\n\n\nList style\n\n\n\n\n\n\n@dimen/material_bottom_sheet_list_padding_horizontal\n\n\n@dimen/material_bottom_sheet_list_item_label_padding_start\n\n\n@dimen/material_bottom_sheet_list_item_icon_size\n\n\n@dimen/material_bottom_sheet_list_item_height\n\n\n@dimen/material_bottom_sheet_list_headerless_padding_top\n\n\n@dimen/material_bottom_sheet_list_padding_bottom\n\n\n\n\n\n\n\n\n@dimen/material_bottom_sheet_list_padding_horizontal\n\n\n@dimen/material_bottom_sheet_list_item_label_padding_start\n\n\n@dimen/material_bottom_sheet_list_item_icon_size\n\n\n@dimen/material_bottom_sheet_list_item_height\n\n\n@dimen/material_bottom_sheet_list_header_height\n\n\n@dimen/material_bottom_sheet_list_padding_bottom\n\n\n@dimen/material_bottom_sheet_list_divider_margin_top\n\n\n@dimen/material_divider_height\n\n\n@dimen/material_bottom_sheet_list_divider_margin_bottom\n\n\n\n\nGrid style\n\n\n\n\n\n\n@dimen/material_bottom_sheet_grid_row_padding_top\n\n\n@dimen/material_bottom_sheet_grid_item_icon_size\n\n\n@dimen/material_bottom_sheet_grid_row_height\n\n\n@dimen/material_bottom_sheet_grid_item_label_height\n\n\n@dimen/material_bottom_sheet_grid_padding_horizontal\n\n\n@dimen/material_bottom_sheet_grid_padding_bottom\n \n\n\n\n\nThe text size for labels in a grid style is \n@dimen/material_bottom_sheet_grid_item_label_text_size\n.\n\n\nElevation\n\n\nFor both styles, the elevation is \n@dimen/material_bottom_sheet_elevation\n.\n\n\nWidth (Tablet only)\n\n\n\n\n\n\n\n\nName\n\n\nResource\n\n\n\n\n\n\n\n\n\n\nMinimum horizontal margin (increment)\n\n\n@integer/material_bottom_sheet_margin_horizontal_minimum_increment\n\n\n\n\n\n\nMinimum horizontal margin\n\n\n@dimen/material_bottom_sheet_margin_horizontal_minimum\n\n\n\n\n\n\nMinimum width (increment)\n\n\n@integer/material_bottom_sheet_width_minimum_increment\n\n\n\n\n\n\nMinimum width\n\n\n@dimen/material_bottom_sheet_width_minimum\n\n\n\n\n\n\n\n\n\n\nSee also\n\n\n\n\n\n\nRaw values\n\n\n\n\n\n\nBottom sheets (Material design)",
+            "text": "Bottom sheet\n\n\nElevation\n\n\nDefined as \n@dimen/material_bottom_sheet_elevation\n.\n\n\nFont and color\n\n\n\n\n\n\n\n\nName\n\n\nResource\n\n\n\n\n\n\n\n\n\n\nContents text size\n\n\n@dimen/material_bottom_sheet_contents_text_size\n\n\n\n\n\n\nContents text color\n\n\n@color/material_bottom_sheet_contents_text_color\n\n\n\n\n\n\nTitle text size\n\n\n@dimen/material_bottom_sheet_title_text_size\n\n\n\n\n\n\nTitle text color\n\n\n@color/material_bottom_sheet_title_text_color\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nColor\n\n\nResource\n\n\n\n\n\n\n\n\n\n\nSheet background\n\n\n@color/material_bottom_sheet_background_fill\n\n\n\n\n\n\nTransparent overlay\n\n\n@color/material_bottom_sheet_transparent_overlay_fill\n\n\n\n\n\n\n\n\nList style\n\n\n\n\n\n\n@dimen/material_bottom_sheet_list_padding_horizontal\n\n\n@dimen/material_bottom_sheet_list_item_label_padding_start\n\n\n@dimen/material_bottom_sheet_list_item_icon_size\n\n\n@dimen/material_bottom_sheet_list_item_height\n\n\n@dimen/material_bottom_sheet_list_headerless_padding_top\n\n\n@dimen/material_bottom_sheet_list_padding_bottom\n\n\n\n\n\n\n\n\n@dimen/material_bottom_sheet_list_padding_horizontal\n\n\n@dimen/material_bottom_sheet_list_item_label_padding_start\n\n\n@dimen/material_bottom_sheet_list_item_icon_size\n\n\n@dimen/material_bottom_sheet_list_item_height\n\n\n@dimen/material_bottom_sheet_list_header_height\n\n\n@dimen/material_bottom_sheet_list_padding_bottom\n\n\n@dimen/material_bottom_sheet_list_divider_margin_top\n\n\n@dimen/material_divider_height\n\n\n@dimen/material_bottom_sheet_list_divider_margin_bottom\n\n\n\n\nGrid style\n\n\n\n\n\n\n@dimen/material_bottom_sheet_grid_row_padding_top\n\n\n@dimen/material_bottom_sheet_grid_item_icon_size\n\n\n@dimen/material_bottom_sheet_grid_row_height\n\n\n@dimen/material_bottom_sheet_grid_item_label_height\n\n\n@dimen/material_bottom_sheet_grid_padding_horizontal\n\n\n@dimen/material_bottom_sheet_grid_padding_bottom\n \n\n\n\n\nThe text size for labels in a grid style is \n@dimen/material_bottom_sheet_grid_item_label_text_size\n.\n\n\n\n\nWidth (Tablet only)\n\n\n\n\n\n\n\n\nName\n\n\nResource\n\n\n\n\n\n\n\n\n\n\nMinimum horizontal margin (increment)\n\n\n@integer/material_bottom_sheet_margin_horizontal_minimum_increment\n\n\n\n\n\n\nMinimum horizontal margin\n\n\n@dimen/material_bottom_sheet_margin_horizontal_minimum\n\n\n\n\n\n\nMinimum width (increment)\n\n\n@integer/material_bottom_sheet_width_minimum_increment\n\n\n\n\n\n\nMinimum width\n\n\n@dimen/material_bottom_sheet_width_minimum\n\n\n\n\n\n\n\n\n\n\nSee also\n\n\n\n\n\n\nRaw values\n\n\n\n\n\n\nBottom sheets (Material design)",
             "title": "Bottom sheet"
         },
         {
             "location": "/component/bottom_sheet/#bottom-sheet",
             "text": "",
             "title": "Bottom sheet"
+        },
+        {
+            "location": "/component/bottom_sheet/#elevation",
+            "text": "Defined as  @dimen/material_bottom_sheet_elevation .",
+            "title": "Elevation"
         },
         {
             "location": "/component/bottom_sheet/#font-and-color",
@@ -311,11 +341,6 @@
             "title": "Grid style"
         },
         {
-            "location": "/component/bottom_sheet/#elevation",
-            "text": "For both styles, the elevation is  @dimen/material_bottom_sheet_elevation .",
-            "title": "Elevation"
-        },
-        {
             "location": "/component/bottom_sheet/#width-tablet-only",
             "text": "Name  Resource      Minimum horizontal margin (increment)  @integer/material_bottom_sheet_margin_horizontal_minimum_increment    Minimum horizontal margin  @dimen/material_bottom_sheet_margin_horizontal_minimum    Minimum width (increment)  @integer/material_bottom_sheet_width_minimum_increment    Minimum width  @dimen/material_bottom_sheet_width_minimum",
             "title": "Width (Tablet only)"
@@ -327,7 +352,7 @@
         },
         {
             "location": "/component/buttons/",
-            "text": "Buttons\n\n\nSize and padding\n\n\n\n\n\n\n@dimen/material_button_height_minimum\n\n\n@dimen/material_button_touch_target_height_minimum\n\n\n@dimen/material_button_width_minimum\n\n\n@dimen/material_button_gutter_horizontal\n\n\n@dimen/material_button_padding_horizontal\n\n\n@dimen/material_button_raised_corner_radius\n \nNaming issue\n\n\n\n\nFlat button\n\n\nElevation\n \n@dimen/material_button_flat_elevation\n\n\nColors\n\n\n\n\n\n\nMissing value, it will be included in the future\n\n\nMissing value, it will be included in the future\n\n\n@color/material_button_text_color_disabled_light_theme\n\n\n@color/material_button_text_color_disabled_dark_theme\n\n\n@color/material_button_flat_background_color_pressed_light_theme\n\n\n@color/material_button_flat_background_color_pressed_dark_theme\n\n\n\n\nRaised button\n\n\nElevation\n\n\n\n\n\n\n\n\nElevation\n\n\nResource\n\n\n\n\n\n\n\n\n\n\nResting\n\n\n@dimen/material_button_raised_elevation_resting\n\n\n\n\n\n\nPressed\n\n\n@dimen/material_button_raised_elevation_pressed\n\n\n\n\n\n\n\n\nColors\n\n\n\n\n\n\nMissing value, it will be included in the future\n\n\nMissing value, it will be included in the future\n\n\n@color/material_button_text_color_disabled_light_theme\n\n\n@color/material_button_text_color_disabled_dark_theme\n\n\nColor shade 500\n\n\nColor shade 700\n\n\n@color/material_button_raised_background_color_disabled_light_theme\n\n\n@color/material_button_raised_background_color_disabled_dark_theme\n\n\n\n\nIcon toggles\n\n\n\n\n\n\n@color/material_button_icon_light_theme_light_icon_ripple_color\n\n\n@color/material_button_icon_light_theme_dark_icon_ripple_color\n\n\nSame color with 26% opacity \n\n\n@color/material_button_icon_dark_theme_light_icon_ripple_color\n\n\n\n\n\n\nSee also\n\n\n\n\n\n\nRaw values\n\n\n\n\n\n\nButtons (Material design)",
+            "text": "Buttons\n\n\nSize and padding\n\n\n\n\n\n\n@dimen/material_button_height_minimum\n\n\n@dimen/material_button_touch_target_height_minimum\n\n\n@dimen/material_button_width_minimum\n\n\n@dimen/material_button_gutter_horizontal\n\n\n@dimen/material_button_padding_horizontal\n\n\n@dimen/material_button_corner_radius\n\n\n\n\nFlat button\n\n\nElevation\n\n\nDefined as \n@dimen/material_button_flat_elevation\n\n\nFont and colors\n\n\n\n\n\n\n@dimen/material_typography_regular_button_text_size\n, the color depends on the button color (default \n@dimen/material_typography_primary_text_color_dark\n).\n\n\n@dimen/material_typography_regular_button_text_size\n, the color depends on the button color (default \n@dimen/material_typography_primary_text_color_light\n).\n\n\nSame text size as 1), \n@color/material_button_text_color_disabled_light_theme\n\n\nSame text size as 1), \n@color/material_button_text_color_disabled_dark_theme\n\n\n@color/material_button_flat_background_color_pressed_light_theme\n\n\n@color/material_button_flat_background_color_pressed_dark_theme\n\n\n\n\nRaised button\n\n\nElevation\n\n\n\n\n\n\n\n\nElevation\n\n\nResource\n\n\n\n\n\n\n\n\n\n\nResting\n\n\n@dimen/material_button_raised_elevation_resting\n\n\n\n\n\n\nPressed\n\n\n@dimen/material_button_raised_elevation_pressed\n\n\n\n\n\n\n\n\nFont and colors\n\n\n\n\n\n\n@dimen/material_typography_regular_button_text_size\n, the color depends on the button color (default \n@dimen/material_typography_primary_text_color_dark\n).\n\n\n@dimen/material_typography_regular_button_text_size\n, the color depends on the button color (default \n@dimen/material_typography_primary_text_color_light\n).\n\n\nSame text size as 1), \n@color/material_button_text_color_disabled_light_theme\n\n\nSame text size as 1), \n@color/material_button_text_color_disabled_dark_theme\n\n\nColor shade 500\n\n\nColor shade 700\n\n\n@color/material_button_raised_background_color_disabled_light_theme\n\n\n@color/material_button_raised_background_color_disabled_dark_theme\n\n\n\n\nIcon toggles\n\n\n\n\n\n\n@color/material_button_icon_light_theme_light_icon_ripple_color\n\n\n@color/material_button_icon_light_theme_dark_icon_ripple_color\n\n\nSame color with 26% opacity \n\n\n@color/material_button_icon_dark_theme_light_icon_ripple_color\n\n\n\n\n\n\nSee also\n\n\n\n\n\n\nRaw values\n\n\n\n\n\n\nButtons (Material design)",
             "title": "Buttons"
         },
         {
@@ -337,18 +362,23 @@
         },
         {
             "location": "/component/buttons/#size-and-padding",
-            "text": "@dimen/material_button_height_minimum  @dimen/material_button_touch_target_height_minimum  @dimen/material_button_width_minimum  @dimen/material_button_gutter_horizontal  @dimen/material_button_padding_horizontal  @dimen/material_button_raised_corner_radius   Naming issue",
+            "text": "@dimen/material_button_height_minimum  @dimen/material_button_touch_target_height_minimum  @dimen/material_button_width_minimum  @dimen/material_button_gutter_horizontal  @dimen/material_button_padding_horizontal  @dimen/material_button_corner_radius",
             "title": "Size and padding"
         },
         {
             "location": "/component/buttons/#flat-button",
-            "text": "Elevation   @dimen/material_button_flat_elevation",
+            "text": "",
             "title": "Flat button"
         },
         {
-            "location": "/component/buttons/#colors",
-            "text": "Missing value, it will be included in the future  Missing value, it will be included in the future  @color/material_button_text_color_disabled_light_theme  @color/material_button_text_color_disabled_dark_theme  @color/material_button_flat_background_color_pressed_light_theme  @color/material_button_flat_background_color_pressed_dark_theme",
-            "title": "Colors"
+            "location": "/component/buttons/#elevation",
+            "text": "Defined as  @dimen/material_button_flat_elevation",
+            "title": "Elevation"
+        },
+        {
+            "location": "/component/buttons/#font-and-colors",
+            "text": "@dimen/material_typography_regular_button_text_size , the color depends on the button color (default  @dimen/material_typography_primary_text_color_dark ).  @dimen/material_typography_regular_button_text_size , the color depends on the button color (default  @dimen/material_typography_primary_text_color_light ).  Same text size as 1),  @color/material_button_text_color_disabled_light_theme  Same text size as 1),  @color/material_button_text_color_disabled_dark_theme  @color/material_button_flat_background_color_pressed_light_theme  @color/material_button_flat_background_color_pressed_dark_theme",
+            "title": "Font and colors"
         },
         {
             "location": "/component/buttons/#raised-button",
@@ -356,14 +386,14 @@
             "title": "Raised button"
         },
         {
-            "location": "/component/buttons/#elevation",
+            "location": "/component/buttons/#elevation_1",
             "text": "Elevation  Resource      Resting  @dimen/material_button_raised_elevation_resting    Pressed  @dimen/material_button_raised_elevation_pressed",
             "title": "Elevation"
         },
         {
-            "location": "/component/buttons/#colors_1",
-            "text": "Missing value, it will be included in the future  Missing value, it will be included in the future  @color/material_button_text_color_disabled_light_theme  @color/material_button_text_color_disabled_dark_theme  Color shade 500  Color shade 700  @color/material_button_raised_background_color_disabled_light_theme  @color/material_button_raised_background_color_disabled_dark_theme",
-            "title": "Colors"
+            "location": "/component/buttons/#font-and-colors_1",
+            "text": "@dimen/material_typography_regular_button_text_size , the color depends on the button color (default  @dimen/material_typography_primary_text_color_dark ).  @dimen/material_typography_regular_button_text_size , the color depends on the button color (default  @dimen/material_typography_primary_text_color_light ).  Same text size as 1),  @color/material_button_text_color_disabled_light_theme  Same text size as 1),  @color/material_button_text_color_disabled_dark_theme  Color shade 500  Color shade 700  @color/material_button_raised_background_color_disabled_light_theme  @color/material_button_raised_background_color_disabled_dark_theme",
+            "title": "Font and colors"
         },
         {
             "location": "/component/buttons/#icon-toggles",
@@ -377,7 +407,7 @@
         },
         {
             "location": "/component/buttons-fab/",
-            "text": "Buttons: Floating action button\n\n\nSize\n\n\n\n\n\n\n@dimen/material_button_fab_size\n\n\n@dimen/material_button_fab_mini_size\n\n\n@dimen/material_button_fab_icon_size\n\n\n\n\nEdge margin\n\n\n\n\n\n\n@dimen/material_button_fab_edge_margin_horizontal\n and \n@dimen/material_button_fab_edge_margin_vertical\n \nNaming issue\n \n\n\n\n\n\n\nSee also\n\n\n\n\n\n\nRaw values\n\n\n\n\n\n\nButtons: FAB (Material design)",
+            "text": "Buttons: Floating action button\n\n\nSize\n\n\n\n\n\n\n@dimen/material_button_fab_size\n\n\n@dimen/material_button_fab_mini_size\n\n\n@dimen/material_button_fab_icon_size\n\n\n\n\nEdge margin\n\n\n\n\n\n\n@dimen/material_button_fab_edge_margin\n\n\n\n\n\n\nSee also\n\n\n\n\n\n\nRaw values\n\n\n\n\n\n\nButtons: FAB (Material design)",
             "title": "Buttons (FAB)"
         },
         {
@@ -392,7 +422,7 @@
         },
         {
             "location": "/component/buttons-fab/#edge-margin",
-            "text": "@dimen/material_button_fab_edge_margin_horizontal  and  @dimen/material_button_fab_edge_margin_vertical   Naming issue",
+            "text": "@dimen/material_button_fab_edge_margin",
             "title": "Edge margin"
         },
         {
@@ -402,7 +432,7 @@
         },
         {
             "location": "/component/card/",
-            "text": "Card\n\n\nElevation\n\n\n\n\n\n\n\n\nName\n\n\nResource\n\n\n\n\n\n\n\n\n\n\nElevation (resting)\n\n\n@dimen/material_card_elevation_resting\n\n\n\n\n\n\nElevation (raised)\n\n\n@dimen/material_card_elevation_raised\n\n\n\n\n\n\n\n\nLayout\n\n\n\n\n\n\n@dimen/material_card_edge_margin\n\n\n@dimen/material_card_gutter\n\n\nMissing value, it will be included in the future\n\n\n\n\nNote that the gutter and the edge margin have the same value behind the scenes, if you want to use only one.\n\n\nTitle\n\n\nSmall\n\n\n\n\n\n\n@dimen/material_card_title_block_padding_horizontal\n\n\n@dimen/material_card_title_block_small_padding_top\n \nNaming issue\n\n   \n@dimen/material_card_title_block_small_padding_bottom\n \nNaming issue\n\n\n@dimen/material_card_title_block_small_height\n\n\n\n\n\n\n\n\n\n\nText\n\n\nResource\n\n\n\n\n\n\n\n\n\n\nTitle\n\n\n@dimen/material_card_title_block_small_text_size\n\n\n\n\n\n\nSubtitle\n\n\n@dimen/material_card_title_block_subtitle_text_size\n\n\n\n\n\n\n\n\nLarge\n\n\n\n\n\n\n@dimen/material_card_title_block_padding_horizontal\n\n\n@dimen/material_card_title_block_large_padding_top\n\n\n@dimen/material_card_title_block_large_subtitle_margin_top\n\n\n@dimen/material_card_title_block_large_padding_bottom\n\n\nMissing value, it will be included in the future\n\n\n\n\n\n\n\n\n\n\nText\n\n\nResource\n\n\n\n\n\n\n\n\n\n\nTitle\n\n\n@dimen/material_card_title_block_large_title_text_size\n\n\n\n\n\n\nSubtitle\n\n\n@dimen/material_card_title_block_subtitle_text_size\n\n\n\n\n\n\n\n\nSupporting text\n\n\n\n\n\n\n@dimen/material_card_supporting_text_padding_horizontal\n\n\n@dimen/material_card_supporting_text_padding_top\n\n\n@dimen/material_card_supporting_text_padding_bottom_last_block\n\n\n@dimen/material_card_supporting_text_padding_bottom\n\n\n\n\nText size: \n@dimen/material_card_supporting_text_text_size\n.\n\n\nActions\n\n\n\n\n\n\n@dimen/material_card_actions_row_padding\n\n\n@dimen/material_card_actions_action_gutter_horizontal\n\n\n\n\n\n\n\n\n@dimen/material_card_actions_row_padding\n\n\n@dimen/material_card_actions_action_gutter_vertical\n\n\n\n\n\n\n\n\n@dimen/material_card_actions_row_padding\n\n\nMissing value, it will be included in the future\n\n\nMissing value, it will be included in the future\n\n\n\n\nMedia area\n\n\nIn title\n\n\n\n\n\n\nSee following \nsize\n table.\n\n\n@dimen/material_card_media_area_in_title_padding_top\n\n\n@dimen/material_card_media_area_in_title_padding_end\n\n\nFollowing block\n\n\n\n\n\n\n\n\n\n\nSize\n\n\nResource\n\n\n\n\n\n\n\n\n\n\nSmall (80dp)\n\n\n@dimen/material_card_media_area_in_title_size_small\n\n\n\n\n\n\nMedium (120dp)\n\n\n@dimen/material_card_media_area_in_title_size_medium\n\n\n\n\n\n\nLarge (160dp)\n\n\n@dimen/material_card_media_area_in_title_size_large\n\n\n\n\n\n\nxLarge (240dp)\n\n\n@dimen/material_card_media_area_in_title_size_xlarge\n\n\n\n\n\n\n\n\nShrunk\n\n\n\n\n\n\nSee \"Media area in title\" sizes (\nNaming issue\n)\n\n\n@dimen/material_card_media_area_shrunk_padding_horizontal\n\n\n@dimen/material_card_media_area_shrunk_padding_vertical\n\n\nAction block\n\n\n\n\nInset divider\n\n\n\n\n\n\n\n\nName\n\n\nResource\n\n\n\n\n\n\n\n\n\n\nHeight\n\n\n@dimen/material_divider_height\n\n\n\n\n\n\nHorizontal padding\n\n\n@dimen/material_card_divider_inset_padding_horizontal\n\n\n\n\n\n\n\n\n\n\nSee also\n\n\n\n\n\n\nRaw values\n\n\n\n\n\n\nCards (Material design)",
+            "text": "Card\n\n\nElevation\n\n\n\n\n\n\n\n\nName\n\n\nResource\n\n\n\n\n\n\n\n\n\n\nElevation (resting)\n\n\n@dimen/material_card_elevation_resting\n\n\n\n\n\n\nElevation (raised)\n\n\n@dimen/material_card_elevation_raised\n\n\n\n\n\n\n\n\nLayout\n\n\n\n\n\n\n@dimen/material_card_edge_margin\n\n\n@dimen/material_card_gutter\n\n\n@dimen/material_card_corner_radius\n\n\n\n\nNote that the gutter and the edge margin have the same value behind the scenes, if you want to use only one.\n\n\nTitle\n\n\nSmall\n\n\n\n\n\n\n@dimen/material_card_title_block_padding_horizontal\n\n\n@dimen/material_card_title_block_small_padding_vertical\n\n\n@dimen/material_card_title_block_small_height\n\n\n\n\n\n\n\n\n\n\nText\n\n\nResource\n\n\n\n\n\n\n\n\n\n\nTitle\n\n\n@dimen/material_card_title_block_small_text_size\n\n\n\n\n\n\nSubtitle\n\n\n@dimen/material_card_title_block_subtitle_text_size\n\n\n\n\n\n\n\n\nLarge\n\n\n\n\n\n\n@dimen/material_card_title_block_padding_horizontal\n\n\n@dimen/material_card_title_block_large_padding_top\n\n\n@dimen/material_card_title_block_large_subtitle_margin_top\n\n\n@dimen/material_card_title_block_large_padding_bottom\n\n\n@dimen/material_card_title_block_large_padding_bottom_last_block\n\n\n\n\n\n\n\n\n\n\nText\n\n\nResource\n\n\n\n\n\n\n\n\n\n\nTitle\n\n\n@dimen/material_card_title_block_large_title_text_size\n\n\n\n\n\n\nSubtitle\n\n\n@dimen/material_card_title_block_subtitle_text_size\n\n\n\n\n\n\n\n\nSupporting text\n\n\n\n\n\n\n@dimen/material_card_supporting_text_padding_horizontal\n\n\n@dimen/material_card_supporting_text_padding_top\n\n\n@dimen/material_card_supporting_text_padding_bottom_last_block\n\n\n@dimen/material_card_supporting_text_padding_bottom\n\n\n\n\nText size: \n@dimen/material_card_supporting_text_text_size\n.\n\n\nActions\n\n\n\n\n\n\n@dimen/material_card_actions_row_padding\n\n\n@dimen/material_card_actions_action_gutter_horizontal\n\n\n\n\n\n\n\n\n@dimen/material_card_actions_row_padding\n\n\n@dimen/material_card_actions_action_gutter_vertical\n\n\n\n\n\n\n\n\n@dimen/material_card_actions_row_padding\n\n\n@dimen/material_card_actions_icon_action_size\n\n\n@dimen/material_card_actions_icon_action_gutter\n\n\n\n\nMedia area\n\n\nBasic\n\n\nThe basic media area uses keyline ratios for its dimension, which are not provided in this library.\n\n\nCheck the Material design guidelines for more information.\n\n\nIn title\n\n\n\n\n\n\nSee following \nsize\n table.\n\n\n@dimen/material_card_media_area_in_title_padding_top\n\n\n@dimen/material_card_media_area_in_title_padding_end\n\n\nFollowing block\n\n\n\n\n\n\n\n\n\n\nSize\n\n\nResource\n\n\n\n\n\n\n\n\n\n\nSmall (80dp)\n\n\n@dimen/material_card_media_area_framed_size_small\n\n\n\n\n\n\nMedium (120dp)\n\n\n@dimen/material_card_media_area_framed_size_medium\n\n\n\n\n\n\nLarge (160dp)\n\n\n@dimen/material_card_media_area_framed_size_large\n\n\n\n\n\n\nxLarge (240dp)\n\n\n@dimen/material_card_media_area_framed_size_xlarge\n\n\n\n\n\n\n\n\nFramed\n\n\n\n\n\n\nSee following \nsize\n table.\n\n\n@dimen/material_card_media_area_framed_padding_horizontal\n\n\n@dimen/material_card_media_area_framed_padding_vertical\n\n\nAction block\n\n\n\n\n\n\n\n\n\n\nSize\n\n\nResource\n\n\n\n\n\n\n\n\n\n\nSmall (80dp)\n\n\n@dimen/material_card_media_area_framed_size_small\n\n\n\n\n\n\nMedium (120dp)\n\n\n@dimen/material_card_media_area_framed_size_medium\n\n\n\n\n\n\nLarge (160dp)\n\n\n@dimen/material_card_media_area_framed_size_large\n\n\n\n\n\n\nxLarge (240dp)\n\n\n@dimen/material_card_media_area_framed_size_xlarge\n\n\n\n\n\n\n\n\nInset divider\n\n\n\n\n\n\n\n\nName\n\n\nResource\n\n\n\n\n\n\n\n\n\n\nHeight\n\n\n@dimen/material_divider_height\n\n\n\n\n\n\nHorizontal padding\n\n\n@dimen/material_card_divider_inset_padding_horizontal\n\n\n\n\n\n\n\n\n\n\nSee also\n\n\n\n\n\n\nRaw values\n\n\n\n\n\n\nCards (Material design)",
             "title": "Cards"
         },
         {
@@ -417,7 +447,7 @@
         },
         {
             "location": "/component/card/#layout",
-            "text": "@dimen/material_card_edge_margin  @dimen/material_card_gutter  Missing value, it will be included in the future   Note that the gutter and the edge margin have the same value behind the scenes, if you want to use only one.",
+            "text": "@dimen/material_card_edge_margin  @dimen/material_card_gutter  @dimen/material_card_corner_radius   Note that the gutter and the edge margin have the same value behind the scenes, if you want to use only one.",
             "title": "Layout"
         },
         {
@@ -427,12 +457,12 @@
         },
         {
             "location": "/component/card/#small",
-            "text": "@dimen/material_card_title_block_padding_horizontal  @dimen/material_card_title_block_small_padding_top   Naming issue \n    @dimen/material_card_title_block_small_padding_bottom   Naming issue  @dimen/material_card_title_block_small_height      Text  Resource      Title  @dimen/material_card_title_block_small_text_size    Subtitle  @dimen/material_card_title_block_subtitle_text_size",
+            "text": "@dimen/material_card_title_block_padding_horizontal  @dimen/material_card_title_block_small_padding_vertical  @dimen/material_card_title_block_small_height      Text  Resource      Title  @dimen/material_card_title_block_small_text_size    Subtitle  @dimen/material_card_title_block_subtitle_text_size",
             "title": "Small"
         },
         {
             "location": "/component/card/#large",
-            "text": "@dimen/material_card_title_block_padding_horizontal  @dimen/material_card_title_block_large_padding_top  @dimen/material_card_title_block_large_subtitle_margin_top  @dimen/material_card_title_block_large_padding_bottom  Missing value, it will be included in the future      Text  Resource      Title  @dimen/material_card_title_block_large_title_text_size    Subtitle  @dimen/material_card_title_block_subtitle_text_size",
+            "text": "@dimen/material_card_title_block_padding_horizontal  @dimen/material_card_title_block_large_padding_top  @dimen/material_card_title_block_large_subtitle_margin_top  @dimen/material_card_title_block_large_padding_bottom  @dimen/material_card_title_block_large_padding_bottom_last_block      Text  Resource      Title  @dimen/material_card_title_block_large_title_text_size    Subtitle  @dimen/material_card_title_block_subtitle_text_size",
             "title": "Large"
         },
         {
@@ -442,7 +472,7 @@
         },
         {
             "location": "/component/card/#actions",
-            "text": "@dimen/material_card_actions_row_padding  @dimen/material_card_actions_action_gutter_horizontal     @dimen/material_card_actions_row_padding  @dimen/material_card_actions_action_gutter_vertical     @dimen/material_card_actions_row_padding  Missing value, it will be included in the future  Missing value, it will be included in the future",
+            "text": "@dimen/material_card_actions_row_padding  @dimen/material_card_actions_action_gutter_horizontal     @dimen/material_card_actions_row_padding  @dimen/material_card_actions_action_gutter_vertical     @dimen/material_card_actions_row_padding  @dimen/material_card_actions_icon_action_size  @dimen/material_card_actions_icon_action_gutter",
             "title": "Actions"
         },
         {
@@ -451,14 +481,19 @@
             "title": "Media area"
         },
         {
+            "location": "/component/card/#basic",
+            "text": "The basic media area uses keyline ratios for its dimension, which are not provided in this library.  Check the Material design guidelines for more information.",
+            "title": "Basic"
+        },
+        {
             "location": "/component/card/#in-title",
-            "text": "See following  size  table.  @dimen/material_card_media_area_in_title_padding_top  @dimen/material_card_media_area_in_title_padding_end  Following block      Size  Resource      Small (80dp)  @dimen/material_card_media_area_in_title_size_small    Medium (120dp)  @dimen/material_card_media_area_in_title_size_medium    Large (160dp)  @dimen/material_card_media_area_in_title_size_large    xLarge (240dp)  @dimen/material_card_media_area_in_title_size_xlarge",
+            "text": "See following  size  table.  @dimen/material_card_media_area_in_title_padding_top  @dimen/material_card_media_area_in_title_padding_end  Following block      Size  Resource      Small (80dp)  @dimen/material_card_media_area_framed_size_small    Medium (120dp)  @dimen/material_card_media_area_framed_size_medium    Large (160dp)  @dimen/material_card_media_area_framed_size_large    xLarge (240dp)  @dimen/material_card_media_area_framed_size_xlarge",
             "title": "In title"
         },
         {
-            "location": "/component/card/#shrunk",
-            "text": "See \"Media area in title\" sizes ( Naming issue )  @dimen/material_card_media_area_shrunk_padding_horizontal  @dimen/material_card_media_area_shrunk_padding_vertical  Action block",
-            "title": "Shrunk"
+            "location": "/component/card/#framed",
+            "text": "See following  size  table.  @dimen/material_card_media_area_framed_padding_horizontal  @dimen/material_card_media_area_framed_padding_vertical  Action block      Size  Resource      Small (80dp)  @dimen/material_card_media_area_framed_size_small    Medium (120dp)  @dimen/material_card_media_area_framed_size_medium    Large (160dp)  @dimen/material_card_media_area_framed_size_large    xLarge (240dp)  @dimen/material_card_media_area_framed_size_xlarge",
+            "title": "Framed"
         },
         {
             "location": "/component/card/#inset-divider",
@@ -472,7 +507,7 @@
         },
         {
             "location": "/component/chips/",
-            "text": "Chips\n\n\nElevation\n\n\n\n\n\n\n\n\nName\n\n\nResource\n\n\n\n\n\n\n\n\n\n\nSimple chip\n\n\n@dimen/material_chip_simple_elevation\n\n\n\n\n\n\nContact chip (closed)\n\n\n@dimen/material_chip_contact_closed_elevation\n\n\n\n\n\n\nContact chip (open)\n\n\n@dimen/material_chip_contact_open_elevation\n\n\n\n\n\n\n\n\nSimple chip and closed contact chip\n\n\n\n\n\n\n@dimen/material_chip_height\n \n\n\n@dimen/material_chip_simple_label_horizontal_padding\n\n\n@dimen/material_chip_contact_closed_label_padding_start\n\n\n@dimen/material_chip_contact_closed_label_padding_end\n\n\n@dimen/material_chip_simple_label_text_size\n\n   or \n@dimen/material_chip_contact_closed_label_text_size\n \nNaming issue\n\n\nUnspecified color\n\n\n\n\nDeletable chip\n\n\nBoth simple and contact chips can be deletable.\n\n\n\n\n\n\n@dimen/material_chip_simple_remove_icon_size\n\n\n@dimen/material_chip_simple_remove_icon_margin\n\n\n@color/material_chip_simple_remove_icon_color\n\n\n\n\nOpen contact chip\n\n\n\n\n\n\n@dimen/material_chip_contact_open_focused_height\n\n\n@dimen/material_chip_contact_open_unfocused_height\n\n\n@dimen/material_chip_contact_open_avatar_size\n\n\n@dimen/material_chip_contact_open_padding_horizontal\n\n\n@dimen/material_chip_contact_open_focused_padding_vertical\n\n\n@dimen/material_chip_contact_open_name_text_size\n\n\n@dimen/material_chip_contact_open_address_text_size\n\n\n\n\n\n\nSee also\n\n\n\n\n\n\nRaw values\n\n\n\n\n\n\nChips (Material design)",
+            "text": "Chips\n\n\nElevation\n\n\n\n\n\n\n\n\nName\n\n\nResource\n\n\n\n\n\n\n\n\n\n\nSimple chip\n\n\n@dimen/material_chip_simple_elevation\n\n\n\n\n\n\nContact chip (closed)\n\n\n@dimen/material_chip_contact_closed_elevation\n\n\n\n\n\n\nContact chip (open)\n\n\n@dimen/material_chip_contact_open_elevation\n\n\n\n\n\n\n\n\nSimple chip\n\n\n\n\n\n\n@dimen/material_chip_height\n \n\n\n@dimen/material_chip_simple_label_padding_start\n\n\n@dimen/material_chip_simple_label_padding_start_after_icon\n\n\n@dimen/material_chip_simple_label_padding_end\n\n\n@dimen/material_chip_simple_label_text_size\n\n\nUnspecified\n\n\n\n\nDeletable chip\n\n\nBoth simple and contact chips can be deletable.\n\n\n\n\n\n\n@dimen/material_chip_simple_remove_icon_size\n\n\n@dimen/material_chip_simple_remove_icon_margin\n\n\n@color/material_chip_simple_remove_icon_color\n\n\n\n\nContact chip\n\n\nClosed\n\n\n\n\n\n\n@dimen/material_chip_height\n\n\n@dimen/material_chip_contact_closed_label_padding_vertical\n\n\n@dimen/material_chip_contact_closed_label_padding_start\n\n\n@dimen/material_chip_contact_closed_label_padding_end\n\n\n@dimen/material_chip_contact_closed_label_text_size\n\n\n\n\nOpen\n\n\n\n\n\n\n@dimen/material_chip_contact_open_focused_height\n\n\n@dimen/material_chip_contact_open_unfocused_height\n\n\n@dimen/material_chip_contact_open_avatar_size\n\n\n@dimen/material_chip_contact_open_padding_horizontal\n\n\n@dimen/material_chip_contact_open_focused_padding_vertical\n\n\n@dimen/material_chip_contact_open_name_text_size\n\n\n@dimen/material_chip_contact_open_address_text_size\n\n\n\n\n\n\nSee also\n\n\n\n\n\n\nRaw values\n\n\n\n\n\n\nChips (Material design)",
             "title": "Chips"
         },
         {
@@ -486,9 +521,9 @@
             "title": "Elevation"
         },
         {
-            "location": "/component/chips/#simple-chip-and-closed-contact-chip",
-            "text": "@dimen/material_chip_height    @dimen/material_chip_simple_label_horizontal_padding  @dimen/material_chip_contact_closed_label_padding_start  @dimen/material_chip_contact_closed_label_padding_end  @dimen/material_chip_simple_label_text_size \n   or  @dimen/material_chip_contact_closed_label_text_size   Naming issue  Unspecified color",
-            "title": "Simple chip and closed contact chip"
+            "location": "/component/chips/#simple-chip",
+            "text": "@dimen/material_chip_height    @dimen/material_chip_simple_label_padding_start  @dimen/material_chip_simple_label_padding_start_after_icon  @dimen/material_chip_simple_label_padding_end  @dimen/material_chip_simple_label_text_size  Unspecified",
+            "title": "Simple chip"
         },
         {
             "location": "/component/chips/#deletable-chip",
@@ -496,9 +531,19 @@
             "title": "Deletable chip"
         },
         {
-            "location": "/component/chips/#open-contact-chip",
+            "location": "/component/chips/#contact-chip",
+            "text": "",
+            "title": "Contact chip"
+        },
+        {
+            "location": "/component/chips/#closed",
+            "text": "@dimen/material_chip_height  @dimen/material_chip_contact_closed_label_padding_vertical  @dimen/material_chip_contact_closed_label_padding_start  @dimen/material_chip_contact_closed_label_padding_end  @dimen/material_chip_contact_closed_label_text_size",
+            "title": "Closed"
+        },
+        {
+            "location": "/component/chips/#open",
             "text": "@dimen/material_chip_contact_open_focused_height  @dimen/material_chip_contact_open_unfocused_height  @dimen/material_chip_contact_open_avatar_size  @dimen/material_chip_contact_open_padding_horizontal  @dimen/material_chip_contact_open_focused_padding_vertical  @dimen/material_chip_contact_open_name_text_size  @dimen/material_chip_contact_open_address_text_size",
-            "title": "Open contact chip"
+            "title": "Open"
         },
         {
             "location": "/component/chips/#see-also",
@@ -507,7 +552,7 @@
         },
         {
             "location": "/component/dialogs/",
-            "text": "Dialogs\n\n\nElevation\n\n\nDefined as \n@material_dialog_elevation\n.\n\n\nSize and edge margins\n\n\n\n\n\n\n\n\nValue\n\n\nResource\n\n\n\n\n\n\n\n\n\n\nMinimum width (increment)\n\n\n@dimen/material_dialog_width_minimum_increment\n\n\n\n\n\n\nMinimum width\n\n\n@dimen/material_dialog_width_minimum\n\n\n\n\n\n\nMinimum vertical edge margin\n\n\n@dimen/material_dialog_screen_edge_margin_minimum_vertical\n\n\n\n\n\n\nMinimum horizontal edge margin\n\n\n@dimen/material_dialog_screen_edge_margin_minimum_horizontal\n\n\n\n\n\n\n\n\nTitle and content\n\n\n\n\n\n\n@dimen/material_dialog_content_area_padding_horizontal\n\n\n@dimen/material_dialog_content_area_padding_vertical\n\n\n@dimen/material_dialog_content_area_title_content_margin\n\n\nAction area\n\n\n\n\nActions\n\n\nSide by side\n\n\n\n\n\n\nNon scrollable content\n\n\nScrollable content\n\n\n@dimen/material_dialog_actions_side_by_side_height\n\n\n@dimen/material_dialog_actions_side_by_side_button_height\n\n\n@dimen/material_dialog_actions_side_by_side_padding_horizontal\n \nNaming issue\n\n\n@dimen/material_dialog_actions_side_by_side_padding_vertical\n \nNaming issue\n\n\n@dimen/material_dialog_actions_side_by_side_padding_vertical\n \nNaming issue\n \n\n\n@dimen/material_dialog_actions_side_by_side_padding_vertical_with_divider\n \nNaming issue\n \n\n\n@dimen/material_divider_height\n\n\n\n\nStacked\n\n\n\n\n\n\n@dimen/material_dialog_actions_stacked_button_height\n\n\n@dimen/material_dialog_actions_stacked_padding_bottom\n\n\n@dimen/material_dialog_actions_stacked_button_padding_end\n\n\nDialog content\n\n\n\n\nFullscreen dialog\n\n\nDocumentation not yet available, check the raw values.\n\n\n\n\nSee also\n\n\n\n\n\n\nRaw values\n\n\n\n\n\n\nDialogs (Material design)",
+            "text": "Dialogs\n\n\nElevation\n\n\nDefined as \n@material_dialog_elevation\n.\n\n\nSize and edge margins\n\n\n\n\n\n\n\n\nValue\n\n\nResource\n\n\n\n\n\n\n\n\n\n\nMinimum width (increment)\n\n\n@dimen/material_dialog_width_minimum_increment\n\n\n\n\n\n\nMinimum width\n\n\n@dimen/material_dialog_width_minimum\n\n\n\n\n\n\nMinimum vertical edge margin\n\n\n@dimen/material_dialog_screen_edge_margin_minimum_vertical\n\n\n\n\n\n\nMinimum horizontal edge margin\n\n\n@dimen/material_dialog_screen_edge_margin_minimum_horizontal\n\n\n\n\n\n\n\n\nTitle and content\n\n\n\n\n\n\n@dimen/material_dialog_content_area_padding_horizontal\n\n\n@dimen/material_dialog_content_area_padding_vertical\n\n\n@dimen/material_dialog_content_area_title_content_margin\n\n\nAction area\n\n\n\n\nActions\n\n\nSide by side\n\n\n\n\n\n\nNon scrollable content\n\n\nScrollable content\n\n\n@dimen/material_dialog_actions_side_by_side_height\n\n\n@dimen/material_dialog_actions_side_by_side_button_height\n\n\n@dimen/material_dialog_actions_side_by_side_padding_end\n\n\n@dimen/material_dialog_actions_side_by_side_padding_bottom\n\n\n@dimen/material_dialog_actions_side_by_side_padding_top\n\n\n@dimen/material_dialog_actions_side_by_side_padding_top_with_divider\n\n\n@dimen/material_divider_height\n\n\n\n\nStacked\n\n\n\n\n\n\n@dimen/material_dialog_actions_stacked_button_height\n\n\n@dimen/material_dialog_actions_stacked_padding_bottom\n\n\n@dimen/material_dialog_actions_stacked_button_padding_end\n\n\nDialog content\n\n\n\n\nFullscreen dialog\n\n\nDocumentation not yet available, check the raw values.\n\n\n\n\nSee also\n\n\n\n\n\n\nRaw values\n\n\n\n\n\n\nDialogs (Material design)",
             "title": "Dialogs"
         },
         {
@@ -537,7 +582,7 @@
         },
         {
             "location": "/component/dialogs/#side-by-side",
-            "text": "Non scrollable content  Scrollable content  @dimen/material_dialog_actions_side_by_side_height  @dimen/material_dialog_actions_side_by_side_button_height  @dimen/material_dialog_actions_side_by_side_padding_horizontal   Naming issue  @dimen/material_dialog_actions_side_by_side_padding_vertical   Naming issue  @dimen/material_dialog_actions_side_by_side_padding_vertical   Naming issue    @dimen/material_dialog_actions_side_by_side_padding_vertical_with_divider   Naming issue    @dimen/material_divider_height",
+            "text": "Non scrollable content  Scrollable content  @dimen/material_dialog_actions_side_by_side_height  @dimen/material_dialog_actions_side_by_side_button_height  @dimen/material_dialog_actions_side_by_side_padding_end  @dimen/material_dialog_actions_side_by_side_padding_bottom  @dimen/material_dialog_actions_side_by_side_padding_top  @dimen/material_dialog_actions_side_by_side_padding_top_with_divider  @dimen/material_divider_height",
             "title": "Side by side"
         },
         {
@@ -707,7 +752,7 @@
         },
         {
             "location": "/component/menus/",
-            "text": "Menus\n\n\nElevation\n\n\n\n\n\n\n\n\nComponent\n\n\nResource\n\n\n\n\n\n\n\n\n\n\nMenu\n\n\n@dimen/material_menu_elevation\n\n\n\n\n\n\nSubmenu (elevation increment per level)\n\n\n@dimen/material_menu_submenu_elevation_increment\n\n\n\n\n\n\n\n\nWidth\n\n\n\n\n\n\n\n\nName\n\n\nResource\n\n\n\n\n\n\n\n\n\n\nMinimum width (increment)\n\n\n@integer/material_menu_simple_width_minimum_increment\n\n\n\n\n\n\nMinimum width\n\n\n@dimen/material_menu_simple_width_minimum\n\n\n\n\n\n\nMaximum width (increment)\n\n\n@integer/material_menu_simple_width_maximum_increment\n\n\n\n\n\n\nMaximum width\n\n\n@dimen/material_menu_simple_width_maximum\n\n\n\n\n\n\n\n\nDimensions\n\n\n\n\n\n\nMissing value, it will be included in the future\n\n\n@dimen/material_menu_simple_item_padding_horizontal\n\n\n@dimen/material_menu_simple_text_padding_bottom\n\n\n@dimen/material_menu_simple_item_height\n\n\nMissing value, it will be included in the future\n\n\n\n\n\n\n\n\n@dimen/material_menu_simple_edge_margin_horizontal_minimum\n\n\n\n\nDivider\n\n\n\n\n\n\n\n\nName\n\n\nResource\n\n\n\n\n\n\n\n\n\n\nHeight\n\n\n@dimen/material_divider_height\n\n\n\n\n\n\nMargin top\n\n\n@dimen/material_menu_simple_divider_margin_top\n\n\n\n\n\n\nMargin bottom\n\n\n@dimen/material_menu_simple_divider_margin_bottom\n\n\n\n\n\n\n\n\n\n\nSee also\n\n\n\n\n\n\nRaw values\n\n\n\n\n\n\nMenus (Material design)",
+            "text": "Menus\n\n\nElevation\n\n\n\n\n\n\n\n\nComponent\n\n\nResource\n\n\n\n\n\n\n\n\n\n\nMenu\n\n\n@dimen/material_menu_elevation\n\n\n\n\n\n\nSubmenu (elevation increment per level)\n\n\n@dimen/material_menu_submenu_elevation_increment\n\n\n\n\n\n\n\n\nWidth\n\n\n\n\n\n\n\n\nName\n\n\nResource\n\n\n\n\n\n\n\n\n\n\nMinimum width (increment)\n\n\n@integer/material_menu_simple_width_minimum_increment\n\n\n\n\n\n\nMinimum width\n\n\n@dimen/material_menu_simple_width_minimum\n\n\n\n\n\n\nMaximum width (increment)\n\n\n@integer/material_menu_simple_width_maximum_increment\n\n\n\n\n\n\nMaximum width\n\n\n@dimen/material_menu_simple_width_maximum\n\n\n\n\n\n\n\n\nDimensions\n\n\n\n\n\n\n@dimen/material_menu_simple_padding_vertical\n\n\n@dimen/material_menu_simple_item_padding_horizontal\n\n\n@dimen/material_menu_simple_text_padding_bottom\n\n\n@dimen/material_menu_simple_item_height\n\n\n@dimen/material_menu_simple_item_text_size\n\n\n\n\n\n\n\n\n@dimen/material_menu_simple_edge_margin_horizontal_minimum\n\n\n\n\nDivider\n\n\n\n\n\n\n\n\nName\n\n\nResource\n\n\n\n\n\n\n\n\n\n\nHeight\n\n\n@dimen/material_divider_height\n\n\n\n\n\n\nMargin top\n\n\n@dimen/material_menu_simple_divider_margin_top\n\n\n\n\n\n\nMargin bottom\n\n\n@dimen/material_menu_simple_divider_margin_bottom\n\n\n\n\n\n\n\n\n\n\nSee also\n\n\n\n\n\n\nRaw values\n\n\n\n\n\n\nMenus (Material design)",
             "title": "Menus"
         },
         {
@@ -727,7 +772,7 @@
         },
         {
             "location": "/component/menus/#dimensions",
-            "text": "Missing value, it will be included in the future  @dimen/material_menu_simple_item_padding_horizontal  @dimen/material_menu_simple_text_padding_bottom  @dimen/material_menu_simple_item_height  Missing value, it will be included in the future     @dimen/material_menu_simple_edge_margin_horizontal_minimum",
+            "text": "@dimen/material_menu_simple_padding_vertical  @dimen/material_menu_simple_item_padding_horizontal  @dimen/material_menu_simple_text_padding_bottom  @dimen/material_menu_simple_item_height  @dimen/material_menu_simple_item_text_size     @dimen/material_menu_simple_edge_margin_horizontal_minimum",
             "title": "Dimensions"
         },
         {
@@ -742,12 +787,12 @@
         },
         {
             "location": "/component/steppers/",
-            "text": "Steppers\n\n\n\n\nStep numbers have been replaced by asterisks to avoid confusion.\n\n\nAll the following values have a naming issue, they will be renamed in a future version.\n\n\n\n\n@dimen/material_stepper_vertical_padding_top\n\n\n@dimen/material_stepper_vertical_step_inactive_margin_bottom\n\n\n@dimen/material_stepper_vertical_step_active_title_margin_bottom\n\n\n@dimen/material_stepper_vertical_button_area_margin_top\n\n\n@dimen/material_stepper_vertical_step_active_margin_bottom\n\n\n@dimen/material_stepper_vertical_padding_horizontal\n\n\n@dimen\n\n\nMissing value, will be included in the future\n\n\nMissing value, will be included in the future\n\n\n@dimen/material_stepper_connector_margin\n\n\n@dimen/material_stepper_step_circle_size\n\n\n@dimen/material_stepper_connector_size\n\n\n@dimen/material_stepper_step_title_text_size\n and \nMissing value\n\n\n@dimen/material_stepper_step_subtitle_text_size\n and  \n@color/material_stepper_step_subtitle_text_color\n\n\n@dimen/material_stepper_step_circle_text_size\n and \n@color/material_stepper_step_circle_text_color\n\n\nApp primary color or \n@color/material_stepper_step_active_circle_active_color_default\n\n\n@color/material_stepper_connector_color\n\n\n@color/material_stepper_step_inactive_circle_inactive_color\n\n\n\n\n\n\nSee also\n\n\n\n\n\n\nRaw values\n\n\n\n\n\n\nSteppers (Material design)",
+            "text": "Steppers\n\n\n\n\n\n\n@dimen/material_stepper_padding_top\n\n\n@dimen/material_stepper_step_inactive_margin_bottom\n\n\n@dimen/material_stepper_step_active_title_margin_bottom\n\n\n@dimen/material_stepper_button_area_margin_top\n\n\n@dimen/material_stepper_step_active_margin_bottom\n\n\n@dimen/material_stepper_padding_horizontal\n\n\n@dimen/material_stepper_overview_step_margin\n\n\n@dimen/material_stepper_button_area_height\n\n\n@dimen/material_stepper_button_gutter\n\n\n@dimen/material_stepper_connector_margin\n\n\n@dimen/material_stepper_step_circle_size\n\n\n@dimen/material_stepper_connector_size\n\n\n@dimen/material_stepper_step_title_text_size\n and \n@color/material_stepper_step_title_text_color\n\n\n@dimen/material_stepper_step_subtitle_text_size\n and  \n@color/material_stepper_step_subtitle_text_color\n\n\n@dimen/material_stepper_step_circle_text_size\n and \n@color/material_stepper_step_circle_text_color\n\n\nApp primary color or \n@color/material_stepper_step_active_circle_color_default\n\n\n@color/material_stepper_connector_color\n\n\n@color/material_stepper_step_inactive_circle_color\n\n\n\n\n\n\nSee also\n\n\n\n\n\n\nRaw values\n\n\n\n\n\n\nSteppers (Material design)",
             "title": "Steppers"
         },
         {
             "location": "/component/steppers/#steppers",
-            "text": "Step numbers have been replaced by asterisks to avoid confusion.  All the following values have a naming issue, they will be renamed in a future version.   @dimen/material_stepper_vertical_padding_top  @dimen/material_stepper_vertical_step_inactive_margin_bottom  @dimen/material_stepper_vertical_step_active_title_margin_bottom  @dimen/material_stepper_vertical_button_area_margin_top  @dimen/material_stepper_vertical_step_active_margin_bottom  @dimen/material_stepper_vertical_padding_horizontal  @dimen  Missing value, will be included in the future  Missing value, will be included in the future  @dimen/material_stepper_connector_margin  @dimen/material_stepper_step_circle_size  @dimen/material_stepper_connector_size  @dimen/material_stepper_step_title_text_size  and  Missing value  @dimen/material_stepper_step_subtitle_text_size  and   @color/material_stepper_step_subtitle_text_color  @dimen/material_stepper_step_circle_text_size  and  @color/material_stepper_step_circle_text_color  App primary color or  @color/material_stepper_step_active_circle_active_color_default  @color/material_stepper_connector_color  @color/material_stepper_step_inactive_circle_inactive_color",
+            "text": "@dimen/material_stepper_padding_top  @dimen/material_stepper_step_inactive_margin_bottom  @dimen/material_stepper_step_active_title_margin_bottom  @dimen/material_stepper_button_area_margin_top  @dimen/material_stepper_step_active_margin_bottom  @dimen/material_stepper_padding_horizontal  @dimen/material_stepper_overview_step_margin  @dimen/material_stepper_button_area_height  @dimen/material_stepper_button_gutter  @dimen/material_stepper_connector_margin  @dimen/material_stepper_step_circle_size  @dimen/material_stepper_connector_size  @dimen/material_stepper_step_title_text_size  and  @color/material_stepper_step_title_text_color  @dimen/material_stepper_step_subtitle_text_size  and   @color/material_stepper_step_subtitle_text_color  @dimen/material_stepper_step_circle_text_size  and  @color/material_stepper_step_circle_text_color  App primary color or  @color/material_stepper_step_active_circle_color_default  @color/material_stepper_connector_color  @color/material_stepper_step_inactive_circle_color",
             "title": "Steppers"
         },
         {
@@ -812,12 +857,17 @@
         },
         {
             "location": "/about/changelog/",
-            "text": "1.0.1 (2016-10-24)\n\n\n\n\nChange package name from \nblue.aodev.materialspecs\n to \nblue.aodev.materialvalues\n.\n\n\n\n\n1.0 (2016-10-19)\n\n\n\n\nInitial release",
+            "text": "Dev branch\n\n\n\n\nChange package name from \nblue.aodev.materialvalues\n to \nmaterial.values\n\n\nAdd Layout/Structure values\n\n\n\n\nTypography\n\n\n\n\nAdd text color values for disabled and hint text\n\n\nRename typography colors\n\n\n\n\nIcons\n\n\n\n\nAdd size values.\n\n\n\n\nMetrics & keylines\n\n\n\n\nAdd baseline grid multiples 21 to 25\n\n\nAdd half increments from 0.5 to 4.5\n\n\nDelete specific baseline grid multiples 28, 30 and 35\n\n\n\n\nResponsive UI\n\n\n\n\nAdd number of content hierarchy levels\n\n\n\n\nBottom navigation\n\n\n\n\nRename \n@dimen/material_bottom_nav_bar_shifting_action_active_icon_padding_vertical\n to \n@dimen/material_bottom_nav_bar_shifting_action_inactive_icon_padding_vertical\n\n\n\n\nButtons\n\n\n\n\nDelete \n@dimen/material_button_persistent_footer_height\n, use \n@dimen/material_button_touch_target_height_minimum\n instead\n\n\nRename \n@dimen/material_button_raised_corner_radius\n to \n@dimen/material_button_corner_radius\n\n\n\n\nButtons: FAB\n\n\n\n\nDelete \n@dimen/material_button_fab_mini_icon_size\n, use \n@dimen/material_button_fab_icon_size\n instead\n\n\nRename \n@dimen/material_button_fab_edge_margin_*\n to \n@dimen/material_button_fab_edge_margin\n\n\n\n\nCards\n\n\n\n\nAdd corner radius value\n\n\nRename \n@dimen/material_card_title_block_small_padding_[top|bottom]\n to \n@dimen/material_card_title_block_small_padding_vertical\n\n\nDelete \n@dimen/material_card_title_block_small_padding_bottom_last_block\n, use the vertical padding value\n\n\nFix large title block's bottom padding value\n\n\nRename \n@dimen/material_card_media_area_shrunk_*\n to \n@dimen/material_card_media_area_framed_*\n\n\nRename \n@dimen/material_card_media_area_in_title_size_*\n to \n@dimen/material_card_media_area_framed_size_*\n\n\n\n\nChips\n\n\n\n\nRename \n@dimen/material_chip_simple_remove_icon_*\n to \n@dimen/@dimen/material_chip_deletable_remove_icon_*\n\n\nSplit \n@dimen/material_chip_simple_label_horizontal_padding\n into start and end padding\n\n\nAdd simple chip padding after icon\n\n\n\n\nDialogs\n\n\n\n\nDelete some content values (duplicate of list specs)\n\n\nFix \n@dimen/material_dialog_actions_side_by_side_padding_*\n values\n\n\n\n\nGrid lists\n\n\n\n\nDelete \n@dimen/material_grid_list_header_footer_text_area_margin_end_before_icon\n\n\n\n\nMenus\n\n\n\n\nAdd missing vertical padding and font values\n\n\n\n\nSteppers\n\n\n\n\nRemove desktop-only values\n\n\nAlmost every remaining value has been renamed\n\n\nAdd missing button and overview margin values\n\n\n\n\n\n\n1.0.1 (2016-10-24)\n\n\n\n\nChange package name from \nblue.aodev.materialspecs\n to \nblue.aodev.materialvalues\n\n\n\n\n\n\n1.0 (2016-10-19)\n\n\n\n\nInitial release",
             "title": "Changelog"
         },
         {
+            "location": "/about/changelog/#dev-branch",
+            "text": "Change package name from  blue.aodev.materialvalues  to  material.values  Add Layout/Structure values   Typography   Add text color values for disabled and hint text  Rename typography colors   Icons   Add size values.   Metrics & keylines   Add baseline grid multiples 21 to 25  Add half increments from 0.5 to 4.5  Delete specific baseline grid multiples 28, 30 and 35   Responsive UI   Add number of content hierarchy levels   Bottom navigation   Rename  @dimen/material_bottom_nav_bar_shifting_action_active_icon_padding_vertical  to  @dimen/material_bottom_nav_bar_shifting_action_inactive_icon_padding_vertical   Buttons   Delete  @dimen/material_button_persistent_footer_height , use  @dimen/material_button_touch_target_height_minimum  instead  Rename  @dimen/material_button_raised_corner_radius  to  @dimen/material_button_corner_radius   Buttons: FAB   Delete  @dimen/material_button_fab_mini_icon_size , use  @dimen/material_button_fab_icon_size  instead  Rename  @dimen/material_button_fab_edge_margin_*  to  @dimen/material_button_fab_edge_margin   Cards   Add corner radius value  Rename  @dimen/material_card_title_block_small_padding_[top|bottom]  to  @dimen/material_card_title_block_small_padding_vertical  Delete  @dimen/material_card_title_block_small_padding_bottom_last_block , use the vertical padding value  Fix large title block's bottom padding value  Rename  @dimen/material_card_media_area_shrunk_*  to  @dimen/material_card_media_area_framed_*  Rename  @dimen/material_card_media_area_in_title_size_*  to  @dimen/material_card_media_area_framed_size_*   Chips   Rename  @dimen/material_chip_simple_remove_icon_*  to  @dimen/@dimen/material_chip_deletable_remove_icon_*  Split  @dimen/material_chip_simple_label_horizontal_padding  into start and end padding  Add simple chip padding after icon   Dialogs   Delete some content values (duplicate of list specs)  Fix  @dimen/material_dialog_actions_side_by_side_padding_*  values   Grid lists   Delete  @dimen/material_grid_list_header_footer_text_area_margin_end_before_icon   Menus   Add missing vertical padding and font values   Steppers   Remove desktop-only values  Almost every remaining value has been renamed  Add missing button and overview margin values",
+            "title": "Dev branch"
+        },
+        {
             "location": "/about/changelog/#101-2016-10-24",
-            "text": "Change package name from  blue.aodev.materialspecs  to  blue.aodev.materialvalues .",
+            "text": "Change package name from  blue.aodev.materialspecs  to  blue.aodev.materialvalues",
             "title": "1.0.1 (2016-10-24)"
         },
         {
