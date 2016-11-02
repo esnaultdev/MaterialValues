@@ -3,27 +3,28 @@ Material Values
 
 All the values from the [Material Design guidelines](https://material.google.com) defined in resources for Android.
 
+Use the [documentation](https://aodevblue.github.io/MaterialValues/) for more information.
+
 
 Values
 ------
 
-Use the [documentation](https://aodevblue.github.io/MaterialValues/) for information about values and their usage.
+Here is an overview of the values covered by this library:
 
-Here is an overview of values covered by this library:
-
-Style
+**Style**
 
 - [Color](https://aodevblue.github.io/MaterialValues/style/colors/)
 - [Icons](https://aodevblue.github.io/MaterialValues/style/icons/)
 - [Typography](https://aodevblue.github.io/MaterialValues/style/typography/)
 
-Layout
+**Layout**
 
 - [Metrics & keylines](https://aodevblue.github.io/MaterialValues/layout/keylines/)
 - [Responsive UI](https://aodevblue.github.io/MaterialValues/layout/responsive_ui/)
 - [Elevation](https://aodevblue.github.io/MaterialValues/layout/elevation/)
+- [Structure](https://aodevblue.github.io/MaterialValues/layout/structure/)
 
-Components
+**Components**
 
 - [Bottom navigation](https://aodevblue.github.io/MaterialValues/component/bottom_navigation/)
 - [Bottom sheet](https://aodevblue.github.io/MaterialValues/component/bottom_sheet/)
