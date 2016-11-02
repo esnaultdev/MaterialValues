@@ -47,7 +47,7 @@ Usage
 
 Just add this dependency to your build.gradle:
 ```
-compile 'blue.aodev:material-values:1.0.1'
+compile 'blue.aodev:material-values:1.1.0'
 ```
 
 The artifact is currently only available on jCenter, not mavenCentral.
