@@ -227,7 +227,7 @@
         },
         {
             "location": "/layout/structure/",
-            "text": "Structure\n\n\nStatus bar\n\n\n\n\n\n\n\n\nValue\n\n\nResource\n\n\n\n\n\n\n\n\n\n\nHeight\n\n\n@dimen/material_status_bar_height\n\n\n\n\n\n\n\n\nApp bar\n\n\nDefault\n\n\n\n\n\n\n@dimen/material_app_bar_default_height\n\n\n@dimen/material_app_bar_default_title_padding_bottom\n\n\n@dimen/material_app_bar_title_edge_margin_start\n\n\n@dimen/material_app_bar_icon_action_size\n\n\n@dimen/material_app_bar_icon_action_icon_size\n\n\n@dimen/material_app_bar_icon_action_margin_vertical\n\n\n@dimen/material_app_bar_icon_action_margin_horizontal\n\n\n@dimen/material_app_bar_default_title_text_size\n\n\n\n\nExtended\n\n\n\n\n\n\n@dimen/material_app_bar_extended_height\n\n\n@dimen/material_app_bar_extended_title_padding_bottom\n\n\n@dimen/material_app_bar_extended_title_text_size\n\n\n\n\n\n\nSee also\n\n\n\n\n\n\nRaw values\n\n\n\n\n\n\nButtons (Material design)",
+            "text": "Structure\n\n\nStatus bar\n\n\n\n\n\n\n\n\nValue\n\n\nResource\n\n\n\n\n\n\n\n\n\n\nHeight\n\n\n@dimen/material_status_bar_height\n\n\n\n\n\n\n\n\nApp bar\n\n\nDefault\n\n\n\n\n\n\n@dimen/material_app_bar_height_default\n\n\n@dimen/material_app_bar_default_title_padding_bottom\n\n\n@dimen/material_app_bar_title_edge_margin_start\n\n\n@dimen/material_app_bar_icon_action_size\n\n\n@dimen/material_app_bar_icon_action_icon_size\n\n\n@dimen/material_app_bar_icon_action_margin_vertical\n\n\n@dimen/material_app_bar_icon_action_margin_horizontal\n\n\n@dimen/material_app_bar_default_title_text_size\n\n\n\n\nExtended\n\n\n\n\n\n\n@dimen/material_app_bar_extended_height\n\n\n@dimen/material_app_bar_extended_title_padding_bottom\n\n\n@dimen/material_app_bar_extended_title_text_size\n\n\n\n\n\n\nSee also\n\n\n\n\n\n\nRaw values\n\n\n\n\n\n\nButtons (Material design)",
             "title": "Structure"
         },
         {
@@ -247,7 +247,7 @@
         },
         {
             "location": "/layout/structure/#default",
-            "text": "@dimen/material_app_bar_default_height  @dimen/material_app_bar_default_title_padding_bottom  @dimen/material_app_bar_title_edge_margin_start  @dimen/material_app_bar_icon_action_size  @dimen/material_app_bar_icon_action_icon_size  @dimen/material_app_bar_icon_action_margin_vertical  @dimen/material_app_bar_icon_action_margin_horizontal  @dimen/material_app_bar_default_title_text_size",
+            "text": "@dimen/material_app_bar_height_default  @dimen/material_app_bar_default_title_padding_bottom  @dimen/material_app_bar_title_edge_margin_start  @dimen/material_app_bar_icon_action_size  @dimen/material_app_bar_icon_action_icon_size  @dimen/material_app_bar_icon_action_margin_vertical  @dimen/material_app_bar_icon_action_margin_horizontal  @dimen/material_app_bar_default_title_text_size",
             "title": "Default"
         },
         {
