@@ -12,7 +12,7 @@
 
 <img class="figure" src="../../images/layout_structure_appbar_phone_default.png" alt="App bar default"/>
 
-1. `@dimen/material_app_bar_default_height`
+1. `@dimen/material_app_bar_height_default`
 2. `@dimen/material_app_bar_default_title_padding_bottom`
 3. `@dimen/material_app_bar_title_edge_margin_start`
 4. `@dimen/material_app_bar_icon_action_size`
