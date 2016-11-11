@@ -147,7 +147,7 @@
         },
         {
             "location": "/layout/keylines/",
-            "text": "Metrics & Keylines\n\n\nBaseline grid\n\n\n\n\nBaseline grid values are provided as multiples:\n\n\n\n\n@dimen/material_baseline_grid_1x\n\n\n@dimen/material_baseline_grid_2x\n\n\n...\n\n\n@dimen/material_baseline_grid_24x\n\n\n@dimen/material_baseline_grid_25x\n\n\n\n\nHalf-increments are also available for centering elements:\n\n\n\n\n@dimen/material_baseline_grid_0.5x\n\n\n@dimen/material_baseline_grid_1.5x\n\n\n...\n\n\n@dimen/material_baseline_grid_8.5x\n\n\n@dimen/material_baseline_grid_9.5x\n\n\n\n\nIt is recommended to use the baseline grid to specify component dimensions.\n\n\nIncrements\n\n\n\n\nIncrement values are provided as multiples:\n\n\n\n\n@dimen/material_increment_1x\n\n\n@dimen/material_increment_2x\n\n\n...\n\n\n@dimen/material_increment_9x\n\n\n@dimen/material_increment_10x\n \n\n\n\n\nA default value of 56dp for increments is used to specify increment values.\nEvery dimension relying on increments is provided alongside an \n@integer\n value so that a custom increment size can be used.\n\n\nHalf increments are also available for centering elements:\n\n\n\n\n@dimen/material_increment_0.5x\n\n\n@dimen/material_increment_1.5x\n\n\n...\n\n\n@dimen/material_increment_3.5x\n\n\n@dimen/material_increment_4.5x\n\n\n\n\nContent keylines\n\n\n\n\n\n\n@dimen/material_content_edge_margin_horizontal\n\n\n@dimen/material_content_secondary_edge_margin_start\n\n\n\n\n\n\nSee also\n\n\n\n\n\n\nRaw values\n\n\n\n\n\n\nMetrics & keylines (Material design)",
+            "text": "Metrics & Keylines\n\n\nBaseline grid\n\n\n\n\nBaseline grid values are provided as multiples:\n\n\n\n\n@dimen/material_baseline_grid_1x\n\n\n@dimen/material_baseline_grid_2x\n\n\n...\n\n\n@dimen/material_baseline_grid_24x\n\n\n@dimen/material_baseline_grid_25x\n\n\n\n\nHalf-increments are also available for centering elements:\n\n\n\n\n@dimen/material_baseline_grid_0.5x\n\n\n@dimen/material_baseline_grid_1.5x\n\n\n...\n\n\n@dimen/material_baseline_grid_8.5x\n\n\n@dimen/material_baseline_grid_9.5x\n\n\n\n\nIt is recommended to use the baseline grid to specify component dimensions.\n\n\nIncrements\n\n\n\n\nIncrement values are provided as multiples:\n\n\n\n\n@dimen/material_increment_1x\n\n\n@dimen/material_increment_2x\n\n\n...\n\n\n@dimen/material_increment_9x\n\n\n@dimen/material_increment_10x\n \n\n\n\n\nA default value of 56dp for increments is used to specify increment values.\nEvery dimension relying on increments is provided alongside an \n@integer\n value so that a custom increment size can be used.\n\n\nHalf increments are also available for centering elements:\n\n\n\n\n@dimen/material_increment_0.5x\n\n\n@dimen/material_increment_1.5x\n\n\n...\n\n\n@dimen/material_increment_3.5x\n\n\n@dimen/material_increment_4.5x\n\n\n\n\nContent keylines\n\n\n\n\n\n\n@dimen/material_content_edge_margin_horizontal\n\n\n@dimen/material_content_secondary_edge_margin_start\n\n\n\n\n\n\nRelated apps\n\n\nWant to display these keylines on your device?\n\n\nUse one of the following apps:\n\n\nMaterial Keylines\n\n\n\n\nGoogle Play\n\n\nGithub\n\n\n\n\nMaterial Cue\n\n\n\n\nGoogle Play\n\n\n\n\nKeyline Pushing\n\n\n\n\nGoogle Play\n\n\n\n\n\n\nSee also\n\n\n\n\n\n\nRaw values\n\n\n\n\n\n\nMetrics & keylines (Material design)",
             "title": "Metrics & keylines"
         },
         {
@@ -169,6 +169,11 @@
             "location": "/layout/keylines/#content-keylines",
             "text": "@dimen/material_content_edge_margin_horizontal  @dimen/material_content_secondary_edge_margin_start",
             "title": "Content keylines"
+        },
+        {
+            "location": "/layout/keylines/#related-apps",
+            "text": "Want to display these keylines on your device?  Use one of the following apps:  Material Keylines   Google Play  Github   Material Cue   Google Play   Keyline Pushing   Google Play",
+            "title": "Related apps"
         },
         {
             "location": "/layout/keylines/#see-also",
