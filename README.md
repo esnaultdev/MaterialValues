@@ -1,5 +1,11 @@
+![MinSdk](https://img.shields.io/badge/minSdk-16-green.svg)
+[![jCenter](https://img.shields.io/badge/jCenter-1.1.0-green.svg)](https://bintray.com/aohayou/maven/material-values/_latestVersion)
+[![License](https://img.shields.io/badge/License-Apache--2.0%20-blue.svg)](./LICENSE)
+
 Material Values
 ===============
+
+![Logo](docs/images/logo.png)
 
 All the values from the [Material Design guidelines](https://material.google.com) defined in resources for Android.
 
