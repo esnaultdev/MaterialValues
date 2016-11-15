@@ -24,9 +24,14 @@ android {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
+
+        template {
+
+        }
     }
     sourceSets {
         main.res.srcDirs = ['src/main/res-style', 'src/main/res-layout', 'src/main/res-component']
+        template.res.srcDirs = main.res.srcDirs << 'src/template/res'
     }
 }
 

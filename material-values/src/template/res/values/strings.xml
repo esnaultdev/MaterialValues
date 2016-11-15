@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title_long">Title that is long enough to illustrate the behaviour of the views when no more space is available</string>
+    <string name="title_short">Title</string>
+    <string name="subtitle_long">Subtitle that is long enough to illustrate the behaviour of the views when no more space is available</string>
+    <string name="subtitle_short">Subtitle</string>
+    <string name="contents_long">Contents that are long enough to illustrate the behaviour of the views when no more space is available</string>
+    <string name="contents_short">Contents</string>
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sodales eu erat a luctus. Mauris tellus tellus, sodales in augue sit amet, rhoncus pharetra augue. Vestibulum non commodo turpis. Vivamus pharetra neque odio, quis sodales nisl vulputate sed. Sed sed orci massa. Phasellus euismod, nibh eget commodo rutrum, lectus ante interdum leo, quis vulputate sapien dolor in nibh. Donec luctus vulputate augue, et bibendum lacus viverra sed. Quisque pharetra odio consequat quam scelerisque sagittis. Sed non elit sem. Phasellus congue nibh id risus interdum, quis dictum sem dignissim. Aliquam erat volutpat. Fusce ac dignissim diam, sed aliquam urna. Quisque id lectus aliquet, sagittis risus eu, condimentum massa. Proin sed sapien nisi.</string>
+</resources>
