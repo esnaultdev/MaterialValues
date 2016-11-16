@@ -2,6 +2,7 @@
 # Dev branch
 
 - Fix `material_responsive_is_tablet` behaviour
+- Fix status bar size value for API <= 22
 
 
 ----
