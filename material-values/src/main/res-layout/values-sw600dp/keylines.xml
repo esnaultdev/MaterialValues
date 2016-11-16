@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="material_increment_1x">64dp</dimen>
+    <dimen name="material_increment_2x">128dp</dimen>
+    <dimen name="material_increment_3x">192dp</dimen>
+    <dimen name="material_increment_4x">256dp</dimen>
+    <dimen name="material_increment_5x">320dp</dimen>
+    <dimen name="material_increment_6x">384dp</dimen>
+    <dimen name="material_increment_7x">448dp</dimen>
+    <dimen name="material_increment_8x">512dp</dimen>
+    <dimen name="material_increment_9x">576dp</dimen>
+    <dimen name="material_increment_10x">640dp</dimen>
+
+    <!-- Half increments -->
+    <dimen name="material_increment_0.5x">32dp</dimen>
+    <dimen name="material_increment_1.5x">96dp</dimen>
+    <dimen name="material_increment_2.5x">160dp</dimen>
+    <dimen name="material_increment_3.5x">224dp</dimen>
+    <dimen name="material_increment_4.5x">288dp</dimen>
+</resources>

@@ -3,6 +3,8 @@
 
 - Fix `material_responsive_is_tablet` behaviour
 - Fix status bar size value for API <= 22
+- Set increment size to 64dp for tablets
+- Set increment size to 48dp for phones in landscape
 
 
 ----
