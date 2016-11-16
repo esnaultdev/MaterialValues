@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="@dimen/material_list_single_line_without_avatar_normal_height"
-    android:gravity="center_vertical">
+    android:layout_height="@dimen/material_list_single_line_without_avatar_normal_height">
 
     <TextView
+        android:id="@+id/title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/material_list_text_first_position_margin_start"
         android:layout_marginLeft="@dimen/material_list_text_first_position_margin_start"
         android:layout_marginEnd="@dimen/material_list_text_last_position_margin_end"
         android:layout_marginRight="@dimen/material_list_text_last_position_margin_end"
-        tools:text="@string/title_long"
+        android:layout_gravity="center_vertical"
         android:textSize="@dimen/material_list_normal_primary_text_size"
         android:textColor="@color/material_typography_primary_text_color_dark"
         android:maxLines="1"
-        android:ellipsize="marquee"/>
+        android:ellipsize="marquee"
+        tools:text="@string/title_long"/>
 
-</LinearLayout>
+</FrameLayout>
