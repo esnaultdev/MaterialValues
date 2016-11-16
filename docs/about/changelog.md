@@ -1,4 +1,11 @@
 
+# Dev branch
+
+- Fix `material_responsive_is_tablet` behaviour
+
+
+----
+
 # 1.1.0 (2016-11-02)
 
 - Change package name from `blue.aodev.materialvalues` to `material.values`
@@ -78,6 +85,7 @@
 # 1.0.1 (2016-10-24)
 
 - Change package name from `blue.aodev.materialspecs` to `blue.aodev.materialvalues`
+
 
 ----
 

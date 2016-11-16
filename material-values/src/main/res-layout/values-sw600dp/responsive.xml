@@ -18,4 +18,6 @@
 <resources>
     <dimen name="material_responsive_gutter">@dimen/material_baseline_grid_3x</dimen>
     <dimen name="material_responsive_gutter_plus_baseline_grid_7x">@dimen/material_baseline_grid_10x</dimen>
+
+    <bool name="material_responsive_is_tablet">true</bool>
 </resources>
