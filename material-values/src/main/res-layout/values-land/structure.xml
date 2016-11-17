@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- App bar (default) -->
+    <dimen name="material_app_bar_default_title_padding_bottom">@dimen/material_baseline_grid_2x</dimen>
+    <dimen name="material_app_bar_default_title_text_size">@dimen/material_typography_regular_subheading_text_size</dimen>
+
+    <!-- App bar (extended) -->
+    <dimen name="material_app_bar_extended_height">@dimen/material_increment_2x</dimen>
+    <dimen name="material_app_bar_extended_title_text_size">@dimen/material_typography_regular_title_text_size</dimen>
+</resources>

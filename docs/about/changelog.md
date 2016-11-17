@@ -1,10 +1,20 @@
 
 # Dev branch
 
-- Fix `material_responsive_is_tablet` behaviour
-- Fix status bar size value for API <= 22
+**Metrics & keylines**
+
 - Set increment size to 64dp for tablets
 - Set increment size to 48dp for phones in landscape
+
+**Responsive UI**
+
+- Fix `material_responsive_is_tablet` behaviour
+
+**Structure**
+
+- Fix status bar size value for API <= 22
+- Rename `@dimen/material_app_bar_height_default` to `@dimen/material_app_bar_default_height`
+- Fix app bar size on phones in landscape
 
 
 ----

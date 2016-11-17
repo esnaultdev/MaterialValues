@@ -19,9 +19,13 @@
 
     <dimen name="material_app_bar_icon_action_margin_horizontal">@dimen/material_baseline_grid_1.5x</dimen>
     <dimen name="material_app_bar_icon_action_margin_vertical">@dimen/material_baseline_grid_1x</dimen>
-    <dimen name="material_app_bar_height_default">@dimen/material_baseline_grid_8x</dimen>
-    <dimen name="material_app_bar_height_extended">@dimen/material_baseline_grid_16x</dimen>
-    <dimen name="material_app_bar_default_title_padding_bottom">@dimen/material_baseline_grid_3x</dimen>
-    <dimen name="material_app_bar_extended_title_padding_bottom">34dp</dimen> <!-- baseline 4.25x ... -->
 
+    <!-- App bar (default) -->
+    <dimen name="material_app_bar_default_title_padding_bottom">@dimen/material_baseline_grid_3x</dimen>
+    <dimen name="material_app_bar_default_title_text_size">@dimen/material_typography_regular_title_text_size</dimen>
+
+    <!-- App bar (extended) -->
+    <dimen name="material_app_bar_extended_height">@dimen/material_increment_2x</dimen>
+    <dimen name="material_app_bar_extended_title_padding_bottom">34dp</dimen> <!-- baseline 4.25x ... -->
+    <dimen name="material_app_bar_extended_title_text_size">@dimen/material_typography_regular_headline_text_size</dimen>
 </resources>
