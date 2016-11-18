@@ -63,6 +63,13 @@ Half increments are also available for centering elements:
 2. `@dimen/material_content_secondary_edge_margin_start`
 
 
+## Other keylines
+
+| Keyline | Value |
+| ------- | ----- |
+| Toolbar iconography | `@dimen/material_baseline_grid_toolbar_icon` |
+| Typography          | `@dimen/material_baseline_grid_typography`   |
+
 ---
 
 #### Related apps
@@ -71,18 +78,11 @@ Want to display these keylines on your device?
 
 Use one of the following apps:
 
-**Material Keylines**
-
-- [Google Play](https://play.google.com/store/apps/details?id=blue.aodev.materialkeylines)
-- [Github](https://github.com/AoDevBlue/MaterialKeylines)
-
-**Material Cue**
-
-- [Google Play](https://play.google.com/store/apps/details?id=com.actinarium.materialcue)
-
-**Keyline Pushing**
-
-- [Google Play](https://play.google.com/store/apps/details?id=com.faizmalkani.keylines)
+| Name  | Google Play | Github |
+| ----- | ----------- | ------ |
+| **Material Keylines** | [Google Play](https://play.google.com/store/apps/details?id=blue.aodev.materialkeylines) | [Github](https://github.com/AoDevBlue/MaterialKeylines) |
+| **Material Cue**      | [Google Play](https://play.google.com/store/apps/details?id=com.actinarium.materialcue)  | - |
+| **Keyline Pushing**   | [Google Play](https://play.google.com/store/apps/details?id=com.faizmalkani.keylines)    | - |
 
 
 ---

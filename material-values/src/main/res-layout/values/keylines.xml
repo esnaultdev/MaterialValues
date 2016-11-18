@@ -64,6 +64,9 @@
     <!-- Baseline grid for toolbar iconography -->
     <dimen name="material_baseline_grid_toolbar_icon">4dp</dimen>
 
+    <!-- Baseline grid for typography -->
+    <dimen name="material_baseline_grid_typography">4dp</dimen>
+
 
     <!-- Increment -->
     <dimen name="material_increment_1x">56dp</dimen>

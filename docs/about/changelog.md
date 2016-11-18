@@ -5,6 +5,7 @@
 
 - Set increment size to 64dp for tablets
 - Set increment size to 48dp for phones in landscape
+- Add base value for typography's baseline grid
 
 **Responsive UI**
 
