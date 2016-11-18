@@ -39,6 +39,7 @@
 
 
     <!-- Deprecated values -->
+    <dimen name="material_app_bar_height_default">@dimen/material_app_bar_default_height</dimen>
     <dimen name="material_app_bar_default_title_padding_bottom">@dimen/material_baseline_grid_2.5x</dimen>
     <dimen name="material_app_bar_extended_title_padding_bottom">30dp</dimen>
 

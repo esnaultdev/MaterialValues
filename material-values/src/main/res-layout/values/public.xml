@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+      ~ We need to be able to "deprecate" values by making them private.
+      ~ To do that, we have to declare every non deprecated value as public.
+      ~ I hope that someday there will be a better way to do that.
+      -->
+
+    <!-- elevation.xml -->
+    <public name="material_elevation_app_bar" type="dimen" />
+    <public name="material_elevation_flat_button" type="dimen" />
+    <public name="material_elevation_raised_button_resting" type="dimen" />
+    <public name="material_elevation_raised_button_pressed" type="dimen" />
+    <public name="material_elevation_fab_resting" type="dimen" />
+    <public name="material_elevation_fab_pressed" type="dimen" />
+    <public name="material_elevation_card_resting" type="dimen" />
+    <public name="material_elevation_card_raised" type="dimen" />
+    <public name="material_elevation_menu" type="dimen" />
+    <public name="material_elevation_submenu_increment" type="dimen" />
+    <public name="material_elevation_dialog" type="dimen" />
+    <public name="material_elevation_nav_drawer" type="dimen" />
+    <public name="material_elevation_right_drawer" type="dimen" />
+    <public name="material_elevation_bottom_sheet_modal" type="dimen" />
+    <public name="material_elevation_refresh_indicator" type="dimen" />
+    <public name="material_elevation_search_bar_resting" type="dimen" />
+    <public name="material_elevation_search_bar_scrolled" type="dimen" />
+    <public name="material_elevation_snackbar" type="dimen" />
+    <public name="material_elevation_switch" type="dimen" />
+    <public name="material_elevation_bottom_nav_bar" type="dimen" />
+    <public name="material_elevation_chip" type="dimen" />
+    <public name="material_elevation_contact_chip_closed" type="dimen" />
+    <public name="material_elevation_contact_chip_open" type="dimen" />
+    <public name="material_elevation_tooltip" type="dimen" />
+    <!-- Private resources
+      ~  @dimen/material_elevation_side_drawer
+      -->
+
+    <!-- keylines.xml -->
+    <public name="material_baseline_grid_1x" type="dimen" />
+    <public name="material_baseline_grid_2x" type="dimen" />
+    <public name="material_baseline_grid_3x" type="dimen" />
+    <public name="material_baseline_grid_4x" type="dimen" />
+    <public name="material_baseline_grid_5x" type="dimen" />
+    <public name="material_baseline_grid_6x" type="dimen" />
+    <public name="material_baseline_grid_7x" type="dimen" />
+    <public name="material_baseline_grid_8x" type="dimen" />
+    <public name="material_baseline_grid_9x" type="dimen" />
+    <public name="material_baseline_grid_10x" type="dimen" />
+    <public name="material_baseline_grid_11x" type="dimen" />
+    <public name="material_baseline_grid_12x" type="dimen" />
+    <public name="material_baseline_grid_13x" type="dimen" />
+    <public name="material_baseline_grid_14x" type="dimen" />
+    <public name="material_baseline_grid_15x" type="dimen" />
+    <public name="material_baseline_grid_16x" type="dimen" />
+    <public name="material_baseline_grid_17x" type="dimen" />
+    <public name="material_baseline_grid_18x" type="dimen" />
+    <public name="material_baseline_grid_19x" type="dimen" />
+    <public name="material_baseline_grid_20x" type="dimen" />
+    <public name="material_baseline_grid_21x" type="dimen" />
+    <public name="material_baseline_grid_22x" type="dimen" />
+    <public name="material_baseline_grid_23x" type="dimen" />
+    <public name="material_baseline_grid_24x" type="dimen" />
+    <public name="material_baseline_grid_25x" type="dimen" />
+    <public name="material_baseline_grid_0.5x" type="dimen" />
+    <public name="material_baseline_grid_1.5x" type="dimen" />
+    <public name="material_baseline_grid_2.5x" type="dimen" />
+    <public name="material_baseline_grid_3.5x" type="dimen" />
+    <public name="material_baseline_grid_4.5x" type="dimen" />
+    <public name="material_baseline_grid_5.5x" type="dimen" />
+    <public name="material_baseline_grid_6.5x" type="dimen" />
+    <public name="material_baseline_grid_7.5x" type="dimen" />
+    <public name="material_baseline_grid_8.5x" type="dimen" />
+    <public name="material_baseline_grid_9.5x" type="dimen" />
+    <public name="material_baseline_grid_toolbar_icon" type="dimen" />
+    <public name="material_baseline_grid_typography" type="dimen" />
+    <public name="material_increment_1x" type="dimen" />
+    <public name="material_increment_2x" type="dimen" />
+    <public name="material_increment_3x" type="dimen" />
+    <public name="material_increment_4x" type="dimen" />
+    <public name="material_increment_5x" type="dimen" />
+    <public name="material_increment_6x" type="dimen" />
+    <public name="material_increment_7x" type="dimen" />
+    <public name="material_increment_8x" type="dimen" />
+    <public name="material_increment_9x" type="dimen" />
+    <public name="material_increment_10x" type="dimen" />
+    <public name="material_increment_0.5x" type="dimen" />
+    <public name="material_increment_1.5x" type="dimen" />
+    <public name="material_increment_2.5x" type="dimen" />
+    <public name="material_increment_3.5x" type="dimen" />
+    <public name="material_increment_4.5x" type="dimen" />
+    <public name="material_content_edge_margin_horizontal" type="dimen" />
+    <public name="material_content_secondary_edge_margin_start" type="dimen" />
+
+    <!-- responsive.xml -->
+    <public name="material_responsive_columns" type="integer" />
+    <public name="material_responsive_gutter" type="dimen" />
+    <public name="material_responsive_is_tablet" type="bool" />
+    <public name="material_responsive_content_levels" type="integer" />
+    <!-- Private resources
+      ~ @dimen/material_responsive_gutter_plus_baseline_grid_7x
+      -->
+
+    <!-- structure.xml -->
+    <public name="material_status_bar_height" type="dimen" />
+    <public name="material_app_bar_title_edge_margin_start" type="dimen" />
+    <public name="material_app_bar_icon_action_size" type="dimen" />
+    <public name="material_app_bar_icon_action_icon_size" type="dimen" />
+    <public name="material_app_bar_icon_action_margin_horizontal" type="dimen" />
+    <public name="material_app_bar_icon_action_margin_vertical" type="dimen" />
+    <public name="material_app_bar_default_height" type="dimen" />
+    <public name="material_app_bar_default_title_text_size" type="dimen" />
+    <public name="material_app_bar_extended_height" type="dimen" />
+    <public name="material_app_bar_extended_extension_height" type="dimen" />
+    <public name="material_app_bar_extended_title_text_size" type="dimen" />
+    <!-- Private resources
+      ~ @dimen/material_app_bar_height_default
+      ~ @dimen/material_app_bar_default_title_padding_bottom
+      ~ @dimen/material_app_bar_extended_title_padding_bottom
+      -->
+
+</resources>

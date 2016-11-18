@@ -13,11 +13,11 @@
 
 **Structure**
 
-- Fix status bar size value for API <= 22 (was 24dp, should have been 25dp)
+- Fix status bar size value for API <= 22
 - Rename `@dimen/material_app_bar_height_default` to `@dimen/material_app_bar_default_height`
 - Fix app bar size on phones in landscape
 - Deprecate bottom padding values of the app bar's title
-- Fix `@dimen/material_app_bar_icon_action_size` (was 40dp, should have been 48dp)
+- Fix `@dimen/material_app_bar_icon_action_size`
 
 
 ----
