@@ -286,6 +286,8 @@
         
             <li><a href="#content-keylines">Content keylines</a></li>
         
+            <li><a href="#other-keylines">Other keylines</a></li>
+        
     
     </ul>
 </div></div>
@@ -321,8 +323,30 @@
 <li><code>@dimen/material_increment_9x</code></li>
 <li><code>@dimen/material_increment_10x</code> </li>
 </ul>
-<p>A default value of 56dp for increments is used to specify increment values.
-Every dimension relying on increments is provided alongside an <code>@integer</code> value so that a custom increment size can be used.</p>
+<p>The increment size is based on the app bar size.</p>
+<table>
+<thead>
+<tr>
+<th>Device type</th>
+<th>Size</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Phone (landscape)</td>
+<td><code>48dp</code></td>
+</tr>
+<tr>
+<td>Phone (portrait)</td>
+<td><code>56dp</code></td>
+</tr>
+<tr>
+<td>Tablet</td>
+<td><code>64dp</code></td>
+</tr>
+</tbody>
+</table>
+<p>Every dimension relying on increments is provided alongside an <code>@integer</code> value so that a custom increment size can be used.</p>
 <p>Half increments are also available for centering elements:</p>
 <ul>
 <li><code>@dimen/material_increment_0.5x</code></li>
@@ -337,23 +361,55 @@ Every dimension relying on increments is provided alongside an <code>@integer</c
 <li><code>@dimen/material_content_edge_margin_horizontal</code></li>
 <li><code>@dimen/material_content_secondary_edge_margin_start</code></li>
 </ol>
+<h2 id="other-keylines">Other keylines</h2>
+<table>
+<thead>
+<tr>
+<th>Keyline</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Toolbar iconography</td>
+<td><code>@dimen/material_baseline_grid_toolbar_icon</code></td>
+</tr>
+<tr>
+<td>Typography</td>
+<td><code>@dimen/material_baseline_grid_typography</code></td>
+</tr>
+</tbody>
+</table>
 <hr />
 <h4 id="related-apps">Related apps</h4>
 <p>Want to display these keylines on your device?</p>
 <p>Use one of the following apps:</p>
-<p><strong>Material Keylines</strong></p>
-<ul>
-<li><a href="https://play.google.com/store/apps/details?id=blue.aodev.materialkeylines">Google Play</a></li>
-<li><a href="https://github.com/AoDevBlue/MaterialKeylines">Github</a></li>
-</ul>
-<p><strong>Material Cue</strong></p>
-<ul>
-<li><a href="https://play.google.com/store/apps/details?id=com.actinarium.materialcue">Google Play</a></li>
-</ul>
-<p><strong>Keyline Pushing</strong></p>
-<ul>
-<li><a href="https://play.google.com/store/apps/details?id=com.faizmalkani.keylines">Google Play</a></li>
-</ul>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Google Play</th>
+<th>Github</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Material Keylines</strong></td>
+<td><a href="https://play.google.com/store/apps/details?id=blue.aodev.materialkeylines">Google Play</a></td>
+<td><a href="https://github.com/AoDevBlue/MaterialKeylines">Github</a></td>
+</tr>
+<tr>
+<td><strong>Material Cue</strong></td>
+<td><a href="https://play.google.com/store/apps/details?id=com.actinarium.materialcue">Google Play</a></td>
+<td>-</td>
+</tr>
+<tr>
+<td><strong>Keyline Pushing</strong></td>
+<td><a href="https://play.google.com/store/apps/details?id=com.faizmalkani.keylines">Google Play</a></td>
+<td>-</td>
+</tr>
+</tbody>
+</table>
 <hr />
 <h4 id="see-also">See also</h4>
 <ul>
@@ -369,7 +425,7 @@ Every dimension relying on increments is provided alongside an <code>@integer</c
         <footer class="col-md-12">
             <hr>
             
-                <center>MaterialValues 1.1.0</center>
+                <center>MaterialValues 1.1.1</center>
             
             <center>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</center>
         </footer>
