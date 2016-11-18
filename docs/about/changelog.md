@@ -1,5 +1,7 @@
 
-# Dev branch
+# 1.1.1 (2016-11-18)
+
+- Hide some non documented values
 
 **Metrics & keylines**
 
