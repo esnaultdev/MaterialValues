@@ -79,5 +79,4 @@
     <dimen name="material_list_three_line_normal_height">@dimen/material_baseline_grid_11x</dimen>
     <dimen name="material_list_three_line_dense_height">@dimen/material_baseline_grid_9.5x</dimen>
 
-
 </resources>

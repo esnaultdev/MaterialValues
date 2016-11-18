@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+      ~ We need to be able to "deprecate" values by making them private.
+      ~ To do that, we have to declare every non deprecated value as public.
+      ~ Let's hope that someday there will be a better way to do that.
+      -->
+
+    <!-- bottom_navigation.xml -->
+    <public name="material_bottom_nav_bar_elevation" type="dimen" />
+    <public name="material_bottom_nav_bar_height" type="dimen" />
+    <public name="material_bottom_nav_bar_action_icon_size" type="dimen" />
+    <public name="material_bottom_nav_bar_action_padding_horizontal" type="dimen" />
+    <public name="material_bottom_nav_bar_action_label_padding_bottom" type="dimen" />
+    <public name="material_bottom_nav_bar_action_active_label_text_size" type="dimen" />
+    <public name="material_bottom_nav_bar_action_active_icon_padding_top" type="dimen" />
+    <public name="material_bottom_nav_bar_fixed_action_maximum_width" type="dimen" />
+    <public name="material_bottom_nav_bar_fixed_action_minimum_width" type="dimen" />
+    <public name="material_bottom_nav_bar_fixed_action_active_icon_padding_top" type="dimen" />
+    <public name="material_bottom_nav_bar_fixed_action_inactive_icon_padding_top" type="dimen" />
+    <public name="material_bottom_nav_bar_fixed_action_active_label_text_size" type="dimen" />
+    <public name="material_bottom_nav_bar_fixed_action_inactive_label_text_size" type="dimen" />
+    <public name="material_bottom_nav_bar_shifting_action_active_maximum_width" type="dimen" />
+    <public name="material_bottom_nav_bar_shifting_action_active_minimum_width" type="dimen" />
+    <public name="material_bottom_nav_bar_shifting_action_inactive_maximum_width" type="dimen" />
+    <public name="material_bottom_nav_bar_shifting_action_inactive_minimum_width" type="dimen" />
+    <public name="material_bottom_nav_bar_shifting_action_active_icon_padding_top" type="dimen" />
+    <public name="material_bottom_nav_bar_shifting_action_inactive_icon_padding_vertical" type="dimen" />
+    <public name="material_bottom_nav_bar_shifting_action_active_label_text_size" type="dimen" />
+
+    <!-- bottom_sheet.xml -->
+    <public name="material_bottom_sheet_elevation" type="dimen" />
+    <public name="material_bottom_sheet_title_text_size" type="dimen" />
+    <public name="material_bottom_sheet_title_text_color" type="color" />
+    <public name="material_bottom_sheet_contents_text_size" type="dimen" />
+    <public name="material_bottom_sheet_contents_text_color" type="color" />
+    <public name="material_bottom_sheet_background_fill" type="color" />
+    <public name="material_bottom_sheet_transparent_overlay_fill" type="color" />
+    <public name="material_bottom_sheet_list_padding_horizontal" type="dimen" />
+    <public name="material_bottom_sheet_list_headerless_padding_top" type="dimen" />
+    <public name="material_bottom_sheet_list_padding_bottom" type="dimen" />
+    <public name="material_bottom_sheet_list_item_height" type="dimen" />
+    <public name="material_bottom_sheet_list_item_icon_size" type="dimen" />
+    <public name="material_bottom_sheet_list_item_label_padding_start" type="dimen" />
+    <public name="material_bottom_sheet_list_header_height" type="dimen" />
+    <public name="material_bottom_sheet_list_divider_margin_top" type="dimen" />
+    <public name="material_bottom_sheet_list_divider_margin_bottom" type="dimen" />
+    <public name="material_bottom_sheet_grid_padding_horizontal" type="dimen" />
+    <public name="material_bottom_sheet_grid_padding_bottom" type="dimen" />
+    <public name="material_bottom_sheet_grid_row_padding_top" type="dimen" />
+    <public name="material_bottom_sheet_grid_row_height" type="dimen" />
+    <public name="material_bottom_sheet_grid_item_icon_size" type="dimen" />
+    <public name="material_bottom_sheet_grid_item_label_height" type="dimen" />
+    <public name="material_bottom_sheet_grid_item_label_text_size" type="dimen" />
+    <public name="material_bottom_sheet_margin_horizontal_minimum_increment" type="integer" />
+    <public name="material_bottom_sheet_width_minimum_increment" type="integer" />
+    <public name="material_bottom_sheet_margin_horizontal_minimum" type="dimen" />
+    <public name="material_bottom_sheet_width_minimum" type="dimen" />
+
+    <!-- button.xml -->
+    <public name="material_button_height_minimum" type="dimen" />
+    <public name="material_button_touch_target_height_minimum" type="dimen" />
+    <public name="material_button_width_minimum" type="dimen" />
+    <public name="material_button_padding_horizontal" type="dimen" />
+    <public name="material_button_gutter_horizontal" type="dimen" />
+    <public name="material_button_text_color_disabled_light_theme" type="color" />
+    <public name="material_button_text_color_disabled_dark_theme" type="color" />
+    <public name="material_button_corner_radius" type="dimen" />
+    <public name="material_button_flat_elevation" type="dimen" />
+    <public name="material_button_flat_background_color_pressed_light_theme" type="color" />
+    <public name="material_button_flat_background_color_pressed_dark_theme" type="color" />
+    <public name="material_button_raised_elevation_resting" type="dimen" />
+    <public name="material_button_raised_elevation_pressed" type="dimen" />
+    <public name="material_button_raised_background_color_disabled_light_theme" type="color" />
+    <public name="material_button_raised_background_color_disabled_dark_theme" type="color" />
+    <public name="material_button_icon_light_theme_light_icon_ripple_color" type="color" />
+    <public name="material_button_icon_light_theme_dark_icon_ripple_color" type="color" />
+    <public name="material_button_icon_dark_theme_light_icon_ripple_color" type="color" />
+    <public name="material_button_fab_size" type="dimen" />
+    <public name="material_button_fab_icon_size" type="dimen" />
+    <public name="material_button_fab_mini_size" type="dimen" />
+    <public name="material_button_fab_edge_margin" type="dimen" />
+    <!--
+      ~ Private values
+      ~ @color/material_button_specific_color_medium_grey_40_percent
+      ~ @color/material_button_specific_color_light_grey_25_percent
+      -->
+
+    <!-- card.xml -->
+    <public name="material_card_elevation_resting" type="dimen" />
+    <public name="material_card_elevation_raised" type="dimen" />
+    <public name="material_card_edge_margin" type="dimen" />
+    <public name="material_card_gutter" type="dimen" />
+    <public name="material_card_corner_radius" type="dimen" />
+    <public name="material_card_title_block_padding_horizontal" type="dimen" />
+    <public name="material_card_title_block_subtitle_text_size" type="dimen" />
+    <public name="material_card_title_block_large_title_text_size" type="dimen" />
+    <public name="material_card_title_block_large_padding_top" type="dimen" />
+    <public name="material_card_title_block_large_padding_bottom" type="dimen" />
+    <public name="material_card_title_block_large_padding_bottom_last_block" type="dimen" />
+    <public name="material_card_title_block_large_subtitle_margin_top" type="dimen" />
+    <public name="material_card_title_block_small_height" type="dimen" />
+    <public name="material_card_title_block_small_text_size" type="dimen" />
+    <public name="material_card_title_block_small_padding_vertical" type="dimen" />
+    <public name="material_card_actions_row_padding" type="dimen" />
+    <public name="material_card_actions_action_gutter_horizontal" type="dimen" />
+    <public name="material_card_actions_action_gutter_vertical" type="dimen" />
+    <public name="material_card_actions_icon_action_size" type="dimen" />
+    <public name="material_card_actions_icon_action_gutter" type="dimen" />
+    <public name="material_card_supporting_text_text_size" type="dimen" />
+    <public name="material_card_supporting_text_padding_top" type="dimen" />
+    <public name="material_card_supporting_text_padding_horizontal" type="dimen" />
+    <public name="material_card_supporting_text_padding_bottom" type="dimen" />
+    <public name="material_card_supporting_text_padding_bottom_last_block" type="dimen" />
+    <public name="material_card_media_area_framed_padding_horizontal" type="dimen" />
+    <public name="material_card_media_area_framed_padding_vertical" type="dimen" />
+    <public name="material_card_media_area_in_title_padding_top" type="dimen" />
+    <public name="material_card_media_area_in_title_padding_end" type="dimen" />
+    <public name="material_card_media_area_framed_size_small" type="dimen" />
+    <public name="material_card_media_area_framed_size_medium" type="dimen" />
+    <public name="material_card_media_area_framed_size_large" type="dimen" />
+    <public name="material_card_media_area_framed_size_xlarge" type="dimen" />
+    <public name="material_card_divider_inset_padding_horizontal" type="dimen" />
+
+    <!-- chip.xml -->
+    <public name="material_chip_height" type="dimen" />
+    <public name="material_chip_label_color" type="color" />
+    <public name="material_chip_simple_elevation" type="dimen" />
+    <public name="material_chip_simple_label_padding_start" type="dimen" />
+    <public name="material_chip_simple_label_padding_start_after_icon" type="dimen" />
+    <public name="material_chip_simple_label_padding_end" type="dimen" />
+    <public name="material_chip_simple_label_text_size" type="dimen" />
+    <public name="material_chip_deletable_remove_icon_size" type="dimen" />
+    <public name="material_chip_deletable_remove_icon_color" type="color" />
+    <public name="material_chip_deletable_remove_icon_margin" type="dimen" />
+    <public name="material_chip_contact_closed_elevation" type="dimen" />
+    <public name="material_chip_contact_closed_label_padding_start" type="dimen" />
+    <public name="material_chip_contact_closed_label_padding_end" type="dimen" />
+    <public name="material_chip_contact_closed_label_padding_vertical" type="dimen" />
+    <public name="material_chip_contact_closed_label_text_size" type="dimen" />
+    <public name="material_chip_contact_open_elevation" type="dimen" />
+    <public name="material_chip_contact_open_name_text_size" type="dimen" />
+    <public name="material_chip_contact_open_address_text_size" type="dimen" />
+    <public name="material_chip_contact_open_avatar_size" type="dimen" />
+    <public name="material_chip_contact_open_padding_horizontal" type="dimen" />
+    <public name="material_chip_contact_open_focused_height" type="dimen" />
+    <public name="material_chip_contact_open_unfocused_height" type="dimen" />
+    <public name="material_chip_contact_open_focused_padding_vertical" type="dimen" />
+
+    <!-- dialog.xml -->
+    <public name="material_dialog_elevation" type="dimen" />
+    <public name="material_dialog_screen_edge_margin_minimum_horizontal" type="dimen" />
+    <public name="material_dialog_screen_edge_margin_minimum_vertical" type="dimen" />
+    <public name="material_dialog_width_minimum_increment" type="integer" />
+    <public name="material_dialog_width_minimum" type="dimen" />
+    <public name="material_dialog_content_area_padding_vertical" type="dimen" />
+    <public name="material_dialog_content_area_padding_horizontal" type="dimen" />
+    <public name="material_dialog_content_area_title_content_margin" type="dimen" />
+    <public name="material_dialog_actions_side_by_side_height" type="dimen" />
+    <public name="material_dialog_actions_side_by_side_button_height" type="dimen" />
+    <public name="material_dialog_actions_side_by_side_padding_bottom" type="dimen" />
+    <public name="material_dialog_actions_side_by_side_padding_top" type="dimen" />
+    <public name="material_dialog_actions_side_by_side_padding_top_with_divider" type="dimen" />
+    <public name="material_dialog_actions_side_by_side_padding_end" type="dimen" />
+    <public name="material_dialog_actions_stacked_button_height" type="dimen" />
+    <public name="material_dialog_actions_stacked_padding_bottom" type="dimen" />
+    <public name="material_dialog_actions_stacked_button_padding_end" type="dimen" />
+    <public name="material_dialog_fullscreen_title_height_single_line" type="dimen" />
+    <public name="material_dialog_fullscreen_title_height_two_lines" type="dimen" />
+    <public name="material_dialog_fullscreen_title_title_text_size" type="dimen" />
+    <public name="material_dialog_fullscreen_title_title_edge_margin" type="dimen" />
+    <public name="material_dialog_fullscreen_title_affirmative_action_text_size" type="dimen" />
+    <public name="material_dialog_fullscreen_title_affirmative_action_text_padding_horizontal" type="dimen" />
+    <public name="material_dialog_fullscreen_title_dismissive_action_padding_start" type="dimen" />
+
+    <!-- divider.xml -->
+    <public name="material_divider_height" type="dimen" />
+    <public name="material_divider_color_light_theme" type="color" />
+    <public name="material_divider_color_dark_theme" type="color" />
+
+    <!-- expansion_panel.xml -->
+    <public name="material_expansion_panel_label_text_size" type="dimen" />
+    <public name="material_expansion_panel_label_text_color" type="color" />
+    <public name="material_expansion_panel_label_secondary_content_text_size" type="dimen" />
+    <public name="material_expansion_panel_label_secondary_content_text_color" type="color" />
+    <public name="material_expansion_panel_padding_horizontal" type="dimen" />
+    <public name="material_expansion_panel_expand_icon_size" type="dimen" />
+    <public name="material_expansion_panel_expand_icon_margin_start" type="dimen" />
+    <public name="material_expansion_list_collapsed_height" type="dimen" />
+    <public name="material_expansion_panel_expanded_margin_vertical" type="dimen" />
+    <public name="material_expansion_panel_expanded_header_height" type="dimen" />
+    <public name="material_expansion_panel_expanded_content_area_padding_bottom" type="dimen" />
+    <public name="material_expansion_panel_expanded_action_area_padding_bottom" type="dimen" />
+    <public name="material_expansion_panel_expanded_action_area_padding_top" type="dimen" />
+    <public name="material_expansion_panel_expanded_action_area_button_height" type="dimen" />
+    <public name="material_expansion_panel_expanded_action_area_button_margin_end" type="dimen" />
+
+    <!-- grid_list.xml -->
+    <public name="material_grid_list_tile_spacing_small" type="dimen" />
+    <public name="material_grid_list_tile_spacing_medium" type="dimen" />
+    <public name="material_grid_list_header_footer_single_line_height" type="dimen" />
+    <public name="material_grid_list_header_footer_two_line_height" type="dimen" />
+    <public name="material_grid_list_header_footer_title_text_size_standard" type="dimen" />
+    <public name="material_grid_list_header_footer_subtitle_text_size_standard" type="dimen" />
+    <public name="material_grid_list_header_footer_title_text_size_alternative" type="dimen" />
+    <public name="material_grid_list_header_footer_subtitle_text_size_alternative" type="dimen" />
+    <public name="material_grid_list_header_footer_text_area_margin_start" type="dimen" />
+    <public name="material_grid_list_header_footer_text_area_margin_vertical" type="dimen" />
+    <public name="material_grid_list_header_footer_text_area_margin_end_alone" type="dimen" />
+    <public name="material_grid_list_header_footer_text_area_margin_end_after_icon" type="dimen" />
+    <public name="material_grid_list_header_footer_icon_size" type="dimen" />
+    <public name="material_grid_list_header_footer_icon_padding_horizontal" type="dimen" />
+
+    <!-- list.xml -->
+    <public name="material_list_normal_padding_vertical" type="dimen" />
+    <public name="material_list_normal_primary_text_size" type="dimen" />
+    <public name="material_list_normal_secondary_text_size" type="dimen" />
+    <public name="material_list_dense_padding_vertical" type="dimen" />
+    <public name="material_list_dense_primary_text_size" type="dimen" />
+    <public name="material_list_dense_secondary_text_size" type="dimen" />
+    <public name="material_list_icon_size" type="dimen" />
+    <public name="material_list_icon_first_position_margin_start" type="dimen" />
+    <public name="material_list_icon_last_position_margin_horizontal" type="dimen" />
+    <public name="material_list_avatar_size" type="dimen" />
+    <public name="material_list_avatar_margin_start" type="dimen" />
+    <public name="material_list_text_only_margin_horizontal" type="dimen" />
+    <public name="material_list_text_first_position_margin_start" type="dimen" />
+    <public name="material_list_text_second_position_edge_margin_start" type="dimen" />
+    <public name="material_list_text_last_position_margin_end" type="dimen" />
+    <public name="material_list_single_line_without_avatar_normal_height" type="dimen" />
+    <public name="material_list_single_line_without_avatar_dense_height" type="dimen" />
+    <public name="material_list_single_line_with_avatar_normal_height" type="dimen" />
+    <public name="material_list_single_line_with_avatar_dense_height" type="dimen" />
+    <public name="material_list_two_line_normal_height" type="dimen" />
+    <public name="material_list_two_line_dense_height" type="dimen" />
+    <public name="material_list_three_line_normal_height" type="dimen" />
+    <public name="material_list_three_line_dense_height" type="dimen" />
+
+    <!-- menu.xml -->
+    <public name="material_menu_elevation" type="dimen" />
+    <public name="material_menu_submenu_elevation_increment" type="dimen" />
+    <public name="material_menu_simple_width_minimum_increment" type="integer" />
+    <public name="material_menu_simple_width_maximum_increment" type="integer" />
+    <public name="material_menu_simple_width_minimum" type="dimen" />
+    <public name="material_menu_simple_width_maximum" type="dimen" />
+    <public name="material_menu_simple_edge_margin_horizontal_minimum" type="dimen" />
+    <public name="material_menu_simple_padding_vertical" type="dimen" />
+    <public name="material_menu_simple_item_height" type="dimen" />
+    <public name="material_menu_simple_item_padding_horizontal" type="dimen" />
+    <public name="material_menu_simple_text_padding_bottom" type="dimen" />
+    <public name="material_menu_simple_item_text_size" type="dimen" />
+    <public name="material_menu_simple_divider_margin_top" type="dimen" />
+    <public name="material_menu_simple_divider_margin_bottom" type="dimen" />
+
+    <!-- stepper.xml -->
+    <public name="material_stepper_step_circle_size" type="dimen" />
+    <public name="material_stepper_step_circle_text_size" type="dimen" />
+    <public name="material_stepper_step_circle_text_color" type="color" />
+    <public name="material_stepper_step_title_text_size" type="dimen" />
+    <public name="material_stepper_step_title_text_color" type="color" />
+    <public name="material_stepper_step_subtitle_text_size" type="dimen" />
+    <public name="material_stepper_step_subtitle_text_color" type="color" />
+    <public name="material_stepper_step_active_circle_color_default" type="color" />
+    <public name="material_stepper_step_active_margin_bottom" type="dimen" />
+    <public name="material_stepper_step_active_title_margin_bottom" type="dimen" />
+    <public name="material_stepper_step_inactive_circle_color" type="color" />
+    <public name="material_stepper_step_inactive_margin_bottom" type="dimen" />
+    <public name="material_stepper_connector_size" type="dimen" />
+    <public name="material_stepper_connector_color" type="color" />
+    <public name="material_stepper_connector_margin" type="dimen" />
+    <public name="material_stepper_padding_top" type="dimen" />
+    <public name="material_stepper_padding_horizontal" type="dimen" />
+    <public name="material_stepper_button_area_height" type="dimen" />
+    <public name="material_stepper_button_area_margin_top" type="dimen" />
+    <public name="material_stepper_button_gutter" type="dimen" />
+    <public name="material_stepper_overview_step_margin" type="dimen" />
+
+    <!-- subheader.xml -->
+    <public name="material_subheader_text_color_default" type="color" />
+    <public name="material_subheader_text_size" type="dimen" />
+    <public name="material_subheader_height" type="dimen" />
+    <public name="material_subheader_padding_start" type="dimen" />
+
+    <!-- tooltip.xml -->
+    <public name="material_tooltip_elevation" type="dimen" />
+    <public name="material_tooltip_text_size" type="dimen" />
+    <public name="material_tooltip_color" type="color" />
+    <public name="material_tooltip_height" type="dimen" />
+    <public name="material_tooltip_padding_horizontal" type="dimen" />
+    <public name="material_tooltip_margin_top" type="dimen" />
+    <public name="material_tooltip_edge_margin_minimum" type="dimen" />
+
+</resources>
