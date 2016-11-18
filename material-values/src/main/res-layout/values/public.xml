@@ -3,7 +3,7 @@
     <!--
       ~ We need to be able to "deprecate" values by making them private.
       ~ To do that, we have to declare every non deprecated value as public.
-      ~ I hope that someday there will be a better way to do that.
+      ~ Let's hope that someday there will be a better way to do that.
       -->
 
     <!-- elevation.xml -->
