@@ -1,3 +1,15 @@
+# Dev branch
+
+**Card**
+
+- Fix title text color
+
+**List**
+
+- Add text gutter value for multiline lists
+
+
+----
 
 # 1.1.1 (2016-11-18)
 

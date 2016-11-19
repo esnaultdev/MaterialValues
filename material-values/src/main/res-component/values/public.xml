@@ -227,6 +227,7 @@
     <public name="material_list_text_first_position_margin_start" type="dimen" />
     <public name="material_list_text_second_position_edge_margin_start" type="dimen" />
     <public name="material_list_text_last_position_margin_end" type="dimen" />
+    <public name="material_list_text_gutter" type="dimen" />
     <public name="material_list_single_line_without_avatar_normal_height" type="dimen" />
     <public name="material_list_single_line_without_avatar_dense_height" type="dimen" />
     <public name="material_list_single_line_with_avatar_normal_height" type="dimen" />

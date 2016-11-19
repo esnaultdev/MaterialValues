@@ -64,6 +64,7 @@
     <dimen name="material_list_text_first_position_margin_start">@dimen/material_content_edge_margin_horizontal</dimen>
     <dimen name="material_list_text_second_position_edge_margin_start">@dimen/material_content_secondary_edge_margin_start</dimen>
     <dimen name="material_list_text_last_position_margin_end">@dimen/material_content_edge_margin_horizontal</dimen>
+    <dimen name="material_list_text_gutter">@dimen/material_baseline_grid_typography</dimen>
 
 
     <!-- List height -->
