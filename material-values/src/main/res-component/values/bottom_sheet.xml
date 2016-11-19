@@ -22,7 +22,7 @@
 
     <!-- Font and color -->
     <dimen name="material_bottom_sheet_title_text_size">@dimen/material_typography_regular_subheading_text_size</dimen>
-    <color name="material_bottom_sheet_title_text_color">@color/material_typography_primary_text_color_dark</color>
+    <color name="material_bottom_sheet_title_text_color">@color/material_typography_secondary_text_color_dark</color>
     <dimen name="material_bottom_sheet_contents_text_size">@dimen/material_typography_regular_subheading_text_size</dimen>
     <color name="material_bottom_sheet_contents_text_color">@color/material_typography_primary_text_color_dark</color>
     <color name="material_bottom_sheet_background_fill">@color/material_color_white</color>
