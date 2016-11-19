@@ -28,6 +28,7 @@ pages:
     - Tooltips: component/tooltips.md
 - About:
     - Changelog: about/changelog.md
+    - Old documentation: about/old_documentation.md
 theme: flatly
 extra_css:
     - css/extra.css
