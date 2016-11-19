@@ -14,7 +14,7 @@
         android:layout_gravity="center_vertical"
         android:orientation="vertical">
         <TextView
-            android:id="@+id/title"
+            android:id="@+id/primary_text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="@dimen/material_list_dense_primary_text_size"
@@ -22,10 +22,10 @@
             android:layout_marginBottom="@dimen/material_list_text_gutter"
             android:maxLines="1"
             android:ellipsize="marquee"
-            tools:text="@string/title_long"/>
+            tools:text="@string/primary_text_long"/>
 
         <TextView
-            android:id="@+id/subtitle"
+            android:id="@+id/secondary_text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="bottom"
@@ -33,7 +33,7 @@
             android:textColor="@color/material_typography_secondary_text_color_dark"
             android:maxLines="1"
             android:ellipsize="marquee"
-            tools:text="@string/subtitle_long"/>
+            tools:text="@string/secondary_text_long"/>
     </LinearLayout>
 
 </FrameLayout>

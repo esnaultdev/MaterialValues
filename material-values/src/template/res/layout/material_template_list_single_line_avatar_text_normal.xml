@@ -14,7 +14,7 @@
         tools:background="@color/material_color_grey_400" />
 
     <TextView
-        android:id="@+id/title"
+        android:id="@+id/text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/material_list_text_second_position_edge_margin_start"
@@ -26,6 +26,6 @@
         android:textColor="@color/material_typography_primary_text_color_dark"
         android:maxLines="1"
         android:ellipsize="marquee"
-        tools:text="@string/title_long" />
+        tools:text="@string/primary_text_long" />
 
 </FrameLayout>
