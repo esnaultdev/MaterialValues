@@ -2,7 +2,7 @@
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="@dimen/material_list_two_line_dense_height">
+    android:layout_height="@dimen/material_list_three_line_dense_height">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -17,9 +17,9 @@
             android:id="@+id/primary_text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/material_list_text_gutter"
             android:textSize="@dimen/material_list_dense_primary_text_size"
             android:textColor="@color/material_typography_primary_text_color_dark"
-            android:layout_marginBottom="@dimen/material_list_text_gutter"
             android:maxLines="1"
             android:ellipsize="end"
             tools:text="@string/primary_text_long"/>
@@ -28,10 +28,10 @@
             android:id="@+id/secondary_text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_gravity="bottom"
             android:textSize="@dimen/material_list_dense_secondary_text_size"
             android:textColor="@color/material_typography_secondary_text_color_dark"
-            android:maxLines="1"
+            android:lines="2"
+            android:lineSpacingExtra="@dimen/material_list_text_gutter"
             android:ellipsize="end"
             tools:text="@string/secondary_text_long"/>
     </LinearLayout>

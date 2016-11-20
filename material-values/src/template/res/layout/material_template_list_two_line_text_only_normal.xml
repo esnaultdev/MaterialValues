@@ -21,7 +21,7 @@
             android:textColor="@color/material_typography_primary_text_color_dark"
             android:layout_marginBottom="@dimen/material_list_text_gutter"
             android:maxLines="1"
-            android:ellipsize="marquee"
+            android:ellipsize="end"
             tools:text="@string/primary_text_long"/>
 
         <TextView
@@ -32,7 +32,7 @@
             android:textSize="@dimen/material_list_normal_secondary_text_size"
             android:textColor="@color/material_typography_secondary_text_color_dark"
             android:maxLines="1"
-            android:ellipsize="marquee"
+            android:ellipsize="end"
             tools:text="@string/secondary_text_long"/>
     </LinearLayout>
 

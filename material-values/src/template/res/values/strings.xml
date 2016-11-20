@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="primary_text_long">Primary text that is long enough to illustrate the behaviour of the views when no more space is available</string>
+    <string name="primary_text_long">Primary text that is long enough to illustrate the behaviour of the view when no more space is available. This is achieved by making this explanatory text quite pleonastic and redundant, but since it is not meant to be read, but rather occupy an empty space, it really does not matter ine the end.</string>
     <string name="primary_text_short">Primary text</string>
-    <string name="secondary_text_long">Secondary text that is long enough to illustrate the behaviour of the views when no more space is available</string>
+    <string name="secondary_text_long">Secondary text that is long enough to illustrate the behaviour of the view when no more space is available. This is achieved by making this explanatory text quite pleonastic and redundant, but since it is not meant to be read, but rather occupy an empty space, it really does not matter ine the end.</string>
     <string name="secondary_text_short">Secondary text</string>
 </resources>

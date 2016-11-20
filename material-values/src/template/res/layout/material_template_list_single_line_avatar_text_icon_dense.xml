@@ -25,7 +25,7 @@
         android:textSize="@dimen/material_list_dense_primary_text_size"
         android:textColor="@color/material_typography_primary_text_color_dark"
         android:maxLines="1"
-        android:ellipsize="marquee"
+        android:ellipsize="end"
         tools:text="@string/primary_text_long" />
 
     <ImageView
