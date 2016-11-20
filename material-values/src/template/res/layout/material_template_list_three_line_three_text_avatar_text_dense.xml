@@ -5,11 +5,11 @@
     android:layout_height="@dimen/material_list_three_line_dense_height">
 
     <ImageView
-        android:id="@+id/icon"
-        android:layout_width="@dimen/material_list_icon_size"
-        android:layout_height="@dimen/material_list_icon_size"
-        android:layout_marginLeft="@dimen/material_list_icon_first_position_margin_start"
-        android:layout_marginStart="@dimen/material_list_icon_first_position_margin_start"
+        android:id="@+id/avatar"
+        android:layout_width="@dimen/material_list_avatar_size"
+        android:layout_height="@dimen/material_list_avatar_size"
+        android:layout_marginLeft="@dimen/material_list_avatar_margin_start"
+        android:layout_marginStart="@dimen/material_list_avatar_margin_start"
         tools:background="@color/material_color_grey_400"
         android:layout_alignTop="@+id/linearLayout"
         android:layout_alignParentLeft="true"
