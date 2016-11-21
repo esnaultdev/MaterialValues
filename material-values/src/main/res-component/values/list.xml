@@ -17,27 +17,6 @@
 
 <resources>
 
-    <!--
-      ~ The guidelines give alternative values for dense lists.
-      ~ The "normal" keyword is added to the guidelines name for
-      ~ non-dense lists values:
-      ~     simple-line list       -> list_simple_line_normal
-      ~     dense simple-line list -> list_simple_line_dense
-      ~
-      ~ The values for the text and the icon are based on their
-      ~ relative position in the list item:
-      ~
-      ~       List item type       |  Text position  |  Icon position
-      ~ ___________________________|_________________|_________________
-      ~ Text only                  |  first & last   |        -
-      ~ Icon with text             |  second & last  |      first
-      ~ Avatar with text           |  second & last  |        -
-      ~ Avatar with text and icon  |     second      |      last
-      ~
-      ~ Since the avatar is always first when present, its related
-      ~ values don't depend on its position.
-      -->
-
     <!-- General values -->
     <dimen name="material_list_normal_padding_vertical">@dimen/material_baseline_grid_1x</dimen>
     <dimen name="material_list_normal_primary_text_size">@dimen/material_typography_regular_subheading_text_size</dimen>
@@ -50,13 +29,14 @@
 
     <!-- Icon values -->
     <dimen name="material_list_icon_size">@dimen/material_icon_size_system</dimen>
-    <dimen name="material_list_icon_first_position_margin_start">@dimen/material_baseline_grid_2x</dimen>
-    <dimen name="material_list_icon_last_position_margin_horizontal">@dimen/material_baseline_grid_2x</dimen>
+    <dimen name="material_list_icon_first_position_margin_start">@dimen/material_content_edge_margin_horizontal</dimen>
+    <dimen name="material_list_icon_last_position_margin_start">@dimen/material_baseline_grid_2x</dimen>
+    <dimen name="material_list_icon_last_position_margin_end">@dimen/material_content_edge_margin_horizontal</dimen>
 
 
     <!-- Avatar values -->
     <dimen name="material_list_avatar_size">@dimen/material_baseline_grid_5x</dimen>
-    <dimen name="material_list_avatar_margin_start">@dimen/material_baseline_grid_2x</dimen>
+    <dimen name="material_list_avatar_margin_start">@dimen/material_content_edge_margin_horizontal</dimen>
 
 
     <!-- Text margin -->
@@ -79,5 +59,9 @@
 
     <dimen name="material_list_three_line_normal_height">@dimen/material_baseline_grid_11x</dimen>
     <dimen name="material_list_three_line_dense_height">@dimen/material_baseline_grid_9.5x</dimen>
+
+
+    <!-- Deprecated values -->
+    <dimen name="material_list_icon_last_position_margin_horizontal">@dimen/material_content_edge_margin_horizontal</dimen>
 
 </resources>

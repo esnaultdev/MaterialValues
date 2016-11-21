@@ -7,6 +7,8 @@
 **List**
 
 - Add text gutter value for multiline lists
+- Fix avatar and icon margins on tablet
+- Split `@dimen/material_list_icon_last_position_margin_horizontal` into start and end margins.
 
 
 ----

@@ -220,7 +220,8 @@
     <public name="material_list_dense_secondary_text_size" type="dimen" />
     <public name="material_list_icon_size" type="dimen" />
     <public name="material_list_icon_first_position_margin_start" type="dimen" />
-    <public name="material_list_icon_last_position_margin_horizontal" type="dimen" />
+    <public name="material_list_icon_last_position_margin_start" type="dimen" />
+    <public name="material_list_icon_last_position_margin_end" type="dimen" />
     <public name="material_list_avatar_size" type="dimen" />
     <public name="material_list_avatar_margin_start" type="dimen" />
     <public name="material_list_text_only_margin_horizontal" type="dimen" />
@@ -236,6 +237,9 @@
     <public name="material_list_two_line_dense_height" type="dimen" />
     <public name="material_list_three_line_normal_height" type="dimen" />
     <public name="material_list_three_line_dense_height" type="dimen" />
+    <!-- Private resources
+      ~ @dimen/material_list_icon_last_position_margin_horizontal
+      -->
 
     <!-- menu.xml -->
     <public name="material_menu_elevation" type="dimen" />
