@@ -28,4 +28,12 @@
     <!-- For lists: Use the same alignment values as the list item text -->
     <dimen name="material_subheader_padding_start">@dimen/material_content_edge_margin_horizontal</dimen>
 
+    <!-- Widget style -->
+    <style name="Material.Widget.Subheader">
+      <item name="android:height">@dimen/material_subheader_height</item>
+      <item name="android:paddingStart">@dimen/material_subheader_padding_start</item>
+      <item name="android:textColor">@color/material_subheader_text_color_default</item>      
+      <item name="android:textSize">@dimen/material_subheader_text_size</item>
+    </style>
+  
 </resources>
