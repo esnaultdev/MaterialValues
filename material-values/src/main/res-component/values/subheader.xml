@@ -32,8 +32,7 @@
     <style name="Material.Widget.Subheader">
       <item name="android:height">@dimen/material_subheader_height</item>
       <item name="android:paddingStart">@dimen/material_subheader_padding_start</item>
-      <item name="android:textColor">@color/material_subheader_text_color_default</item>      
-      <item name="android:textSize">@dimen/material_subheader_text_size</item>
+      <item name="android:textApperance">@style/MaterialTypography.Regular.Subheading</item>      
     </style>
   
 </resources>
