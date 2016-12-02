@@ -31,7 +31,7 @@
     <dimen name="material_typography_regular_display_1_text_size">34sp</dimen>
     <dimen name="material_typography_regular_headline_text_size">24sp</dimen>
     <dimen name="material_typography_regular_title_text_size">20sp</dimen>
-    <dimen name="material_typography_regular_subheading_text_size">16sp</dimen>
+    <dimen name="material_typography_regular_subheading_text_size">14sp</dimen>
     <dimen name="material_typography_regular_body_2_text_size">14sp</dimen>
     <dimen name="material_typography_regular_body_1_text_size">14sp</dimen>
     <dimen name="material_typography_regular_caption_text_size">12sp</dimen>
@@ -120,6 +120,7 @@
     </style>
     <style name="MaterialTypography.Regular.Subheading">
         <item name="android:textSize">@dimen/material_typography_regular_subheading_text_size</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
     </style>
     <style name="MaterialTypography.Regular.Body2">
         <item name="android:textSize">@dimen/material_typography_regular_body_2_text_size</item>
@@ -162,7 +163,9 @@
         <item name="android:fontFamily">sans-serif-medium</item>
     </style>
     <style name="MaterialTypography.Dense.Subheading">
+        <item name="android:textColor">@color/material_subheader_text_color_default</item>
         <item name="android:textSize">@dimen/material_typography_dense_subheading_text_size</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
     </style>
     <style name="MaterialTypography.Dense.Body2">
         <item name="android:textSize">@dimen/material_typography_dense_body_2_text_size</item>
