@@ -350,6 +350,17 @@
     <public name="material_typography_regular_body_1_text_size" type="dimen" />
     <public name="material_typography_regular_caption_text_size" type="dimen" />
     <public name="material_typography_regular_button_text_size" type="dimen" />
+    <public name="material_typography_regular_display_4_font_family" type="string" />
+    <public name="material_typography_regular_display_3_font_family" type="string" />
+    <public name="material_typography_regular_display_2_font_family" type="string" />
+    <public name="material_typography_regular_display_1_font_family" type="string" />
+    <public name="material_typography_regular_headline_font_family" type="string" />
+    <public name="material_typography_regular_title_font_family" type="string" />
+    <public name="material_typography_regular_subheading_font_family" type="string" />
+    <public name="material_typography_regular_body_2_font_family" type="string" />
+    <public name="material_typography_regular_body_1_font_family" type="string" />
+    <public name="material_typography_regular_caption_font_family" type="string" />
+    <public name="material_typography_regular_button_font_family" type="string" />
     <public name="material_typography_dense_display_4_text_size" type="dimen" />
     <public name="material_typography_dense_display_3_text_size" type="dimen" />
     <public name="material_typography_dense_display_2_text_size" type="dimen" />
@@ -361,6 +372,17 @@
     <public name="material_typography_dense_body_1_text_size" type="dimen" />
     <public name="material_typography_dense_caption_text_size" type="dimen" />
     <public name="material_typography_dense_button_text_size" type="dimen" />
+    <public name="material_typography_dense_display_4_font_family" type="string" />
+    <public name="material_typography_dense_display_3_font_family" type="string" />
+    <public name="material_typography_dense_display_2_font_family" type="string" />
+    <public name="material_typography_dense_display_1_font_family" type="string" />
+    <public name="material_typography_dense_headline_font_family" type="string" />
+    <public name="material_typography_dense_title_font_family" type="string" />
+    <public name="material_typography_dense_subheading_font_family" type="string" />
+    <public name="material_typography_dense_body_2_font_family" type="string" />
+    <public name="material_typography_dense_body_1_font_family" type="string" />
+    <public name="material_typography_dense_caption_font_family" type="string" />
+    <public name="material_typography_dense_button_font_family" type="string" />
     <public name="material_typography_tall_display_4_text_size" type="dimen" />
     <public name="material_typography_tall_display_3_text_size" type="dimen" />
     <public name="material_typography_tall_display_2_text_size" type="dimen" />
@@ -372,6 +394,17 @@
     <public name="material_typography_tall_body_1_text_size" type="dimen" />
     <public name="material_typography_tall_caption_text_size" type="dimen" />
     <public name="material_typography_tall_button_text_size" type="dimen" />
+    <public name="material_typography_tall_display_4_font_family" type="string" />
+    <public name="material_typography_tall_display_3_font_family" type="string" />
+    <public name="material_typography_tall_display_2_font_family" type="string" />
+    <public name="material_typography_tall_display_1_font_family" type="string" />
+    <public name="material_typography_tall_headline_font_family" type="string" />
+    <public name="material_typography_tall_title_font_family" type="string" />
+    <public name="material_typography_tall_subheading_font_family" type="string" />
+    <public name="material_typography_tall_body_2_font_family" type="string" />
+    <public name="material_typography_tall_body_1_font_family" type="string" />
+    <public name="material_typography_tall_caption_font_family" type="string" />
+    <public name="material_typography_tall_button_font_family" type="string" />
     <public name="material_typography_locale_display_4_text_size" type="dimen" />
     <public name="material_typography_locale_display_3_text_size" type="dimen" />
     <public name="material_typography_locale_display_2_text_size" type="dimen" />
@@ -383,6 +416,17 @@
     <public name="material_typography_locale_body_1_text_size" type="dimen" />
     <public name="material_typography_locale_caption_text_size" type="dimen" />
     <public name="material_typography_locale_button_text_size" type="dimen" />
+    <public name="material_typography_locale_display_4_font_family" type="string" />
+    <public name="material_typography_locale_display_3_font_family" type="string" />
+    <public name="material_typography_locale_display_2_font_family" type="string" />
+    <public name="material_typography_locale_display_1_font_family" type="string" />
+    <public name="material_typography_locale_headline_font_family" type="string" />
+    <public name="material_typography_locale_title_font_family" type="string" />
+    <public name="material_typography_locale_subheading_font_family" type="string" />
+    <public name="material_typography_locale_body_2_font_family" type="string" />
+    <public name="material_typography_locale_body_1_font_family" type="string" />
+    <public name="material_typography_locale_caption_font_family" type="string" />
+    <public name="material_typography_locale_button_font_family" type="string" />
     <public name="MaterialTypography" type="style" />
     <public name="MaterialTypography.Regular" type="style" />
     <public name="MaterialTypography.Regular.Display4" type="style" />
