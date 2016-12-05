@@ -1,5 +1,10 @@
 # Dev branch
 
+**Typography**
+
+- Add font family values.
+- Remove text color from styles.
+
 **Card**
 
 - Fix title text color
