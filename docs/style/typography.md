@@ -13,26 +13,27 @@ The values are defined using the following prefixes:
 | Tall          | `tall`          |
 
 
-## Size
+## Size and Font family
 
-| Text type  | Value |
+| Text type  | Values |
 | ---------- | ----- |
-| Display 4  | `@dimen/material_typography_FAMILY_display_4_text_size`  |
-| Display 3  | `@dimen/material_typography_FAMILY_display_3_text_size`  |
-| Display 2  | `@dimen/material_typography_FAMILY_display_2_text_size`  |
-| Display 1  | `@dimen/material_typography_FAMILY_display_1_text_size`  |
-| Headline   | `@dimen/material_typography_FAMILY_headline_text_size`   |
-| Title      | `@dimen/material_typography_FAMILY_title_text_size`      |
-| Subheading | `@dimen/material_typography_FAMILY_subheading_text_size` |
-| Body 2     | `@dimen/material_typography_FAMILY_body_2_text_size`     |
-| Body 1     | `@dimen/material_typography_FAMILY_body_1_text_size`     |
-| Caption    | `@dimen/material_typography_FAMILY_caption_text_size`    |
-| Button     | `@dimen/material_typography_FAMILY_button_text_size`     |
+| Display 4  | `@dimen/material_typography_FAMILY_display_4_text_size`  <br/> `@dimen/material_typography_FAMILY_display_4_font_family`  |
+| Display 3  | `@dimen/material_typography_FAMILY_display_3_text_size`  <br/> `@dimen/material_typography_FAMILY_display_3_font_family`  |
+| Display 2  | `@dimen/material_typography_FAMILY_display_2_text_size`  <br/> `@dimen/material_typography_FAMILY_display_2_font_family`  |
+| Display 1  | `@dimen/material_typography_FAMILY_display_1_text_size`  <br/> `@dimen/material_typography_FAMILY_display_1_font_family`  |
+| Headline   | `@dimen/material_typography_FAMILY_headline_text_size`   <br/> `@dimen/material_typography_FAMILY_headline_font_family`   |
+| Title      | `@dimen/material_typography_FAMILY_title_text_size`      <br/> `@dimen/material_typography_FAMILY_title_font_family`      |
+| Subheading | `@dimen/material_typography_FAMILY_subheading_text_size` <br/> `@dimen/material_typography_FAMILY_subheading_font_family` |
+| Body 2     | `@dimen/material_typography_FAMILY_body_2_text_size`     <br/> `@dimen/material_typography_FAMILY_body_2_font_family`     |
+| Body 1     | `@dimen/material_typography_FAMILY_body_1_text_size`     <br/> `@dimen/material_typography_FAMILY_body_1_font_family`     |
+| Caption    | `@dimen/material_typography_FAMILY_caption_text_size`    <br/> `@dimen/material_typography_FAMILY_caption_font_family`    |
+| Button     | `@dimen/material_typography_FAMILY_button_text_size`     <br/> `@dimen/material_typography_FAMILY_button_font_family`     |
 
 
 ## Style
 
-These styles use the previously defined text sizes and also applies the good font-weight.
+These styles use the previously defined text sizes and font family.
+These styles also set text in all caps or bold, when specified by the guidelines.
 
 | Text type  | Value |
 | ---------- | ----- |
