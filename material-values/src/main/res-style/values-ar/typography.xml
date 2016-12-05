@@ -17,7 +17,7 @@
 
 <resources>
 
-    <!-- Locale scripts dimensions -->
+    <!-- Locale scripts values -->
     <dimen name="material_typography_locale_display_4_text_size">@dimen/material_typography_tall_display_4_text_size</dimen>
     <dimen name="material_typography_locale_display_3_text_size">@dimen/material_typography_tall_display_3_text_size</dimen>
     <dimen name="material_typography_locale_display_2_text_size">@dimen/material_typography_tall_display_2_text_size</dimen>
@@ -29,6 +29,20 @@
     <dimen name="material_typography_locale_body_1_text_size">@dimen/material_typography_tall_body_1_text_size</dimen>
     <dimen name="material_typography_locale_caption_text_size">@dimen/material_typography_tall_caption_text_size</dimen>
     <dimen name="material_typography_locale_button_text_size">@dimen/material_typography_tall_button_text_size</dimen>
+
+    <string name="material_typography_locale_display_4_font_family">@string/material_typography_tall_display_4_font_family</string>
+    <string name="material_typography_locale_display_3_font_family">@string/material_typography_tall_display_3_font_family</string>
+    <string name="material_typography_locale_display_2_font_family">@string/material_typography_tall_display_2_font_family</string>
+    <string name="material_typography_locale_display_1_font_family">@string/material_typography_tall_display_1_font_family</string>
+    <string name="material_typography_locale_headline_font_family">@string/material_typography_tall_headline_font_family</string>
+    <string name="material_typography_locale_title_font_family">@string/material_typography_tall_title_font_family</string>
+    <string name="material_typography_locale_subheading_font_family">@string/material_typography_tall_subheading_font_family</string>
+    <string name="material_typography_locale_body_2_font_family">@string/material_typography_tall_body_2_font_family</string>
+    <string name="material_typography_locale_body_1_font_family">@string/material_typography_tall_body_1_font_family</string>
+    <string name="material_typography_locale_caption_font_family">@string/material_typography_tall_caption_font_family</string>
+    <string name="material_typography_locale_button_font_family">@string/material_typography_tall_button_font_family</string>
+    
+    
 
     <!-- Locale scripts styles -->
     <style name="MaterialTypography.Locale.Display4"   parent="@style/MaterialTypography.Tall.Display4" />
