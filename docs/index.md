@@ -1,6 +1,4 @@
-<h1 class="project-name">MaterialValues</h1>
-
-<img class="logo" src="images/logo.png" alt="Logo" />
+<img class="logo" src="images/logo-title.png" alt="Logo" />
 
 <p class="project-desc">All the values from the Material Design guidelines defined in resources for Android.</p>
 
