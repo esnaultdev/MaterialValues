@@ -84,8 +84,8 @@
     <dimen name="material_increment_0.5x">28dp</dimen>
     <dimen name="material_increment_1.5x">84dp</dimen>
     <dimen name="material_increment_2.5x">140dp</dimen>
-    <dimen name="material_increment_3.5x">168dp</dimen>
-    <dimen name="material_increment_4.5x">196dp</dimen>
+    <dimen name="material_increment_3.5x">196dp</dimen>
+    <dimen name="material_increment_4.5x">252dp</dimen>
 
 
     <!-- Content -->
