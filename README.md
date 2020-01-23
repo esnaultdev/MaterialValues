@@ -1,7 +1,15 @@
+Archived
+--------
+
+This repository has been archived.
+
+You can use [Material Components Android](https://github.com/material-components/material-components-android) directly, or other libraries ([Material Dialogs](https://github.com/afollestad/material-dialogs), [TapTargetView](https://github.com/KeepSafe/TapTargetView), etc.) for drop-in components.
+
+----------------
+
 ![MinSdk](https://img.shields.io/badge/minSdk-16-green.svg)
 [![jCenter](https://img.shields.io/badge/jCenter-1.1.1-green.svg)](https://bintray.com/aohayou/maven/material-values/_latestVersion)
 [![License](https://img.shields.io/badge/License-Apache--2.0%20-blue.svg)](./LICENSE)
-
 
 ![Logo](docs/images/logo-title.png)
 
