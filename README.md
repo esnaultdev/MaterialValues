@@ -15,7 +15,7 @@ You can use [Material Components Android](https://github.com/material-components
 
 All the values from the [Material Design guidelines](https://material.google.com) defined in resources for Android.
 
-Use the [documentation](https://aodevblue.github.io/MaterialValues/) for more information.
+Use the [documentation](https://esnaultdev.github.io/MaterialValues/) for more information.
 
 
 Values
@@ -25,33 +25,33 @@ Here is an overview of the values covered by this library:
 
 **Style**
 
-- [Color](https://aodevblue.github.io/MaterialValues/style/colors/)
-- [Icons](https://aodevblue.github.io/MaterialValues/style/icons/)
-- [Typography](https://aodevblue.github.io/MaterialValues/style/typography/)
+- [Color](https://esnaultdev.github.io/MaterialValues/style/colors/)
+- [Icons](https://esnaultdev.github.io/MaterialValues/style/icons/)
+- [Typography](https://esnaultdev.github.io/MaterialValues/style/typography/)
 
 **Layout**
 
-- [Metrics & keylines](https://aodevblue.github.io/MaterialValues/layout/keylines/)
-- [Responsive UI](https://aodevblue.github.io/MaterialValues/layout/responsive_ui/)
-- [Elevation](https://aodevblue.github.io/MaterialValues/layout/elevation/)
-- [Structure](https://aodevblue.github.io/MaterialValues/layout/structure/)
+- [Metrics & keylines](https://esnaultdev.github.io/MaterialValues/layout/keylines/)
+- [Responsive UI](https://esnaultdev.github.io/MaterialValues/layout/responsive_ui/)
+- [Elevation](https://esnaultdev.github.io/MaterialValues/layout/elevation/)
+- [Structure](https://esnaultdev.github.io/MaterialValues/layout/structure/)
 
 **Components**
 
-- [Bottom navigation](https://aodevblue.github.io/MaterialValues/component/bottom_navigation/)
-- [Bottom sheet](https://aodevblue.github.io/MaterialValues/component/bottom_sheet/)
-- [Buttons](https://aodevblue.github.io/MaterialValues/component/buttons/)
-- [Cards](https://aodevblue.github.io/MaterialValues/component/card/)
-- [Chips](https://aodevblue.github.io/MaterialValues/component/chips/)
-- [Dialogs](https://aodevblue.github.io/MaterialValues/component/dialogs/)
-- [Dividers](https://aodevblue.github.io/MaterialValues/component/dividers/)
-- [Expansion panels](https://aodevblue.github.io/MaterialValues/component/expansion_panels/)
-- [Grid lists](https://aodevblue.github.io/MaterialValues/component/grid_lists/)
-- [Lists](https://aodevblue.github.io/MaterialValues/component/lists/)
-- [Menus](https://aodevblue.github.io/MaterialValues/component/menus/)
-- [Steppers](https://aodevblue.github.io/MaterialValues/component/steppers/)
-- [Subheaders](https://aodevblue.github.io/MaterialValues/component/subheaders/)
-- [Tooltips](https://aodevblue.github.io/MaterialValues/component/tooltips/)
+- [Bottom navigation](https://esnaultdev.github.io/MaterialValues/component/bottom_navigation/)
+- [Bottom sheet](https://esnaultdev.github.io/MaterialValues/component/bottom_sheet/)
+- [Buttons](https://esnaultdev.github.io/MaterialValues/component/buttons/)
+- [Cards](https://esnaultdev.github.io/MaterialValues/component/card/)
+- [Chips](https://esnaultdev.github.io/MaterialValues/component/chips/)
+- [Dialogs](https://esnaultdev.github.io/MaterialValues/component/dialogs/)
+- [Dividers](https://esnaultdev.github.io/MaterialValues/component/dividers/)
+- [Expansion panels](https://esnaultdev.github.io/MaterialValues/component/expansion_panels/)
+- [Grid lists](https://esnaultdev.github.io/MaterialValues/component/grid_lists/)
+- [Lists](https://esnaultdev.github.io/MaterialValues/component/lists/)
+- [Menus](https://esnaultdev.github.io/MaterialValues/component/menus/)
+- [Steppers](https://esnaultdev.github.io/MaterialValues/component/steppers/)
+- [Subheaders](https://esnaultdev.github.io/MaterialValues/component/subheaders/)
+- [Tooltips](https://esnaultdev.github.io/MaterialValues/component/tooltips/)
 
 
 Usage
@@ -69,7 +69,7 @@ Make sure that your buildscript repositories include jCenter.
 Changelog
 ---------
 
-A changelog is available [here](https://aodevblue.github.io/MaterialValues/about/changelog/).
+A changelog is available [here](https://esnaultdev.github.io/MaterialValues/about/changelog/).
 
 -----
 
